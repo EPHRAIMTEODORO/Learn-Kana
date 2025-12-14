@@ -21,7 +21,20 @@ export default function Home() {
         </div>
 
         {/* Feature Cards */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          {/* Kana Chart */}
+          <Link href="/chart" className="block">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
+              <div className="text-5xl mb-4">📋</div>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+                Kana Chart
+              </h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                View all Hiragana and Katakana characters in a traditional chart layout.
+              </p>
+            </div>
+          </Link>
+
           {/* Flashcards */}
           <Link href="/learn" className="block">
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
