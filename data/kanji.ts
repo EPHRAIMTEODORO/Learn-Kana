@@ -1052,8 +1052,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["Mr.","Ms.","all (one has)","height","length","measure","merely","only","stature","ten shaku","that's all"],
     onyomi: ["ジョウ"],
     kunyomi: ["たけ","だけ"],
-    examples: [{"word":"たけ","pronunciation":"たけ","meaning":"Kun reading: たけ"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たけ","reading":"たけ","meaning":"Kun reading: たけ"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 3
   },
   {
@@ -1061,48 +1061,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["award","bestow","cause","gift","give","godsend","impart","participate in","provide"],
     onyomi: ["ヨ"],
     kunyomi: ["あずか.る","あた.える","くみ.する","ともに"],
-    examples: [{"word":"あずか.る","pronunciation":"あずか.る","meaning":"Kun reading: あずか.る"},{"word":"ヨ","pronunciation":"ヨ","meaning":"On reading: ヨ"}],
-    grade: "Junior High",
+    examples: [{"word":"あずか.る","reading":"あずか.る","meaning":"Kun reading: あずか.る"},{"word":"ヨ","reading":"ヨ","meaning":"On reading: ヨ"}],
+    grade: "juniorHigh",
     strokeCount: 3,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "且",
     meanings: ["also","furthermore","moreover"],
     onyomi: ["ショ","ショウ","ソ"],
     kunyomi: ["か.つ"],
-    examples: [{"word":"か.つ","pronunciation":"か.つ","meaning":"Kun reading: か.つ"},{"word":"ショ","pronunciation":"ショ","meaning":"On reading: ショ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.つ","reading":"か.つ","meaning":"Kun reading: か.つ"},{"word":"ショ","reading":"ショ","meaning":"On reading: ショ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "丘",
     meanings: ["hill","knoll"],
     onyomi: ["キュウ"],
     kunyomi: ["おか"],
-    examples: [{"word":"おか","pronunciation":"おか","meaning":"Kun reading: おか"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おか","reading":"おか","meaning":"Kun reading: おか"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "丙",
     meanings: ["3rd","3rd calendar sign","third class"],
     onyomi: ["ヘイ"],
     kunyomi: ["ひのえ"],
-    examples: [{"word":"ひのえ","pronunciation":"ひのえ","meaning":"Kun reading: ひのえ"},{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひのえ","reading":"ひのえ","meaning":"Kun reading: ひのえ"},{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "串",
     meanings: ["skewer","spit"],
     onyomi: ["カン","ケン","セン"],
     kunyomi: ["くし","つらぬ.く"],
-    examples: [{"word":"くし","pronunciation":"くし","meaning":"Kun reading: くし"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"くし","reading":"くし","meaning":"Kun reading: くし"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -1110,18 +1110,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["pills","red","red lead","rust-colored","sincerity"],
     onyomi: ["タン"],
     kunyomi: ["に"],
-    examples: [{"word":"に","pronunciation":"に","meaning":"Kun reading: に"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"に","reading":"に","meaning":"Kun reading: に"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "丼",
     meanings: ["bowl","bowl of food"],
     onyomi: ["ショウ","セイ","タン","トン"],
     kunyomi: ["どんぶり"],
-    examples: [{"word":"どんぶり","pronunciation":"どんぶり","meaning":"Kun reading: どんぶり"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"どんぶり","reading":"どんぶり","meaning":"Kun reading: どんぶり"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 5
   },
   {
@@ -1129,28 +1129,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["destitution","limited","scarce"],
     onyomi: ["ボウ"],
     kunyomi: ["とぼ.しい","とも.しい"],
-    examples: [{"word":"とぼ.しい","pronunciation":"とぼ.しい","meaning":"Kun reading: とぼ.しい"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"とぼ.しい","reading":"とぼ.しい","meaning":"Kun reading: とぼ.しい"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "乙",
     meanings: ["duplicate","fishhook radical (no. 5)","strange","the latter","witty"],
     onyomi: ["イツ","オツ"],
     kunyomi: ["おと-","きのと"],
-    examples: [{"word":"おと-","pronunciation":"おと-","meaning":"Kun reading: おと-"},{"word":"イツ","pronunciation":"イツ","meaning":"On reading: イツ"}],
-    grade: "Junior High",
+    examples: [{"word":"おと-","reading":"おと-","meaning":"Kun reading: おと-"},{"word":"イツ","reading":"イツ","meaning":"On reading: イツ"}],
+    grade: "juniorHigh",
     strokeCount: 1,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "乞",
     meanings: ["ask","beg","invite"],
     onyomi: ["キ","キケ","キツ","コチ","コツ"],
     kunyomi: ["こ.う"],
-    examples: [{"word":"こ.う","pronunciation":"こ.う","meaning":"Kun reading: こ.う"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"こ.う","reading":"こ.う","meaning":"Kun reading: こ.う"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 3
   },
   {
@@ -1158,288 +1158,288 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["dessicate","drink up","drought","dry","emperor","heaven"],
     onyomi: ["カン","ケン"],
     kunyomi: ["いぬい","かわ.かす","かわ.く","ひ.る","ほ.す"],
-    examples: [{"word":"いぬい","pronunciation":"いぬい","meaning":"Kun reading: いぬい"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"いぬい","reading":"いぬい","meaning":"Kun reading: いぬい"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "亀",
     meanings: ["tortoise","turtle"],
     onyomi: ["キ","キュウ","キン"],
     kunyomi: ["か���"],
-    examples: [{"word":"か���","pronunciation":"か���","meaning":"Kun reading: か���"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"か���","reading":"か���","meaning":"Kun reading: か���"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "了",
     meanings: ["complete","finish"],
     onyomi: ["リョウ"],
     kunyomi: [],
-    examples: [{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 2,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "互",
     meanings: ["mutually","reciprocally","together"],
     onyomi: ["ゴ"],
     kunyomi: ["か��み.に","たが.い"],
-    examples: [{"word":"か��み.に","pronunciation":"か��み.に","meaning":"Kun reading: か��み.に"},{"word":"ゴ","pronunciation":"ゴ","meaning":"On reading: ゴ"}],
-    grade: "Junior High",
+    examples: [{"word":"か��み.に","reading":"か��み.に","meaning":"Kun reading: か��み.に"},{"word":"ゴ","reading":"ゴ","meaning":"On reading: ゴ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "井",
     meanings: ["community","town","well","well crib"],
     onyomi: ["ショウ","セイ"],
     kunyomi: ["い"],
-    examples: [{"word":"い","pronunciation":"い","meaning":"Kun reading: い"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"い","reading":"い","meaning":"Kun reading: い"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "亜",
     meanings: ["-ous","Asia","come after","rank next"],
     onyomi: ["ア"],
     kunyomi: ["つ.ぐ"],
-    examples: [{"word":"つ.ぐ","pronunciation":"つ.ぐ","meaning":"Kun reading: つ.ぐ"},{"word":"ア","pronunciation":"ア","meaning":"On reading: ア"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.ぐ","reading":"つ.ぐ","meaning":"Kun reading: つ.ぐ"},{"word":"ア","reading":"ア","meaning":"On reading: ア"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "享",
     meanings: ["answer (phone)","catch","enjoy","get","receive","take","undergo"],
     onyomi: ["キョウ","コウ"],
     kunyomi: ["う.ける"],
-    examples: [{"word":"う.ける","pronunciation":"う.ける","meaning":"Kun reading: う.ける"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.ける","reading":"う.ける","meaning":"Kun reading: う.ける"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "亭",
     meanings: ["arbor","cottage","mansion","music hall","pavilion","restaurant","stage name","vaudeville"],
     onyomi: ["チン","テイ"],
     kunyomi: [],
-    examples: [{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "介",
     meanings: ["concern oneself with","jammed in","mediate","shellfish"],
     onyomi: ["カイ"],
     kunyomi: [],
-    examples: [{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "仙",
     meanings: ["cent","hermit","wizard"],
     onyomi: ["セン","セント"],
     kunyomi: [],
-    examples: [{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "仰",
     meanings: ["depend","drink","face-up","look up","respect","revere","seek","take"],
     onyomi: ["ギョウ","コウ"],
     kunyomi: ["あお.ぐ","お.っしゃる","おお.せ","おっしゃ.る"],
-    examples: [{"word":"あお.ぐ","pronunciation":"あお.ぐ","meaning":"Kun reading: あお.ぐ"},{"word":"ギョウ","pronunciation":"ギョウ","meaning":"On reading: ギョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あお.ぐ","reading":"あお.ぐ","meaning":"Kun reading: あお.ぐ"},{"word":"ギョウ","reading":"ギョウ","meaning":"On reading: ギョウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "企",
     meanings: ["attempt","design","plan","scheme","undertake"],
     onyomi: ["キ"],
     kunyomi: ["くわだ.てる","たくら.む"],
-    examples: [{"word":"くわだ.てる","pronunciation":"くわだ.てる","meaning":"Kun reading: くわだ.てる"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"くわだ.てる","reading":"くわだ.てる","meaning":"Kun reading: くわだ.てる"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "伎",
     meanings: ["deed","skill"],
     onyomi: ["キ","ギ"],
     kunyomi: ["わざ","わざおぎ"],
-    examples: [{"word":"わざ","pronunciation":"わざ","meaning":"Kun reading: わざ"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"わざ","reading":"わざ","meaning":"Kun reading: わざ"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "伏",
     meanings: ["bend down","bow","cover","lay (pipes)","prostrated"],
     onyomi: ["フク"],
     kunyomi: ["ふ.す","ふ.せる"],
-    examples: [{"word":"ふ.す","pronunciation":"ふ.す","meaning":"Kun reading: ふ.す"},{"word":"フク","pronunciation":"フク","meaning":"On reading: フク"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.す","reading":"ふ.す","meaning":"Kun reading: ふ.す"},{"word":"フク","reading":"フク","meaning":"On reading: フク"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "伐",
     meanings: ["attack","fell","punish","strike"],
     onyomi: ["カ","ハツ","バツ","ボチ"],
     kunyomi: ["う.つ","き.る","そむ.く"],
-    examples: [{"word":"う.つ","pronunciation":"う.つ","meaning":"Kun reading: う.つ"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.つ","reading":"う.つ","meaning":"Kun reading: う.つ"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "伯",
     meanings: ["Brazil","chief","count","earl","uncle"],
     onyomi: ["ハク"],
     kunyomi: [],
-    examples: [{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "伴",
     meanings: ["accompany","bring with","companion","consort"],
     onyomi: ["ハン","バン"],
     kunyomi: ["ともな.う"],
-    examples: [{"word":"ともな.う","pronunciation":"ともな.う","meaning":"Kun reading: ともな.う"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ともな.う","reading":"ともな.う","meaning":"Kun reading: ともな.う"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "伸",
     meanings: ["expand","extend","increase","lengthen","stretch"],
     onyomi: ["シン"],
     kunyomi: ["の.す","の.ばす","の.びる","の.べる"],
-    examples: [{"word":"の.す","pronunciation":"の.す","meaning":"Kun reading: の.す"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"の.す","reading":"の.す","meaning":"Kun reading: の.す"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "伺",
     meanings: ["ask","implore","inquire","pay respects","question","visit"],
     onyomi: ["シ"],
     kunyomi: ["うかが.う"],
-    examples: [{"word":"うかが.う","pronunciation":"うかが.う","meaning":"Kun reading: うかが.う"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"うかが.う","reading":"うかが.う","meaning":"Kun reading: うかが.う"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "但",
     meanings: ["but","however"],
     onyomi: ["タン"],
     kunyomi: ["ただ.し"],
-    examples: [{"word":"ただ.し","pronunciation":"ただ.し","meaning":"Kun reading: ただ.し"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"ただ.し","reading":"ただ.し","meaning":"Kun reading: ただ.し"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "佐",
     meanings: ["assistant","help"],
     onyomi: ["サ"],
     kunyomi: [],
-    examples: [{"word":"サ","pronunciation":"サ","meaning":"On reading: サ"}],
-    grade: "Junior High",
+    examples: [{"word":"サ","reading":"サ","meaning":"On reading: サ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "佳",
     meanings: ["beautiful","excellent","good","pleasing","skilled"],
     onyomi: ["カ"],
     kunyomi: [],
-    examples: [{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "併",
     meanings: ["collective","get together","join","unite"],
     onyomi: ["ヘイ"],
     kunyomi: ["あわ.せる"],
-    examples: [{"word":"あわ.せる","pronunciation":"あわ.せる","meaning":"Kun reading: あわ.せる"},{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"あわ.せる","reading":"あわ.せる","meaning":"Kun reading: あわ.せる"},{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "侍",
     meanings: ["samurai","serve","wait upon","waiter"],
     onyomi: ["シ","ジ"],
     kunyomi: ["さむらい","はべ.る"],
-    examples: [{"word":"さむらい","pronunciation":"さむらい","meaning":"Kun reading: さむらい"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"さむらい","reading":"さむらい","meaning":"Kun reading: さむらい"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "依",
     meanings: ["consequently","depend on","due to","reliant","therefore"],
     onyomi: ["イ","エ"],
     kunyomi: ["よ.る"],
-    examples: [{"word":"よ.る","pronunciation":"よ.る","meaning":"Kun reading: よ.る"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"よ.る","reading":"よ.る","meaning":"Kun reading: よ.る"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "侮",
     meanings: ["contempt","despise","make light of","scorn"],
     onyomi: ["ブ"],
     kunyomi: ["あなず.る","あなど.る"],
-    examples: [{"word":"あなず.る","pronunciation":"あなず.る","meaning":"Kun reading: あなず.る"},{"word":"ブ","pronunciation":"ブ","meaning":"On reading: ブ"}],
-    grade: "Junior High",
+    examples: [{"word":"あなず.る","reading":"あなず.る","meaning":"Kun reading: あなず.る"},{"word":"ブ","reading":"ブ","meaning":"On reading: ブ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "侯",
     meanings: ["daimyo","lord","marquis"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "侵",
     meanings: ["encroach","invade","raid","trespass","violate"],
     onyomi: ["シン"],
     kunyomi: ["��か.す"],
-    examples: [{"word":"��か.す","pronunciation":"��か.す","meaning":"Kun reading: ��か.す"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"��か.す","reading":"��か.す","meaning":"Kun reading: ��か.す"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "侶",
     meanings: ["companion","follower"],
     onyomi: ["リョ","ロ"],
     kunyomi: ["とも"],
-    examples: [{"word":"とも","pronunciation":"とも","meaning":"Kun reading: とも"},{"word":"リョ","pronunciation":"リョ","meaning":"On reading: リョ"}],
-    grade: "Junior High",
+    examples: [{"word":"とも","reading":"とも","meaning":"Kun reading: とも"},{"word":"リョ","reading":"リョ","meaning":"On reading: リョ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -1447,48 +1447,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["demand","incite","press","stimulate","urge"],
     onyomi: ["ソク"],
     kunyomi: ["うなが.す"],
-    examples: [{"word":"うなが.す","pronunciation":"うなが.す","meaning":"Kun reading: うなが.す"},{"word":"ソク","pronunciation":"ソク","meaning":"On reading: ソク"}],
-    grade: "Junior High",
+    examples: [{"word":"うなが.す","reading":"うなが.す","meaning":"Kun reading: うなが.す"},{"word":"ソク","reading":"ソク","meaning":"On reading: ソク"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "俊",
     meanings: ["excellence","genius","sagacious"],
     onyomi: ["シュン"],
     kunyomi: [],
-    examples: [{"word":"シュン","pronunciation":"シュン","meaning":"On reading: シュン"}],
-    grade: "Junior High",
+    examples: [{"word":"シュン","reading":"シュン","meaning":"On reading: シュン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "俗",
     meanings: ["customs","manners","mundane things","vulgar","worldliness"],
     onyomi: ["ゾク"],
     kunyomi: [],
-    examples: [{"word":"ゾク","pronunciation":"ゾク","meaning":"On reading: ゾク"}],
-    grade: "Junior High",
+    examples: [{"word":"ゾク","reading":"ゾク","meaning":"On reading: ゾク"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "俸",
     meanings: ["salary","stipend"],
     onyomi: ["ホウ"],
     kunyomi: [],
-    examples: [{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "俺",
     meanings: ["I","myself"],
     onyomi: ["エン"],
     kunyomi: ["おれ","われ"],
-    examples: [{"word":"おれ","pronunciation":"おれ","meaning":"Kun reading: おれ"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"おれ","reading":"おれ","meaning":"Kun reading: おれ"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -1496,138 +1496,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["break down","collapse","drop","fall","overthrow"],
     onyomi: ["トウ"],
     kunyomi: ["-だお.れ","さかさ","さかさま","さかしま","たお.す","たお.れる"],
-    examples: [{"word":"-だお.れ","pronunciation":"-だお.れ","meaning":"Kun reading: -だお.れ"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-だお.れ","reading":"-だお.れ","meaning":"Kun reading: -だお.れ"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "倣",
     meanings: ["emulate","imitate"],
     onyomi: ["ホウ"],
     kunyomi: ["なら.う"],
-    examples: [{"word":"なら.う","pronunciation":"なら.う","meaning":"Kun reading: なら.う"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"なら.う","reading":"なら.う","meaning":"Kun reading: なら.う"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "倫",
     meanings: ["companion","ethics"],
     onyomi: ["リン"],
     kunyomi: [],
-    examples: [{"word":"リン","pronunciation":"リン","meaning":"On reading: リン"}],
-    grade: "Junior High",
+    examples: [{"word":"リン","reading":"リン","meaning":"On reading: リン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "倹",
     meanings: ["economy","frugal","thrifty"],
     onyomi: ["ケン"],
     kunyomi: ["つづまやか","つま.しい"],
-    examples: [{"word":"つづまやか","pronunciation":"つづまやか","meaning":"Kun reading: つづまやか"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"つづまやか","reading":"つづまやか","meaning":"Kun reading: つづまやか"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "偉",
     meanings: ["admirable","conceited","excellent","famous","greatness","remarkable"],
     onyomi: ["イ"],
     kunyomi: ["えら.い"],
-    examples: [{"word":"えら.い","pronunciation":"えら.い","meaning":"Kun reading: えら.い"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"えら.い","reading":"えら.い","meaning":"Kun reading: えら.い"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "偏",
     meanings: ["biased","inclining","left-side radical","partial","side"],
     onyomi: ["ヘン"],
     kunyomi: ["かたよ.る"],
-    examples: [{"word":"かたよ.る","pronunciation":"かたよ.る","meaning":"Kun reading: かたよ.る"},{"word":"ヘン","pronunciation":"ヘン","meaning":"On reading: ヘン"}],
-    grade: "Junior High",
+    examples: [{"word":"かたよ.る","reading":"かたよ.る","meaning":"Kun reading: かたよ.る"},{"word":"ヘン","reading":"ヘン","meaning":"On reading: ヘン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "偵",
     meanings: ["spy"],
     onyomi: ["テイ"],
     kunyomi: [],
-    examples: [{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "偶",
     meanings: ["accidentally","couple","even number","man & wife","same kind"],
     onyomi: ["グウ"],
     kunyomi: ["たま"],
-    examples: [{"word":"たま","pronunciation":"たま","meaning":"Kun reading: たま"},{"word":"グウ","pronunciation":"グウ","meaning":"On reading: グウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たま","reading":"たま","meaning":"Kun reading: たま"},{"word":"グウ","reading":"グウ","meaning":"On reading: グウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "偽",
     meanings: ["counterfeit","deceive","falsehood","forgery","lie","pretend"],
     onyomi: ["カ","ギ"],
     kunyomi: ["いつわ.り","いつわ.る","にせ"],
-    examples: [{"word":"いつわ.り","pronunciation":"いつわ.り","meaning":"Kun reading: いつわ.り"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"いつわ.り","reading":"いつわ.り","meaning":"Kun reading: いつわ.り"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "傍",
     meanings: ["besides","bystander","nearby","side","third person","while"],
     onyomi: ["ボウ"],
     kunyomi: ["おか-","かたわ.ら","そば","はた","わき"],
-    examples: [{"word":"おか-","pronunciation":"おか-","meaning":"Kun reading: おか-"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おか-","reading":"おか-","meaning":"Kun reading: おか-"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "傑",
     meanings: ["excellence","greatness"],
     onyomi: ["ケツ"],
     kunyomi: ["すぐ.れる"],
-    examples: [{"word":"すぐ.れる","pronunciation":"すぐ.れる","meaning":"Kun reading: すぐ.れる"},{"word":"ケツ","pronunciation":"ケツ","meaning":"On reading: ケツ"}],
-    grade: "Junior High",
+    examples: [{"word":"すぐ.れる","reading":"すぐ.れる","meaning":"Kun reading: すぐ.れる"},{"word":"ケツ","reading":"ケツ","meaning":"On reading: ケツ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "傘",
     meanings: ["umbrella"],
     onyomi: ["サン"],
     kunyomi: ["かさ"],
-    examples: [{"word":"かさ","pronunciation":"かさ","meaning":"Kun reading: かさ"},{"word":"サン","pronunciation":"サン","meaning":"On reading: サン"}],
-    grade: "Junior High",
+    examples: [{"word":"かさ","reading":"かさ","meaning":"Kun reading: かさ"},{"word":"サン","reading":"サン","meaning":"On reading: サン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "催",
     meanings: ["give (a dinner)","hold (a meeting)","sponsor"],
     onyomi: ["サイ"],
     kunyomi: ["もよう.す","もよお.す"],
-    examples: [{"word":"もよう.す","pronunciation":"もよう.す","meaning":"Kun reading: もよう.す"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"もよう.す","reading":"もよう.す","meaning":"Kun reading: もよう.す"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "傲",
     meanings: ["be proud"],
     onyomi: ["ゴウ"],
     kunyomi: ["あなど.る","おご.る"],
-    examples: [{"word":"あなど.る","pronunciation":"あなど.る","meaning":"Kun reading: あなど.る"},{"word":"ゴウ","pronunciation":"ゴウ","meaning":"On reading: ゴウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あなど.る","reading":"あなど.る","meaning":"Kun reading: あなど.る"},{"word":"ゴウ","reading":"ゴウ","meaning":"On reading: ゴウ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -1635,28 +1635,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bond","debt","loan"],
     onyomi: ["サイ"],
     kunyomi: [],
-    examples: [{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "傾",
     meanings: ["bias","incline","lean","ruin","sink","tilt","trend","wane"],
     onyomi: ["ケイ"],
     kunyomi: ["かし.げる","かた.げる","かたぶ.く","かたむ.く","かたむ.ける"],
-    examples: [{"word":"かし.げる","pronunciation":"かし.げる","meaning":"Kun reading: かし.げる"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かし.げる","reading":"かし.げる","meaning":"Kun reading: かし.げる"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "僅",
     meanings: ["a wee bit"],
     onyomi: ["キン","ゴン"],
     kunyomi: ["わず.か"],
-    examples: [{"word":"わず.か","pronunciation":"わず.か","meaning":"Kun reading: わず.か"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"わず.か","reading":"わず.か","meaning":"Kun reading: わず.か"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -1664,138 +1664,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["I (male)","manservant","me","servant"],
     onyomi: ["ボク"],
     kunyomi: ["しもべ"],
-    examples: [{"word":"しもべ","pronunciation":"しもべ","meaning":"Kun reading: しもべ"},{"word":"ボク","pronunciation":"ボク","meaning":"On reading: ボク"}],
-    grade: "Junior High",
+    examples: [{"word":"しもべ","reading":"しもべ","meaning":"Kun reading: しもべ"},{"word":"ボク","reading":"ボク","meaning":"On reading: ボク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "僚",
     meanings: ["colleague","companion","official"],
     onyomi: ["リョウ"],
     kunyomi: [],
-    examples: [{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "僧",
     meanings: ["Buddhist priest","monk"],
     onyomi: ["ソウ"],
     kunyomi: [],
-    examples: [{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "儀",
     meanings: ["a matter","affair","case","ceremony","rule"],
     onyomi: ["ギ"],
     kunyomi: [],
-    examples: [{"word":"ギ","pronunciation":"ギ","meaning":"On reading: ギ"}],
-    grade: "Junior High",
+    examples: [{"word":"ギ","reading":"ギ","meaning":"On reading: ギ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "儒",
     meanings: ["Confucian"],
     onyomi: ["ジュ"],
     kunyomi: [],
-    examples: [{"word":"ジュ","pronunciation":"ジュ","meaning":"On reading: ジュ"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュ","reading":"ジュ","meaning":"On reading: ジュ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "償",
     meanings: ["make up for","recompense","redeem","reparation"],
     onyomi: ["ショウ"],
     kunyomi: ["つぐな.う"],
-    examples: [{"word":"つぐな.う","pronunciation":"つぐな.う","meaning":"Kun reading: つぐな.う"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つぐな.う","reading":"つぐな.う","meaning":"Kun reading: つぐな.う"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "充",
     meanings: ["allot","fill"],
     onyomi: ["ジュウ"],
     kunyomi: ["あ.てる","み.たす"],
-    examples: [{"word":"あ.てる","pronunciation":"あ.てる","meaning":"Kun reading: あ.てる"},{"word":"ジュウ","pronunciation":"ジュウ","meaning":"On reading: ジュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.てる","reading":"あ.てる","meaning":"Kun reading: あ.てる"},{"word":"ジュウ","reading":"ジュウ","meaning":"On reading: ジュウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "克",
     meanings: ["kindly","overcome","skillfully"],
     onyomi: ["コク"],
     kunyomi: ["か.つ"],
-    examples: [{"word":"か.つ","pronunciation":"か.つ","meaning":"Kun reading: か.つ"},{"word":"コク","pronunciation":"コク","meaning":"On reading: コク"}],
-    grade: "Junior High",
+    examples: [{"word":"か.つ","reading":"か.つ","meaning":"Kun reading: か.つ"},{"word":"コク","reading":"コク","meaning":"On reading: コク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "免",
     meanings: ["dismissal","excuse"],
     onyomi: ["メン"],
     kunyomi: ["ま���か.れる","まぬが.れる"],
-    examples: [{"word":"ま���か.れる","pronunciation":"ま���か.れる","meaning":"Kun reading: ま���か.れる"},{"word":"メン","pronunciation":"メン","meaning":"On reading: メン"}],
-    grade: "Junior High",
+    examples: [{"word":"ま���か.れる","reading":"ま���か.れる","meaning":"Kun reading: ま���か.れる"},{"word":"メン","reading":"メン","meaning":"On reading: メン"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "兼",
     meanings: ["and","beforehand","concurrently","in advance"],
     onyomi: ["ケン"],
     kunyomi: ["-か.ねる","か.ねる"],
-    examples: [{"word":"-か.ねる","pronunciation":"-か.ねる","meaning":"Kun reading: -か.ねる"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"-か.ねる","reading":"-か.ねる","meaning":"Kun reading: -か.ねる"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "冒",
     meanings: ["assume (a name)","damage","dare","defy","face","risk"],
     onyomi: ["ボウ"],
     kunyomi: ["��か.す"],
-    examples: [{"word":"��か.す","pronunciation":"��か.す","meaning":"Kun reading: ��か.す"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"��か.す","reading":"��か.す","meaning":"Kun reading: ��か.す"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "冗",
     meanings: ["superfluous","uselessness"],
     onyomi: ["ジョウ"],
     kunyomi: [],
-    examples: [{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "冠",
     meanings: ["best","crown","peerless"],
     onyomi: ["カン"],
     kunyomi: ["かんむり"],
-    examples: [{"word":"かんむり","pronunciation":"かんむり","meaning":"Kun reading: かんむり"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"かんむり","reading":"かんむり","meaning":"Kun reading: かんむり"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "冥",
     meanings: ["dark"],
     onyomi: ["ミョウ","メイ"],
     kunyomi: ["くら.い"],
-    examples: [{"word":"くら.い","pronunciation":"くら.い","meaning":"Kun reading: くら.い"},{"word":"ミョウ","pronunciation":"ミョウ","meaning":"On reading: ミョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くら.い","reading":"くら.い","meaning":"Kun reading: くら.い"},{"word":"ミョウ","reading":"ミョウ","meaning":"On reading: ミョウ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -1803,18 +1803,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["melting","smelting"],
     onyomi: ["ヤ"],
     kunyomi: ["い.る"],
-    examples: [{"word":"い.る","pronunciation":"い.る","meaning":"Kun reading: い.る"},{"word":"ヤ","pronunciation":"ヤ","meaning":"On reading: ヤ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.る","reading":"い.る","meaning":"Kun reading: い.る"},{"word":"ヤ","reading":"ヤ","meaning":"On reading: ヤ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "凄",
     meanings: ["horrible","threatening","uncanny","weird"],
     onyomi: ["サイ","セイ"],
     kunyomi: ["さむ.い","すご.い","すさ.まじい"],
-    examples: [{"word":"さむ.い","pronunciation":"さむ.い","meaning":"Kun reading: さむ.い"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"さむ.い","reading":"さむ.い","meaning":"Kun reading: さむ.い"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -1822,118 +1822,118 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["associate","quasi-","semi-"],
     onyomi: ["ジュン"],
     kunyomi: [],
-    examples: [{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "凍",
     meanings: ["congeal","frozen","refrigerate"],
     onyomi: ["トウ"],
     kunyomi: ["い.てる","こお.る","こご.える","こご.る","し.みる"],
-    examples: [{"word":"い.てる","pronunciation":"い.てる","meaning":"Kun reading: い.てる"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.てる","reading":"い.てる","meaning":"Kun reading: い.てる"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "凝",
     meanings: ["be absorbed in","congeal","freeze","stiff"],
     onyomi: ["ギョウ"],
     kunyomi: ["こ.らす","こ.る","こご.らす","こご.らせる","こご.る"],
-    examples: [{"word":"こ.らす","pronunciation":"こ.らす","meaning":"Kun reading: こ.らす"},{"word":"ギョウ","pronunciation":"ギョウ","meaning":"On reading: ギョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"こ.らす","reading":"こ.らす","meaning":"Kun reading: こ.らす"},{"word":"ギョウ","reading":"ギョウ","meaning":"On reading: ギョウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "凡",
     meanings: ["commonplace","mediocre","ordinary"],
     onyomi: ["ハン","ボン"],
     kunyomi: ["おうよ.そ","およ.そ","すべ.て"],
-    examples: [{"word":"おうよ.そ","pronunciation":"おうよ.そ","meaning":"Kun reading: おうよ.そ"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"おうよ.そ","reading":"おうよ.そ","meaning":"Kun reading: おうよ.そ"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 3,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "凶",
     meanings: ["bad luck","disaster","evil","villain"],
     onyomi: ["キョウ"],
     kunyomi: [],
-    examples: [{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "凸",
     meanings: ["beetle brow","convex","uneven"],
     onyomi: ["トツ"],
     kunyomi: ["でこ"],
-    examples: [{"word":"でこ","pronunciation":"でこ","meaning":"Kun reading: でこ"},{"word":"トツ","pronunciation":"トツ","meaning":"On reading: トツ"}],
-    grade: "Junior High",
+    examples: [{"word":"でこ","reading":"でこ","meaning":"Kun reading: でこ"},{"word":"トツ","reading":"トツ","meaning":"On reading: トツ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "凹",
     meanings: ["concave","hollow","sunken"],
     onyomi: ["オウ"],
     kunyomi: ["くぼ.む","へこ.む","ぼこ"],
-    examples: [{"word":"くぼ.む","pronunciation":"くぼ.む","meaning":"Kun reading: くぼ.む"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くぼ.む","reading":"くぼ.む","meaning":"Kun reading: くぼ.む"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "刃",
     meanings: ["blade","edge","sword"],
     onyomi: ["ジン","ニン"],
     kunyomi: ["き.る","は","やいば"],
-    examples: [{"word":"き.る","pronunciation":"き.る","meaning":"Kun reading: き.る"},{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"き.る","reading":"き.る","meaning":"Kun reading: き.る"},{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 3,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "刈",
     meanings: ["clip","cut","prune","reap","trim"],
     onyomi: ["カイ","ガイ"],
     kunyomi: ["か.る"],
-    examples: [{"word":"か.る","pronunciation":"か.る","meaning":"Kun reading: か.る"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.る","reading":"か.る","meaning":"Kun reading: か.る"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "刑",
     meanings: ["penalty","punish","punishment","sentence"],
     onyomi: ["ケイ"],
     kunyomi: [],
-    examples: [{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "到",
     meanings: ["arrival","attain","proceed","reach","result in"],
     onyomi: ["トウ"],
     kunyomi: ["いた.る"],
-    examples: [{"word":"いた.る","pronunciation":"いた.る","meaning":"Kun reading: いた.る"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.る","reading":"いた.る","meaning":"Kun reading: いた.る"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "刹",
     meanings: ["temple"],
     onyomi: ["サツ","セチ","セツ"],
     kunyomi: [],
-    examples: [{"word":"サツ","pronunciation":"サツ","meaning":"On reading: サツ"}],
-    grade: "Junior High",
+    examples: [{"word":"サツ","reading":"サツ","meaning":"On reading: サツ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -1941,48 +1941,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["calling card","pierce","prick","stab","sting","thorn"],
     onyomi: ["シ"],
     kunyomi: ["���.さる","さ.し","さ.す","さし","とげ"],
-    examples: [{"word":"���.さる","pronunciation":"���.さる","meaning":"Kun reading: ���.さる"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"���.さる","reading":"���.さる","meaning":"Kun reading: ���.さる"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "削",
     meanings: ["pare","plane","sharpen","shave","whittle"],
     onyomi: ["サク"],
     kunyomi: ["けず.る","そ.ぐ","はつ.る"],
-    examples: [{"word":"けず.る","pronunciation":"けず.る","meaning":"Kun reading: けず.る"},{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"けず.る","reading":"けず.る","meaning":"Kun reading: けず.る"},{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "剖",
     meanings: ["divide"],
     onyomi: ["ボウ"],
     kunyomi: [],
-    examples: [{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "剛",
     meanings: ["strength","sturdy"],
     onyomi: ["ゴウ"],
     kunyomi: [],
-    examples: [{"word":"ゴウ","pronunciation":"ゴウ","meaning":"On reading: ゴウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ゴウ","reading":"ゴウ","meaning":"On reading: ゴウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "剝",
     meanings: ["come off","discolor","fade","peel"],
     onyomi: ["ハク","ホク"],
     kunyomi: ["は.がす","は.がれる","は.ぐ","は.げる","へ.ぐ","へず.る","む.く","む.ける"],
-    examples: [{"word":"は.がす","pronunciation":"は.がす","meaning":"Kun reading: は.がす"},{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"は.がす","reading":"は.がす","meaning":"Kun reading: は.がす"},{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -1990,28 +1990,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["blade","clock hand","sabre","sword"],
     onyomi: ["ケン"],
     kunyomi: ["つるぎ"],
-    examples: [{"word":"つるぎ","pronunciation":"つるぎ","meaning":"Kun reading: つるぎ"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"つるぎ","reading":"つるぎ","meaning":"Kun reading: つるぎ"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "剤",
     meanings: ["dose","drug","medicine"],
     onyomi: ["ザイ","スイ","セイ"],
     kunyomi: ["かる","けず.る"],
-    examples: [{"word":"かる","pronunciation":"かる","meaning":"Kun reading: かる"},{"word":"ザイ","pronunciation":"ザイ","meaning":"On reading: ザイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かる","reading":"かる","meaning":"Kun reading: かる"},{"word":"ザイ","reading":"ザイ","meaning":"On reading: ザイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "剥",
     meanings: ["come off","discolor","fade","peel"],
     onyomi: ["ハク","ホク"],
     kunyomi: ["は.がす","は.がれる","は.ぐ","は.げる","へ.ぐ","へず.る","む.く","む.ける"],
-    examples: [{"word":"は.がす","pronunciation":"は.がす","meaning":"Kun reading: は.がす"},{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"は.がす","reading":"は.がす","meaning":"Kun reading: は.がす"},{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -2019,48 +2019,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["besides","surplus"],
     onyomi: ["ジョウ"],
     kunyomi: ["あま.り","あま.る","あまつさえ"],
-    examples: [{"word":"あま.り","pronunciation":"あま.り","meaning":"Kun reading: あま.り"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あま.り","reading":"あま.り","meaning":"Kun reading: あま.り"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "劣",
     meanings: ["be inferior to","be worse","inferiority"],
     onyomi: ["レツ"],
     kunyomi: ["おと.る"],
-    examples: [{"word":"おと.る","pronunciation":"おと.る","meaning":"Kun reading: おと.る"},{"word":"レツ","pronunciation":"レツ","meaning":"On reading: レツ"}],
-    grade: "Junior High",
+    examples: [{"word":"おと.る","reading":"おと.る","meaning":"Kun reading: おと.る"},{"word":"レツ","reading":"レツ","meaning":"On reading: レツ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "励",
     meanings: ["be diligent","encourage","inspire"],
     onyomi: ["レイ"],
     kunyomi: ["はげ.ます","はげ.む"],
-    examples: [{"word":"はげ.ます","pronunciation":"はげ.ます","meaning":"Kun reading: はげ.ます"},{"word":"レイ","pronunciation":"レイ","meaning":"On reading: レイ"}],
-    grade: "Junior High",
+    examples: [{"word":"はげ.ます","reading":"はげ.ます","meaning":"Kun reading: はげ.ます"},{"word":"レイ","reading":"レイ","meaning":"On reading: レイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "劾",
     meanings: ["censure","criminal investigation"],
     onyomi: ["ガイ"],
     kunyomi: [],
-    examples: [{"word":"ガイ","pronunciation":"ガイ","meaning":"On reading: ガイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ガイ","reading":"ガイ","meaning":"On reading: ガイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "勃",
     meanings: ["rise","suddenness"],
     onyomi: ["ホツ","ボツ"],
     kunyomi: ["おこ.る","にわかに"],
-    examples: [{"word":"おこ.る","pronunciation":"おこ.る","meaning":"Kun reading: おこ.る"},{"word":"ホツ","pronunciation":"ホツ","meaning":"On reading: ホツ"}],
-    grade: "Junior High",
+    examples: [{"word":"おこ.る","reading":"おこ.る","meaning":"Kun reading: おこ.る"},{"word":"ホツ","reading":"ホツ","meaning":"On reading: ホツ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -2068,58 +2068,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["imperial order"],
     onyomi: ["チョク"],
     kunyomi: ["いまし.める","みことのり"],
-    examples: [{"word":"いまし.める","pronunciation":"いまし.める","meaning":"Kun reading: いまし.める"},{"word":"チョク","pronunciation":"チョク","meaning":"On reading: チョク"}],
-    grade: "Junior High",
+    examples: [{"word":"いまし.める","reading":"いまし.める","meaning":"Kun reading: いまし.める"},{"word":"チョク","reading":"チョク","meaning":"On reading: チョク"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "勘",
     meanings: ["check","compare","intuition","perception","sixth sense"],
     onyomi: ["カン"],
     kunyomi: [],
-    examples: [{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "募",
     meanings: ["campaign","enlist","gather (contributions)","grow violent","recruit"],
     onyomi: ["ボ"],
     kunyomi: ["つの.る"],
-    examples: [{"word":"つの.る","pronunciation":"つの.る","meaning":"Kun reading: つの.る"},{"word":"ボ","pronunciation":"ボ","meaning":"On reading: ボ"}],
-    grade: "Junior High",
+    examples: [{"word":"つの.る","reading":"つの.る","meaning":"Kun reading: つの.る"},{"word":"ボ","reading":"ボ","meaning":"On reading: ボ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "勧",
     meanings: ["advise","encourage","offer","persuade","recommend"],
     onyomi: ["カン","ケン"],
     kunyomi: ["すす.める"],
-    examples: [{"word":"すす.める","pronunciation":"すす.める","meaning":"Kun reading: すす.める"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"すす.める","reading":"すす.める","meaning":"Kun reading: すす.める"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "勲",
     meanings: ["merit","meritorious deed"],
     onyomi: ["クン"],
     kunyomi: ["いさお"],
-    examples: [{"word":"いさお","pronunciation":"いさお","meaning":"Kun reading: いさお"},{"word":"クン","pronunciation":"クン","meaning":"On reading: クン"}],
-    grade: "Junior High",
+    examples: [{"word":"いさお","reading":"いさお","meaning":"Kun reading: いさお"},{"word":"クン","reading":"クン","meaning":"On reading: クン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "勾",
     meanings: ["be bent","capture","slope"],
     onyomi: ["ク","コウ"],
     kunyomi: ["かぎ","ま.がる"],
-    examples: [{"word":"かぎ","pronunciation":"かぎ","meaning":"Kun reading: かぎ"},{"word":"ク","pronunciation":"ク","meaning":"On reading: ク"}],
-    grade: "Junior High",
+    examples: [{"word":"かぎ","reading":"かぎ","meaning":"Kun reading: かぎ"},{"word":"ク","reading":"ク","meaning":"On reading: ク"}],
+    grade: "juniorHigh",
     strokeCount: 4
   },
   {
@@ -2127,8 +2127,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["(kokuji)","fragrant","glow","insinuate","stink"],
     onyomi: [],
     kunyomi: ["��お.い","にお.う","にお.わせる"],
-    examples: [{"word":"��お.い","pronunciation":"��お.い","meaning":"Kun reading: ��お.い"}],
-    grade: "Junior High",
+    examples: [{"word":"��お.い","reading":"��お.い","meaning":"Kun reading: ��お.い"}],
+    grade: "juniorHigh",
     strokeCount: 4
   },
   {
@@ -2136,198 +2136,198 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["artisan","carpenter","workman"],
     onyomi: ["ショウ"],
     kunyomi: ["たくみ"],
-    examples: [{"word":"たくみ","pronunciation":"たくみ","meaning":"Kun reading: たくみ"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たくみ","reading":"たくみ","meaning":"Kun reading: たくみ"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "匹",
     meanings: ["counter for small animals","equal","head","roll of cloth"],
     onyomi: ["ヒツ"],
     kunyomi: ["ひき"],
-    examples: [{"word":"ひき","pronunciation":"ひき","meaning":"Kun reading: ひき"},{"word":"ヒツ","pronunciation":"ヒツ","meaning":"On reading: ヒツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひき","reading":"ひき","meaning":"Kun reading: ひき"},{"word":"ヒツ","reading":"ヒツ","meaning":"On reading: ヒツ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "匿",
     meanings: ["hide","shelter","shield"],
     onyomi: ["トク"],
     kunyomi: ["かくま.う"],
-    examples: [{"word":"かくま.う","pronunciation":"かくま.う","meaning":"Kun reading: かくま.う"},{"word":"トク","pronunciation":"トク","meaning":"On reading: トク"}],
-    grade: "Junior High",
+    examples: [{"word":"かくま.う","reading":"かくま.う","meaning":"Kun reading: かくま.う"},{"word":"トク","reading":"トク","meaning":"On reading: トク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "升",
     meanings: ["1.8 liter","measuring box"],
     onyomi: ["ショウ"],
     kunyomi: ["ます"],
-    examples: [{"word":"ます","pronunciation":"ます","meaning":"Kun reading: ます"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ます","reading":"ます","meaning":"Kun reading: ます"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "卑",
     meanings: ["base","despise","lowly","vile","vulgar"],
     onyomi: ["ヒ"],
     kunyomi: ["いや.しい","いや.しむ","いや.しめる"],
-    examples: [{"word":"いや.しい","pronunciation":"いや.しい","meaning":"Kun reading: いや.しい"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"いや.しい","reading":"いや.しい","meaning":"Kun reading: いや.しい"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "卓",
     meanings: ["desk","eminent","high","table"],
     onyomi: ["タク"],
     kunyomi: [],
-    examples: [{"word":"タク","pronunciation":"タク","meaning":"On reading: タク"}],
-    grade: "Junior High",
+    examples: [{"word":"タク","reading":"タク","meaning":"On reading: タク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "占",
     meanings: ["divining","forecasting","fortune-telling","get","have","hold","occupy","take"],
     onyomi: ["セン"],
     kunyomi: ["うらな.う","し.める"],
-    examples: [{"word":"うらな.う","pronunciation":"うらな.う","meaning":"Kun reading: うらな.う"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"うらな.う","reading":"うらな.う","meaning":"Kun reading: うらな.う"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "即",
     meanings: ["adapt","agree","as is","conform","instant","namely"],
     onyomi: ["ソク"],
     kunyomi: ["すなわ.ち","つ.く","つ.ける"],
-    examples: [{"word":"すなわ.ち","pronunciation":"すなわ.ち","meaning":"Kun reading: すなわ.ち"},{"word":"ソク","pronunciation":"ソク","meaning":"On reading: ソク"}],
-    grade: "Junior High",
+    examples: [{"word":"すなわ.ち","reading":"すなわ.ち","meaning":"Kun reading: すなわ.ち"},{"word":"ソク","reading":"ソク","meaning":"On reading: ソク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "却",
     meanings: ["instead","on the contrary","rather","retreat","step back","withdraw"],
     onyomi: ["キャク"],
     kunyomi: ["かえ.って","しりぞ.く","しりぞ.ける"],
-    examples: [{"word":"かえ.って","pronunciation":"かえ.って","meaning":"Kun reading: かえ.って"},{"word":"キャク","pronunciation":"キャク","meaning":"On reading: キャク"}],
-    grade: "Junior High",
+    examples: [{"word":"かえ.って","reading":"かえ.って","meaning":"Kun reading: かえ.って"},{"word":"キャク","reading":"キャク","meaning":"On reading: キャク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "卸",
     meanings: ["wholesale"],
     onyomi: ["シャ"],
     kunyomi: ["おろ.し","おろ.す","おろし"],
-    examples: [{"word":"おろ.し","pronunciation":"おろ.し","meaning":"Kun reading: おろ.し"},{"word":"シャ","pronunciation":"シャ","meaning":"On reading: シャ"}],
-    grade: "Junior High",
+    examples: [{"word":"おろ.し","reading":"おろ.し","meaning":"Kun reading: おろ.し"},{"word":"シャ","reading":"シャ","meaning":"On reading: シャ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "厄",
     meanings: ["bad luck","disaster","misfortune","unlucky"],
     onyomi: ["ヤク"],
     kunyomi: [],
-    examples: [{"word":"ヤク","pronunciation":"ヤク","meaning":"On reading: ヤク"}],
-    grade: "Junior High",
+    examples: [{"word":"ヤク","reading":"ヤク","meaning":"On reading: ヤク"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "厘",
     meanings: ["1/10 bu","1/10 sen","rin"],
     onyomi: ["リン"],
     kunyomi: [],
-    examples: [{"word":"リン","pronunciation":"リン","meaning":"On reading: リン"}],
-    grade: "Junior High",
+    examples: [{"word":"リン","reading":"リン","meaning":"On reading: リン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "又",
     meanings: ["furthermore","on the other hand","or again"],
     onyomi: ["ユウ"],
     kunyomi: ["また","また-","また.の-"],
-    examples: [{"word":"また","pronunciation":"また","meaning":"Kun reading: また"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"また","reading":"また","meaning":"Kun reading: また"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 2,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "及",
     meanings: ["cause","exercise","exert","reach out"],
     onyomi: ["キュウ"],
     kunyomi: ["およ.び","およ.ぶ","およ.ぼす","および"],
-    examples: [{"word":"およ.び","pronunciation":"およ.び","meaning":"Kun reading: およ.び"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"およ.び","reading":"およ.び","meaning":"Kun reading: およ.び"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 3,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "双",
     meanings: ["comparison","counter for pairs","pair","set"],
     onyomi: ["ソウ"],
     kunyomi: ["た���い","ならぶ","ふた","ふたつ"],
-    examples: [{"word":"た���い","pronunciation":"た���い","meaning":"Kun reading: た���い"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"た���い","reading":"た���い","meaning":"Kun reading: た���い"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "叔",
     meanings: ["uncle","youth"],
     onyomi: ["シュク"],
     kunyomi: [],
-    examples: [{"word":"シュク","pronunciation":"シュク","meaning":"On reading: シュク"}],
-    grade: "Junior High",
+    examples: [{"word":"シュク","reading":"シュク","meaning":"On reading: シュク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "叙",
     meanings: ["confer","describe","narrate","relate"],
     onyomi: ["ジョ"],
     kunyomi: ["つい.ず","ついで"],
-    examples: [{"word":"つい.ず","pronunciation":"つい.ず","meaning":"Kun reading: つい.ず"},{"word":"ジョ","pronunciation":"ジョ","meaning":"On reading: ジョ"}],
-    grade: "Junior High",
+    examples: [{"word":"つい.ず","reading":"つい.ず","meaning":"Kun reading: つい.ず"},{"word":"ジョ","reading":"ジョ","meaning":"On reading: ジョ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "叫",
     meanings: ["exclaim","shout","yell"],
     onyomi: ["キョウ"],
     kunyomi: ["さけ.ぶ"],
-    examples: [{"word":"さけ.ぶ","pronunciation":"さけ.ぶ","meaning":"Kun reading: さけ.ぶ"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さけ.ぶ","reading":"さけ.ぶ","meaning":"Kun reading: さけ.ぶ"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "召",
     meanings: ["buy","call","catch (cold)","drink","eat","put on","ride in","seduce","send for","wear"],
     onyomi: ["ショウ"],
     kunyomi: ["め.す"],
-    examples: [{"word":"め.す","pronunciation":"め.す","meaning":"Kun reading: め.す"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"め.す","reading":"め.す","meaning":"Kun reading: め.す"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "叱",
     meanings: ["reprove","scold"],
     onyomi: ["カ","シチ","シツ"],
     kunyomi: ["しか.る"],
-    examples: [{"word":"しか.る","pronunciation":"しか.る","meaning":"Kun reading: しか.る"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"しか.る","reading":"しか.る","meaning":"Kun reading: しか.る"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 5
   },
   {
@@ -2335,98 +2335,98 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["congratulations","good luck","joy"],
     onyomi: ["キチ","キツ"],
     kunyomi: ["よし"],
-    examples: [{"word":"よし","pronunciation":"よし","meaning":"Kun reading: よし"},{"word":"キチ","pronunciation":"キチ","meaning":"On reading: キチ"}],
-    grade: "Junior High",
+    examples: [{"word":"よし","reading":"よし","meaning":"Kun reading: よし"},{"word":"キチ","reading":"キチ","meaning":"On reading: キチ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "吏",
     meanings: ["an official","officer"],
     onyomi: ["リ"],
     kunyomi: [],
-    examples: [{"word":"リ","pronunciation":"リ","meaning":"On reading: リ"}],
-    grade: "Junior High",
+    examples: [{"word":"リ","reading":"リ","meaning":"On reading: リ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "吐",
     meanings: ["belch","confess","spit","tell (lies)","vomit"],
     onyomi: ["ト"],
     kunyomi: ["つ.く","は.く"],
-    examples: [{"word":"つ.く","pronunciation":"つ.く","meaning":"Kun reading: つ.く"},{"word":"ト","pronunciation":"ト","meaning":"On reading: ト"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.く","reading":"つ.く","meaning":"Kun reading: つ.く"},{"word":"ト","reading":"ト","meaning":"On reading: ト"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "吟",
     meanings: ["recital","singing","versify"],
     onyomi: ["ギン"],
     kunyomi: [],
-    examples: [{"word":"ギン","pronunciation":"ギン","meaning":"On reading: ギン"}],
-    grade: "Junior High",
+    examples: [{"word":"ギン","reading":"ギン","meaning":"On reading: ギン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "含",
     meanings: ["bear in mind","cherish","contain","hold in the mouth","include","understand"],
     onyomi: ["ガン"],
     kunyomi: ["ふく.む","ふく.める"],
-    examples: [{"word":"ふく.む","pronunciation":"ふく.む","meaning":"Kun reading: ふく.む"},{"word":"ガン","pronunciation":"ガン","meaning":"On reading: ガン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふく.む","reading":"ふく.む","meaning":"Kun reading: ふく.む"},{"word":"ガン","reading":"ガン","meaning":"On reading: ガン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "吹",
     meanings: ["blow","breathe","emit","puff","smoke"],
     onyomi: ["スイ"],
     kunyomi: ["ふ.く"],
-    examples: [{"word":"ふ.く","pronunciation":"ふ.く","meaning":"Kun reading: ふ.く"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.く","reading":"ふ.く","meaning":"Kun reading: ふ.く"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "呂",
     meanings: ["backbone","spine"],
     onyomi: ["リョ","ロ"],
     kunyomi: ["せぼね"],
-    examples: [{"word":"せぼね","pronunciation":"せぼね","meaning":"Kun reading: せぼね"},{"word":"リョ","pronunciation":"リョ","meaning":"On reading: リョ"}],
-    grade: "Junior High",
+    examples: [{"word":"せぼね","reading":"せぼね","meaning":"Kun reading: せぼね"},{"word":"リョ","reading":"リョ","meaning":"On reading: リョ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "呈",
     meanings: ["display","exhibit","offer","present","send"],
     onyomi: ["テイ"],
     kunyomi: [],
-    examples: [{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "呉",
     meanings: ["do something for","give","kingdom of Wu"],
     onyomi: ["ゴ"],
     kunyomi: ["��.れる","くれ"],
-    examples: [{"word":"��.れる","pronunciation":"��.れる","meaning":"Kun reading: ��.れる"},{"word":"ゴ","pronunciation":"ゴ","meaning":"On reading: ゴ"}],
-    grade: "Junior High",
+    examples: [{"word":"��.れる","reading":"��.れる","meaning":"Kun reading: ��.れる"},{"word":"ゴ","reading":"ゴ","meaning":"On reading: ゴ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "呪",
     meanings: ["charm","curse","malediction","spell"],
     onyomi: ["シュ","シュウ","ジュ","ズ"],
     kunyomi: ["の���.い","のろ.う","まじな.い","まじな.う"],
-    examples: [{"word":"の���.い","pronunciation":"の���.い","meaning":"Kun reading: の���.い"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"の���.い","reading":"の���.い","meaning":"Kun reading: の���.い"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -2434,18 +2434,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bloom","blossom"],
     onyomi: ["ショウ"],
     kunyomi: ["-ざき","さ.く"],
-    examples: [{"word":"-ざき","pronunciation":"-ざき","meaning":"Kun reading: -ざき"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ざき","reading":"-ざき","meaning":"Kun reading: -ざき"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "咽",
     meanings: ["choked","smothered","stuffy","throat"],
     onyomi: ["イン","エツ","エン"],
     kunyomi: ["の.む","のど","むせ.ぶ","むせ.る"],
-    examples: [{"word":"の.む","pronunciation":"の.む","meaning":"Kun reading: の.む"},{"word":"イン","pronunciation":"イン","meaning":"On reading: イン"}],
-    grade: "Junior High",
+    examples: [{"word":"の.む","reading":"の.む","meaning":"Kun reading: の.む"},{"word":"イン","reading":"イン","meaning":"On reading: イン"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -2453,28 +2453,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["grief","pathetic","pathos","pity","sorrow","sympathize"],
     onyomi: ["アイ"],
     kunyomi: ["あわ.れ","あわ.れむ","かな.しい"],
-    examples: [{"word":"あわ.れ","pronunciation":"あわ.れ","meaning":"Kun reading: あわ.れ"},{"word":"アイ","pronunciation":"アイ","meaning":"On reading: アイ"}],
-    grade: "Junior High",
+    examples: [{"word":"あわ.れ","reading":"あわ.れ","meaning":"Kun reading: あわ.れ"},{"word":"アイ","reading":"アイ","meaning":"On reading: アイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "哲",
     meanings: ["clear","philosophy"],
     onyomi: ["テツ"],
     kunyomi: ["あきらか","さとい"],
-    examples: [{"word":"あきらか","pronunciation":"あきらか","meaning":"Kun reading: あきらか"},{"word":"テツ","pronunciation":"テツ","meaning":"On reading: テツ"}],
-    grade: "Junior High",
+    examples: [{"word":"あきらか","reading":"あきらか","meaning":"Kun reading: あきらか"},{"word":"テツ","reading":"テツ","meaning":"On reading: テツ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "哺",
     meanings: ["nurse","suckle"],
     onyomi: ["ホ"],
     kunyomi: ["はぐく.む","ふく.む"],
-    examples: [{"word":"はぐく.む","pronunciation":"はぐく.む","meaning":"Kun reading: はぐく.む"},{"word":"ホ","pronunciation":"ホ","meaning":"On reading: ホ"}],
-    grade: "Junior High",
+    examples: [{"word":"はぐく.む","reading":"はぐく.む","meaning":"Kun reading: はぐく.む"},{"word":"ホ","reading":"ホ","meaning":"On reading: ホ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -2482,38 +2482,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["ballad","song"],
     onyomi: ["バイ"],
     kunyomi: ["うた","うた.う"],
-    examples: [{"word":"うた","pronunciation":"うた","meaning":"Kun reading: うた"},{"word":"バイ","pronunciation":"バイ","meaning":"On reading: バイ"}],
-    grade: "Junior High",
+    examples: [{"word":"うた","reading":"うた","meaning":"Kun reading: うた"},{"word":"バイ","reading":"バイ","meaning":"On reading: バイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "唆",
     meanings: ["instigate","promote","seduce","tempt"],
     onyomi: ["サ"],
     kunyomi: ["そそ.る","そそのか.す"],
-    examples: [{"word":"そそ.る","pronunciation":"そそ.る","meaning":"Kun reading: そそ.る"},{"word":"サ","pronunciation":"サ","meaning":"On reading: サ"}],
-    grade: "Junior High",
+    examples: [{"word":"そそ.る","reading":"そそ.る","meaning":"Kun reading: そそ.る"},{"word":"サ","reading":"サ","meaning":"On reading: サ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "唇",
     meanings: ["lips"],
     onyomi: ["シン"],
     kunyomi: ["��ちびる"],
-    examples: [{"word":"��ちびる","pronunciation":"��ちびる","meaning":"Kun reading: ��ちびる"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"��ちびる","reading":"��ちびる","meaning":"Kun reading: ��ちびる"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "唐",
     meanings: ["China","T'ang","foreign"],
     onyomi: ["トウ"],
     kunyomi: ["から"],
-    examples: [{"word":"から","pronunciation":"から","meaning":"Kun reading: から"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"から","reading":"から","meaning":"Kun reading: から"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -2521,18 +2521,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["merely","only","simply","solely"],
     onyomi: ["イ","ユイ"],
     kunyomi: ["ただ"],
-    examples: [{"word":"ただ","pronunciation":"ただ","meaning":"Kun reading: ただ"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"ただ","reading":"ただ","meaning":"Kun reading: ただ"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "唾",
     meanings: ["saliva","sputum"],
     onyomi: ["タ","ダ"],
     kunyomi: ["つば","つばき"],
-    examples: [{"word":"つば","pronunciation":"つば","meaning":"Kun reading: つば"},{"word":"タ","pronunciation":"タ","meaning":"On reading: タ"}],
-    grade: "Junior High",
+    examples: [{"word":"つば","reading":"つば","meaning":"Kun reading: つば"},{"word":"タ","reading":"タ","meaning":"On reading: タ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -2540,18 +2540,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["disclose","open","say"],
     onyomi: ["ケイ"],
     kunyomi: ["さと.す","ひら.く"],
-    examples: [{"word":"さと.す","pronunciation":"さと.す","meaning":"Kun reading: さと.す"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"さと.す","reading":"さと.す","meaning":"Kun reading: さと.す"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "喉",
     meanings: ["throat","voice"],
     onyomi: ["コウ"],
     kunyomi: ["のど"],
-    examples: [{"word":"のど","pronunciation":"のど","meaning":"Kun reading: のど"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"のど","reading":"のど","meaning":"Kun reading: のど"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -2559,28 +2559,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["call","cry","scream","summon","yell"],
     onyomi: ["カン"],
     kunyomi: ["わめ.く"],
-    examples: [{"word":"わめ.く","pronunciation":"わめ.く","meaning":"Kun reading: わめ.く"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"わめ.く","reading":"わめ.く","meaning":"Kun reading: わめ.く"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "喝",
     meanings: ["hoarse","scold"],
     onyomi: ["カツ"],
     kunyomi: [],
-    examples: [{"word":"カツ","pronunciation":"カツ","meaning":"On reading: カツ"}],
-    grade: "Junior High",
+    examples: [{"word":"カツ","reading":"カツ","meaning":"On reading: カツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "喩",
     meanings: ["compare","metaphor"],
     onyomi: ["ユ"],
     kunyomi: ["さと.す","たと.える"],
-    examples: [{"word":"さと.す","pronunciation":"さと.す","meaning":"Kun reading: さと.す"},{"word":"ユ","pronunciation":"ユ","meaning":"On reading: ユ"}],
-    grade: "Junior High",
+    examples: [{"word":"さと.す","reading":"さと.す","meaning":"Kun reading: さと.す"},{"word":"ユ","reading":"ユ","meaning":"On reading: ユ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -2588,28 +2588,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["miss","mourning"],
     onyomi: ["ソウ"],
     kunyomi: ["���"],
-    examples: [{"word":"���","pronunciation":"���","meaning":"Kun reading: ���"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"���","reading":"���","meaning":"Kun reading: ���"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "喫",
     meanings: ["consume","drink","eat","receive (a blow)","smoke"],
     onyomi: ["キツ"],
     kunyomi: ["の.む"],
-    examples: [{"word":"の.む","pronunciation":"の.む","meaning":"Kun reading: の.む"},{"word":"キツ","pronunciation":"キツ","meaning":"On reading: キツ"}],
-    grade: "Junior High",
+    examples: [{"word":"の.む","reading":"の.む","meaning":"Kun reading: の.む"},{"word":"キツ","reading":"キツ","meaning":"On reading: キツ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "嗅",
     meanings: ["scent","smell","sniff"],
     onyomi: ["キュウ"],
     kunyomi: ["か.ぐ"],
-    examples: [{"word":"か.ぐ","pronunciation":"か.ぐ","meaning":"Kun reading: か.ぐ"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.ぐ","reading":"か.ぐ","meaning":"Kun reading: か.ぐ"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -2617,38 +2617,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["heir","succeed"],
     onyomi: ["シ"],
     kunyomi: [],
-    examples: [{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嘆",
     meanings: ["grieve","lament","moan","sigh","sigh of admiration"],
     onyomi: ["タン"],
     kunyomi: ["なげ.かわしい","なげ.く"],
-    examples: [{"word":"なげ.かわしい","pronunciation":"なげ.かわしい","meaning":"Kun reading: なげ.かわしい"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"なげ.かわしい","reading":"なげ.かわしい","meaning":"Kun reading: なげ.かわしい"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嘱",
     meanings: ["entrust","request","send a message"],
     onyomi: ["ショク"],
     kunyomi: ["しょく.する","たの.む"],
-    examples: [{"word":"しょく.する","pronunciation":"しょく.する","meaning":"Kun reading: しょく.する"},{"word":"ショク","pronunciation":"ショク","meaning":"On reading: ショク"}],
-    grade: "Junior High",
+    examples: [{"word":"しょく.する","reading":"しょく.する","meaning":"Kun reading: しょく.する"},{"word":"ショク","reading":"ショク","meaning":"On reading: ショク"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嘲",
     meanings: ["insult","ridicule"],
     onyomi: ["チョウ","トウ"],
     kunyomi: ["あざけ.る"],
-    examples: [{"word":"あざけ.る","pronunciation":"あざけ.る","meaning":"Kun reading: あざけ.る"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あざけ.る","reading":"あざけ.る","meaning":"Kun reading: あざけ.る"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -2656,48 +2656,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["emit","erupt","flush out","spout"],
     onyomi: ["フン"],
     kunyomi: ["ふ.く"],
-    examples: [{"word":"ふ.く","pronunciation":"ふ.く","meaning":"Kun reading: ふ.く"},{"word":"フン","pronunciation":"フン","meaning":"On reading: フン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.く","reading":"ふ.く","meaning":"Kun reading: ふ.く"},{"word":"フン","reading":"フン","meaning":"On reading: フン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嚇",
     meanings: ["dignity","majesty","menacing","threaten"],
     onyomi: ["カク"],
     kunyomi: ["おど.す"],
-    examples: [{"word":"おど.す","pronunciation":"おど.す","meaning":"Kun reading: おど.す"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"おど.す","reading":"おど.す","meaning":"Kun reading: おど.す"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "囚",
     meanings: ["arrest","captured","catch","criminal"],
     onyomi: ["シュウ"],
     kunyomi: ["とら.われる"],
-    examples: [{"word":"とら.われる","pronunciation":"とら.われる","meaning":"Kun reading: とら.われる"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"とら.われる","reading":"とら.われる","meaning":"Kun reading: とら.われる"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "圏",
     meanings: ["circle","radius","range","sphere"],
     onyomi: ["ケン"],
     kunyomi: ["かこ.い"],
-    examples: [{"word":"かこ.い","pronunciation":"かこ.い","meaning":"Kun reading: かこ.い"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"かこ.い","reading":"かこ.い","meaning":"Kun reading: かこ.い"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "坊",
     meanings: ["boy","priest","priest's residence"],
     onyomi: ["ボウ","ボッ"],
     kunyomi: [],
-    examples: [{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -2705,68 +2705,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["hole","pit"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "坪",
     meanings: ["approx. thirty-six sq ft","two-mat area"],
     onyomi: ["ヘイ"],
     kunyomi: ["つぼ"],
-    examples: [{"word":"つぼ","pronunciation":"つぼ","meaning":"Kun reading: つぼ"},{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"つぼ","reading":"つぼ","meaning":"Kun reading: つぼ"},{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "垣",
     meanings: ["fence","hedge","wall"],
     onyomi: ["エン"],
     kunyomi: ["かき"],
-    examples: [{"word":"かき","pronunciation":"かき","meaning":"Kun reading: かき"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"かき","reading":"かき","meaning":"Kun reading: かき"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "埋",
     meanings: ["be filled up","bury","embedded"],
     onyomi: ["マイ"],
     kunyomi: ["い.ける","う.まる","う.める","う.もれる","うず.まる","うず.める"],
-    examples: [{"word":"い.ける","pronunciation":"い.ける","meaning":"Kun reading: い.ける"},{"word":"マイ","pronunciation":"マイ","meaning":"On reading: マイ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.ける","reading":"い.ける","meaning":"Kun reading: い.ける"},{"word":"マイ","reading":"マイ","meaning":"On reading: マイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "執",
     meanings: ["grasp","take hold","take to heart","tenacious"],
     onyomi: ["シツ","シュウ"],
     kunyomi: ["と.る"],
-    examples: [{"word":"と.る","pronunciation":"と.る","meaning":"Kun reading: と.る"},{"word":"シツ","pronunciation":"シツ","meaning":"On reading: シツ"}],
-    grade: "Junior High",
+    examples: [{"word":"と.る","reading":"と.る","meaning":"Kun reading: と.る"},{"word":"シツ","reading":"シツ","meaning":"On reading: シツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "培",
     meanings: ["cultivate","foster"],
     onyomi: ["バイ"],
     kunyomi: ["つちか.う"],
-    examples: [{"word":"つちか.う","pronunciation":"つちか.う","meaning":"Kun reading: つちか.う"},{"word":"バイ","pronunciation":"バイ","meaning":"On reading: バイ"}],
-    grade: "Junior High",
+    examples: [{"word":"つちか.う","reading":"つちか.う","meaning":"Kun reading: つちか.う"},{"word":"バイ","reading":"バイ","meaning":"On reading: バイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "埼",
     meanings: ["cape","promontory","spit"],
     onyomi: ["キ"],
     kunyomi: ["さい","さき","みさき"],
-    examples: [{"word":"さい","pronunciation":"さい","meaning":"Kun reading: さい"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"さい","reading":"さい","meaning":"Kun reading: さい"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -2774,28 +2774,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["canal","ditch","moat"],
     onyomi: ["クツ"],
     kunyomi: ["ほり"],
-    examples: [{"word":"ほり","pronunciation":"ほり","meaning":"Kun reading: ほり"},{"word":"クツ","pronunciation":"クツ","meaning":"On reading: クツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほり","reading":"ほり","meaning":"Kun reading: ほり"},{"word":"クツ","reading":"クツ","meaning":"On reading: クツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "堅",
     meanings: ["hard","reliable","solid","strict","tight","tough"],
     onyomi: ["ケン"],
     kunyomi: ["-がた.い","かた.い"],
-    examples: [{"word":"-がた.い","pronunciation":"-がた.い","meaning":"Kun reading: -がた.い"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"-がた.い","reading":"-がた.い","meaning":"Kun reading: -がた.い"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "堆",
     meanings: ["piled high"],
     onyomi: ["タイ","ツイ"],
     kunyomi: ["うずたか.い"],
-    examples: [{"word":"うずたか.い","pronunciation":"うずたか.い","meaning":"Kun reading: うずたか.い"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"うずたか.い","reading":"うずたか.い","meaning":"Kun reading: うずたか.い"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -2803,108 +2803,108 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["degenerate","descend to","lapse into"],
     onyomi: ["ダ"],
     kunyomi: ["お.ちる","くず.す","くず.れる"],
-    examples: [{"word":"お.ちる","pronunciation":"お.ちる","meaning":"Kun reading: お.ちる"},{"word":"ダ","pronunciation":"ダ","meaning":"On reading: ダ"}],
-    grade: "Junior High",
+    examples: [{"word":"お.ちる","reading":"お.ちる","meaning":"Kun reading: お.ちる"},{"word":"ダ","reading":"ダ","meaning":"On reading: ダ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "堤",
     meanings: ["bank","dike","embankment"],
     onyomi: ["テイ"],
     kunyomi: ["つつみ"],
-    examples: [{"word":"つつみ","pronunciation":"つつみ","meaning":"Kun reading: つつみ"},{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"つつみ","reading":"つつみ","meaning":"Kun reading: つつみ"},{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "堪",
     meanings: ["endure","resist","support","withstand"],
     onyomi: ["カン","タン"],
     kunyomi: ["こた.える","こら.える","た.える","たま.る"],
-    examples: [{"word":"こた.える","pronunciation":"こた.える","meaning":"Kun reading: こた.える"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"こた.える","reading":"こた.える","meaning":"Kun reading: こた.える"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "塀",
     meanings: ["(kokuji)","fence","wall"],
     onyomi: ["ヘイ","ベイ"],
     kunyomi: [],
-    examples: [{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "塁",
     meanings: ["base(ball)","bases","fort","rampart","walls"],
     onyomi: ["スイ","ライ","ルイ"],
     kunyomi: ["とりで"],
-    examples: [{"word":"とりで","pronunciation":"とりで","meaning":"Kun reading: とりで"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"とりで","reading":"とりで","meaning":"Kun reading: とりで"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "塊",
     meanings: ["chunk","clod","clot","lump","mass"],
     onyomi: ["カイ","ケ"],
     kunyomi: ["��たまり","つちくれ"],
-    examples: [{"word":"��たまり","pronunciation":"��たまり","meaning":"Kun reading: ��たまり"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"��たまり","reading":"��たまり","meaning":"Kun reading: ��たまり"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "塑",
     meanings: ["model","molding"],
     onyomi: ["ソ"],
     kunyomi: ["でく"],
-    examples: [{"word":"でく","pronunciation":"でく","meaning":"Kun reading: でく"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"でく","reading":"でく","meaning":"Kun reading: でく"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "塔",
     meanings: ["pagoda","steeple","tower"],
     onyomi: ["トウ"],
     kunyomi: [],
-    examples: [{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "塗",
     meanings: ["coating","daub","paint","plaster","smear"],
     onyomi: ["ト"],
     kunyomi: ["ぬ.り","ぬ.る","まみ.れる"],
-    examples: [{"word":"ぬ.り","pronunciation":"ぬ.り","meaning":"Kun reading: ぬ.り"},{"word":"ト","pronunciation":"ト","meaning":"On reading: ト"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬ.り","reading":"ぬ.り","meaning":"Kun reading: ぬ.り"},{"word":"ト","reading":"ト","meaning":"On reading: ト"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "塚",
     meanings: ["hillock","mound"],
     onyomi: ["チョウ"],
     kunyomi: ["-づか","つか"],
-    examples: [{"word":"-づか","pronunciation":"-づか","meaning":"Kun reading: -づか"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-づか","reading":"-づか","meaning":"Kun reading: -づか"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "塞",
     meanings: ["block","close","cover","obstruct","shut"],
     onyomi: ["サイ","ソク"],
     kunyomi: ["とりで","ふさ.ぐ","み.ちる"],
-    examples: [{"word":"とりで","pronunciation":"とりで","meaning":"Kun reading: とりで"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"とりで","reading":"とりで","meaning":"Kun reading: とりで"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -2912,8 +2912,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["fill in","fill up","make good"],
     onyomi: ["チン","テン"],
     kunyomi: ["うず.める","は.める","はま.る","ふさ.ぐ"],
-    examples: [{"word":"うず.める","pronunciation":"うず.める","meaning":"Kun reading: うず.める"},{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"うず.める","reading":"うず.める","meaning":"Kun reading: うず.める"},{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -2921,8 +2921,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["fill in"],
     onyomi: ["チン","テン"],
     kunyomi: ["うず.める","しず.める","は.まる","は.める","ふさ.ぐ"],
-    examples: [{"word":"うず.める","pronunciation":"うず.める","meaning":"Kun reading: うず.める"},{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"うず.める","reading":"うず.める","meaning":"Kun reading: うず.める"},{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -2930,248 +2930,248 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cram school","private school"],
     onyomi: ["ジュク"],
     kunyomi: [],
-    examples: [{"word":"ジュク","pronunciation":"ジュク","meaning":"On reading: ジュク"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュク","reading":"ジュク","meaning":"On reading: ジュク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "墜",
     meanings: ["crash","fall (down)"],
     onyomi: ["ツイ"],
     kunyomi: ["お.ちる","お.つ"],
-    examples: [{"word":"お.ちる","pronunciation":"お.ちる","meaning":"Kun reading: お.ちる"},{"word":"ツイ","pronunciation":"ツイ","meaning":"On reading: ツイ"}],
-    grade: "Junior High",
+    examples: [{"word":"お.ちる","reading":"お.ちる","meaning":"Kun reading: お.ちる"},{"word":"ツイ","reading":"ツイ","meaning":"On reading: ツイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "墨",
     meanings: ["India ink","Mexico","black ink","ink stick"],
     onyomi: ["ボク"],
     kunyomi: ["すみ"],
-    examples: [{"word":"すみ","pronunciation":"すみ","meaning":"Kun reading: すみ"},{"word":"ボク","pronunciation":"ボク","meaning":"On reading: ボク"}],
-    grade: "Junior High",
+    examples: [{"word":"すみ","reading":"すみ","meaning":"Kun reading: すみ"},{"word":"ボク","reading":"ボク","meaning":"On reading: ボク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "墳",
     meanings: ["mound","tomb"],
     onyomi: ["フン"],
     kunyomi: [],
-    examples: [{"word":"フン","pronunciation":"フン","meaning":"On reading: フン"}],
-    grade: "Junior High",
+    examples: [{"word":"フン","reading":"フン","meaning":"On reading: フン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "墾",
     meanings: ["ground-breaking","open up farmland"],
     onyomi: ["コン"],
     kunyomi: ["は.る","ひら.く"],
-    examples: [{"word":"は.る","pronunciation":"は.る","meaning":"Kun reading: は.る"},{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"は.る","reading":"は.る","meaning":"Kun reading: は.る"},{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "壁",
     meanings: ["fence","lining (stomach)","wall"],
     onyomi: ["ヘキ"],
     kunyomi: ["かべ"],
-    examples: [{"word":"かべ","pronunciation":"かべ","meaning":"Kun reading: かべ"},{"word":"ヘキ","pronunciation":"ヘキ","meaning":"On reading: ヘキ"}],
-    grade: "Junior High",
+    examples: [{"word":"かべ","reading":"かべ","meaning":"Kun reading: かべ"},{"word":"ヘキ","reading":"ヘキ","meaning":"On reading: ヘキ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "壇",
     meanings: ["podium","rostrum","stage","terrace"],
     onyomi: ["タン","ダン"],
     kunyomi: [],
-    examples: [{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "壊",
     meanings: ["break","demolition","destroy"],
     onyomi: ["エ","カイ"],
     kunyomi: ["こわ.す","こわ.れる","やぶ.る"],
-    examples: [{"word":"こわ.す","pronunciation":"こわ.す","meaning":"Kun reading: こわ.す"},{"word":"エ","pronunciation":"エ","meaning":"On reading: エ"}],
-    grade: "Junior High",
+    examples: [{"word":"こわ.す","reading":"こわ.す","meaning":"Kun reading: こわ.す"},{"word":"エ","reading":"エ","meaning":"On reading: エ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "壌",
     meanings: ["earth","lot","soil"],
     onyomi: ["ジョウ"],
     kunyomi: ["つち"],
-    examples: [{"word":"つち","pronunciation":"つち","meaning":"Kun reading: つち"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つち","reading":"つち","meaning":"Kun reading: つち"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "壮",
     meanings: ["manhood","prosperity","robust"],
     onyomi: ["ソウ"],
     kunyomi: ["さかん"],
-    examples: [{"word":"さかん","pronunciation":"さかん","meaning":"Kun reading: さかん"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さかん","reading":"さかん","meaning":"Kun reading: さかん"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "壱",
     meanings: ["one (in documents)"],
     onyomi: ["イチ","イツ"],
     kunyomi: ["ひとつ"],
-    examples: [{"word":"ひとつ","pronunciation":"ひとつ","meaning":"Kun reading: ひとつ"},{"word":"イチ","pronunciation":"イチ","meaning":"On reading: イチ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひとつ","reading":"ひとつ","meaning":"Kun reading: ひとつ"},{"word":"イチ","reading":"イチ","meaning":"On reading: イチ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奇",
     meanings: ["curiosity","strange","strangeness"],
     onyomi: ["キ"],
     kunyomi: ["あや.しい","く.しき","くし","めずら.しい"],
-    examples: [{"word":"あや.しい","pronunciation":"あや.しい","meaning":"Kun reading: あや.しい"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"あや.しい","reading":"あや.しい","meaning":"Kun reading: あや.しい"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奈",
     meanings: ["Nara","what?"],
     onyomi: ["ダイ","ナ","ナイ"],
     kunyomi: ["���かん","からなし"],
-    examples: [{"word":"���かん","pronunciation":"���かん","meaning":"Kun reading: ���かん"},{"word":"ダイ","pronunciation":"ダイ","meaning":"On reading: ダイ"}],
-    grade: "Junior High",
+    examples: [{"word":"���かん","reading":"���かん","meaning":"Kun reading: ���かん"},{"word":"ダイ","reading":"ダイ","meaning":"On reading: ダイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奉",
     meanings: ["dedicate","observance","offer","present"],
     onyomi: ["ブ","ホウ"],
     kunyomi: ["たてまつ.る","ほう.ずる","まつ.る"],
-    examples: [{"word":"たてまつ.る","pronunciation":"たてまつ.る","meaning":"Kun reading: たてまつ.る"},{"word":"ブ","pronunciation":"ブ","meaning":"On reading: ブ"}],
-    grade: "Junior High",
+    examples: [{"word":"たてまつ.る","reading":"たてまつ.る","meaning":"Kun reading: たてまつ.る"},{"word":"ブ","reading":"ブ","meaning":"On reading: ブ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "契",
     meanings: ["pledge","promise","vow"],
     onyomi: ["ケイ"],
     kunyomi: ["ちぎ.る"],
-    examples: [{"word":"ちぎ.る","pronunciation":"ちぎ.る","meaning":"Kun reading: ちぎ.る"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ちぎ.る","reading":"ちぎ.る","meaning":"Kun reading: ちぎ.る"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奔",
     meanings: ["bustle","run"],
     onyomi: ["ホン"],
     kunyomi: ["はし.る"],
-    examples: [{"word":"はし.る","pronunciation":"はし.る","meaning":"Kun reading: はし.る"},{"word":"ホン","pronunciation":"ホン","meaning":"On reading: ホン"}],
-    grade: "Junior High",
+    examples: [{"word":"はし.る","reading":"はし.る","meaning":"Kun reading: はし.る"},{"word":"ホン","reading":"ホン","meaning":"On reading: ホン"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奥",
     meanings: ["heart","interior"],
     onyomi: ["オウ"],
     kunyomi: ["おく","おく.まる","くま"],
-    examples: [{"word":"おく","pronunciation":"おく","meaning":"Kun reading: おく"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おく","reading":"おく","meaning":"Kun reading: おく"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "奨",
     meanings: ["encourage","exhort","urge"],
     onyomi: ["ショウ","ソウ"],
     kunyomi: ["すす.める"],
-    examples: [{"word":"すす.める","pronunciation":"すす.める","meaning":"Kun reading: すす.める"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"すす.める","reading":"すす.める","meaning":"Kun reading: すす.める"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奪",
     meanings: ["dispossess","plunder","rob","snatch away","take by force","usurp"],
     onyomi: ["ダツ"],
     kunyomi: ["うば.う"],
-    examples: [{"word":"うば.う","pronunciation":"うば.う","meaning":"Kun reading: うば.う"},{"word":"ダツ","pronunciation":"ダツ","meaning":"On reading: ダツ"}],
-    grade: "Junior High",
+    examples: [{"word":"うば.う","reading":"うば.う","meaning":"Kun reading: うば.う"},{"word":"ダツ","reading":"ダツ","meaning":"On reading: ダツ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "奴",
     meanings: ["fellow","guy","manservant","slave"],
     onyomi: ["ド"],
     kunyomi: ["やっ���","やつ"],
-    examples: [{"word":"やっ���","pronunciation":"やっ���","meaning":"Kun reading: やっ���"},{"word":"ド","pronunciation":"ド","meaning":"On reading: ド"}],
-    grade: "Junior High",
+    examples: [{"word":"やっ���","reading":"やっ���","meaning":"Kun reading: やっ���"},{"word":"ド","reading":"ド","meaning":"On reading: ド"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "如",
     meanings: ["as if","best","better","equal","like","likeness","such as"],
     onyomi: ["ジョ","ニョ"],
     kunyomi: ["ごと.し"],
-    examples: [{"word":"ごと.し","pronunciation":"ごと.し","meaning":"Kun reading: ごと.し"},{"word":"ジョ","pronunciation":"ジョ","meaning":"On reading: ジョ"}],
-    grade: "Junior High",
+    examples: [{"word":"ごと.し","reading":"ごと.し","meaning":"Kun reading: ごと.し"},{"word":"ジョ","reading":"ジョ","meaning":"On reading: ジョ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妃",
     meanings: ["princess","queen"],
     onyomi: ["ヒ"],
     kunyomi: ["���さき"],
-    examples: [{"word":"���さき","pronunciation":"���さき","meaning":"Kun reading: ���さき"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"���さき","reading":"���さき","meaning":"Kun reading: ���さき"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妄",
     meanings: ["delusion","reckless","unnecessarily","without authority"],
     onyomi: ["ボウ","モウ"],
     kunyomi: ["みだ.りに"],
-    examples: [{"word":"みだ.りに","pronunciation":"みだ.りに","meaning":"Kun reading: みだ.りに"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"みだ.りに","reading":"みだ.りに","meaning":"Kun reading: みだ.りに"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妊",
     meanings: ["pregnancy"],
     onyomi: ["ジン","ニン"],
     kunyomi: ["はら.む","みごも.る"],
-    examples: [{"word":"はら.む","pronunciation":"はら.む","meaning":"Kun reading: はら.む"},{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"はら.む","reading":"はら.む","meaning":"Kun reading: はら.む"},{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妖",
     meanings: ["attractive","bewitching","calamity"],
     onyomi: ["ヨウ"],
     kunyomi: ["あや.しい","なま.めく","わざわ.い"],
-    examples: [{"word":"あや.しい","pronunciation":"あや.しい","meaning":"Kun reading: あや.しい"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あや.しい","reading":"あや.しい","meaning":"Kun reading: あや.しい"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -3179,38 +3179,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["charming","delicate","excellent","exquisite","miracle","mystery","queer","strange"],
     onyomi: ["ビョウ","ミョウ"],
     kunyomi: ["たえ"],
-    examples: [{"word":"たえ","pronunciation":"たえ","meaning":"Kun reading: たえ"},{"word":"ビョウ","pronunciation":"ビョウ","meaning":"On reading: ビョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たえ","reading":"たえ","meaning":"Kun reading: たえ"},{"word":"ビョウ","reading":"ビョウ","meaning":"On reading: ビョウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妥",
     meanings: ["depravity","gentle","peace"],
     onyomi: ["ダ"],
     kunyomi: [],
-    examples: [{"word":"ダ","pronunciation":"ダ","meaning":"On reading: ダ"}],
-    grade: "Junior High",
+    examples: [{"word":"ダ","reading":"ダ","meaning":"On reading: ダ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妨",
     meanings: ["disturb","hamper","obstruct","prevent"],
     onyomi: ["ボウ"],
     kunyomi: ["さまた.げる"],
-    examples: [{"word":"さまた.げる","pronunciation":"さまた.げる","meaning":"Kun reading: さまた.げる"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さまた.げる","reading":"さまた.げる","meaning":"Kun reading: さまた.げる"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "妬",
     meanings: ["envy","jealous"],
     onyomi: ["ツ","ト"],
     kunyomi: ["そね.む","つも.る","ねた.む","ふさ.ぐ"],
-    examples: [{"word":"そね.む","pronunciation":"そね.む","meaning":"Kun reading: そね.む"},{"word":"ツ","pronunciation":"ツ","meaning":"On reading: ツ"}],
-    grade: "Junior High",
+    examples: [{"word":"そね.む","reading":"そね.む","meaning":"Kun reading: そね.む"},{"word":"ツ","reading":"ツ","meaning":"On reading: ツ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -3218,138 +3218,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["surname"],
     onyomi: ["ショウ","セイ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "姫",
     meanings: ["princess"],
     onyomi: ["キ"],
     kunyomi: ["ひめ","ひめ-"],
-    examples: [{"word":"ひめ","pronunciation":"ひめ","meaning":"Kun reading: ひめ"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひめ","reading":"ひめ","meaning":"Kun reading: ひめ"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "姻",
     meanings: ["marry","matrimony"],
     onyomi: ["イン"],
     kunyomi: [],
-    examples: [{"word":"イン","pronunciation":"イン","meaning":"On reading: イン"}],
-    grade: "Junior High",
+    examples: [{"word":"イン","reading":"イン","meaning":"On reading: イン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "威",
     meanings: ["dignity","intimidate","majesty","menace","threaten"],
     onyomi: ["イ"],
     kunyomi: ["おど.かす","おど.し","おど.す"],
-    examples: [{"word":"おど.かす","pronunciation":"おど.かす","meaning":"Kun reading: おど.かす"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"おど.かす","reading":"おど.かす","meaning":"Kun reading: おど.かす"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "娘",
     meanings: ["daughter","girl"],
     onyomi: ["ジョウ"],
     kunyomi: ["こ","むすめ"],
-    examples: [{"word":"こ","pronunciation":"こ","meaning":"Kun reading: こ"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"こ","reading":"こ","meaning":"Kun reading: こ"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "娠",
     meanings: ["pregnancy","with child"],
     onyomi: ["シン"],
     kunyomi: [],
-    examples: [{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "娯",
     meanings: ["pleasure","recreation"],
     onyomi: ["ゴ"],
     kunyomi: [],
-    examples: [{"word":"ゴ","pronunciation":"ゴ","meaning":"On reading: ゴ"}],
-    grade: "Junior High",
+    examples: [{"word":"ゴ","reading":"ゴ","meaning":"On reading: ゴ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "婆",
     meanings: ["grandma","old woman","wet nurse"],
     onyomi: ["バ"],
     kunyomi: ["ばあ","ばば"],
-    examples: [{"word":"ばあ","pronunciation":"ばあ","meaning":"Kun reading: ばあ"},{"word":"バ","pronunciation":"バ","meaning":"On reading: バ"}],
-    grade: "Junior High",
+    examples: [{"word":"ばあ","reading":"ばあ","meaning":"Kun reading: ばあ"},{"word":"バ","reading":"バ","meaning":"On reading: バ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "婚",
     meanings: ["marriage"],
     onyomi: ["コン"],
     kunyomi: [],
-    examples: [{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "婿",
     meanings: ["bridegroom","son-in-law"],
     onyomi: ["セイ"],
     kunyomi: ["むこ"],
-    examples: [{"word":"むこ","pronunciation":"むこ","meaning":"Kun reading: むこ"},{"word":"セイ","pronunciation":"セイ","meaning":"On reading: セイ"}],
-    grade: "Junior High",
+    examples: [{"word":"むこ","reading":"むこ","meaning":"Kun reading: むこ"},{"word":"セイ","reading":"セイ","meaning":"On reading: セイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "媒",
     meanings: ["go-between","mediator"],
     onyomi: ["バイ"],
     kunyomi: ["なこうど"],
-    examples: [{"word":"なこうど","pronunciation":"なこうど","meaning":"Kun reading: なこうど"},{"word":"バイ","pronunciation":"バイ","meaning":"On reading: バイ"}],
-    grade: "Junior High",
+    examples: [{"word":"なこうど","reading":"なこうど","meaning":"Kun reading: なこうど"},{"word":"バイ","reading":"バイ","meaning":"On reading: バイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "媛",
     meanings: ["beautiful woman","princess"],
     onyomi: ["エン"],
     kunyomi: ["ひめ"],
-    examples: [{"word":"ひめ","pronunciation":"ひめ","meaning":"Kun reading: ひめ"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"ひめ","reading":"ひめ","meaning":"Kun reading: ひめ"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嫁",
     meanings: ["bride","marry into"],
     onyomi: ["カ"],
     kunyomi: ["い.く","とつ.ぐ","ゆ.く","よめ"],
-    examples: [{"word":"い.く","pronunciation":"い.く","meaning":"Kun reading: い.く"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.く","reading":"い.く","meaning":"Kun reading: い.く"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嫉",
     meanings: ["envy","jealous"],
     onyomi: ["シツ"],
     kunyomi: ["そね.む","にく.む","ねた.む"],
-    examples: [{"word":"そね.む","pronunciation":"そね.む","meaning":"Kun reading: そね.む"},{"word":"シツ","pronunciation":"シツ","meaning":"On reading: シツ"}],
-    grade: "Junior High",
+    examples: [{"word":"そね.む","reading":"そね.む","meaning":"Kun reading: そね.む"},{"word":"シツ","reading":"シツ","meaning":"On reading: シツ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -3357,58 +3357,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["detest","dislike","hate"],
     onyomi: ["ケン","ゲン"],
     kunyomi: ["���や","きら.い","きら.う"],
-    examples: [{"word":"���や","pronunciation":"���や","meaning":"Kun reading: ���や"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"���や","reading":"���や","meaning":"Kun reading: ���や"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嫡",
     meanings: ["direct descent (non-bastard)","legitimate wife"],
     onyomi: ["チャク","テキ"],
     kunyomi: [],
-    examples: [{"word":"チャク","pronunciation":"チャク","meaning":"On reading: チャク"}],
-    grade: "Junior High",
+    examples: [{"word":"チャク","reading":"チャク","meaning":"On reading: チャク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嬢",
     meanings: ["Miss","daughter","girl","lass"],
     onyomi: ["ジョウ"],
     kunyomi: ["むすめ"],
-    examples: [{"word":"むすめ","pronunciation":"むすめ","meaning":"Kun reading: むすめ"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"むすめ","reading":"むすめ","meaning":"Kun reading: むすめ"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "孔",
     meanings: ["cavity","exceedingly","great","hole","slit","very"],
     onyomi: ["ク","コウ"],
     kunyomi: ["あな"],
-    examples: [{"word":"あな","pronunciation":"あな","meaning":"Kun reading: あな"},{"word":"ク","pronunciation":"ク","meaning":"On reading: ク"}],
-    grade: "Junior High",
+    examples: [{"word":"あな","reading":"あな","meaning":"Kun reading: あな"},{"word":"ク","reading":"ク","meaning":"On reading: ク"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "孤",
     meanings: ["alone","orphan"],
     onyomi: ["コ"],
     kunyomi: [],
-    examples: [{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "宛",
     meanings: ["address","fortunately","just like"],
     onyomi: ["エン"],
     kunyomi: ["-あて","-づつ","あ.てる","あたか.も"],
-    examples: [{"word":"-あて","pronunciation":"-あて","meaning":"Kun reading: -あて"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"-あて","reading":"-あて","meaning":"Kun reading: -あて"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -3416,118 +3416,118 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["best regards","good"],
     onyomi: ["ギ"],
     kunyomi: ["よろ.しい","よろ.しく"],
-    examples: [{"word":"よろ.しい","pronunciation":"よろ.しい","meaning":"Kun reading: よろ.しい"},{"word":"ギ","pronunciation":"ギ","meaning":"On reading: ギ"}],
-    grade: "Junior High",
+    examples: [{"word":"よろ.しい","reading":"よろ.しい","meaning":"Kun reading: よろ.しい"},{"word":"ギ","reading":"ギ","meaning":"On reading: ギ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "宰",
     meanings: ["manager","rule","superintend"],
     onyomi: ["サイ"],
     kunyomi: [],
-    examples: [{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "宴",
     meanings: ["banquet","feast","party"],
     onyomi: ["エン"],
     kunyomi: ["うたげ"],
-    examples: [{"word":"うたげ","pronunciation":"うたげ","meaning":"Kun reading: うたげ"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"うたげ","reading":"うたげ","meaning":"Kun reading: うたげ"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "宵",
     meanings: ["early night","evening","wee hours"],
     onyomi: ["ショウ"],
     kunyomi: ["よい"],
-    examples: [{"word":"よい","pronunciation":"よい","meaning":"Kun reading: よい"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"よい","reading":"よい","meaning":"Kun reading: よい"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "寂",
     meanings: ["death of a priest","loneliness","mature","mellow","quietly"],
     onyomi: ["ジャク","セキ"],
     kunyomi: ["さび","さび.しい","さび.れる","さみ.しい"],
-    examples: [{"word":"さび","pronunciation":"さび","meaning":"Kun reading: さび"},{"word":"ジャク","pronunciation":"ジャク","meaning":"On reading: ジャク"}],
-    grade: "Junior High",
+    examples: [{"word":"さび","reading":"さび","meaning":"Kun reading: さび"},{"word":"ジャク","reading":"ジャク","meaning":"On reading: ジャク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "寛",
     meanings: ["be at ease","broadminded","feel at home","generosity","leniency","relax","tolerant"],
     onyomi: ["カン"],
     kunyomi: ["くつろ.ぐ","ひろ.い","ゆる.やか"],
-    examples: [{"word":"くつろ.ぐ","pronunciation":"くつろ.ぐ","meaning":"Kun reading: くつろ.ぐ"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"くつろ.ぐ","reading":"くつろ.ぐ","meaning":"Kun reading: くつろ.ぐ"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "寝",
     meanings: ["bed","lie down","remain unsold","rest","sleep"],
     onyomi: ["シン"],
     kunyomi: ["い.ぬ","ね.かす","ね.る","みたまや","や.める"],
-    examples: [{"word":"い.ぬ","pronunciation":"い.ぬ","meaning":"Kun reading: い.ぬ"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"い.ぬ","reading":"い.ぬ","meaning":"Kun reading: い.ぬ"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "寡",
     meanings: ["few","minority","widow"],
     onyomi: ["カ"],
     kunyomi: [],
-    examples: [{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "寧",
     meanings: ["peaceful","preferably","quiet","rather","tranquility"],
     onyomi: ["ネイ"],
     kunyomi: ["むし.ろ"],
-    examples: [{"word":"むし.ろ","pronunciation":"むし.ろ","meaning":"Kun reading: むし.ろ"},{"word":"ネイ","pronunciation":"ネイ","meaning":"On reading: ネイ"}],
-    grade: "Junior High",
+    examples: [{"word":"むし.ろ","reading":"むし.ろ","meaning":"Kun reading: むし.ろ"},{"word":"ネイ","reading":"ネイ","meaning":"On reading: ネイ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "審",
     meanings: ["hearing","judge","trial"],
     onyomi: ["シン"],
     kunyomi: ["つぶさ.に","つまび.らか"],
-    examples: [{"word":"つぶさ.に","pronunciation":"つぶさ.に","meaning":"Kun reading: つぶさ.に"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"つぶさ.に","reading":"つぶさ.に","meaning":"Kun reading: つぶさ.に"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "寮",
     meanings: ["dormitory","hostel","tea pavillion","villa"],
     onyomi: ["リョウ"],
     kunyomi: [],
-    examples: [{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "寿",
     meanings: ["congratulations","longevity","one's natural life"],
     onyomi: ["シュウ","ジュ","ス"],
     kunyomi: ["ことぶ.く","ことぶき","ことほ.ぐ"],
-    examples: [{"word":"ことぶ.く","pronunciation":"ことぶ.く","meaning":"Kun reading: ことぶ.く"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ことぶ.く","reading":"ことぶ.く","meaning":"Kun reading: ことぶ.く"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -3535,48 +3535,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["closing","seal"],
     onyomi: ["フウ","ホウ"],
     kunyomi: [],
-    examples: [{"word":"フウ","pronunciation":"フウ","meaning":"On reading: フウ"}],
-    grade: "Junior High",
+    examples: [{"word":"フウ","reading":"フウ","meaning":"On reading: フウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "尉",
     meanings: ["jailer","military officer","old man","rank"],
     onyomi: ["イ","ジョウ"],
     kunyomi: [],
-    examples: [{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "尋",
     meanings: ["fathom","inquire","look for"],
     onyomi: ["ジン"],
     kunyomi: ["た��.ねる","ひろ"],
-    examples: [{"word":"た��.ねる","pronunciation":"た��.ねる","meaning":"Kun reading: た��.ねる"},{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"た��.ねる","reading":"た��.ねる","meaning":"Kun reading: た��.ねる"},{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "尚",
     meanings: ["esteem","furthermore","still","yet"],
     onyomi: ["ショウ"],
     kunyomi: ["��お"],
-    examples: [{"word":"��お","pronunciation":"��お","meaning":"Kun reading: ��お"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"��お","reading":"��お","meaning":"Kun reading: ��お"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "尻",
     meanings: ["butt","buttocks","hips","rear"],
     onyomi: ["コウ"],
     kunyomi: ["しり"],
-    examples: [{"word":"しり","pronunciation":"しり","meaning":"Kun reading: しり"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"しり","reading":"しり","meaning":"Kun reading: しり"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 5
   },
   {
@@ -3584,88 +3584,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["nun"],
     onyomi: ["ニ"],
     kunyomi: ["あま"],
-    examples: [{"word":"あま","pronunciation":"あま","meaning":"Kun reading: あま"},{"word":"ニ","pronunciation":"ニ","meaning":"On reading: ニ"}],
-    grade: "Junior High",
+    examples: [{"word":"あま","reading":"あま","meaning":"Kun reading: あま"},{"word":"ニ","reading":"ニ","meaning":"On reading: ニ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "尽",
     meanings: ["befriend","deplete","exhaust","run out of","serve","use up"],
     onyomi: ["サン","ジン"],
     kunyomi: ["-ず.く","-づ.く","ことごと.く","つ.かす","つ.きる","つ.くす"],
-    examples: [{"word":"-ず.く","pronunciation":"-ず.く","meaning":"Kun reading: -ず.く"},{"word":"サン","pronunciation":"サン","meaning":"On reading: サン"}],
-    grade: "Junior High",
+    examples: [{"word":"-ず.く","reading":"-ず.く","meaning":"Kun reading: -ず.く"},{"word":"サン","reading":"サン","meaning":"On reading: サン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "尾",
     meanings: ["counter for fish","end","lower slope of mountain","tail"],
     onyomi: ["ビ"],
     kunyomi: ["お"],
-    examples: [{"word":"お","pronunciation":"お","meaning":"Kun reading: お"},{"word":"ビ","pronunciation":"ビ","meaning":"On reading: ビ"}],
-    grade: "Junior High",
+    examples: [{"word":"お","reading":"お","meaning":"Kun reading: お"},{"word":"ビ","reading":"ビ","meaning":"On reading: ビ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "尿",
     meanings: ["urine"],
     onyomi: ["ニョウ"],
     kunyomi: ["いば���","しと","ゆばり"],
-    examples: [{"word":"いば���","pronunciation":"いば���","meaning":"Kun reading: いば���"},{"word":"ニョウ","pronunciation":"ニョウ","meaning":"On reading: ニョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いば���","reading":"いば���","meaning":"Kun reading: いば���"},{"word":"ニョウ","reading":"ニョウ","meaning":"On reading: ニョウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "屈",
     meanings: ["bend","flinch","submit","yield"],
     onyomi: ["クツ"],
     kunyomi: ["かが.む","かが.める"],
-    examples: [{"word":"かが.む","pronunciation":"かが.む","meaning":"Kun reading: かが.む"},{"word":"クツ","pronunciation":"クツ","meaning":"On reading: クツ"}],
-    grade: "Junior High",
+    examples: [{"word":"かが.む","reading":"かが.む","meaning":"Kun reading: かが.む"},{"word":"クツ","reading":"クツ","meaning":"On reading: クツ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "履",
     meanings: ["boots","complete","footgear","perform","put on (the feet)","shoes"],
     onyomi: ["リ"],
     kunyomi: ["は.く"],
-    examples: [{"word":"は.く","pronunciation":"は.く","meaning":"Kun reading: は.く"},{"word":"リ","pronunciation":"リ","meaning":"On reading: リ"}],
-    grade: "Junior High",
+    examples: [{"word":"は.く","reading":"は.く","meaning":"Kun reading: は.く"},{"word":"リ","reading":"リ","meaning":"On reading: リ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "屯",
     meanings: ["barracks","camp","police station","ton"],
     onyomi: ["トン"],
     kunyomi: ["たむろ"],
-    examples: [{"word":"たむろ","pronunciation":"たむろ","meaning":"Kun reading: たむろ"},{"word":"トン","pronunciation":"トン","meaning":"On reading: トン"}],
-    grade: "Junior High",
+    examples: [{"word":"たむろ","reading":"たむろ","meaning":"Kun reading: たむろ"},{"word":"トン","reading":"トン","meaning":"On reading: トン"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "岐",
     meanings: ["arena","branch off","fork in road","scene","theater"],
     onyomi: ["キ","ギ"],
     kunyomi: [],
-    examples: [{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "岡",
     meanings: ["hill","knoll","mount"],
     onyomi: ["コウ"],
     kunyomi: ["おか"],
-    examples: [{"word":"おか","pronunciation":"おか","meaning":"Kun reading: おか"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おか","reading":"おか","meaning":"Kun reading: おか"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -3673,78 +3673,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cape","headland","promontory","spit"],
     onyomi: ["コウ"],
     kunyomi: ["みさき"],
-    examples: [{"word":"みさき","pronunciation":"みさき","meaning":"Kun reading: みさき"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"みさき","reading":"みさき","meaning":"Kun reading: みさき"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "岳",
     meanings: ["mountain","peak","point"],
     onyomi: ["ガク"],
     kunyomi: ["���け"],
-    examples: [{"word":"���け","pronunciation":"���け","meaning":"Kun reading: ���け"},{"word":"ガク","pronunciation":"ガク","meaning":"On reading: ガク"}],
-    grade: "Junior High",
+    examples: [{"word":"���け","reading":"���け","meaning":"Kun reading: ���け"},{"word":"ガク","reading":"ガク","meaning":"On reading: ガク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "峠",
     meanings: ["(kokuji)","climax","crest","mountain pass","mountain peak"],
     onyomi: [],
     kunyomi: ["とうげ"],
-    examples: [{"word":"とうげ","pronunciation":"とうげ","meaning":"Kun reading: とうげ"}],
-    grade: "Junior High",
+    examples: [{"word":"とうげ","reading":"とうげ","meaning":"Kun reading: とうげ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "峡",
     meanings: ["gorge","ravine"],
     onyomi: ["キョウ","コウ"],
     kunyomi: ["はざま"],
-    examples: [{"word":"はざま","pronunciation":"はざま","meaning":"Kun reading: はざま"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"はざま","reading":"はざま","meaning":"Kun reading: はざま"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "峰",
     meanings: ["peak","summit"],
     onyomi: ["ホウ"],
     kunyomi: ["ね","みね"],
-    examples: [{"word":"ね","pronunciation":"ね","meaning":"Kun reading: ね"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ね","reading":"ね","meaning":"Kun reading: ね"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "崇",
     meanings: ["adore","respect","revere","worship"],
     onyomi: ["スウ"],
     kunyomi: ["あが.める"],
-    examples: [{"word":"あが.める","pronunciation":"あが.める","meaning":"Kun reading: あが.める"},{"word":"スウ","pronunciation":"スウ","meaning":"On reading: スウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あが.める","reading":"あが.める","meaning":"Kun reading: あが.める"},{"word":"スウ","reading":"スウ","meaning":"On reading: スウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "崎",
     meanings: ["cape","promontory","spit"],
     onyomi: ["キ"],
     kunyomi: ["���い","さき","みさき"],
-    examples: [{"word":"���い","pronunciation":"���い","meaning":"Kun reading: ���い"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"���い","reading":"���い","meaning":"Kun reading: ���い"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "崖",
     meanings: ["bluff","cliff","precipice"],
     onyomi: ["ガイ","ギ","ゲ"],
     kunyomi: ["���け","きし","はて"],
-    examples: [{"word":"���け","pronunciation":"���け","meaning":"Kun reading: ���け"},{"word":"ガイ","pronunciation":"ガイ","meaning":"On reading: ガイ"}],
-    grade: "Junior High",
+    examples: [{"word":"���け","reading":"���け","meaning":"Kun reading: ���け"},{"word":"ガイ","reading":"ガイ","meaning":"On reading: ガイ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -3752,58 +3752,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["crumble","demolish","die","level"],
     onyomi: ["ホウ"],
     kunyomi: ["-くず.れ","くず.す","くず.れる"],
-    examples: [{"word":"-くず.れ","pronunciation":"-くず.れ","meaning":"Kun reading: -くず.れ"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-くず.れ","reading":"-くず.れ","meaning":"Kun reading: -くず.れ"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "嵐",
     meanings: ["storm","tempest"],
     onyomi: ["ラン"],
     kunyomi: ["あらし"],
-    examples: [{"word":"あらし","pronunciation":"あらし","meaning":"Kun reading: あらし"},{"word":"ラン","pronunciation":"ラン","meaning":"On reading: ラン"}],
-    grade: "Junior High",
+    examples: [{"word":"あらし","reading":"あらし","meaning":"Kun reading: あらし"},{"word":"ラン","reading":"ラン","meaning":"On reading: ラン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "巡",
     meanings: ["circumference","go around","patrol"],
     onyomi: ["ジュン"],
     kunyomi: ["めぐ.り","めぐ.る"],
-    examples: [{"word":"めぐ.り","pronunciation":"めぐ.り","meaning":"Kun reading: めぐ.り"},{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"めぐ.り","reading":"めぐ.り","meaning":"Kun reading: めぐ.り"},{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "巧",
     meanings: ["adroit","ingenuity","skilled"],
     onyomi: ["コウ"],
     kunyomi: ["うま.い","たく.み","たく.む"],
-    examples: [{"word":"うま.い","pronunciation":"うま.い","meaning":"Kun reading: うま.い"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うま.い","reading":"うま.い","meaning":"Kun reading: うま.い"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "巨",
     meanings: ["big","gigantic","great","large"],
     onyomi: ["キョ"],
     kunyomi: [],
-    examples: [{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "巾",
     meanings: ["cloth radical (no. 50)","hanging scroll","towel","width"],
     onyomi: ["キン","フク"],
     kunyomi: ["おお.い","きれ","ちきり"],
-    examples: [{"word":"おお.い","pronunciation":"おお.い","meaning":"Kun reading: おお.い"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"おお.い","reading":"おお.い","meaning":"Kun reading: おお.い"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 3
   },
   {
@@ -3811,168 +3811,168 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["sail"],
     onyomi: ["ハン"],
     kunyomi: ["ほ"],
-    examples: [{"word":"ほ","pronunciation":"ほ","meaning":"Kun reading: ほ"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ほ","reading":"ほ","meaning":"Kun reading: ほ"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "帝",
     meanings: ["creator","god","sovereign","the emperor"],
     onyomi: ["テイ"],
     kunyomi: ["みかど"],
-    examples: [{"word":"みかど","pronunciation":"みかど","meaning":"Kun reading: みかど"},{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"みかど","reading":"みかど","meaning":"Kun reading: みかど"},{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "帥",
     meanings: ["commander","governor","leading troops"],
     onyomi: ["スイ"],
     kunyomi: [],
-    examples: [{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "帽",
     meanings: ["cap","headgear"],
     onyomi: ["ボウ","モウ"],
     kunyomi: ["おお.う","ずきん"],
-    examples: [{"word":"おお.う","pronunciation":"おお.う","meaning":"Kun reading: おお.う"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おお.う","reading":"おお.う","meaning":"Kun reading: おお.う"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "幅",
     meanings: ["hanging scroll","width"],
     onyomi: ["フク"],
     kunyomi: ["はば"],
-    examples: [{"word":"はば","pronunciation":"はば","meaning":"Kun reading: はば"},{"word":"フク","pronunciation":"フク","meaning":"On reading: フク"}],
-    grade: "Junior High",
+    examples: [{"word":"はば","reading":"はば","meaning":"Kun reading: はば"},{"word":"フク","reading":"フク","meaning":"On reading: フク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "幣",
     meanings: ["Shinto offerings of cloth","bad habit","cash","cut paper","gift","humble prefix","rope"],
     onyomi: ["ヘイ"],
     kunyomi: ["��さ"],
-    examples: [{"word":"��さ","pronunciation":"��さ","meaning":"Kun reading: ��さ"},{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"��さ","reading":"��さ","meaning":"Kun reading: ��さ"},{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "幻",
     meanings: ["apparition","dream","illusion","phantasm","vision"],
     onyomi: ["ゲン"],
     kunyomi: ["まぼろし"],
-    examples: [{"word":"まぼろし","pronunciation":"まぼろし","meaning":"Kun reading: まぼろし"},{"word":"ゲン","pronunciation":"ゲン","meaning":"On reading: ゲン"}],
-    grade: "Junior High",
+    examples: [{"word":"まぼろし","reading":"まぼろし","meaning":"Kun reading: まぼろし"},{"word":"ゲン","reading":"ゲン","meaning":"On reading: ゲン"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "幽",
     meanings: ["calm","confine to a room","dark","deep","faint","profound","seclude","secluded","tranquil"],
     onyomi: ["ユウ"],
     kunyomi: ["かす.か","くら.い","しろ.い","ふか.い"],
-    examples: [{"word":"かす.か","pronunciation":"かす.か","meaning":"Kun reading: かす.か"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かす.か","reading":"かす.か","meaning":"Kun reading: かす.か"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "幾",
     meanings: ["how far","how long","how many","how much","several","some"],
     onyomi: ["キ"],
     kunyomi: ["いく-","いく.つ","いく.ら"],
-    examples: [{"word":"いく-","pronunciation":"いく-","meaning":"Kun reading: いく-"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"いく-","reading":"いく-","meaning":"Kun reading: いく-"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "床",
     meanings: ["bed","counter for beds","floor","padding","tatami"],
     onyomi: ["ショウ"],
     kunyomi: ["とこ","ゆか"],
-    examples: [{"word":"とこ","pronunciation":"とこ","meaning":"Kun reading: とこ"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"とこ","reading":"とこ","meaning":"Kun reading: とこ"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "庶",
     meanings: ["all","bastard","commoner"],
     onyomi: ["ショ"],
     kunyomi: [],
-    examples: [{"word":"ショ","pronunciation":"ショ","meaning":"On reading: ショ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショ","reading":"ショ","meaning":"On reading: ショ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "庸",
     meanings: ["commonplace","employment","ordinary"],
     onyomi: ["ヨウ"],
     kunyomi: [],
-    examples: [{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "廃",
     meanings: ["abandon","abolish","cessation","discarding","obsolete"],
     onyomi: ["ハイ"],
     kunyomi: ["��た.る","すた.れる"],
-    examples: [{"word":"��た.る","pronunciation":"��た.る","meaning":"Kun reading: ��た.る"},{"word":"ハイ","pronunciation":"ハイ","meaning":"On reading: ハイ"}],
-    grade: "Junior High",
+    examples: [{"word":"��た.る","reading":"��た.る","meaning":"Kun reading: ��た.る"},{"word":"ハイ","reading":"ハイ","meaning":"On reading: ハイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "廉",
     meanings: ["account","bargain","charge","cheap","contented","honest","low price","peaceful","point","purity","reason","rested","suspicion"],
     onyomi: ["レン"],
     kunyomi: [],
-    examples: [{"word":"レン","pronunciation":"レン","meaning":"On reading: レン"}],
-    grade: "Junior High",
+    examples: [{"word":"レン","reading":"レン","meaning":"On reading: レン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "廊",
     meanings: ["corridor","hall","tower"],
     onyomi: ["ロウ"],
     kunyomi: [],
-    examples: [{"word":"ロウ","pronunciation":"ロウ","meaning":"On reading: ロウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ロウ","reading":"ロウ","meaning":"On reading: ロウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "廷",
     meanings: ["courts","government office","imperial court"],
     onyomi: ["テイ"],
     kunyomi: [],
-    examples: [{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弄",
     meanings: ["play with","tamper","trifle with"],
     onyomi: ["ル","ロウ"],
     kunyomi: ["いじ.る","いじく.る","たわむ.れる","ひねく.る","もてあそ.ぶ","ろう.する"],
-    examples: [{"word":"いじ.る","pronunciation":"いじ.る","meaning":"Kun reading: いじ.る"},{"word":"ル","pronunciation":"ル","meaning":"On reading: ル"}],
-    grade: "Junior High",
+    examples: [{"word":"いじ.る","reading":"いじ.る","meaning":"Kun reading: いじ.る"},{"word":"ル","reading":"ル","meaning":"On reading: ル"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -3980,78 +3980,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["abuse","breakage","evil","vice"],
     onyomi: ["ヘイ"],
     kunyomi: [],
-    examples: [{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弐",
     meanings: ["II","second","two"],
     onyomi: ["ジ","ニ"],
     kunyomi: ["そえ","ふた.つ"],
-    examples: [{"word":"そえ","pronunciation":"そえ","meaning":"Kun reading: そえ"},{"word":"ジ","pronunciation":"ジ","meaning":"On reading: ジ"}],
-    grade: "Junior High",
+    examples: [{"word":"そえ","reading":"そえ","meaning":"Kun reading: そえ"},{"word":"ジ","reading":"ジ","meaning":"On reading: ジ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弔",
     meanings: ["condolences","funeral","mourning"],
     onyomi: ["チョウ"],
     kunyomi: ["とぶら.う","とむら.う"],
-    examples: [{"word":"とぶら.う","pronunciation":"とぶら.う","meaning":"Kun reading: とぶら.う"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"とぶら.う","reading":"とぶら.う","meaning":"Kun reading: とぶら.う"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弥",
     meanings: ["all the more","increasingly"],
     onyomi: ["ビ","ミ"],
     kunyomi: ["いや","いよ.いよ","や","わた.る"],
-    examples: [{"word":"いや","pronunciation":"いや","meaning":"Kun reading: いや"},{"word":"ビ","pronunciation":"ビ","meaning":"On reading: ビ"}],
-    grade: "Junior High",
+    examples: [{"word":"いや","reading":"いや","meaning":"Kun reading: いや"},{"word":"ビ","reading":"ビ","meaning":"On reading: ビ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弦",
     meanings: ["bowstring","chord","hypotenuse"],
     onyomi: ["ゲン"],
     kunyomi: ["つる"],
-    examples: [{"word":"つる","pronunciation":"つる","meaning":"Kun reading: つる"},{"word":"ゲン","pronunciation":"ゲン","meaning":"On reading: ゲン"}],
-    grade: "Junior High",
+    examples: [{"word":"つる","reading":"つる","meaning":"Kun reading: つる"},{"word":"ゲン","reading":"ゲン","meaning":"On reading: ゲン"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弧",
     meanings: ["arc","arch","bow"],
     onyomi: ["コ"],
     kunyomi: [],
-    examples: [{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "弾",
     meanings: ["bullet","flip","snap","twang"],
     onyomi: ["タン","ダン"],
     kunyomi: ["-ひ.き","ただ.す","たま","はじ.きゆみ","はじ.く","はじ.ける","はず.む","ひ.く"],
-    examples: [{"word":"-ひ.き","pronunciation":"-ひ.き","meaning":"Kun reading: -ひ.き"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"-ひ.き","reading":"-ひ.き","meaning":"Kun reading: -ひ.き"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "彙",
     meanings: ["category","classify","collect","hedgehog","same kind"],
     onyomi: ["イ"],
     kunyomi: ["はりねずみ"],
-    examples: [{"word":"はりねずみ","pronunciation":"はりねずみ","meaning":"Kun reading: はりねずみ"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"はりねずみ","reading":"はりねずみ","meaning":"Kun reading: はりねずみ"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -4059,188 +4059,188 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["coloring","makeup","paint"],
     onyomi: ["サイ"],
     kunyomi: ["いろど.る"],
-    examples: [{"word":"いろど.る","pronunciation":"いろど.る","meaning":"Kun reading: いろど.る"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いろど.る","reading":"いろど.る","meaning":"Kun reading: いろど.る"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "彫",
     meanings: ["carve","chisel","engrave"],
     onyomi: ["チョウ"],
     kunyomi: ["-ぼ.り","ほ.る"],
-    examples: [{"word":"-ぼ.り","pronunciation":"-ぼ.り","meaning":"Kun reading: -ぼ.り"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ぼ.り","reading":"-ぼ.り","meaning":"Kun reading: -ぼ.り"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "彰",
     meanings: ["clear","patent"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "影",
     meanings: ["phantom","shadow","silhouette"],
     onyomi: ["エイ"],
     kunyomi: ["かげ"],
-    examples: [{"word":"かげ","pronunciation":"かげ","meaning":"Kun reading: かげ"},{"word":"エイ","pronunciation":"エイ","meaning":"On reading: エイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かげ","reading":"かげ","meaning":"Kun reading: かげ"},{"word":"エイ","reading":"エイ","meaning":"On reading: エイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "彼",
     meanings: ["he","that","the"],
     onyomi: ["ヒ"],
     kunyomi: ["か.の","かの","かれ"],
-    examples: [{"word":"か.の","pronunciation":"か.の","meaning":"Kun reading: か.の"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.の","reading":"か.の","meaning":"Kun reading: か.の"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "征",
     meanings: ["attack the rebellious","collect taxes","subjugate"],
     onyomi: ["セイ"],
     kunyomi: [],
-    examples: [{"word":"セイ","pronunciation":"セイ","meaning":"On reading: セイ"}],
-    grade: "Junior High",
+    examples: [{"word":"セイ","reading":"セイ","meaning":"On reading: セイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "徐",
     meanings: ["deliberately","gently","gradually","slowly"],
     onyomi: ["ジョ"],
     kunyomi: ["おもむ.ろに"],
-    examples: [{"word":"おもむ.ろに","pronunciation":"おもむ.ろに","meaning":"Kun reading: おもむ.ろに"},{"word":"ジョ","pronunciation":"ジョ","meaning":"On reading: ジョ"}],
-    grade: "Junior High",
+    examples: [{"word":"おもむ.ろに","reading":"おもむ.ろに","meaning":"Kun reading: おもむ.ろに"},{"word":"ジョ","reading":"ジョ","meaning":"On reading: ジョ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "御",
     meanings: ["govern","honorable","manipulate"],
     onyomi: ["ギョ","ゴ"],
     kunyomi: ["お-","おん-","み-"],
-    examples: [{"word":"お-","pronunciation":"お-","meaning":"Kun reading: お-"},{"word":"ギョ","pronunciation":"ギョ","meaning":"On reading: ギョ"}],
-    grade: "Junior High",
+    examples: [{"word":"お-","reading":"お-","meaning":"Kun reading: お-"},{"word":"ギョ","reading":"ギョ","meaning":"On reading: ギョ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "循",
     meanings: ["follow","sequential"],
     onyomi: ["ジュン"],
     kunyomi: [],
-    examples: [{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "微",
     meanings: ["delicate","insignificance","minuteness"],
     onyomi: ["ビ"],
     kunyomi: ["かす.か"],
-    examples: [{"word":"かす.か","pronunciation":"かす.か","meaning":"Kun reading: かす.か"},{"word":"ビ","pronunciation":"ビ","meaning":"On reading: ビ"}],
-    grade: "Junior High",
+    examples: [{"word":"かす.か","reading":"かす.か","meaning":"Kun reading: かす.か"},{"word":"ビ","reading":"ビ","meaning":"On reading: ビ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "徴",
     meanings: ["collect","indications","omen","question","refer to","seek","sign","symptom"],
     onyomi: ["チ","チョウ"],
     kunyomi: ["しるし"],
-    examples: [{"word":"しるし","pronunciation":"しるし","meaning":"Kun reading: しるし"},{"word":"チ","pronunciation":"チ","meaning":"On reading: チ"}],
-    grade: "Junior High",
+    examples: [{"word":"しるし","reading":"しるし","meaning":"Kun reading: しるし"},{"word":"チ","reading":"チ","meaning":"On reading: チ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "徹",
     meanings: ["clear","penetrate","pierce","sit up (all night)","strike home"],
     onyomi: ["テツ"],
     kunyomi: [],
-    examples: [{"word":"テツ","pronunciation":"テツ","meaning":"On reading: テツ"}],
-    grade: "Junior High",
+    examples: [{"word":"テツ","reading":"テツ","meaning":"On reading: テツ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "忌",
     meanings: ["abhor","death anniversary","detestable","mourning"],
     onyomi: ["キ"],
     kunyomi: ["い.まわしい","い.み","い.む"],
-    examples: [{"word":"い.まわしい","pronunciation":"い.まわしい","meaning":"Kun reading: い.まわしい"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.まわしい","reading":"い.まわしい","meaning":"Kun reading: い.まわしい"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "忍",
     meanings: ["bear","conceal","endure","put up with","secrete","sneak","spy"],
     onyomi: ["ニン"],
     kunyomi: ["しの.ばせる","しの.ぶ"],
-    examples: [{"word":"しの.ばせる","pronunciation":"しの.ばせる","meaning":"Kun reading: しの.ばせる"},{"word":"ニン","pronunciation":"ニン","meaning":"On reading: ニン"}],
-    grade: "Junior High",
+    examples: [{"word":"しの.ばせる","reading":"しの.ばせる","meaning":"Kun reading: しの.ばせる"},{"word":"ニン","reading":"ニン","meaning":"On reading: ニン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "忙",
     meanings: ["busy","occupied","restless"],
     onyomi: ["ボウ","モウ"],
     kunyomi: ["いそが.しい","うれえるさま","おそ.れる","せわ.しい"],
-    examples: [{"word":"いそが.しい","pronunciation":"いそが.しい","meaning":"Kun reading: いそが.しい"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いそが.しい","reading":"いそが.しい","meaning":"Kun reading: いそが.しい"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "怒",
     meanings: ["angry","be offended"],
     onyomi: ["ド","ヌ"],
     kunyomi: ["いか.る","おこ.る"],
-    examples: [{"word":"いか.る","pronunciation":"いか.る","meaning":"Kun reading: いか.る"},{"word":"ド","pronunciation":"ド","meaning":"On reading: ド"}],
-    grade: "Junior High",
+    examples: [{"word":"いか.る","reading":"いか.る","meaning":"Kun reading: いか.る"},{"word":"ド","reading":"ド","meaning":"On reading: ド"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "怖",
     meanings: ["be frightened","dreadful","fearful"],
     onyomi: ["フ","ホ"],
     kunyomi: ["お.じる","おそ.れる","こわ.い","こわ.がる"],
-    examples: [{"word":"お.じる","pronunciation":"お.じる","meaning":"Kun reading: お.じる"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"お.じる","reading":"お.じる","meaning":"Kun reading: お.じる"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "怠",
     meanings: ["laziness","neglect"],
     onyomi: ["タイ"],
     kunyomi: ["おこた.る","なま.ける"],
-    examples: [{"word":"おこた.る","pronunciation":"おこた.る","meaning":"Kun reading: おこた.る"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"おこた.る","reading":"おこた.る","meaning":"Kun reading: おこた.る"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "怨",
     meanings: ["be jealous","grudge","show resentment"],
     onyomi: ["ウン","エン","オン"],
     kunyomi: ["うら.む","うら.めしい","うらみ"],
-    examples: [{"word":"うら.む","pronunciation":"うら.む","meaning":"Kun reading: うら.む"},{"word":"ウン","pronunciation":"ウン","meaning":"On reading: ウン"}],
-    grade: "Junior High",
+    examples: [{"word":"うら.む","reading":"うら.む","meaning":"Kun reading: うら.む"},{"word":"ウン","reading":"ウン","meaning":"On reading: ウン"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -4248,48 +4248,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["apparition","mystery","suspicious"],
     onyomi: ["カイ","ケ"],
     kunyomi: ["あや.しい","あや.しむ"],
-    examples: [{"word":"あや.しい","pronunciation":"あや.しい","meaning":"Kun reading: あや.しい"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"あや.しい","reading":"あや.しい","meaning":"Kun reading: あや.しい"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "恋",
     meanings: ["darling","in love","miss","romance","yearn for"],
     onyomi: ["レン"],
     kunyomi: ["こ.う","こい","こい.しい"],
-    examples: [{"word":"こ.う","pronunciation":"こ.う","meaning":"Kun reading: こ.う"},{"word":"レン","pronunciation":"レン","meaning":"On reading: レン"}],
-    grade: "Junior High",
+    examples: [{"word":"こ.う","reading":"こ.う","meaning":"Kun reading: こ.う"},{"word":"レン","reading":"レン","meaning":"On reading: レン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "恐",
     meanings: ["awe","dread","fear"],
     onyomi: ["キョウ"],
     kunyomi: ["おそ.る","おそ.れる","おそ.ろしい","こわ.い","こわ.がる"],
-    examples: [{"word":"おそ.る","pronunciation":"おそ.る","meaning":"Kun reading: おそ.る"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おそ.る","reading":"おそ.る","meaning":"Kun reading: おそ.る"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "恒",
     meanings: ["always","constancy"],
     onyomi: ["コウ"],
     kunyomi: ["つね","つねに"],
-    examples: [{"word":"つね","pronunciation":"つね","meaning":"Kun reading: つね"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つね","reading":"つね","meaning":"Kun reading: つね"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "恣",
     meanings: ["arbitrary","selfish"],
     onyomi: ["シ"],
     kunyomi: ["ほしいまま"],
-    examples: [{"word":"ほしいまま","pronunciation":"ほしいまま","meaning":"Kun reading: ほしいまま"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほしいまま","reading":"ほしいまま","meaning":"Kun reading: ほしいまま"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -4297,138 +4297,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["dishonor","shame"],
     onyomi: ["チ"],
     kunyomi: ["は.じらう","は.じる","は.ずかしい","はじ"],
-    examples: [{"word":"は.じらう","pronunciation":"は.じらう","meaning":"Kun reading: は.じらう"},{"word":"チ","pronunciation":"チ","meaning":"On reading: チ"}],
-    grade: "Junior High",
+    examples: [{"word":"は.じらう","reading":"は.じらう","meaning":"Kun reading: は.じらう"},{"word":"チ","reading":"チ","meaning":"On reading: チ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "恨",
     meanings: ["bear a grudge","hatred","malice","regret","resentment"],
     onyomi: ["コン"],
     kunyomi: ["うら.む","うら.めしい"],
-    examples: [{"word":"うら.む","pronunciation":"うら.む","meaning":"Kun reading: うら.む"},{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"うら.む","reading":"うら.む","meaning":"Kun reading: うら.む"},{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "恭",
     meanings: ["respect","reverent"],
     onyomi: ["キョウ"],
     kunyomi: ["うやうや.しい"],
-    examples: [{"word":"うやうや.しい","pronunciation":"うやうや.しい","meaning":"Kun reading: うやうや.しい"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うやうや.しい","reading":"うやうや.しい","meaning":"Kun reading: うやうや.しい"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "恵",
     meanings: ["blessing","favor","grace","kindness"],
     onyomi: ["エ","ケイ"],
     kunyomi: ["めぐ.み","めぐ.む"],
-    examples: [{"word":"めぐ.み","pronunciation":"めぐ.み","meaning":"Kun reading: めぐ.み"},{"word":"エ","pronunciation":"エ","meaning":"On reading: エ"}],
-    grade: "Junior High",
+    examples: [{"word":"めぐ.み","reading":"めぐ.み","meaning":"Kun reading: めぐ.み"},{"word":"エ","reading":"エ","meaning":"On reading: エ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "悔",
     meanings: ["regret","repent"],
     onyomi: ["カイ"],
     kunyomi: ["く.いる","く.やむ","くや.しい"],
-    examples: [{"word":"く.いる","pronunciation":"く.いる","meaning":"Kun reading: く.いる"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"く.いる","reading":"く.いる","meaning":"Kun reading: く.いる"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "悟",
     meanings: ["discern","enlightenment","perceive","realize","understand"],
     onyomi: ["ゴ"],
     kunyomi: ["さと.る"],
-    examples: [{"word":"さと.る","pronunciation":"さと.る","meaning":"Kun reading: さと.る"},{"word":"ゴ","pronunciation":"ゴ","meaning":"On reading: ゴ"}],
-    grade: "Junior High",
+    examples: [{"word":"さと.る","reading":"さと.る","meaning":"Kun reading: さと.る"},{"word":"ゴ","reading":"ゴ","meaning":"On reading: ゴ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "悠",
     meanings: ["distant","leisure","long time","permanence"],
     onyomi: ["ユウ"],
     kunyomi: [],
-    examples: [{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "患",
     meanings: ["afflicted","be ill","disease","suffer from"],
     onyomi: ["カン"],
     kunyomi: ["わずら.う"],
-    examples: [{"word":"わずら.う","pronunciation":"わずら.う","meaning":"Kun reading: わずら.う"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"わずら.う","reading":"わずら.う","meaning":"Kun reading: わずら.う"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "悦",
     meanings: ["ecstasy","joy","rapture"],
     onyomi: ["エツ"],
     kunyomi: ["よろこ.ばす","よろこ.ぶ"],
-    examples: [{"word":"よろこ.ばす","pronunciation":"よろこ.ばす","meaning":"Kun reading: よろこ.ばす"},{"word":"エツ","pronunciation":"エツ","meaning":"On reading: エツ"}],
-    grade: "Junior High",
+    examples: [{"word":"よろこ.ばす","reading":"よろこ.ばす","meaning":"Kun reading: よろこ.ばす"},{"word":"エツ","reading":"エツ","meaning":"On reading: エツ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "悩",
     meanings: ["distress","illness","in pain","trouble","worry"],
     onyomi: ["ノウ"],
     kunyomi: ["なや.ましい","なや.ます","なや.む","なやみ"],
-    examples: [{"word":"なや.ましい","pronunciation":"なや.ましい","meaning":"Kun reading: なや.ましい"},{"word":"ノウ","pronunciation":"ノウ","meaning":"On reading: ノウ"}],
-    grade: "Junior High",
+    examples: [{"word":"なや.ましい","reading":"なや.ましい","meaning":"Kun reading: なや.ましい"},{"word":"ノウ","reading":"ノウ","meaning":"On reading: ノウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "悼",
     meanings: ["grieve over","lament"],
     onyomi: ["トウ"],
     kunyomi: ["いた.む"],
-    examples: [{"word":"いた.む","pronunciation":"いた.む","meaning":"Kun reading: いた.む"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.む","reading":"いた.む","meaning":"Kun reading: いた.む"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "惑",
     meanings: ["beguile","delusion","perplexity"],
     onyomi: ["ワク"],
     kunyomi: ["まど.う"],
-    examples: [{"word":"まど.う","pronunciation":"まど.う","meaning":"Kun reading: まど.う"},{"word":"ワク","pronunciation":"ワク","meaning":"On reading: ワク"}],
-    grade: "Junior High",
+    examples: [{"word":"まど.う","reading":"まど.う","meaning":"Kun reading: まど.う"},{"word":"ワク","reading":"ワク","meaning":"On reading: ワク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "惜",
     meanings: ["be sparing of","frugal","pity","regret","stingy"],
     onyomi: ["セキ"],
     kunyomi: ["お.しい","お.しむ"],
-    examples: [{"word":"お.しい","pronunciation":"お.しい","meaning":"Kun reading: お.しい"},{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"お.しい","reading":"お.しい","meaning":"Kun reading: お.しい"},{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "惧",
     meanings: ["be afraid of","dread","fear"],
     onyomi: ["ク","グ"],
     kunyomi: ["おそ.れる"],
-    examples: [{"word":"おそ.れる","pronunciation":"おそ.れる","meaning":"Kun reading: おそ.れる"},{"word":"ク","pronunciation":"ク","meaning":"On reading: ク"}],
-    grade: "Junior High",
+    examples: [{"word":"おそ.れる","reading":"おそ.れる","meaning":"Kun reading: おそ.れる"},{"word":"ク","reading":"ク","meaning":"On reading: ク"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -4436,58 +4436,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cruelty","disaster","harsh","wretched"],
     onyomi: ["サン","ザン"],
     kunyomi: ["いた.む","みじ.め","むご.い"],
-    examples: [{"word":"いた.む","pronunciation":"いた.む","meaning":"Kun reading: いた.む"},{"word":"サン","pronunciation":"サン","meaning":"On reading: サン"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.む","reading":"いた.む","meaning":"Kun reading: いた.む"},{"word":"サン","reading":"サン","meaning":"On reading: サン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "惰",
     meanings: ["laziness","lazy"],
     onyomi: ["ダ"],
     kunyomi: [],
-    examples: [{"word":"ダ","pronunciation":"ダ","meaning":"On reading: ダ"}],
-    grade: "Junior High",
+    examples: [{"word":"ダ","reading":"ダ","meaning":"On reading: ダ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "愁",
     meanings: ["be anxious","distress","grieve","lament"],
     onyomi: ["シュウ"],
     kunyomi: ["うれ.い","うれ.える"],
-    examples: [{"word":"うれ.い","pronunciation":"うれ.い","meaning":"Kun reading: うれ.い"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うれ.い","reading":"うれ.い","meaning":"Kun reading: うれ.い"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "愉",
     meanings: ["happy","pleasure","rejoice"],
     onyomi: ["ユ"],
     kunyomi: ["たの.しい","たの.しむ"],
-    examples: [{"word":"たの.しい","pronunciation":"たの.しい","meaning":"Kun reading: たの.しい"},{"word":"ユ","pronunciation":"ユ","meaning":"On reading: ユ"}],
-    grade: "Junior High",
+    examples: [{"word":"たの.しい","reading":"たの.しい","meaning":"Kun reading: たの.しい"},{"word":"ユ","reading":"ユ","meaning":"On reading: ユ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "愚",
     meanings: ["absurdity","folly","foolish","stupid"],
     onyomi: ["グ"],
     kunyomi: ["おろ.か"],
-    examples: [{"word":"おろ.か","pronunciation":"おろ.か","meaning":"Kun reading: おろ.か"},{"word":"グ","pronunciation":"グ","meaning":"On reading: グ"}],
-    grade: "Junior High",
+    examples: [{"word":"おろ.か","reading":"おろ.か","meaning":"Kun reading: おろ.か"},{"word":"グ","reading":"グ","meaning":"On reading: グ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慄",
     meanings: ["fear"],
     onyomi: ["リツ"],
     kunyomi: ["おそ.れる","おのの.く","ふる.える"],
-    examples: [{"word":"おそ.れる","pronunciation":"おそ.れる","meaning":"Kun reading: おそ.れる"},{"word":"リツ","pronunciation":"リツ","meaning":"On reading: リツ"}],
-    grade: "Junior High",
+    examples: [{"word":"おそ.れる","reading":"おそ.れる","meaning":"Kun reading: おそ.れる"},{"word":"リツ","reading":"リツ","meaning":"On reading: リツ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -4495,18 +4495,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["mercy"],
     onyomi: ["ジ"],
     kunyomi: ["いつく.しむ"],
-    examples: [{"word":"いつく.しむ","pronunciation":"いつく.しむ","meaning":"Kun reading: いつく.しむ"},{"word":"ジ","pronunciation":"ジ","meaning":"On reading: ジ"}],
-    grade: "Junior High",
+    examples: [{"word":"いつく.しむ","reading":"いつく.しむ","meaning":"Kun reading: いつく.しむ"},{"word":"ジ","reading":"ジ","meaning":"On reading: ジ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慌",
     meanings: ["be confused","disconcerted","lose one's head"],
     onyomi: ["コウ"],
     kunyomi: ["あわ.ただしい","あわ.てる"],
-    examples: [{"word":"あわ.ただしい","pronunciation":"あわ.ただしい","meaning":"Kun reading: あわ.ただしい"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あわ.ただしい","reading":"あわ.ただしい","meaning":"Kun reading: あわ.ただしい"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -4514,128 +4514,128 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be careful","discreet","humility","prudent"],
     onyomi: ["シン"],
     kunyomi: ["つつ.ましい","つつし","つつし.み","つつし.む"],
-    examples: [{"word":"つつ.ましい","pronunciation":"つつ.ましい","meaning":"Kun reading: つつ.ましい"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"つつ.ましい","reading":"つつ.ましい","meaning":"Kun reading: つつ.ましい"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慕",
     meanings: ["adore","love dearly","pining","yearn for"],
     onyomi: ["ボ"],
     kunyomi: ["した.う"],
-    examples: [{"word":"した.う","pronunciation":"した.う","meaning":"Kun reading: した.う"},{"word":"ボ","pronunciation":"ボ","meaning":"On reading: ボ"}],
-    grade: "Junior High",
+    examples: [{"word":"した.う","reading":"した.う","meaning":"Kun reading: した.う"},{"word":"ボ","reading":"ボ","meaning":"On reading: ボ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慢",
     meanings: ["laziness","ridicule"],
     onyomi: ["マン"],
     kunyomi: [],
-    examples: [{"word":"マン","pronunciation":"マン","meaning":"On reading: マン"}],
-    grade: "Junior High",
+    examples: [{"word":"マン","reading":"マン","meaning":"On reading: マン"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慨",
     meanings: ["be sad","lament","rue","sigh"],
     onyomi: ["ガイ"],
     kunyomi: ["なげ.く"],
-    examples: [{"word":"なげ.く","pronunciation":"なげ.く","meaning":"Kun reading: なげ.く"},{"word":"ガイ","pronunciation":"ガイ","meaning":"On reading: ガイ"}],
-    grade: "Junior High",
+    examples: [{"word":"なげ.く","reading":"なげ.く","meaning":"Kun reading: なげ.く"},{"word":"ガイ","reading":"ガイ","meaning":"On reading: ガイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慮",
     meanings: ["concern","consider","deliberate","fear","prudence","thought"],
     onyomi: ["リョ"],
     kunyomi: ["おもんぱか.る","おもんぱく.る"],
-    examples: [{"word":"おもんぱか.る","pronunciation":"おもんぱか.る","meaning":"Kun reading: おもんぱか.る"},{"word":"リョ","pronunciation":"リョ","meaning":"On reading: リョ"}],
-    grade: "Junior High",
+    examples: [{"word":"おもんぱか.る","reading":"おもんぱか.る","meaning":"Kun reading: おもんぱか.る"},{"word":"リョ","reading":"リョ","meaning":"On reading: リョ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慰",
     meanings: ["amusement","cheer","comfort","consolation","console","make sport of","seduce"],
     onyomi: ["イ"],
     kunyomi: ["なぐさ.む","なぐさ.める"],
-    examples: [{"word":"なぐさ.む","pronunciation":"なぐさ.む","meaning":"Kun reading: なぐさ.む"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"なぐさ.む","reading":"なぐさ.む","meaning":"Kun reading: なぐさ.む"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "慶",
     meanings: ["be happy","congratulate","jubilation","rejoice"],
     onyomi: ["ケイ"],
     kunyomi: ["よろこ.び"],
-    examples: [{"word":"よろこ.び","pronunciation":"よろこ.び","meaning":"Kun reading: よろこ.び"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"よろこ.び","reading":"よろこ.び","meaning":"Kun reading: よろこ.び"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "憂",
     meanings: ["be anxious","grieve","lament","melancholy","sad","unhappy"],
     onyomi: ["ユウ"],
     kunyomi: ["う.い","う.き","うれ.い","うれ.える"],
-    examples: [{"word":"う.い","pronunciation":"う.い","meaning":"Kun reading: う.い"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.い","reading":"う.い","meaning":"Kun reading: う.い"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "憎",
     meanings: ["detest","hate"],
     onyomi: ["ゾウ"],
     kunyomi: ["にく.い","にく.しみ","にく.む","にく.らしい"],
-    examples: [{"word":"にく.い","pronunciation":"にく.い","meaning":"Kun reading: にく.い"},{"word":"ゾウ","pronunciation":"ゾウ","meaning":"On reading: ゾウ"}],
-    grade: "Junior High",
+    examples: [{"word":"にく.い","reading":"にく.い","meaning":"Kun reading: にく.い"},{"word":"ゾウ","reading":"ゾウ","meaning":"On reading: ゾウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "憤",
     meanings: ["anger","aroused","be indignant","resent"],
     onyomi: ["フン"],
     kunyomi: ["いきどお.る"],
-    examples: [{"word":"いきどお.る","pronunciation":"いきどお.る","meaning":"Kun reading: いきどお.る"},{"word":"フン","pronunciation":"フン","meaning":"On reading: フン"}],
-    grade: "Junior High",
+    examples: [{"word":"いきどお.る","reading":"いきどお.る","meaning":"Kun reading: いきどお.る"},{"word":"フン","reading":"フン","meaning":"On reading: フン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "憧",
     meanings: ["admire","adore","aspire to","long for","yearn after"],
     onyomi: ["ショウ","トウ","ドウ"],
     kunyomi: ["あこが.れる"],
-    examples: [{"word":"あこが.れる","pronunciation":"あこが.れる","meaning":"Kun reading: あこが.れる"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あこが.れる","reading":"あこが.れる","meaning":"Kun reading: あこが.れる"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "憩",
     meanings: ["recess","relax","repose","rest"],
     onyomi: ["ケイ"],
     kunyomi: ["いこ.い","いこ.う"],
-    examples: [{"word":"いこ.い","pronunciation":"いこ.い","meaning":"Kun reading: いこ.い"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いこ.い","reading":"いこ.い","meaning":"Kun reading: いこ.い"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "憬",
     meanings: ["admire","aspire to","yearn for"],
     onyomi: ["ケイ"],
     kunyomi: ["あこが.れる"],
-    examples: [{"word":"あこが.れる","pronunciation":"あこが.れる","meaning":"Kun reading: あこが.れる"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"あこが.れる","reading":"あこが.れる","meaning":"Kun reading: あこが.れる"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -4643,78 +4643,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["recollection","remember","think"],
     onyomi: ["オク"],
     kunyomi: [],
-    examples: [{"word":"オク","pronunciation":"オク","meaning":"On reading: オク"}],
-    grade: "Junior High",
+    examples: [{"word":"オク","reading":"オク","meaning":"On reading: オク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "憾",
     meanings: ["be sorry","regret","remorse"],
     onyomi: ["カン"],
     kunyomi: ["うら.む"],
-    examples: [{"word":"うら.む","pronunciation":"うら.む","meaning":"Kun reading: うら.む"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"うら.む","reading":"うら.む","meaning":"Kun reading: うら.む"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "懇",
     meanings: ["cordial","courteous","hospitable","kind","sociable"],
     onyomi: ["コン"],
     kunyomi: ["ねんご.ろ"],
-    examples: [{"word":"ねんご.ろ","pronunciation":"ねんご.ろ","meaning":"Kun reading: ねんご.ろ"},{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"ねんご.ろ","reading":"ねんご.ろ","meaning":"Kun reading: ねんご.ろ"},{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "懐",
     meanings: ["become attached to","bosom","breast","feelings","heart","miss someone","pocket","yearn"],
     onyomi: ["エ","カイ"],
     kunyomi: ["いだ.く","おも.う","なず.ける","なつ.かしい","なつ.かしむ","なつ.く","なつ.ける","ふところ"],
-    examples: [{"word":"いだ.く","pronunciation":"いだ.く","meaning":"Kun reading: いだ.く"},{"word":"エ","pronunciation":"エ","meaning":"On reading: エ"}],
-    grade: "Junior High",
+    examples: [{"word":"いだ.く","reading":"いだ.く","meaning":"Kun reading: いだ.く"},{"word":"エ","reading":"エ","meaning":"On reading: エ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "懲",
     meanings: ["chastise","discipline","penal","punish"],
     onyomi: ["チョウ"],
     kunyomi: ["こ.らしめる","こ.らす","こ.りる"],
-    examples: [{"word":"こ.らしめる","pronunciation":"こ.らしめる","meaning":"Kun reading: こ.らしめる"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"こ.らしめる","reading":"こ.らしめる","meaning":"Kun reading: こ.らしめる"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "懸",
     meanings: ["consult","depend","distant","far apart","hang","state of suspension"],
     onyomi: ["ケ","ケン"],
     kunyomi: ["か.かる","か.ける"],
-    examples: [{"word":"か.かる","pronunciation":"か.かる","meaning":"Kun reading: か.かる"},{"word":"ケ","pronunciation":"ケ","meaning":"On reading: ケ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.かる","reading":"か.かる","meaning":"Kun reading: か.かる"},{"word":"ケ","reading":"ケ","meaning":"On reading: ケ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "戒",
     meanings: ["commandment"],
     onyomi: ["カイ"],
     kunyomi: ["いまし.める"],
-    examples: [{"word":"いまし.める","pronunciation":"いまし.める","meaning":"Kun reading: いまし.める"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いまし.める","reading":"いまし.める","meaning":"Kun reading: いまし.める"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "戚",
     meanings: ["grieve","relatives"],
     onyomi: ["セキ","ソク"],
     kunyomi: ["いた.む","うれ.える","みうち"],
-    examples: [{"word":"いた.む","pronunciation":"いた.む","meaning":"Kun reading: いた.む"},{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.む","reading":"いた.む","meaning":"Kun reading: いた.む"},{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -4722,18 +4722,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["frolic","play","sport"],
     onyomi: ["ギ","ゲ"],
     kunyomi: ["ざ.れる","じゃ.れる","たわむ.れる"],
-    examples: [{"word":"ざ.れる","pronunciation":"ざ.れる","meaning":"Kun reading: ざ.れる"},{"word":"ギ","pronunciation":"ギ","meaning":"On reading: ギ"}],
-    grade: "Junior High",
+    examples: [{"word":"ざ.れる","reading":"ざ.れる","meaning":"Kun reading: ざ.れる"},{"word":"ギ","reading":"ギ","meaning":"On reading: ギ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "戴",
     meanings: ["be crowned with","live under (a ruler)","receive"],
     onyomi: ["タイ"],
     kunyomi: ["いただ.く"],
-    examples: [{"word":"いただ.く","pronunciation":"いただ.く","meaning":"Kun reading: いただ.く"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いただ.く","reading":"いただ.く","meaning":"Kun reading: いただ.く"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 17
   },
   {
@@ -4741,198 +4741,198 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["go backwards","re-","restore","resume","return","revert"],
     onyomi: ["レイ"],
     kunyomi: ["もど.す","もど.る"],
-    examples: [{"word":"もど.す","pronunciation":"もど.す","meaning":"Kun reading: もど.す"},{"word":"レイ","pronunciation":"レイ","meaning":"On reading: レイ"}],
-    grade: "Junior High",
+    examples: [{"word":"もど.す","reading":"もど.す","meaning":"Kun reading: もど.す"},{"word":"レイ","reading":"レイ","meaning":"On reading: レイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "房",
     meanings: ["bunch","fringe","house","lock (hair)","room","segment (orange)","tassel","tuft"],
     onyomi: ["ボウ"],
     kunyomi: ["ふさ"],
-    examples: [{"word":"ふさ","pronunciation":"ふさ","meaning":"Kun reading: ふさ"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふさ","reading":"ふさ","meaning":"Kun reading: ふさ"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "扇",
     meanings: ["fan","folding fan"],
     onyomi: ["セン"],
     kunyomi: ["おうぎ"],
-    examples: [{"word":"おうぎ","pronunciation":"おうぎ","meaning":"Kun reading: おうぎ"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"おうぎ","reading":"おうぎ","meaning":"Kun reading: おうぎ"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "扉",
     meanings: ["front door","front page","title page"],
     onyomi: ["ヒ"],
     kunyomi: ["とびら"],
-    examples: [{"word":"とびら","pronunciation":"とびら","meaning":"Kun reading: とびら"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"とびら","reading":"とびら","meaning":"Kun reading: とびら"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "払",
     meanings: ["banish","clear out","dispose of","pay","prune"],
     onyomi: ["ヒツ","フツ","ホツ"],
     kunyomi: ["-はら.い","-ばら.い","はら.う"],
-    examples: [{"word":"-はら.い","pronunciation":"-はら.い","meaning":"Kun reading: -はら.い"},{"word":"ヒツ","pronunciation":"ヒツ","meaning":"On reading: ヒツ"}],
-    grade: "Junior High",
+    examples: [{"word":"-はら.い","reading":"-はら.い","meaning":"Kun reading: -はら.い"},{"word":"ヒツ","reading":"ヒツ","meaning":"On reading: ヒツ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "扱",
     meanings: ["entertain","handle","strip","thresh"],
     onyomi: ["キュウ","ソウ"],
     kunyomi: ["あつか.い","あつか.う","あつか.る","こ.く"],
-    examples: [{"word":"あつか.い","pronunciation":"あつか.い","meaning":"Kun reading: あつか.い"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あつか.い","reading":"あつか.い","meaning":"Kun reading: あつか.い"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "扶",
     meanings: ["aid","assist","help"],
     onyomi: ["フ"],
     kunyomi: ["たす.ける"],
-    examples: [{"word":"たす.ける","pronunciation":"たす.ける","meaning":"Kun reading: たす.ける"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"たす.ける","reading":"たす.ける","meaning":"Kun reading: たす.ける"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "抄",
     meanings: ["copy","extract","selection","spread thin","summary"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "把",
     meanings: ["bunch","counter for bundles","faggot","grasp"],
     onyomi: ["ハ","ワ"],
     kunyomi: [],
-    examples: [{"word":"ハ","pronunciation":"ハ","meaning":"On reading: ハ"}],
-    grade: "Junior High",
+    examples: [{"word":"ハ","reading":"ハ","meaning":"On reading: ハ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "抑",
     meanings: ["do in spite of","in the first place","now","press","push","repress","seal","shove","well"],
     onyomi: ["ヨク"],
     kunyomi: ["おさ.える"],
-    examples: [{"word":"おさ.える","pronunciation":"おさ.える","meaning":"Kun reading: おさ.える"},{"word":"ヨク","pronunciation":"ヨク","meaning":"On reading: ヨク"}],
-    grade: "Junior High",
+    examples: [{"word":"おさ.える","reading":"おさ.える","meaning":"Kun reading: おさ.える"},{"word":"ヨク","reading":"ヨク","meaning":"On reading: ヨク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "抗",
     meanings: ["confront","defy","oppose","resist"],
     onyomi: ["コウ"],
     kunyomi: ["あらが.う"],
-    examples: [{"word":"あらが.う","pronunciation":"あらが.う","meaning":"Kun reading: あらが.う"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あらが.う","reading":"あらが.う","meaning":"Kun reading: あらが.う"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "抜",
     meanings: ["extract","omit","pilfer","pull out","quote","remove","slip out"],
     onyomi: ["ハイ","ハツ","バツ"],
     kunyomi: ["-ぬ.く","ぬ.かす","ぬ.かる","ぬ.き","ぬ.く","ぬ.ける"],
-    examples: [{"word":"-ぬ.く","pronunciation":"-ぬ.く","meaning":"Kun reading: -ぬ.く"},{"word":"ハイ","pronunciation":"ハイ","meaning":"On reading: ハイ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ぬ.く","reading":"-ぬ.く","meaning":"Kun reading: -ぬ.く"},{"word":"ハイ","reading":"ハイ","meaning":"On reading: ハイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "択",
     meanings: ["choose","elect","prefer","select"],
     onyomi: ["タク"],
     kunyomi: ["えら.ぶ"],
-    examples: [{"word":"えら.ぶ","pronunciation":"えら.ぶ","meaning":"Kun reading: えら.ぶ"},{"word":"タク","pronunciation":"タク","meaning":"On reading: タク"}],
-    grade: "Junior High",
+    examples: [{"word":"えら.ぶ","reading":"えら.ぶ","meaning":"Kun reading: えら.ぶ"},{"word":"タク","reading":"タク","meaning":"On reading: タク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "披",
     meanings: ["expose","open"],
     onyomi: ["ヒ"],
     kunyomi: [],
-    examples: [{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "抱",
     meanings: ["embrace","hold in arms","hug"],
     onyomi: ["ホウ"],
     kunyomi: ["いだ.く","かか.える","だ.く"],
-    examples: [{"word":"いだ.く","pronunciation":"いだ.く","meaning":"Kun reading: いだ.く"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いだ.く","reading":"いだ.く","meaning":"Kun reading: いだ.く"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "抵",
     meanings: ["reach","resist","touch"],
     onyomi: ["テイ"],
     kunyomi: [],
-    examples: [{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "抹",
     meanings: ["erase","paint","rub"],
     onyomi: ["マツ"],
     kunyomi: [],
-    examples: [{"word":"マツ","pronunciation":"マツ","meaning":"On reading: マツ"}],
-    grade: "Junior High",
+    examples: [{"word":"マツ","reading":"マツ","meaning":"On reading: マツ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "押",
     meanings: ["attach","check","do in spite of","press","push","seal","seize","shove","stop","subdue","weight"],
     onyomi: ["オウ"],
     kunyomi: ["お.さえる","お.し-","お.す","お.っ-","おさ.える"],
-    examples: [{"word":"お.さえる","pronunciation":"お.さえる","meaning":"Kun reading: お.さえる"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"お.さえる","reading":"お.さえる","meaning":"Kun reading: お.さえる"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "抽",
     meanings: ["excel","extract","pluck","pull"],
     onyomi: ["チュウ"],
     kunyomi: ["ひき-"],
-    examples: [{"word":"ひき-","pronunciation":"ひき-","meaning":"Kun reading: ひき-"},{"word":"チュウ","pronunciation":"チュウ","meaning":"On reading: チュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひき-","reading":"ひき-","meaning":"Kun reading: ひき-"},{"word":"チュウ","reading":"チュウ","meaning":"On reading: チュウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拉",
     meanings: ["Latin","crush","kidnap"],
     onyomi: ["ラ","ラツ","ロウ"],
     kunyomi: ["くだ.く","ひし.ぐ","らっ.する"],
-    examples: [{"word":"くだ.く","pronunciation":"くだ.く","meaning":"Kun reading: くだ.く"},{"word":"ラ","pronunciation":"ラ","meaning":"On reading: ラ"}],
-    grade: "Junior High",
+    examples: [{"word":"くだ.く","reading":"くだ.く","meaning":"Kun reading: くだ.く"},{"word":"ラ","reading":"ラ","meaning":"On reading: ラ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -4940,88 +4940,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["beat (music)","clap"],
     onyomi: ["ハク","ヒョウ"],
     kunyomi: [],
-    examples: [{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拐",
     meanings: ["falsify","kidnap"],
     onyomi: ["カイ"],
     kunyomi: [],
-    examples: [{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拒",
     meanings: ["decline","refuse","reject","repel"],
     onyomi: ["キョ","ゴ"],
     kunyomi: ["こば.む"],
-    examples: [{"word":"こば.む","pronunciation":"こば.む","meaning":"Kun reading: こば.む"},{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"こば.む","reading":"こば.む","meaning":"Kun reading: こば.む"},{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拓",
     meanings: ["break up (land)","clear (the land)","open"],
     onyomi: ["タク"],
     kunyomi: ["ひら.く"],
-    examples: [{"word":"ひら.く","pronunciation":"ひら.く","meaning":"Kun reading: ひら.く"},{"word":"タク","pronunciation":"タク","meaning":"On reading: タク"}],
-    grade: "Junior High",
+    examples: [{"word":"ひら.く","reading":"ひら.く","meaning":"Kun reading: ひら.く"},{"word":"タク","reading":"タク","meaning":"On reading: タク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拘",
     meanings: ["adhere to","arrest","concerned","despite","seize"],
     onyomi: ["コウ"],
     kunyomi: ["かか.わる"],
-    examples: [{"word":"かか.わる","pronunciation":"かか.わる","meaning":"Kun reading: かか.わる"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かか.わる","reading":"かか.わる","meaning":"Kun reading: かか.わる"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拙",
     meanings: ["bungling","clumsy","unskillful"],
     onyomi: ["セツ"],
     kunyomi: ["つたな.い"],
-    examples: [{"word":"つたな.い","pronunciation":"つたな.い","meaning":"Kun reading: つたな.い"},{"word":"セツ","pronunciation":"セツ","meaning":"On reading: セツ"}],
-    grade: "Junior High",
+    examples: [{"word":"つたな.い","reading":"つたな.い","meaning":"Kun reading: つたな.い"},{"word":"セツ","reading":"セツ","meaning":"On reading: セツ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拠",
     meanings: ["based on","follow","foothold","therefore"],
     onyomi: ["キョ","コ"],
     kunyomi: ["よ.る"],
-    examples: [{"word":"よ.る","pronunciation":"よ.る","meaning":"Kun reading: よ.る"},{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"よ.る","reading":"よ.る","meaning":"Kun reading: よ.る"},{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "括",
     meanings: ["arrest","constrict","fasten","tie up"],
     onyomi: ["カツ"],
     kunyomi: ["くく.る"],
-    examples: [{"word":"くく.る","pronunciation":"くく.る","meaning":"Kun reading: くく.る"},{"word":"カツ","pronunciation":"カツ","meaning":"On reading: カツ"}],
-    grade: "Junior High",
+    examples: [{"word":"くく.る","reading":"くく.る","meaning":"Kun reading: くく.る"},{"word":"カツ","reading":"カツ","meaning":"On reading: カツ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拭",
     meanings: ["mop","swab","wipe"],
     onyomi: ["シキ","ショク"],
     kunyomi: ["ぬぐ.う","ふ.く"],
-    examples: [{"word":"ぬぐ.う","pronunciation":"ぬぐ.う","meaning":"Kun reading: ぬぐ.う"},{"word":"シキ","pronunciation":"シキ","meaning":"On reading: シキ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬぐ.う","reading":"ぬぐ.う","meaning":"Kun reading: ぬぐ.う"},{"word":"シキ","reading":"シキ","meaning":"On reading: シキ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -5029,18 +5029,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["fist"],
     onyomi: ["ケン","ゲン"],
     kunyomi: ["こぶし"],
-    examples: [{"word":"こぶし","pronunciation":"こぶし","meaning":"Kun reading: こぶし"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"こぶし","reading":"こぶし","meaning":"Kun reading: こぶし"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "拶",
     meanings: ["be imminent","draw close"],
     onyomi: ["サツ"],
     kunyomi: ["せま.る"],
-    examples: [{"word":"せま.る","pronunciation":"せま.る","meaning":"Kun reading: せま.る"},{"word":"サツ","pronunciation":"サツ","meaning":"On reading: サツ"}],
-    grade: "Junior High",
+    examples: [{"word":"せま.る","reading":"せま.る","meaning":"Kun reading: せま.る"},{"word":"サツ","reading":"サツ","meaning":"On reading: サツ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -5048,38 +5048,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["beat","torture"],
     onyomi: ["ゴウ"],
     kunyomi: [],
-    examples: [{"word":"ゴウ","pronunciation":"ゴウ","meaning":"On reading: ゴウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ゴウ","reading":"ゴウ","meaning":"On reading: ゴウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "挑",
     meanings: ["challenge","contend for","make love to"],
     onyomi: ["チョウ"],
     kunyomi: ["いど.む"],
-    examples: [{"word":"いど.む","pronunciation":"いど.む","meaning":"Kun reading: いど.む"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いど.む","reading":"いど.む","meaning":"Kun reading: いど.む"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "挟",
     meanings: ["between","pinch"],
     onyomi: ["キョウ","ショウ"],
     kunyomi: ["さしはさ.む","はさ.まる","はさ.む","わきばさ.む"],
-    examples: [{"word":"さしはさ.む","pronunciation":"さしはさ.む","meaning":"Kun reading: さしはさ.む"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さしはさ.む","reading":"さしはさ.む","meaning":"Kun reading: さしはさ.む"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "挨",
     meanings: ["approach","draw near","push open"],
     onyomi: ["アイ"],
     kunyomi: ["ひら.く"],
-    examples: [{"word":"ひら.く","pronunciation":"ひら.く","meaning":"Kun reading: ひら.く"},{"word":"アイ","pronunciation":"アイ","meaning":"On reading: アイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひら.く","reading":"ひら.く","meaning":"Kun reading: ひら.く"},{"word":"アイ","reading":"アイ","meaning":"On reading: アイ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -5087,8 +5087,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["break","crush","discourage","sprain"],
     onyomi: ["サ","ザ"],
     kunyomi: ["くじ.く","くじ.ける"],
-    examples: [{"word":"くじ.く","pronunciation":"くじ.く","meaning":"Kun reading: くじ.く"},{"word":"サ","pronunciation":"サ","meaning":"On reading: サ"}],
-    grade: "Junior High",
+    examples: [{"word":"くじ.く","reading":"くじ.く","meaning":"Kun reading: くじ.く"},{"word":"サ","reading":"サ","meaning":"On reading: サ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -5096,28 +5096,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["shake","swing","wag","wave"],
     onyomi: ["シン"],
     kunyomi: ["ふ.る","ふ.るう","ふ.れる"],
-    examples: [{"word":"ふ.る","pronunciation":"ふ.る","meaning":"Kun reading: ふ.る"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.る","reading":"ふ.る","meaning":"Kun reading: ふ.る"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "挿",
     meanings: ["graft","insert","put in","wear (sword)"],
     onyomi: ["ソウ"],
     kunyomi: ["さ.す","はさ.む"],
-    examples: [{"word":"さ.す","pronunciation":"さ.す","meaning":"Kun reading: さ.す"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さ.す","reading":"さ.す","meaning":"Kun reading: さ.す"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "捉",
     meanings: ["capture","catch"],
     onyomi: ["サク","ソク"],
     kunyomi: ["とら.える"],
-    examples: [{"word":"とら.える","pronunciation":"とら.える","meaning":"Kun reading: とら.える"},{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"とら.える","reading":"とら.える","meaning":"Kun reading: とら.える"},{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -5125,18 +5125,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["capture","catch"],
     onyomi: ["ホ"],
     kunyomi: ["つか.まえる","つか.まる","と.らえる","と.らわれる","と.る","とら.える","とら.われる"],
-    examples: [{"word":"つか.まえる","pronunciation":"つか.まえる","meaning":"Kun reading: つか.まえる"},{"word":"ホ","pronunciation":"ホ","meaning":"On reading: ホ"}],
-    grade: "Junior High",
+    examples: [{"word":"つか.まえる","reading":"つか.まえる","meaning":"Kun reading: つか.まえる"},{"word":"ホ","reading":"ホ","meaning":"On reading: ホ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "捗",
     meanings: ["make progress"],
     onyomi: ["チョク","ホ"],
     kunyomi: ["はかど.る"],
-    examples: [{"word":"はかど.る","pronunciation":"はかど.る","meaning":"Kun reading: はかど.る"},{"word":"チョク","pronunciation":"チョク","meaning":"On reading: チョク"}],
-    grade: "Junior High",
+    examples: [{"word":"はかど.る","reading":"はかど.る","meaning":"Kun reading: はかど.る"},{"word":"チョク","reading":"チョク","meaning":"On reading: チョク"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -5144,28 +5144,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["locate","look for","search"],
     onyomi: ["シュ","シュウ","ソウ"],
     kunyomi: ["さが.す"],
-    examples: [{"word":"さが.す","pronunciation":"さが.す","meaning":"Kun reading: さが.す"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"さが.す","reading":"さが.す","meaning":"Kun reading: さが.す"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "据",
     meanings: ["equip","install","lay a foundation","set","sit down","squat down"],
     onyomi: ["キョ"],
     kunyomi: ["す.える","す.わる"],
-    examples: [{"word":"す.える","pronunciation":"す.える","meaning":"Kun reading: す.える"},{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"す.える","reading":"す.える","meaning":"Kun reading: す.える"},{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "捻",
     meanings: ["play with","twirl","twist"],
     onyomi: ["ジョウ","ネン"],
     kunyomi: ["ね.じる","ねじ.る","ひね.くる","ひね.る"],
-    examples: [{"word":"ね.じる","pronunciation":"ね.じる","meaning":"Kun reading: ね.じる"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ね.じる","reading":"ね.じる","meaning":"Kun reading: ね.じる"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -5173,218 +5173,218 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["brush","sweep"],
     onyomi: ["シュ","ソウ"],
     kunyomi: ["は.く"],
-    examples: [{"word":"は.く","pronunciation":"は.く","meaning":"Kun reading: は.く"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"は.く","reading":"は.く","meaning":"Kun reading: は.く"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "掌",
     meanings: ["administer","conduct","manipulate","palm of hand","rule"],
     onyomi: ["ショウ"],
     kunyomi: ["たなごころ","てのひら"],
-    examples: [{"word":"たなごころ","pronunciation":"たなごころ","meaning":"Kun reading: たなごころ"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たなごころ","reading":"たなごころ","meaning":"Kun reading: たなごころ"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "排",
     meanings: ["arrange","exclude","expel","line up","reject","repudiate"],
     onyomi: ["ハイ"],
     kunyomi: [],
-    examples: [{"word":"ハイ","pronunciation":"ハイ","meaning":"On reading: ハイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ハイ","reading":"ハイ","meaning":"On reading: ハイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "掘",
     meanings: ["delve","dig","excavate"],
     onyomi: ["クツ"],
     kunyomi: ["ほ.る"],
-    examples: [{"word":"ほ.る","pronunciation":"ほ.る","meaning":"Kun reading: ほ.る"},{"word":"クツ","pronunciation":"クツ","meaning":"On reading: クツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほ.る","reading":"ほ.る","meaning":"Kun reading: ほ.る"},{"word":"クツ","reading":"クツ","meaning":"On reading: クツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "掛",
     meanings: ["arrive at","depend","hang","pour","suspend","tax"],
     onyomi: ["カイ","ケイ"],
     kunyomi: ["-か.かる","-か.け","-か.ける","-が.かり","-が.かる","-が.け","-がかり","か.かり","か.かる","か.け","か.ける","かかり"],
-    examples: [{"word":"-か.かる","pronunciation":"-か.かる","meaning":"Kun reading: -か.かる"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"-か.かる","reading":"-か.かる","meaning":"Kun reading: -か.かる"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "控",
     meanings: ["be moderate","draw in","hold back","refrain from","withdraw"],
     onyomi: ["コウ"],
     kunyomi: ["ひか.え","ひか.える"],
-    examples: [{"word":"ひか.え","pronunciation":"ひか.え","meaning":"Kun reading: ひか.え"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひか.え","reading":"ひか.え","meaning":"Kun reading: ひか.え"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "措",
     meanings: ["discontinue","except","give up","lay aside","set aside","suspend"],
     onyomi: ["ソ"],
     kunyomi: ["お.く"],
-    examples: [{"word":"お.く","pronunciation":"お.く","meaning":"Kun reading: お.く"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"お.く","reading":"お.く","meaning":"Kun reading: お.く"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "掲",
     meanings: ["describe","display","hang out","hoist","publish","put up","put up (a notice)"],
     onyomi: ["ケイ"],
     kunyomi: ["かか.げる"],
-    examples: [{"word":"かか.げる","pronunciation":"かか.げる","meaning":"Kun reading: かか.げる"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かか.げる","reading":"かか.げる","meaning":"Kun reading: かか.げる"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "描",
     meanings: ["compose","draw","paint","sketch","write"],
     onyomi: ["ビョウ"],
     kunyomi: ["えが.く","か.く"],
-    examples: [{"word":"えが.く","pronunciation":"えが.く","meaning":"Kun reading: えが.く"},{"word":"ビョウ","pronunciation":"ビョウ","meaning":"On reading: ビョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"えが.く","reading":"えが.く","meaning":"Kun reading: えが.く"},{"word":"ビョウ","reading":"ビョウ","meaning":"On reading: ビョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "揚",
     meanings: ["elevate","extol","fry in deep fat","hoist","praise","raise"],
     onyomi: ["ヨウ"],
     kunyomi: ["-あ.げ","あ.がる","あ.げる"],
-    examples: [{"word":"-あ.げ","pronunciation":"-あ.げ","meaning":"Kun reading: -あ.げ"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-あ.げ","reading":"-あ.げ","meaning":"Kun reading: -あ.げ"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "換",
     meanings: ["change","convert","interchange","period","renew","replace"],
     onyomi: ["カン"],
     kunyomi: ["-か.える","か.える","か.わる"],
-    examples: [{"word":"-か.える","pronunciation":"-か.える","meaning":"Kun reading: -か.える"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"-か.える","reading":"-か.える","meaning":"Kun reading: -か.える"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "握",
     meanings: ["bribe","grip","hold","mould sushi"],
     onyomi: ["アク"],
     kunyomi: ["にぎ.る"],
-    examples: [{"word":"にぎ.る","pronunciation":"にぎ.る","meaning":"Kun reading: にぎ.る"},{"word":"アク","pronunciation":"アク","meaning":"On reading: アク"}],
-    grade: "Junior High",
+    examples: [{"word":"にぎ.る","reading":"にぎ.る","meaning":"Kun reading: にぎ.る"},{"word":"アク","reading":"アク","meaning":"On reading: アク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "援",
     meanings: ["abet","help","save"],
     onyomi: ["エン"],
     kunyomi: [],
-    examples: [{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "揺",
     meanings: ["rock","shake","sway","swing","tremble","vibrate"],
     onyomi: ["ヨウ"],
     kunyomi: ["うご.く","ゆ.さぶる","ゆ.すぶる","ゆ.する","ゆ.らぐ","ゆ.る","ゆ.るぐ","ゆ.れる"],
-    examples: [{"word":"うご.く","pronunciation":"うご.く","meaning":"Kun reading: うご.く"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うご.く","reading":"うご.く","meaning":"Kun reading: うご.く"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "搬",
     meanings: ["carry","conveyor","transport"],
     onyomi: ["ハン"],
     kunyomi: [],
-    examples: [{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "搭",
     meanings: ["board","load (a vehicle)","ride"],
     onyomi: ["トウ"],
     kunyomi: [],
-    examples: [{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "携",
     meanings: ["armed with","bring along","carry (in hand)","portable"],
     onyomi: ["ケイ"],
     kunyomi: ["たずさ.える","たずさ.わる"],
-    examples: [{"word":"たずさ.える","pronunciation":"たずさ.える","meaning":"Kun reading: たずさ.える"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"たずさ.える","reading":"たずさ.える","meaning":"Kun reading: たずさ.える"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "搾",
     meanings: ["squeeze"],
     onyomi: ["サク"],
     kunyomi: ["しぼ.る"],
-    examples: [{"word":"しぼ.る","pronunciation":"しぼ.る","meaning":"Kun reading: しぼ.る"},{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"しぼ.る","reading":"しぼ.る","meaning":"Kun reading: しぼ.る"},{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "摂",
     meanings: ["absorb","act in addition to","surrogate","take in","vicarious"],
     onyomi: ["ショウ","セツ"],
     kunyomi: ["おさ.める","かね.る","と.る"],
-    examples: [{"word":"おさ.める","pronunciation":"おさ.める","meaning":"Kun reading: おさ.める"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おさ.める","reading":"おさ.める","meaning":"Kun reading: おさ.める"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "摘",
     meanings: ["clip","pick","pinch","pluck","summarize","trim"],
     onyomi: ["テキ"],
     kunyomi: ["つ.む"],
-    examples: [{"word":"つ.む","pronunciation":"つ.む","meaning":"Kun reading: つ.む"},{"word":"テキ","pronunciation":"テキ","meaning":"On reading: テキ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.む","reading":"つ.む","meaning":"Kun reading: つ.む"},{"word":"テキ","reading":"テキ","meaning":"On reading: テキ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "摩",
     meanings: ["chafe","grind","polish","rub","scrape"],
     onyomi: ["マ"],
     kunyomi: ["さす.る","す.る","ま.する"],
-    examples: [{"word":"さす.る","pronunciation":"さす.る","meaning":"Kun reading: さす.る"},{"word":"マ","pronunciation":"マ","meaning":"On reading: マ"}],
-    grade: "Junior High",
+    examples: [{"word":"さす.る","reading":"さす.る","meaning":"Kun reading: さす.る"},{"word":"マ","reading":"マ","meaning":"On reading: マ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "摯",
     meanings: ["gift","seriousness"],
     onyomi: ["シ"],
     kunyomi: ["いた.る"],
-    examples: [{"word":"いた.る","pronunciation":"いた.る","meaning":"Kun reading: いた.る"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.る","reading":"いた.る","meaning":"Kun reading: いた.る"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -5392,138 +5392,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["attack","beat","conquer","defeat"],
     onyomi: ["ゲキ"],
     kunyomi: ["う.つ"],
-    examples: [{"word":"う.つ","pronunciation":"う.つ","meaning":"Kun reading: う.つ"},{"word":"ゲキ","pronunciation":"ゲキ","meaning":"On reading: ゲキ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.つ","reading":"う.つ","meaning":"Kun reading: う.つ"},{"word":"ゲキ","reading":"ゲキ","meaning":"On reading: ゲキ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "撤",
     meanings: ["disarm","dismantle","exclude","reject","remove","withdraw"],
     onyomi: ["テツ"],
     kunyomi: [],
-    examples: [{"word":"テツ","pronunciation":"テツ","meaning":"On reading: テツ"}],
-    grade: "Junior High",
+    examples: [{"word":"テツ","reading":"テツ","meaning":"On reading: テツ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "撮",
     meanings: ["snapshot","take pictures"],
     onyomi: ["サツ"],
     kunyomi: ["-ど.り","つま.む","と.る"],
-    examples: [{"word":"-ど.り","pronunciation":"-ど.り","meaning":"Kun reading: -ど.り"},{"word":"サツ","pronunciation":"サツ","meaning":"On reading: サツ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ど.り","reading":"-ど.り","meaning":"Kun reading: -ど.り"},{"word":"サツ","reading":"サツ","meaning":"On reading: サツ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "撲",
     meanings: ["beat","hit","slap","speak","strike","tell"],
     onyomi: ["ボク"],
     kunyomi: [],
-    examples: [{"word":"ボク","pronunciation":"ボク","meaning":"On reading: ボク"}],
-    grade: "Junior High",
+    examples: [{"word":"ボク","reading":"ボク","meaning":"On reading: ボク"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "擁",
     meanings: ["embrace","hug","lead","possess","protect"],
     onyomi: ["ヨウ"],
     kunyomi: [],
-    examples: [{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "擦",
     meanings: ["chafe","grate","rub","scour","scrape","scratch"],
     onyomi: ["サツ"],
     kunyomi: ["-ず.れ","こす.る","こす.れる","す.る","す.れる"],
-    examples: [{"word":"-ず.れ","pronunciation":"-ず.れ","meaning":"Kun reading: -ず.れ"},{"word":"サツ","pronunciation":"サツ","meaning":"On reading: サツ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ず.れ","reading":"-ず.れ","meaning":"Kun reading: -ず.れ"},{"word":"サツ","reading":"サツ","meaning":"On reading: サツ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "擬",
     meanings: ["aim (a gun) at","imitate","mimic","nominate"],
     onyomi: ["ギ"],
     kunyomi: ["まが.い","もど.き"],
-    examples: [{"word":"まが.い","pronunciation":"まが.い","meaning":"Kun reading: まが.い"},{"word":"ギ","pronunciation":"ギ","meaning":"On reading: ギ"}],
-    grade: "Junior High",
+    examples: [{"word":"まが.い","reading":"まが.い","meaning":"Kun reading: まが.い"},{"word":"ギ","reading":"ギ","meaning":"On reading: ギ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "攻",
     meanings: ["aggression","attack","criticize","polish"],
     onyomi: ["コウ"],
     kunyomi: ["せ.める"],
-    examples: [{"word":"せ.める","pronunciation":"せ.める","meaning":"Kun reading: せ.める"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"せ.める","reading":"せ.める","meaning":"Kun reading: せ.める"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "敏",
     meanings: ["agile","alert","cleverness"],
     onyomi: ["ビン"],
     kunyomi: ["さとい"],
-    examples: [{"word":"さとい","pronunciation":"さとい","meaning":"Kun reading: さとい"},{"word":"ビン","pronunciation":"ビン","meaning":"On reading: ビン"}],
-    grade: "Junior High",
+    examples: [{"word":"さとい","reading":"さとい","meaning":"Kun reading: さとい"},{"word":"ビン","reading":"ビン","meaning":"On reading: ビン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "敢",
     meanings: ["bold","brave","daring","pitiful","sad","tragic"],
     onyomi: ["カン"],
     kunyomi: ["あ.えず","あ.えて","あ.えない"],
-    examples: [{"word":"あ.えず","pronunciation":"あ.えず","meaning":"Kun reading: あ.えず"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.えず","reading":"あ.えず","meaning":"Kun reading: あ.えず"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "敷",
     meanings: ["pave","promulgate","sit","spread"],
     onyomi: ["フ"],
     kunyomi: ["-し.き","し.く"],
-    examples: [{"word":"-し.き","pronunciation":"-し.き","meaning":"Kun reading: -し.き"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"-し.き","reading":"-し.き","meaning":"Kun reading: -し.き"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斉",
     meanings: ["adjusted","alike","equal","similar variety of"],
     onyomi: ["サイ","セイ"],
     kunyomi: ["あたる","そろ.う","はやい","ひと.しい","ひと.しく"],
-    examples: [{"word":"あたる","pronunciation":"あたる","meaning":"Kun reading: あたる"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"あたる","reading":"あたる","meaning":"Kun reading: あたる"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斎",
     meanings: ["Buddhist food","alike","avoid","purification","room","worship"],
     onyomi: ["サイ"],
     kunyomi: ["い.む","いつ.く","いわ.う","つつし.む","とき","ものいみ"],
-    examples: [{"word":"い.む","pronunciation":"い.む","meaning":"Kun reading: い.む"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.む","reading":"い.む","meaning":"Kun reading: い.む"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斑",
     meanings: ["blemish","patches","speck","spot"],
     onyomi: ["ハン"],
     kunyomi: ["ふ","まだら"],
-    examples: [{"word":"ふ","pronunciation":"ふ","meaning":"Kun reading: ふ"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ","reading":"ふ","meaning":"Kun reading: ふ"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -5531,48 +5531,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["Big Dipper","dots and cross radical (no. 68)","sake dipper","ten sho (vol)"],
     onyomi: ["ト","トウ"],
     kunyomi: [],
-    examples: [{"word":"ト","pronunciation":"ト","meaning":"On reading: ト"}],
-    grade: "Junior High",
+    examples: [{"word":"ト","reading":"ト","meaning":"On reading: ト"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斜",
     meanings: ["diagonal","oblique","slanting"],
     onyomi: ["シャ"],
     kunyomi: ["なな.め","はす"],
-    examples: [{"word":"なな.め","pronunciation":"なな.め","meaning":"Kun reading: なな.め"},{"word":"シャ","pronunciation":"シャ","meaning":"On reading: シャ"}],
-    grade: "Junior High",
+    examples: [{"word":"なな.め","reading":"なな.め","meaning":"Kun reading: なな.め"},{"word":"シャ","reading":"シャ","meaning":"On reading: シャ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斤",
     meanings: ["1.32 lb","axe","axe radical (no. 69)","catty","counter for loaves of bread"],
     onyomi: ["キン"],
     kunyomi: [],
-    examples: [{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 4,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斥",
     meanings: ["recede","reject","repel","repulse","retreat","withdraw"],
     onyomi: ["セキ"],
     kunyomi: ["しりぞ.ける"],
-    examples: [{"word":"しりぞ.ける","pronunciation":"しりぞ.ける","meaning":"Kun reading: しりぞ.ける"},{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"しりぞ.ける","reading":"しりぞ.ける","meaning":"Kun reading: しりぞ.ける"},{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "斬",
     meanings: ["beheading","kill","murder"],
     onyomi: ["サン","ザン","セン","ゼン"],
     kunyomi: ["き.る"],
-    examples: [{"word":"き.る","pronunciation":"き.る","meaning":"Kun reading: き.る"},{"word":"サン","pronunciation":"サン","meaning":"On reading: サン"}],
-    grade: "Junior High",
+    examples: [{"word":"き.る","reading":"き.る","meaning":"Kun reading: き.る"},{"word":"サン","reading":"サン","meaning":"On reading: サン"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -5580,98 +5580,98 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["alms","bestow","give","perform"],
     onyomi: ["シ","セ"],
     kunyomi: ["ほどこ.す"],
-    examples: [{"word":"ほどこ.す","pronunciation":"ほどこ.す","meaning":"Kun reading: ほどこ.す"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほどこ.す","reading":"ほどこ.す","meaning":"Kun reading: ほどこ.す"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "旋",
     meanings: ["go around","rotation"],
     onyomi: ["セン"],
     kunyomi: ["いばり","め.ぐる"],
-    examples: [{"word":"いばり","pronunciation":"いばり","meaning":"Kun reading: いばり"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"いばり","reading":"いばり","meaning":"Kun reading: いばり"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "既",
     meanings: ["already","long ago","previously"],
     onyomi: ["キ"],
     kunyomi: ["すで.に"],
-    examples: [{"word":"すで.に","pronunciation":"すで.に","meaning":"Kun reading: すで.に"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"すで.に","reading":"すで.に","meaning":"Kun reading: すで.に"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "旦",
     meanings: ["dawn","daybreak","morning"],
     onyomi: ["タン","ダン"],
     kunyomi: ["あき.らか","あきら","あさ","あした","ただし"],
-    examples: [{"word":"あき.らか","pronunciation":"あき.らか","meaning":"Kun reading: あき.らか"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"あき.らか","reading":"あき.らか","meaning":"Kun reading: あき.らか"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "旨",
     meanings: ["clever","delicious","expert","purport","relish","show a liking for","will"],
     onyomi: ["シ"],
     kunyomi: ["うま.い","むね"],
-    examples: [{"word":"うま.い","pronunciation":"うま.い","meaning":"Kun reading: うま.い"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"うま.い","reading":"うま.い","meaning":"Kun reading: うま.い"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "旬",
     meanings: ["decameron","season (for specific products)","ten-day period"],
     onyomi: ["シュン","ジュン"],
     kunyomi: [],
-    examples: [{"word":"シュン","pronunciation":"シュン","meaning":"On reading: シュン"}],
-    grade: "Junior High",
+    examples: [{"word":"シュン","reading":"シュン","meaning":"On reading: シュン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "旺",
     meanings: ["beautiful","flourishing","successful","vigorous"],
     onyomi: ["オウ","キョウ","ゴウ"],
     kunyomi: ["うつくし.い","かがや.き","さかん"],
-    examples: [{"word":"うつくし.い","pronunciation":"うつくし.い","meaning":"Kun reading: うつくし.い"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うつくし.い","reading":"うつくし.い","meaning":"Kun reading: うつくし.い"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "昆",
     meanings: ["descendants","elder brother","insect"],
     onyomi: ["コン"],
     kunyomi: [],
-    examples: [{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "昇",
     meanings: ["rise up"],
     onyomi: ["ショウ"],
     kunyomi: ["のぼ.る"],
-    examples: [{"word":"のぼ.る","pronunciation":"のぼ.る","meaning":"Kun reading: のぼ.る"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"のぼ.る","reading":"のぼ.る","meaning":"Kun reading: のぼ.る"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "昧",
     meanings: ["dark","foolish"],
     onyomi: ["バイ","マイ"],
     kunyomi: ["くら.い","むさぼ.る"],
-    examples: [{"word":"くら.い","pronunciation":"くら.い","meaning":"Kun reading: くら.い"},{"word":"バイ","pronunciation":"バイ","meaning":"On reading: バイ"}],
-    grade: "Junior High",
+    examples: [{"word":"くら.い","reading":"くら.い","meaning":"Kun reading: くら.い"},{"word":"バイ","reading":"バイ","meaning":"On reading: バイ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -5679,88 +5679,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["just so","justice","right","this"],
     onyomi: ["シ","ゼ"],
     kunyomi: ["ここ","この","これ"],
-    examples: [{"word":"ここ","pronunciation":"ここ","meaning":"Kun reading: ここ"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"ここ","reading":"ここ","meaning":"Kun reading: ここ"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "普",
     meanings: ["Prussia","generally","universal","wide(ly)"],
     onyomi: ["フ"],
     kunyomi: ["あまね.く","あまねし"],
-    examples: [{"word":"あまね.く","pronunciation":"あまね.く","meaning":"Kun reading: あまね.く"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"あまね.く","reading":"あまね.く","meaning":"Kun reading: あまね.く"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "晶",
     meanings: ["clear","crystal","sparkle"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "暁",
     meanings: ["dawn","daybreak","in the event"],
     onyomi: ["キョウ","ギョウ"],
     kunyomi: ["あかつき","さと.る"],
-    examples: [{"word":"あかつき","pronunciation":"あかつき","meaning":"Kun reading: あかつき"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あかつき","reading":"あかつき","meaning":"Kun reading: あかつき"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "暇",
     meanings: ["leave of absence","leisure","rest","spare time","time"],
     onyomi: ["カ"],
     kunyomi: ["いとま","ひま"],
-    examples: [{"word":"いとま","pronunciation":"いとま","meaning":"Kun reading: いとま"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"いとま","reading":"いとま","meaning":"Kun reading: いとま"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "暦",
     meanings: ["almanac","calendar"],
     onyomi: ["リャク","レキ"],
     kunyomi: ["こよみ"],
-    examples: [{"word":"こよみ","pronunciation":"こよみ","meaning":"Kun reading: こよみ"},{"word":"リャク","pronunciation":"リャク","meaning":"On reading: リャク"}],
-    grade: "Junior High",
+    examples: [{"word":"こよみ","reading":"こよみ","meaning":"Kun reading: こよみ"},{"word":"リャク","reading":"リャク","meaning":"On reading: リャク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "暫",
     meanings: ["a while","long time","moment","temporarily"],
     onyomi: ["ザン"],
     kunyomi: ["しばら.く"],
-    examples: [{"word":"しばら.く","pronunciation":"しばら.く","meaning":"Kun reading: しばら.く"},{"word":"ザン","pronunciation":"ザン","meaning":"On reading: ザン"}],
-    grade: "Junior High",
+    examples: [{"word":"しばら.く","reading":"しばら.く","meaning":"Kun reading: しばら.く"},{"word":"ザン","reading":"ザン","meaning":"On reading: ザン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "曇",
     meanings: ["cloud up","cloudy weather"],
     onyomi: ["ドン"],
     kunyomi: ["くも.る"],
-    examples: [{"word":"くも.る","pronunciation":"くも.る","meaning":"Kun reading: くも.る"},{"word":"ドン","pronunciation":"ドン","meaning":"On reading: ドン"}],
-    grade: "Junior High",
+    examples: [{"word":"くも.る","reading":"くも.る","meaning":"Kun reading: くも.る"},{"word":"ドン","reading":"ドン","meaning":"On reading: ドン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "曖",
     meanings: ["dark","not clear"],
     onyomi: ["アイ"],
     kunyomi: ["くら.い"],
-    examples: [{"word":"くら.い","pronunciation":"くら.い","meaning":"Kun reading: くら.い"},{"word":"アイ","pronunciation":"アイ","meaning":"On reading: アイ"}],
-    grade: "Junior High",
+    examples: [{"word":"くら.い","reading":"くら.い","meaning":"Kun reading: くら.い"},{"word":"アイ","reading":"アイ","meaning":"On reading: アイ"}],
+    grade: "juniorHigh",
     strokeCount: 17
   },
   {
@@ -5768,28 +5768,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["again","further","grow late","more and more","night watch","of course","renew","renovate","sit up late"],
     onyomi: ["コウ"],
     kunyomi: ["さら","さら.に","ふ.かす","ふ.ける"],
-    examples: [{"word":"さら","pronunciation":"さら","meaning":"Kun reading: さら"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さら","reading":"さら","meaning":"Kun reading: さら"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "曹",
     meanings: ["comrade","fellow","office","official"],
     onyomi: ["ソウ","ゾウ"],
     kunyomi: [],
-    examples: [{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "曽",
     meanings: ["before","ever","ex-","formerly","never","once"],
     onyomi: ["ソ","ソウ","ゾウ"],
     kunyomi: ["かつ","かつて","すなわち"],
-    examples: [{"word":"かつ","pronunciation":"かつ","meaning":"Kun reading: かつ"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"かつ","reading":"かつ","meaning":"Kun reading: かつ"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -5797,88 +5797,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["exchange","per-","spare","substitute"],
     onyomi: ["タイ"],
     kunyomi: ["か.え-","か.える","か.わる"],
-    examples: [{"word":"か.え-","pronunciation":"か.え-","meaning":"Kun reading: か.え-"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.え-","reading":"か.え-","meaning":"Kun reading: か.え-"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "朕",
     meanings: ["imperial we","majestic plural"],
     onyomi: ["チン"],
     kunyomi: [],
-    examples: [{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "朱",
     meanings: ["bloody","cinnabar","red","scarlet","vermilion"],
     onyomi: ["シュ"],
     kunyomi: ["あけ"],
-    examples: [{"word":"あけ","pronunciation":"あけ","meaning":"Kun reading: あけ"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"あけ","reading":"あけ","meaning":"Kun reading: あけ"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "朴",
     meanings: ["crude","docile","plain","simple"],
     onyomi: ["ボク"],
     kunyomi: ["えのき","ほう","ほお"],
-    examples: [{"word":"えのき","pronunciation":"えのき","meaning":"Kun reading: えのき"},{"word":"ボク","pronunciation":"ボク","meaning":"On reading: ボク"}],
-    grade: "Junior High",
+    examples: [{"word":"えのき","reading":"えのき","meaning":"Kun reading: えのき"},{"word":"ボク","reading":"ボク","meaning":"On reading: ボク"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "朽",
     meanings: ["decay","remain in seclusion","rot"],
     onyomi: ["キュウ"],
     kunyomi: ["く.ちる"],
-    examples: [{"word":"く.ちる","pronunciation":"く.ちる","meaning":"Kun reading: く.ちる"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"く.ちる","reading":"く.ちる","meaning":"Kun reading: く.ちる"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "杉",
     meanings: ["cedar","cryptomeria"],
     onyomi: ["サン"],
     kunyomi: ["すぎ"],
-    examples: [{"word":"すぎ","pronunciation":"すぎ","meaning":"Kun reading: すぎ"},{"word":"サン","pronunciation":"サン","meaning":"On reading: サン"}],
-    grade: "Junior High",
+    examples: [{"word":"すぎ","reading":"すぎ","meaning":"Kun reading: すぎ"},{"word":"サン","reading":"サン","meaning":"On reading: サン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "杯",
     meanings: ["counter for cupfuls","glass","toast","wine glass"],
     onyomi: ["ハイ"],
     kunyomi: ["さかずき"],
-    examples: [{"word":"さかずき","pronunciation":"さかずき","meaning":"Kun reading: さかずき"},{"word":"ハイ","pronunciation":"ハイ","meaning":"On reading: ハイ"}],
-    grade: "Junior High",
+    examples: [{"word":"さかずき","reading":"さかずき","meaning":"Kun reading: さかずき"},{"word":"ハイ","reading":"ハイ","meaning":"On reading: ハイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "析",
     meanings: ["analyze","chop","divide","tear"],
     onyomi: ["セキ"],
     kunyomi: [],
-    examples: [{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "枕",
     meanings: ["pillow"],
     onyomi: ["シン","チン"],
     kunyomi: ["まくら"],
-    examples: [{"word":"まくら","pronunciation":"まくら","meaning":"Kun reading: まくら"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"まくら","reading":"まくら","meaning":"Kun reading: まくら"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -5886,88 +5886,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["(kokuji)","bounding-box","frame","framework","spindle","spool"],
     onyomi: [],
     kunyomi: ["わく"],
-    examples: [{"word":"わく","pronunciation":"わく","meaning":"Kun reading: わく"}],
-    grade: "Junior High",
+    examples: [{"word":"わく","reading":"わく","meaning":"Kun reading: わく"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "枢",
     meanings: ["center of things","door","hinge","pivot"],
     onyomi: ["シュ","スウ"],
     kunyomi: ["からくり","とぼそ"],
-    examples: [{"word":"からくり","pronunciation":"からくり","meaning":"Kun reading: からくり"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"からくり","reading":"からくり","meaning":"Kun reading: からくり"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "枯",
     meanings: ["be seasoned","die","dry up","wither"],
     onyomi: ["コ"],
     kunyomi: ["か.らす","か.れる"],
-    examples: [{"word":"か.らす","pronunciation":"か.らす","meaning":"Kun reading: か.らす"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.らす","reading":"か.らす","meaning":"Kun reading: か.らす"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "架",
     meanings: ["construct","erect","frame","mount","shelf","support"],
     onyomi: ["カ"],
     kunyomi: ["か.かる","か.ける"],
-    examples: [{"word":"か.かる","pronunciation":"か.かる","meaning":"Kun reading: か.かる"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.かる","reading":"か.かる","meaning":"Kun reading: か.かる"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "柄",
     meanings: ["build","character","crank","design","grip","handle","knob","nature","pattern","shaft"],
     onyomi: ["ヘイ"],
     kunyomi: ["え","がら","つか"],
-    examples: [{"word":"え","pronunciation":"え","meaning":"Kun reading: え"},{"word":"ヘイ","pronunciation":"ヘイ","meaning":"On reading: ヘイ"}],
-    grade: "Junior High",
+    examples: [{"word":"え","reading":"え","meaning":"Kun reading: え"},{"word":"ヘイ","reading":"ヘイ","meaning":"On reading: ヘイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "某",
     meanings: ["a certain","one","so-and-so","that person"],
     onyomi: ["ボウ"],
     kunyomi: ["それがし","なにがし"],
-    examples: [{"word":"それがし","pronunciation":"それがし","meaning":"Kun reading: それがし"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"それがし","reading":"それがし","meaning":"Kun reading: それがし"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "柔",
     meanings: ["gentleness","softness","tender","weakness"],
     onyomi: ["ジュウ","ニュウ"],
     kunyomi: ["やわ","やわ.ら","やわ.らか","やわ.らかい"],
-    examples: [{"word":"やわ","pronunciation":"やわ","meaning":"Kun reading: やわ"},{"word":"ジュウ","pronunciation":"ジュウ","meaning":"On reading: ジュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"やわ","reading":"やわ","meaning":"Kun reading: やわ"},{"word":"ジュウ","reading":"ジュウ","meaning":"On reading: ジュウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "柳",
     meanings: ["willow"],
     onyomi: ["リュウ"],
     kunyomi: ["やなぎ"],
-    examples: [{"word":"やなぎ","pronunciation":"やなぎ","meaning":"Kun reading: やなぎ"},{"word":"リュウ","pronunciation":"リュウ","meaning":"On reading: リュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"やなぎ","reading":"やなぎ","meaning":"Kun reading: やなぎ"},{"word":"リュウ","reading":"リュウ","meaning":"On reading: リュウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "柵",
     meanings: ["entwine around","fence","stockade","weir"],
     onyomi: ["サク","サン"],
     kunyomi: ["しがら.む","しがらみ","とりで","やらい"],
-    examples: [{"word":"しがら.む","pronunciation":"しがら.む","meaning":"Kun reading: しがら.む"},{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"しがら.む","reading":"しがら.む","meaning":"Kun reading: しがら.む"},{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -5975,8 +5975,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["persimmon"],
     onyomi: ["シ"],
     kunyomi: ["かき"],
-    examples: [{"word":"かき","pronunciation":"かき","meaning":"Kun reading: かき"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"かき","reading":"かき","meaning":"Kun reading: かき"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -5984,8 +5984,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["(kokuji)","horse chestnut"],
     onyomi: [],
     kunyomi: ["とち"],
-    examples: [{"word":"とち","pronunciation":"とち","meaning":"Kun reading: とち"}],
-    grade: "Junior High",
+    examples: [{"word":"とち","reading":"とち","meaning":"Kun reading: とち"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -5993,38 +5993,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bolt","bung","cork","plug","stopper"],
     onyomi: ["セン"],
     kunyomi: [],
-    examples: [{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "核",
     meanings: ["core","kernel","nucleus"],
     onyomi: ["カク"],
     kunyomi: [],
-    examples: [{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "栽",
     meanings: ["plantation","planting"],
     onyomi: ["サイ"],
     kunyomi: [],
-    examples: [{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "桁",
     meanings: ["beam","girder","spar","unit or column (accounting)"],
     onyomi: ["コウ"],
     kunyomi: ["けた"],
-    examples: [{"word":"けた","pronunciation":"けた","meaning":"Kun reading: けた"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"けた","reading":"けた","meaning":"Kun reading: けた"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -6032,38 +6032,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["peach"],
     onyomi: ["トウ"],
     kunyomi: ["もも"],
-    examples: [{"word":"もも","pronunciation":"もも","meaning":"Kun reading: もも"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"もも","reading":"もも","meaning":"Kun reading: もも"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "桑",
     meanings: ["mulberry"],
     onyomi: ["ソウ"],
     kunyomi: ["くわ"],
-    examples: [{"word":"くわ","pronunciation":"くわ","meaning":"Kun reading: くわ"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くわ","reading":"くわ","meaning":"Kun reading: くわ"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "桟",
     meanings: ["bolt (door)","cleat","frame","jetty","scaffold"],
     onyomi: ["サン","セン"],
     kunyomi: ["かけはし"],
-    examples: [{"word":"かけはし","pronunciation":"かけはし","meaning":"Kun reading: かけはし"},{"word":"サン","pronunciation":"サン","meaning":"On reading: サン"}],
-    grade: "Junior High",
+    examples: [{"word":"かけはし","reading":"かけはし","meaning":"Kun reading: かけはし"},{"word":"サン","reading":"サン","meaning":"On reading: サン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "梗",
     meanings: ["close up","flower stem","for the most part"],
     onyomi: ["キョウ","コウ"],
     kunyomi: ["おおむね","ふさぐ","やまにれ"],
-    examples: [{"word":"おおむね","pronunciation":"おおむね","meaning":"Kun reading: おおむね"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おおむね","reading":"おおむね","meaning":"Kun reading: おおむね"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -6071,68 +6071,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["pear tree"],
     onyomi: ["リ"],
     kunyomi: ["なし"],
-    examples: [{"word":"なし","pronunciation":"なし","meaning":"Kun reading: なし"},{"word":"リ","pronunciation":"リ","meaning":"On reading: リ"}],
-    grade: "Junior High",
+    examples: [{"word":"なし","reading":"なし","meaning":"Kun reading: なし"},{"word":"リ","reading":"リ","meaning":"On reading: リ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "棄",
     meanings: ["abandon","discard","reject","resign","sacrifice","throw away"],
     onyomi: ["キ"],
     kunyomi: ["す.てる"],
-    examples: [{"word":"す.てる","pronunciation":"す.てる","meaning":"Kun reading: す.てる"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"す.てる","reading":"す.てる","meaning":"Kun reading: す.てる"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "棋",
     meanings: ["Japanese chess","chess piece","shogi"],
     onyomi: ["キ"],
     kunyomi: ["ご"],
-    examples: [{"word":"ご","pronunciation":"ご","meaning":"Kun reading: ご"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"ご","reading":"ご","meaning":"Kun reading: ご"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "棚",
     meanings: ["ledge","mantle","mount","rack","shelf","trellis"],
     onyomi: ["ホウ"],
     kunyomi: ["-だな","たな"],
-    examples: [{"word":"-だな","pronunciation":"-だな","meaning":"Kun reading: -だな"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-だな","reading":"-だな","meaning":"Kun reading: -だな"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "棟",
     meanings: ["ridge","ridgepole"],
     onyomi: ["トウ"],
     kunyomi: ["むな-","むね"],
-    examples: [{"word":"むな-","pronunciation":"むな-","meaning":"Kun reading: むな-"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"むな-","reading":"むな-","meaning":"Kun reading: むな-"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "棺",
     meanings: ["casket","coffin"],
     onyomi: ["カン"],
     kunyomi: [],
-    examples: [{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "椅",
     meanings: ["chair"],
     onyomi: ["イ"],
     kunyomi: [],
-    examples: [{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -6140,18 +6140,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["chinquapin","mallet","spine"],
     onyomi: ["スイ","ツイ"],
     kunyomi: ["う.つ","つち"],
-    examples: [{"word":"う.つ","pronunciation":"う.つ","meaning":"Kun reading: う.つ"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.つ","reading":"う.つ","meaning":"Kun reading: う.つ"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "楷",
     meanings: ["correctness","square character style"],
     onyomi: ["カイ"],
     kunyomi: [],
-    examples: [{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -6159,158 +6159,158 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["high building","lookout","watchtower"],
     onyomi: ["ロウ"],
     kunyomi: ["たかどの"],
-    examples: [{"word":"たかどの","pronunciation":"たかどの","meaning":"Kun reading: たかどの"},{"word":"ロウ","pronunciation":"ロウ","meaning":"On reading: ロウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たかどの","reading":"たかどの","meaning":"Kun reading: たかどの"},{"word":"ロウ","reading":"ロウ","meaning":"On reading: ロウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "概",
     meanings: ["approximation","condition","generally","outline"],
     onyomi: ["ガイ"],
     kunyomi: ["おおむ.ね"],
-    examples: [{"word":"おおむ.ね","pronunciation":"おおむ.ね","meaning":"Kun reading: おおむ.ね"},{"word":"ガイ","pronunciation":"ガイ","meaning":"On reading: ガイ"}],
-    grade: "Junior High",
+    examples: [{"word":"おおむ.ね","reading":"おおむ.ね","meaning":"Kun reading: おおむ.ね"},{"word":"ガイ","reading":"ガイ","meaning":"On reading: ガイ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "槽",
     meanings: ["tank","tub","vat"],
     onyomi: ["ソウ"],
     kunyomi: ["ふね"],
-    examples: [{"word":"ふね","pronunciation":"ふね","meaning":"Kun reading: ふね"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふね","reading":"ふね","meaning":"Kun reading: ふね"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "欄",
     meanings: ["blank","column","handrail","space"],
     onyomi: ["ラン"],
     kunyomi: ["てすり"],
-    examples: [{"word":"てすり","pronunciation":"てすり","meaning":"Kun reading: てすり"},{"word":"ラン","pronunciation":"ラン","meaning":"On reading: ラン"}],
-    grade: "Junior High",
+    examples: [{"word":"てすり","reading":"てすり","meaning":"Kun reading: てすり"},{"word":"ラン","reading":"ラン","meaning":"On reading: ラン"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "欧",
     meanings: ["Europe"],
     onyomi: ["オウ"],
     kunyomi: ["うた.う","は.く"],
-    examples: [{"word":"うた.う","pronunciation":"うた.う","meaning":"Kun reading: うた.う"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うた.う","reading":"うた.う","meaning":"Kun reading: うた.う"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "欺",
     meanings: ["cheat","deceit","delude"],
     onyomi: ["ギ"],
     kunyomi: ["あざむ.く"],
-    examples: [{"word":"あざむ.く","pronunciation":"あざむ.く","meaning":"Kun reading: あざむ.く"},{"word":"ギ","pronunciation":"ギ","meaning":"On reading: ギ"}],
-    grade: "Junior High",
+    examples: [{"word":"あざむ.く","reading":"あざむ.く","meaning":"Kun reading: あざむ.く"},{"word":"ギ","reading":"ギ","meaning":"On reading: ギ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "款",
     meanings: ["article","collusion","friendship","goodwill","section"],
     onyomi: ["カン"],
     kunyomi: [],
-    examples: [{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "歓",
     meanings: ["delight","joy"],
     onyomi: ["カン"],
     kunyomi: ["よろこ.ぶ"],
-    examples: [{"word":"よろこ.ぶ","pronunciation":"よろこ.ぶ","meaning":"Kun reading: よろこ.ぶ"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"よろこ.ぶ","reading":"よろこ.ぶ","meaning":"Kun reading: よろこ.ぶ"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "歳",
     meanings: ["age","occasion","opportunity","year-end"],
     onyomi: ["サイ","セイ"],
     kunyomi: ["とし","とせ","よわい"],
-    examples: [{"word":"とし","pronunciation":"とし","meaning":"Kun reading: とし"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"とし","reading":"とし","meaning":"Kun reading: とし"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "殉",
     meanings: ["follow by resigning","martyrdom"],
     onyomi: ["ジュン"],
     kunyomi: [],
-    examples: [{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "殊",
     meanings: ["especially","exceptionally","particularly"],
     onyomi: ["シュ"],
     kunyomi: ["こと"],
-    examples: [{"word":"こと","pronunciation":"こと","meaning":"Kun reading: こと"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"こと","reading":"こと","meaning":"Kun reading: こと"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "殖",
     meanings: ["augment","increase","multiply","raise"],
     onyomi: ["ショク"],
     kunyomi: ["ふ.える","ふ.やす"],
-    examples: [{"word":"ふ.える","pronunciation":"ふ.える","meaning":"Kun reading: ふ.える"},{"word":"ショク","pronunciation":"ショク","meaning":"On reading: ショク"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.える","reading":"ふ.える","meaning":"Kun reading: ふ.える"},{"word":"ショク","reading":"ショク","meaning":"On reading: ショク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "殴",
     meanings: ["assault","beat","hit","thrash"],
     onyomi: ["オウ"],
     kunyomi: ["なぐ.る"],
-    examples: [{"word":"なぐ.る","pronunciation":"なぐ.る","meaning":"Kun reading: なぐ.る"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"なぐ.る","reading":"なぐ.る","meaning":"Kun reading: なぐ.る"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "殻",
     meanings: ["husk","nut shell"],
     onyomi: ["カク","コク","バイ"],
     kunyomi: ["から","がら"],
-    examples: [{"word":"から","pronunciation":"から","meaning":"Kun reading: から"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"から","reading":"から","meaning":"Kun reading: から"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "殿",
     meanings: ["Mr.","hall","lord","mansion","palace","temple"],
     onyomi: ["テン","デン"],
     kunyomi: ["-どの","との"],
-    examples: [{"word":"-どの","pronunciation":"-どの","meaning":"Kun reading: -どの"},{"word":"テン","pronunciation":"テン","meaning":"On reading: テン"}],
-    grade: "Junior High",
+    examples: [{"word":"-どの","reading":"-どの","meaning":"Kun reading: -どの"},{"word":"テン","reading":"テン","meaning":"On reading: テン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "毀",
     meanings: ["be broken","be chipped","be ruined","be scratched","break","censure","destroy"],
     onyomi: ["キ"],
     kunyomi: ["こぼ.つ","こぼ.れる","こわ.す","こわ.れる","そし.る","やぶ.る"],
-    examples: [{"word":"こぼ.つ","pronunciation":"こぼ.つ","meaning":"Kun reading: こぼ.つ"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"こぼ.つ","reading":"こぼ.つ","meaning":"Kun reading: こぼ.つ"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -6318,8 +6318,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["spread out","wide"],
     onyomi: ["ハン"],
     kunyomi: ["ひろ.がる"],
-    examples: [{"word":"ひろ.がる","pronunciation":"ひろ.がる","meaning":"Kun reading: ひろ.がる"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ひろ.がる","reading":"ひろ.がる","meaning":"Kun reading: ひろ.がる"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 5
   },
   {
@@ -6327,18 +6327,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["broth","gravy","juice","pus","sap","soup"],
     onyomi: ["ジュウ"],
     kunyomi: ["-しる","しる","つゆ"],
-    examples: [{"word":"-しる","pronunciation":"-しる","meaning":"Kun reading: -しる"},{"word":"ジュウ","pronunciation":"ジュウ","meaning":"On reading: ジュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-しる","reading":"-しる","meaning":"Kun reading: -しる"},{"word":"ジュウ","reading":"ジュウ","meaning":"On reading: ジュウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "汎",
     meanings: ["pan-"],
     onyomi: ["ハン","フウ","ブ","ホウ","ホン"],
     kunyomi: ["ただよ.う","ひろ.い"],
-    examples: [{"word":"ただよ.う","pronunciation":"ただよ.う","meaning":"Kun reading: ただよ.う"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ただよ.う","reading":"ただよ.う","meaning":"Kun reading: ただよ.う"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 6
   },
   {
@@ -6346,48 +6346,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["perspire","sweat"],
     onyomi: ["カン"],
     kunyomi: ["あせ"],
-    examples: [{"word":"あせ","pronunciation":"あせ","meaning":"Kun reading: あせ"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"あせ","reading":"あせ","meaning":"Kun reading: あせ"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "汚",
     meanings: ["defile","dirty","disgrace","pollute","rape"],
     onyomi: ["オ"],
     kunyomi: ["きたな.い","けが.す","けが.らわしい","けが.れる","よご.す","よご.れる"],
-    examples: [{"word":"きたな.い","pronunciation":"きたな.い","meaning":"Kun reading: きたな.い"},{"word":"オ","pronunciation":"オ","meaning":"On reading: オ"}],
-    grade: "Junior High",
+    examples: [{"word":"きたな.い","reading":"きたな.い","meaning":"Kun reading: きたな.い"},{"word":"オ","reading":"オ","meaning":"On reading: オ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "江",
     meanings: ["bay","creek","inlet"],
     onyomi: ["コウ"],
     kunyomi: ["え"],
-    examples: [{"word":"え","pronunciation":"え","meaning":"Kun reading: え"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"え","reading":"え","meaning":"Kun reading: え"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "汰",
     meanings: ["filtering","luxury","sieving","washing","weeding out"],
     onyomi: ["タ","タイ"],
     kunyomi: ["おご.る","にご.る","よな.げる"],
-    examples: [{"word":"おご.る","pronunciation":"おご.る","meaning":"Kun reading: おご.る"},{"word":"タ","pronunciation":"タ","meaning":"On reading: タ"}],
-    grade: "Junior High",
+    examples: [{"word":"おご.る","reading":"おご.る","meaning":"Kun reading: おご.る"},{"word":"タ","reading":"タ","meaning":"On reading: タ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "沃",
     meanings: ["fertility"],
     onyomi: ["オク","ヨウ","ヨク"],
     kunyomi: ["そそ.ぐ"],
-    examples: [{"word":"そそ.ぐ","pronunciation":"そそ.ぐ","meaning":"Kun reading: そそ.ぐ"},{"word":"オク","pronunciation":"オク","meaning":"On reading: オク"}],
-    grade: "Junior High",
+    examples: [{"word":"そそ.ぐ","reading":"そそ.ぐ","meaning":"Kun reading: そそ.ぐ"},{"word":"オク","reading":"オク","meaning":"On reading: オク"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -6395,278 +6395,278 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["aloes","be depressed","be submerged","sink","subside"],
     onyomi: ["ジン","チン"],
     kunyomi: ["しず.む","しず.める"],
-    examples: [{"word":"しず.む","pronunciation":"しず.む","meaning":"Kun reading: しず.む"},{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"しず.む","reading":"しず.む","meaning":"Kun reading: しず.む"},{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "沖",
     meanings: ["offing","open sea","rise high into sky"],
     onyomi: ["チュウ"],
     kunyomi: ["おき","おきつ","ちゅう.する","わく"],
-    examples: [{"word":"おき","pronunciation":"おき","meaning":"Kun reading: おき"},{"word":"チュウ","pronunciation":"チュウ","meaning":"On reading: チュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おき","reading":"おき","meaning":"Kun reading: おき"},{"word":"チュウ","reading":"チュウ","meaning":"On reading: チュウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "沙",
     meanings: ["sand"],
     onyomi: ["サ","シャ"],
     kunyomi: ["すな","よなげる"],
-    examples: [{"word":"すな","pronunciation":"すな","meaning":"Kun reading: すな"},{"word":"サ","pronunciation":"サ","meaning":"On reading: サ"}],
-    grade: "Junior High",
+    examples: [{"word":"すな","reading":"すな","meaning":"Kun reading: すな"},{"word":"サ","reading":"サ","meaning":"On reading: サ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "没",
     meanings: ["die","disappear","drown","fall into","hide","sink"],
     onyomi: ["ボツ","モツ"],
     kunyomi: ["おぼ.れる","しず.む","ない"],
-    examples: [{"word":"おぼ.れる","pronunciation":"おぼ.れる","meaning":"Kun reading: おぼ.れる"},{"word":"ボツ","pronunciation":"ボツ","meaning":"On reading: ボツ"}],
-    grade: "Junior High",
+    examples: [{"word":"おぼ.れる","reading":"おぼ.れる","meaning":"Kun reading: おぼ.れる"},{"word":"ボツ","reading":"ボツ","meaning":"On reading: ボツ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "沢",
     meanings: ["brilliance","grace","marsh","swamp"],
     onyomi: ["タク"],
     kunyomi: ["うるお.い","うるお.す","さわ","つや"],
-    examples: [{"word":"うるお.い","pronunciation":"うるお.い","meaning":"Kun reading: うるお.い"},{"word":"タク","pronunciation":"タク","meaning":"On reading: タク"}],
-    grade: "Junior High",
+    examples: [{"word":"うるお.い","reading":"うるお.い","meaning":"Kun reading: うるお.い"},{"word":"タク","reading":"タク","meaning":"On reading: タク"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "沸",
     meanings: ["boil","breed","ferment","seethe","uproar"],
     onyomi: ["フツ"],
     kunyomi: ["わ.かす","わ.く"],
-    examples: [{"word":"わ.かす","pronunciation":"わ.かす","meaning":"Kun reading: わ.かす"},{"word":"フツ","pronunciation":"フツ","meaning":"On reading: フツ"}],
-    grade: "Junior High",
+    examples: [{"word":"わ.かす","reading":"わ.かす","meaning":"Kun reading: わ.かす"},{"word":"フツ","reading":"フツ","meaning":"On reading: フツ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "沼",
     meanings: ["bog","lake","marsh","pond","swamp"],
     onyomi: ["ショウ"],
     kunyomi: ["ぬま"],
-    examples: [{"word":"ぬま","pronunciation":"ぬま","meaning":"Kun reading: ぬま"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬま","reading":"ぬま","meaning":"Kun reading: ぬま"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "況",
     meanings: ["condition","situation"],
     onyomi: ["キョウ"],
     kunyomi: ["いわ.んや","おもむき","まし.て"],
-    examples: [{"word":"いわ.んや","pronunciation":"いわ.んや","meaning":"Kun reading: いわ.んや"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いわ.んや","reading":"いわ.んや","meaning":"Kun reading: いわ.んや"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "泊",
     meanings: ["overnight stay","put up at","ride at anchor"],
     onyomi: ["ハク"],
     kunyomi: ["と.まる","と.める"],
-    examples: [{"word":"と.まる","pronunciation":"と.まる","meaning":"Kun reading: と.まる"},{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"と.まる","reading":"と.まる","meaning":"Kun reading: と.まる"},{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "泌",
     meanings: ["flow","ooze","penetrate","secrete","soak in"],
     onyomi: ["ヒ","ヒツ"],
     kunyomi: [],
-    examples: [{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "泡",
     meanings: ["bubbles","foam","froth","suds"],
     onyomi: ["ホウ"],
     kunyomi: ["あわ"],
-    examples: [{"word":"あわ","pronunciation":"あわ","meaning":"Kun reading: あわ"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あわ","reading":"あわ","meaning":"Kun reading: あわ"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "泥",
     meanings: ["adhere to","be attached to","mire","mud"],
     onyomi: ["デ","デイ","ナイ","ニ"],
     kunyomi: ["どろ","なず.む"],
-    examples: [{"word":"どろ","pronunciation":"どろ","meaning":"Kun reading: どろ"},{"word":"デ","pronunciation":"デ","meaning":"On reading: デ"}],
-    grade: "Junior High",
+    examples: [{"word":"どろ","reading":"どろ","meaning":"Kun reading: どろ"},{"word":"デ","reading":"デ","meaning":"On reading: デ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "泰",
     meanings: ["Thailand","calm","easy","excessive","extreme","great","peace","peaceful"],
     onyomi: ["タイ"],
     kunyomi: [],
-    examples: [{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "洞",
     meanings: ["cave","den","excavation"],
     onyomi: ["ドウ"],
     kunyomi: ["ほら"],
-    examples: [{"word":"ほら","pronunciation":"ほら","meaning":"Kun reading: ほら"},{"word":"ドウ","pronunciation":"ドウ","meaning":"On reading: ドウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほら","reading":"ほら","meaning":"Kun reading: ほら"},{"word":"ドウ","reading":"ドウ","meaning":"On reading: ドウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "津",
     meanings: ["ferry","harbor","haven","port"],
     onyomi: ["シン"],
     kunyomi: ["つ"],
-    examples: [{"word":"つ","pronunciation":"つ","meaning":"Kun reading: つ"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"つ","reading":"つ","meaning":"Kun reading: つ"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "洪",
     meanings: ["deluge","flood","vast"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "浄",
     meanings: ["Manchu Dynasty","clean","cleanse","exorcise","purify"],
     onyomi: ["ジョウ","セイ"],
     kunyomi: ["きよ.い","きよ.める"],
-    examples: [{"word":"きよ.い","pronunciation":"きよ.い","meaning":"Kun reading: きよ.い"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"きよ.い","reading":"きよ.い","meaning":"Kun reading: きよ.い"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "浜",
     meanings: ["beach","seacoast","seashore"],
     onyomi: ["ヒン"],
     kunyomi: ["はま"],
-    examples: [{"word":"はま","pronunciation":"はま","meaning":"Kun reading: はま"},{"word":"ヒン","pronunciation":"ヒン","meaning":"On reading: ヒン"}],
-    grade: "Junior High",
+    examples: [{"word":"はま","reading":"はま","meaning":"Kun reading: はま"},{"word":"ヒン","reading":"ヒン","meaning":"On reading: ヒン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "浦",
     meanings: ["bay","beach","creek","gulf","inlet","seacoast"],
     onyomi: ["ホ"],
     kunyomi: ["うら"],
-    examples: [{"word":"うら","pronunciation":"うら","meaning":"Kun reading: うら"},{"word":"ホ","pronunciation":"ホ","meaning":"On reading: ホ"}],
-    grade: "Junior High",
+    examples: [{"word":"うら","reading":"うら","meaning":"Kun reading: うら"},{"word":"ホ","reading":"ホ","meaning":"On reading: ホ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "浪",
     meanings: ["billows","reckless","unrestrained","wandering","waves"],
     onyomi: ["ロウ"],
     kunyomi: [],
-    examples: [{"word":"ロウ","pronunciation":"ロウ","meaning":"On reading: ロウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ロウ","reading":"ロウ","meaning":"On reading: ロウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "浮",
     meanings: ["float","floating","rise to surface"],
     onyomi: ["フ"],
     kunyomi: ["う.かぶ","う.かべる","う.かれる","う.く"],
-    examples: [{"word":"う.かぶ","pronunciation":"う.かぶ","meaning":"Kun reading: う.かぶ"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.かぶ","reading":"う.かぶ","meaning":"Kun reading: う.かぶ"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "浸",
     meanings: ["dip","dunk","immersed","moisten","soak","steep","wet"],
     onyomi: ["シン"],
     kunyomi: ["つ.かる","ひた.す","ひた.る"],
-    examples: [{"word":"つ.かる","pronunciation":"つ.かる","meaning":"Kun reading: つ.かる"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.かる","reading":"つ.かる","meaning":"Kun reading: つ.かる"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "涙",
     meanings: ["sympathy","tears"],
     onyomi: ["ルイ","レイ"],
     kunyomi: ["なみだ"],
-    examples: [{"word":"なみだ","pronunciation":"なみだ","meaning":"Kun reading: なみだ"},{"word":"ルイ","pronunciation":"ルイ","meaning":"On reading: ルイ"}],
-    grade: "Junior High",
+    examples: [{"word":"なみだ","reading":"なみだ","meaning":"Kun reading: なみだ"},{"word":"ルイ","reading":"ルイ","meaning":"On reading: ルイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "涯",
     meanings: ["bound","horizon","limit","shore"],
     onyomi: ["ガイ"],
     kunyomi: ["はて"],
-    examples: [{"word":"はて","pronunciation":"はて","meaning":"Kun reading: はて"},{"word":"ガイ","pronunciation":"ガイ","meaning":"On reading: ガイ"}],
-    grade: "Junior High",
+    examples: [{"word":"はて","reading":"はて","meaning":"Kun reading: はて"},{"word":"ガイ","reading":"ガイ","meaning":"On reading: ガイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "涼",
     meanings: ["nice and cool","refreshing"],
     onyomi: ["リョウ"],
     kunyomi: ["うす.い","すず.しい","すず.む","すず.やか","ひや.す","まことに"],
-    examples: [{"word":"うす.い","pronunciation":"うす.い","meaning":"Kun reading: うす.い"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うす.い","reading":"うす.い","meaning":"Kun reading: うす.い"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "淑",
     meanings: ["gentle","graceful","pure"],
     onyomi: ["シュク"],
     kunyomi: ["しと.やか"],
-    examples: [{"word":"しと.やか","pronunciation":"しと.やか","meaning":"Kun reading: しと.やか"},{"word":"シュク","pronunciation":"シュク","meaning":"On reading: シュク"}],
-    grade: "Junior High",
+    examples: [{"word":"しと.やか","reading":"しと.やか","meaning":"Kun reading: しと.やか"},{"word":"シュク","reading":"シュク","meaning":"On reading: シュク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "淡",
     meanings: ["faint","fleeting","pale","thin"],
     onyomi: ["タン"],
     kunyomi: ["あわ.い"],
-    examples: [{"word":"あわ.い","pronunciation":"あわ.い","meaning":"Kun reading: あわ.い"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"あわ.い","reading":"あわ.い","meaning":"Kun reading: あわ.い"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "淫",
     meanings: ["lewdness","licentiousness"],
     onyomi: ["イン"],
     kunyomi: ["ひた.す","ほしいまま","みだ.ら","みだ.れる","みだり"],
-    examples: [{"word":"ひた.す","pronunciation":"ひた.す","meaning":"Kun reading: ひた.す"},{"word":"イン","pronunciation":"イン","meaning":"On reading: イン"}],
-    grade: "Junior High",
+    examples: [{"word":"ひた.す","reading":"ひた.す","meaning":"Kun reading: ひた.す"},{"word":"イン","reading":"イン","meaning":"On reading: イン"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -6674,128 +6674,128 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["accompany","annexed","append","attach","garnish","imitate","marry","meet","satisfy","suit"],
     onyomi: ["テン"],
     kunyomi: ["そ.う","そ.える"],
-    examples: [{"word":"そ.う","pronunciation":"そ.う","meaning":"Kun reading: そ.う"},{"word":"テン","pronunciation":"テン","meaning":"On reading: テン"}],
-    grade: "Junior High",
+    examples: [{"word":"そ.う","reading":"そ.う","meaning":"Kun reading: そ.う"},{"word":"テン","reading":"テン","meaning":"On reading: テン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "渇",
     meanings: ["dry up","parch","thirst"],
     onyomi: ["カツ"],
     kunyomi: ["かわ.く"],
-    examples: [{"word":"かわ.く","pronunciation":"かわ.く","meaning":"Kun reading: かわ.く"},{"word":"カツ","pronunciation":"カツ","meaning":"On reading: カツ"}],
-    grade: "Junior High",
+    examples: [{"word":"かわ.く","reading":"かわ.く","meaning":"Kun reading: かわ.く"},{"word":"カツ","reading":"カツ","meaning":"On reading: カツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "渉",
     meanings: ["ferry","ford","go cross","import","involve","transit"],
     onyomi: ["ショウ"],
     kunyomi: ["わた.る"],
-    examples: [{"word":"わた.る","pronunciation":"わた.る","meaning":"Kun reading: わた.る"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"わた.る","reading":"わた.る","meaning":"Kun reading: わた.る"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "渋",
     meanings: ["astringent","have diarrhea","hesitate","reluctant"],
     onyomi: ["シュウ","ジュウ"],
     kunyomi: ["しぶ","しぶ.い","しぶ.る"],
-    examples: [{"word":"しぶ","pronunciation":"しぶ","meaning":"Kun reading: しぶ"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"しぶ","reading":"しぶ","meaning":"Kun reading: しぶ"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "渓",
     meanings: ["mountain stream","valley"],
     onyomi: ["ケイ"],
     kunyomi: ["たに","たにがわ"],
-    examples: [{"word":"たに","pronunciation":"たに","meaning":"Kun reading: たに"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"たに","reading":"たに","meaning":"Kun reading: たに"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "渡",
     meanings: ["cross","deliver","diameter","ferry","ford","import","migrate","transit"],
     onyomi: ["ト"],
     kunyomi: ["-わた.る","わた.す","わた.る"],
-    examples: [{"word":"-わた.る","pronunciation":"-わた.る","meaning":"Kun reading: -わた.る"},{"word":"ト","pronunciation":"ト","meaning":"On reading: ト"}],
-    grade: "Junior High",
+    examples: [{"word":"-わた.る","reading":"-わた.る","meaning":"Kun reading: -わた.る"},{"word":"ト","reading":"ト","meaning":"On reading: ト"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "渦",
     meanings: ["eddy","vortex","whirlpool"],
     onyomi: ["カ"],
     kunyomi: ["うず"],
-    examples: [{"word":"うず","pronunciation":"うず","meaning":"Kun reading: うず"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"うず","reading":"うず","meaning":"Kun reading: うず"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "湧",
     meanings: ["boil","breed","ferment","seethe","uproar"],
     onyomi: ["ユ","ユウ","ヨウ"],
     kunyomi: ["わ.く"],
-    examples: [{"word":"わ.く","pronunciation":"わ.く","meaning":"Kun reading: わ.く"},{"word":"ユ","pronunciation":"ユ","meaning":"On reading: ユ"}],
-    grade: "Junior High",
+    examples: [{"word":"わ.く","reading":"わ.く","meaning":"Kun reading: わ.く"},{"word":"ユ","reading":"ユ","meaning":"On reading: ユ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "湾",
     meanings: ["bay","gulf","inlet"],
     onyomi: ["ワン"],
     kunyomi: ["いりえ"],
-    examples: [{"word":"いりえ","pronunciation":"いりえ","meaning":"Kun reading: いりえ"},{"word":"ワン","pronunciation":"ワン","meaning":"On reading: ワン"}],
-    grade: "Junior High",
+    examples: [{"word":"いりえ","reading":"いりえ","meaning":"Kun reading: いりえ"},{"word":"ワン","reading":"ワン","meaning":"On reading: ワン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "湿",
     meanings: ["damp","moist","wet"],
     onyomi: ["シツ","シュウ"],
     kunyomi: ["うるお.う","うるお.す","しめ.す","しめ.る"],
-    examples: [{"word":"うるお.う","pronunciation":"うるお.う","meaning":"Kun reading: うるお.う"},{"word":"シツ","pronunciation":"シツ","meaning":"On reading: シツ"}],
-    grade: "Junior High",
+    examples: [{"word":"うるお.う","reading":"うるお.う","meaning":"Kun reading: うるお.う"},{"word":"シツ","reading":"シツ","meaning":"On reading: シツ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "溝",
     meanings: ["10**32","ditch","drain","gutter","sewer"],
     onyomi: ["コウ"],
     kunyomi: ["みぞ"],
-    examples: [{"word":"みぞ","pronunciation":"みぞ","meaning":"Kun reading: みぞ"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"みぞ","reading":"みぞ","meaning":"Kun reading: みぞ"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "溶",
     meanings: ["dissolve","melt","thaw"],
     onyomi: ["ヨウ"],
     kunyomi: ["と.かす","と.く","と.ける"],
-    examples: [{"word":"と.かす","pronunciation":"と.かす","meaning":"Kun reading: と.かす"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"と.かす","reading":"と.かす","meaning":"Kun reading: と.かす"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "溺",
     meanings: ["drown","indulge"],
     onyomi: ["ジョウ","デキ","ニョウ"],
     kunyomi: ["いばり","おぼ.れる"],
-    examples: [{"word":"いばり","pronunciation":"いばり","meaning":"Kun reading: いばり"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いばり","reading":"いばり","meaning":"Kun reading: いばり"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -6803,168 +6803,168 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["destroy","overthrow","perish","ruin"],
     onyomi: ["メツ"],
     kunyomi: ["ほろ.びる","ほろ.ぶ","ほろ.ぼす"],
-    examples: [{"word":"ほろ.びる","pronunciation":"ほろ.びる","meaning":"Kun reading: ほろ.びる"},{"word":"メツ","pronunciation":"メツ","meaning":"On reading: メツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほろ.びる","reading":"ほろ.びる","meaning":"Kun reading: ほろ.びる"},{"word":"メツ","reading":"メツ","meaning":"On reading: メツ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "滋",
     meanings: ["be luxuriant","more & more","nourishing","planting","turbidity"],
     onyomi: ["シ","ジ"],
     kunyomi: [],
-    examples: [{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "滑",
     meanings: ["fail exam","slide","slip","slippery"],
     onyomi: ["カツ","コツ"],
     kunyomi: ["すべ.る","なめ.らか"],
-    examples: [{"word":"すべ.る","pronunciation":"すべ.る","meaning":"Kun reading: すべ.る"},{"word":"カツ","pronunciation":"カツ","meaning":"On reading: カツ"}],
-    grade: "Junior High",
+    examples: [{"word":"すべ.る","reading":"すべ.る","meaning":"Kun reading: すべ.る"},{"word":"カツ","reading":"カツ","meaning":"On reading: カツ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "滝",
     meanings: ["cascade","rapids","waterfall"],
     onyomi: ["ソウ","ロウ"],
     kunyomi: ["たき"],
-    examples: [{"word":"たき","pronunciation":"たき","meaning":"Kun reading: たき"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たき","reading":"たき","meaning":"Kun reading: たき"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "滞",
     meanings: ["arrears","be delayed","overdue","stagnate"],
     onyomi: ["タイ","テイ"],
     kunyomi: ["とどこお.る"],
-    examples: [{"word":"とどこお.る","pronunciation":"とどこお.る","meaning":"Kun reading: とどこお.る"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"とどこお.る","reading":"とどこお.る","meaning":"Kun reading: とどこお.る"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "滴",
     meanings: ["drip","drop"],
     onyomi: ["テキ"],
     kunyomi: ["しずく","したた.る"],
-    examples: [{"word":"しずく","pronunciation":"しずく","meaning":"Kun reading: しずく"},{"word":"テキ","pronunciation":"テキ","meaning":"On reading: テキ"}],
-    grade: "Junior High",
+    examples: [{"word":"しずく","reading":"しずく","meaning":"Kun reading: しずく"},{"word":"テキ","reading":"テキ","meaning":"On reading: テキ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "漂",
     meanings: ["drift","float (on liquid)"],
     onyomi: ["ヒョウ"],
     kunyomi: ["ただよ.う"],
-    examples: [{"word":"ただよ.う","pronunciation":"ただよ.う","meaning":"Kun reading: ただよ.う"},{"word":"ヒョウ","pronunciation":"ヒョウ","meaning":"On reading: ヒョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ただよ.う","reading":"ただよ.う","meaning":"Kun reading: ただよ.う"},{"word":"ヒョウ","reading":"ヒョウ","meaning":"On reading: ヒョウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "漆",
     meanings: ["lacquer","seven","varnish"],
     onyomi: ["シツ"],
     kunyomi: ["うるし"],
-    examples: [{"word":"うるし","pronunciation":"うるし","meaning":"Kun reading: うるし"},{"word":"シツ","pronunciation":"シツ","meaning":"On reading: シツ"}],
-    grade: "Junior High",
+    examples: [{"word":"うるし","reading":"うるし","meaning":"Kun reading: うるし"},{"word":"シツ","reading":"シツ","meaning":"On reading: シツ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "漏",
     meanings: ["escape","leak","time"],
     onyomi: ["ロウ"],
     kunyomi: ["も.らす","も.る","も.れる"],
-    examples: [{"word":"も.らす","pronunciation":"も.らす","meaning":"Kun reading: も.らす"},{"word":"ロウ","pronunciation":"ロウ","meaning":"On reading: ロウ"}],
-    grade: "Junior High",
+    examples: [{"word":"も.らす","reading":"も.らす","meaning":"Kun reading: も.らす"},{"word":"ロウ","reading":"ロウ","meaning":"On reading: ロウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "漠",
     meanings: ["desert","obscure","vague","wide"],
     onyomi: ["バク"],
     kunyomi: [],
-    examples: [{"word":"バク","pronunciation":"バク","meaning":"On reading: バク"}],
-    grade: "Junior High",
+    examples: [{"word":"バク","reading":"バク","meaning":"On reading: バク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "漫",
     meanings: ["cartoon","corrupt","in spite of oneself","involuntarily","unrestrained"],
     onyomi: ["マン"],
     kunyomi: ["そぞ.ろ","みだり.に"],
-    examples: [{"word":"そぞ.ろ","pronunciation":"そぞ.ろ","meaning":"Kun reading: そぞ.ろ"},{"word":"マン","pronunciation":"マン","meaning":"On reading: マン"}],
-    grade: "Junior High",
+    examples: [{"word":"そぞ.ろ","reading":"そぞ.ろ","meaning":"Kun reading: そぞ.ろ"},{"word":"マン","reading":"マン","meaning":"On reading: マン"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "漬",
     meanings: ["moisten","pickling","soak","steep"],
     onyomi: ["シ"],
     kunyomi: ["-づ.け","-づけ","つ.かる","つ.ける"],
-    examples: [{"word":"-づ.け","pronunciation":"-づ.け","meaning":"Kun reading: -づ.け"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"-づ.け","reading":"-づ.け","meaning":"Kun reading: -づ.け"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "漸",
     meanings: ["barely","finally","gradually advancing","steadily"],
     onyomi: ["ゼン"],
     kunyomi: ["すす.む","やや","ようや.く","ようよ.う"],
-    examples: [{"word":"すす.む","pronunciation":"すす.む","meaning":"Kun reading: すす.む"},{"word":"ゼン","pronunciation":"ゼン","meaning":"On reading: ゼン"}],
-    grade: "Junior High",
+    examples: [{"word":"すす.む","reading":"すす.む","meaning":"Kun reading: すす.む"},{"word":"ゼン","reading":"ゼン","meaning":"On reading: ゼン"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "潜",
     meanings: ["conceal","hide","hush","lower (voice)","submerge"],
     onyomi: ["セン"],
     kunyomi: ["かく.れる","くぐ.る","ひそ.む","ひそ.める","もぐ.る"],
-    examples: [{"word":"かく.れる","pronunciation":"かく.れる","meaning":"Kun reading: かく.れる"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"かく.れる","reading":"かく.れる","meaning":"Kun reading: かく.れる"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "潟",
     meanings: ["lagoon"],
     onyomi: ["セキ"],
     kunyomi: ["-がた","かた"],
-    examples: [{"word":"-がた","pronunciation":"-がた","meaning":"Kun reading: -がた"},{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"-がた","reading":"-がた","meaning":"Kun reading: -がた"},{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "潤",
     meanings: ["be watered","charm","favor","profit by","receive benefits","steep","wet"],
     onyomi: ["ジュン"],
     kunyomi: ["うる.む","うるお.う","うるお.す"],
-    examples: [{"word":"うる.む","pronunciation":"うる.む","meaning":"Kun reading: うる.む"},{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"うる.む","reading":"うる.む","meaning":"Kun reading: うる.む"},{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "潰",
     meanings: ["break","crush","dissipate","smash"],
     onyomi: ["エ","カイ"],
     kunyomi: ["つい.える","つぶ.す","つぶ.れる"],
-    examples: [{"word":"つい.える","pronunciation":"つい.える","meaning":"Kun reading: つい.える"},{"word":"エ","pronunciation":"エ","meaning":"On reading: エ"}],
-    grade: "Junior High",
+    examples: [{"word":"つい.える","reading":"つい.える","meaning":"Kun reading: つい.える"},{"word":"エ","reading":"エ","meaning":"On reading: エ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -6972,128 +6972,128 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be clear","clarify","clear","look grave","lucidity","settle","strain"],
     onyomi: ["チョウ"],
     kunyomi: ["-す.ます","す.ます","す.む"],
-    examples: [{"word":"-す.ます","pronunciation":"-す.ます","meaning":"Kun reading: -す.ます"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-す.ます","reading":"-す.ます","meaning":"Kun reading: -す.ます"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "濁",
     meanings: ["impurity","nigori","uncleanness","voiced","wrong"],
     onyomi: ["ジョク","ダク"],
     kunyomi: ["にご.す","にご.る"],
-    examples: [{"word":"にご.す","pronunciation":"にご.す","meaning":"Kun reading: にご.す"},{"word":"ジョク","pronunciation":"ジョク","meaning":"On reading: ジョク"}],
-    grade: "Junior High",
+    examples: [{"word":"にご.す","reading":"にご.す","meaning":"Kun reading: にご.す"},{"word":"ジョク","reading":"ジョク","meaning":"On reading: ジョク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "濃",
     meanings: ["concentrated","dark","thick","undiluted"],
     onyomi: ["ノウ"],
     kunyomi: ["こ.い"],
-    examples: [{"word":"こ.い","pronunciation":"こ.い","meaning":"Kun reading: こ.い"},{"word":"ノウ","pronunciation":"ノウ","meaning":"On reading: ノウ"}],
-    grade: "Junior High",
+    examples: [{"word":"こ.い","reading":"こ.い","meaning":"Kun reading: こ.い"},{"word":"ノウ","reading":"ノウ","meaning":"On reading: ノウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "濫",
     meanings: ["excessive","overflow","spread out"],
     onyomi: ["ラン"],
     kunyomi: ["みだ.りがましい","みだ.りに"],
-    examples: [{"word":"みだ.りがましい","pronunciation":"みだ.りがましい","meaning":"Kun reading: みだ.りがましい"},{"word":"ラン","pronunciation":"ラン","meaning":"On reading: ラン"}],
-    grade: "Junior High",
+    examples: [{"word":"みだ.りがましい","reading":"みだ.りがましい","meaning":"Kun reading: みだ.りがましい"},{"word":"ラン","reading":"ラン","meaning":"On reading: ラン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "濯",
     meanings: ["laundry","pour on","rinse","wash"],
     onyomi: ["タク"],
     kunyomi: ["すす.ぐ","ゆす.ぐ"],
-    examples: [{"word":"すす.ぐ","pronunciation":"すす.ぐ","meaning":"Kun reading: すす.ぐ"},{"word":"タク","pronunciation":"タク","meaning":"On reading: タク"}],
-    grade: "Junior High",
+    examples: [{"word":"すす.ぐ","reading":"すす.ぐ","meaning":"Kun reading: すす.ぐ"},{"word":"タク","reading":"タク","meaning":"On reading: タク"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "瀬",
     meanings: ["current","rapids","shallows","shoal","torrent"],
     onyomi: ["ライ"],
     kunyomi: ["せ"],
-    examples: [{"word":"せ","pronunciation":"せ","meaning":"Kun reading: せ"},{"word":"ライ","pronunciation":"ライ","meaning":"On reading: ライ"}],
-    grade: "Junior High",
+    examples: [{"word":"せ","reading":"せ","meaning":"Kun reading: せ"},{"word":"ライ","reading":"ライ","meaning":"On reading: ライ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "炉",
     meanings: ["furnace","hearth","kiln","reactor"],
     onyomi: ["ロ"],
     kunyomi: ["いろり"],
-    examples: [{"word":"いろり","pronunciation":"いろり","meaning":"Kun reading: いろり"},{"word":"ロ","pronunciation":"ロ","meaning":"On reading: ロ"}],
-    grade: "Junior High",
+    examples: [{"word":"いろり","reading":"いろり","meaning":"Kun reading: いろり"},{"word":"ロ","reading":"ロ","meaning":"On reading: ロ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "炊",
     meanings: ["boil","cook"],
     onyomi: ["スイ"],
     kunyomi: ["-だ.き","た.く"],
-    examples: [{"word":"-だ.き","pronunciation":"-だ.き","meaning":"Kun reading: -だ.き"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"-だ.き","reading":"-だ.き","meaning":"Kun reading: -だ.き"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "炎",
     meanings: ["blaze","flame","inflammation"],
     onyomi: ["エン"],
     kunyomi: ["ほのお"],
-    examples: [{"word":"ほのお","pronunciation":"ほのお","meaning":"Kun reading: ほのお"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"ほのお","reading":"ほのお","meaning":"Kun reading: ほのお"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "為",
     meanings: ["advantage","as a result of","be of use","benefit","change","cost","do","good","make","practice","reach to","serve as","try","welfare"],
     onyomi: ["イ"],
     kunyomi: ["す.る","ため","たり","つく.る","な.す","な.る","なり"],
-    examples: [{"word":"す.る","pronunciation":"す.る","meaning":"Kun reading: す.る"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"す.る","reading":"す.る","meaning":"Kun reading: す.る"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "烈",
     meanings: ["ardent","extreme","furious","severe","vehement","violent"],
     onyomi: ["レツ"],
     kunyomi: ["はげ.しい"],
-    examples: [{"word":"はげ.しい","pronunciation":"はげ.しい","meaning":"Kun reading: はげ.しい"},{"word":"レツ","pronunciation":"レツ","meaning":"On reading: レツ"}],
-    grade: "Junior High",
+    examples: [{"word":"はげ.しい","reading":"はげ.しい","meaning":"Kun reading: はげ.しい"},{"word":"レツ","reading":"レツ","meaning":"On reading: レツ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "焦",
     meanings: ["burn","char","hurry","impatient","irritate","scorch","singe"],
     onyomi: ["ショウ"],
     kunyomi: ["あせ.る","こ.がす","こ.がれる","こ.げる","じ.らす","じ.れる"],
-    examples: [{"word":"あせ.る","pronunciation":"あせ.る","meaning":"Kun reading: あせ.る"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あせ.る","reading":"あせ.る","meaning":"Kun reading: あせ.る"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "煎",
     meanings: ["boil","broil","parch","roast"],
     onyomi: ["セン"],
     kunyomi: ["い.る","せん.じる","に.る"],
-    examples: [{"word":"い.る","pronunciation":"い.る","meaning":"Kun reading: い.る"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"い.る","reading":"い.る","meaning":"Kun reading: い.る"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -7101,68 +7101,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["smoke"],
     onyomi: ["エン"],
     kunyomi: ["けむ.い","けむ.る","けむり"],
-    examples: [{"word":"けむ.い","pronunciation":"けむ.い","meaning":"Kun reading: けむ.い"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"けむ.い","reading":"けむ.い","meaning":"Kun reading: けむ.い"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "煩",
     meanings: ["annoy","anxiety","ill","irksome","nuisance","pain","trouble","worry"],
     onyomi: ["ハン","ボン"],
     kunyomi: ["うるさ.い","うるさ.がる","わずら.う","わずら.わす"],
-    examples: [{"word":"うるさ.い","pronunciation":"うるさ.い","meaning":"Kun reading: うるさ.い"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"うるさ.い","reading":"うるさ.い","meaning":"Kun reading: うるさ.い"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "煮",
     meanings: ["boil","cook"],
     onyomi: ["シャ"],
     kunyomi: ["-に","に.える","に.やす","に.る"],
-    examples: [{"word":"-に","pronunciation":"-に","meaning":"Kun reading: -に"},{"word":"シャ","pronunciation":"シャ","meaning":"On reading: シャ"}],
-    grade: "Junior High",
+    examples: [{"word":"-に","reading":"-に","meaning":"Kun reading: -に"},{"word":"シャ","reading":"シャ","meaning":"On reading: シャ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "熊",
     meanings: ["bear"],
     onyomi: ["ユウ"],
     kunyomi: ["くま"],
-    examples: [{"word":"くま","pronunciation":"くま","meaning":"Kun reading: くま"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くま","reading":"くま","meaning":"Kun reading: くま"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "燥",
     meanings: ["dry up","parch"],
     onyomi: ["ソウ"],
     kunyomi: ["はしゃ.ぐ"],
-    examples: [{"word":"はしゃ.ぐ","pronunciation":"はしゃ.ぐ","meaning":"Kun reading: はしゃ.ぐ"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"はしゃ.ぐ","reading":"はしゃ.ぐ","meaning":"Kun reading: はしゃ.ぐ"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "爆",
     meanings: ["bomb","burst open","pop","split"],
     onyomi: ["バク"],
     kunyomi: ["は.ぜる"],
-    examples: [{"word":"は.ぜる","pronunciation":"は.ぜる","meaning":"Kun reading: は.ぜる"},{"word":"バク","pronunciation":"バク","meaning":"On reading: バク"}],
-    grade: "Junior High",
+    examples: [{"word":"は.ぜる","reading":"は.ぜる","meaning":"Kun reading: は.ぜる"},{"word":"バク","reading":"バク","meaning":"On reading: バク"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "爪",
     meanings: ["claw","nail","talon"],
     onyomi: ["ソウ"],
     kunyomi: ["つま-","つめ"],
-    examples: [{"word":"つま-","pronunciation":"つま-","meaning":"Kun reading: つま-"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つま-","reading":"つま-","meaning":"Kun reading: つま-"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 4
   },
   {
@@ -7170,28 +7170,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["baron","court rank","peerage"],
     onyomi: ["シャク"],
     kunyomi: [],
-    examples: [{"word":"シャク","pronunciation":"シャク","meaning":"On reading: シャク"}],
-    grade: "Junior High",
+    examples: [{"word":"シャク","reading":"シャク","meaning":"On reading: シャク"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "爽",
     meanings: ["bracing","clear","refreshing","resonant","sweet"],
     onyomi: ["ソウ"],
     kunyomi: ["あき.らか","さわ.やか","たがう"],
-    examples: [{"word":"あき.らか","pronunciation":"あき.らか","meaning":"Kun reading: あき.らか"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あき.らか","reading":"あき.らか","meaning":"Kun reading: あき.らか"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "牙",
     meanings: ["fang","tusk","tusk radical (no. 92)"],
     onyomi: ["ガ","ゲ"],
     kunyomi: ["きば","は"],
-    examples: [{"word":"きば","pronunciation":"きば","meaning":"Kun reading: きば"},{"word":"ガ","pronunciation":"ガ","meaning":"On reading: ガ"}],
-    grade: "Junior High",
+    examples: [{"word":"きば","reading":"きば","meaning":"Kun reading: きば"},{"word":"ガ","reading":"ガ","meaning":"On reading: ガ"}],
+    grade: "juniorHigh",
     strokeCount: 5
   },
   {
@@ -7199,38 +7199,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["animal sacrifice","offering"],
     onyomi: ["セイ"],
     kunyomi: [],
-    examples: [{"word":"セイ","pronunciation":"セイ","meaning":"On reading: セイ"}],
-    grade: "Junior High",
+    examples: [{"word":"セイ","reading":"セイ","meaning":"On reading: セイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "犠",
     meanings: ["sacrifice"],
     onyomi: ["キ","ギ"],
     kunyomi: ["いけにえ"],
-    examples: [{"word":"いけにえ","pronunciation":"いけにえ","meaning":"Kun reading: いけにえ"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"いけにえ","reading":"いけにえ","meaning":"Kun reading: いけにえ"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "狂",
     meanings: ["confuse","crazy","insane","lunatic"],
     onyomi: ["キョウ"],
     kunyomi: ["くる.う","くる.おしい","くるお.しい"],
-    examples: [{"word":"くる.う","pronunciation":"くる.う","meaning":"Kun reading: くる.う"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くる.う","reading":"くる.う","meaning":"Kun reading: くる.う"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "狙",
     meanings: ["aim at","shadow","sight","stalk"],
     onyomi: ["ショ","ソ"],
     kunyomi: ["ねら.い","ねら.う"],
-    examples: [{"word":"ねら.い","pronunciation":"ねら.い","meaning":"Kun reading: ねら.い"},{"word":"ショ","pronunciation":"ショ","meaning":"On reading: ショ"}],
-    grade: "Junior High",
+    examples: [{"word":"ねら.い","reading":"ねら.い","meaning":"Kun reading: ねら.い"},{"word":"ショ","reading":"ショ","meaning":"On reading: ショ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -7238,128 +7238,128 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["gather","hunt","raid"],
     onyomi: ["シュ"],
     kunyomi: ["-が.り","か.り","か.る"],
-    examples: [{"word":"-が.り","pronunciation":"-が.り","meaning":"Kun reading: -が.り"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"-が.り","reading":"-が.り","meaning":"Kun reading: -が.り"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "狭",
     meanings: ["contract","cramped","narrow","tight"],
     onyomi: ["キョウ","コウ"],
     kunyomi: ["さ","せば.まる","せば.める","せま.い"],
-    examples: [{"word":"さ","pronunciation":"さ","meaning":"Kun reading: さ"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さ","reading":"さ","meaning":"Kun reading: さ"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "猛",
     meanings: ["become furious","fierce","rave","rush","strength","wildness"],
     onyomi: ["モウ"],
     kunyomi: [],
-    examples: [{"word":"モウ","pronunciation":"モウ","meaning":"On reading: モウ"}],
-    grade: "Junior High",
+    examples: [{"word":"モウ","reading":"モウ","meaning":"On reading: モウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "猟",
     meanings: ["bag","game","game-hunting","shooting"],
     onyomi: ["リョウ"],
     kunyomi: ["か.る","かり"],
-    examples: [{"word":"か.る","pronunciation":"か.る","meaning":"Kun reading: か.る"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"か.る","reading":"か.る","meaning":"Kun reading: か.る"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "猫",
     meanings: ["cat"],
     onyomi: ["ビョウ"],
     kunyomi: ["ねこ"],
-    examples: [{"word":"ねこ","pronunciation":"ねこ","meaning":"Kun reading: ねこ"},{"word":"ビョウ","pronunciation":"ビョウ","meaning":"On reading: ビョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ねこ","reading":"ねこ","meaning":"Kun reading: ねこ"},{"word":"ビョウ","reading":"ビョウ","meaning":"On reading: ビョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "献",
     meanings: ["counter for drinks","offer","offering","present"],
     onyomi: ["ケン","コン"],
     kunyomi: ["たてまつ.る"],
-    examples: [{"word":"たてまつ.る","pronunciation":"たてまつ.る","meaning":"Kun reading: たてまつ.る"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"たてまつ.る","reading":"たてまつ.る","meaning":"Kun reading: たてまつ.る"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "猶",
     meanings: ["furthermore","still","yet"],
     onyomi: ["ユ","ユウ"],
     kunyomi: ["なお"],
-    examples: [{"word":"なお","pronunciation":"なお","meaning":"Kun reading: なお"},{"word":"ユ","pronunciation":"ユ","meaning":"On reading: ユ"}],
-    grade: "Junior High",
+    examples: [{"word":"なお","reading":"なお","meaning":"Kun reading: なお"},{"word":"ユ","reading":"ユ","meaning":"On reading: ユ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "猿",
     meanings: ["monkey"],
     onyomi: ["エン"],
     kunyomi: ["さる"],
-    examples: [{"word":"さる","pronunciation":"さる","meaning":"Kun reading: さる"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"さる","reading":"さる","meaning":"Kun reading: さる"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "獄",
     meanings: ["jail","prison"],
     onyomi: ["ゴク"],
     kunyomi: [],
-    examples: [{"word":"ゴク","pronunciation":"ゴク","meaning":"On reading: ゴク"}],
-    grade: "Junior High",
+    examples: [{"word":"ゴク","reading":"ゴク","meaning":"On reading: ゴク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "獣",
     meanings: ["animal","beast"],
     onyomi: ["ジュウ"],
     kunyomi: ["けだもの","けもの"],
-    examples: [{"word":"けだもの","pronunciation":"けだもの","meaning":"Kun reading: けだもの"},{"word":"ジュウ","pronunciation":"ジュウ","meaning":"On reading: ジュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"けだもの","reading":"けだもの","meaning":"Kun reading: けだもの"},{"word":"ジュウ","reading":"ジュウ","meaning":"On reading: ジュウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "獲",
     meanings: ["able to","acquire","can","earn","find","get","may","seize"],
     onyomi: ["カク"],
     kunyomi: ["え.る"],
-    examples: [{"word":"え.る","pronunciation":"え.る","meaning":"Kun reading: え.る"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"え.る","reading":"え.る","meaning":"Kun reading: え.る"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "玄",
     meanings: ["black","deep","mysterious","occultness","profound"],
     onyomi: ["ゲン"],
     kunyomi: ["くろ","くろ.い"],
-    examples: [{"word":"くろ","pronunciation":"くろ","meaning":"Kun reading: くろ"},{"word":"ゲン","pronunciation":"ゲン","meaning":"On reading: ゲン"}],
-    grade: "Junior High",
+    examples: [{"word":"くろ","reading":"くろ","meaning":"Kun reading: くろ"},{"word":"ゲン","reading":"ゲン","meaning":"On reading: ゲン"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "玩",
     meanings: ["make sport of","play","take pleasure in","trifle with"],
     onyomi: ["ガン"],
     kunyomi: ["もちあそ.ぶ","もてあそ.ぶ"],
-    examples: [{"word":"もちあそ.ぶ","pronunciation":"もちあそ.ぶ","meaning":"Kun reading: もちあそ.ぶ"},{"word":"ガン","pronunciation":"ガン","meaning":"On reading: ガン"}],
-    grade: "Junior High",
+    examples: [{"word":"もちあそ.ぶ","reading":"もちあそ.ぶ","meaning":"Kun reading: もちあそ.ぶ"},{"word":"ガン","reading":"ガン","meaning":"On reading: ガン"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -7367,58 +7367,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["curious","rare","strange"],
     onyomi: ["チン"],
     kunyomi: ["たから","めずら.しい"],
-    examples: [{"word":"たから","pronunciation":"たから","meaning":"Kun reading: たから"},{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"たから","reading":"たから","meaning":"Kun reading: たから"},{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "珠",
     meanings: ["gem","jewel","pearl"],
     onyomi: ["シュ"],
     kunyomi: ["たま"],
-    examples: [{"word":"たま","pronunciation":"たま","meaning":"Kun reading: たま"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"たま","reading":"たま","meaning":"Kun reading: たま"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "琴",
     meanings: ["harp","koto"],
     onyomi: ["キン","ゴン"],
     kunyomi: ["こと"],
-    examples: [{"word":"こと","pronunciation":"こと","meaning":"Kun reading: こと"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"こと","reading":"こと","meaning":"Kun reading: こと"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "瑠",
     meanings: ["lapis lazuli"],
     onyomi: ["リュウ","ル"],
     kunyomi: [],
-    examples: [{"word":"リュウ","pronunciation":"リュウ","meaning":"On reading: リュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リュウ","reading":"リュウ","meaning":"On reading: リュウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "璃",
     meanings: ["glassy","lapis lazuli"],
     onyomi: ["リ"],
     kunyomi: [],
-    examples: [{"word":"リ","pronunciation":"リ","meaning":"On reading: リ"}],
-    grade: "Junior High",
+    examples: [{"word":"リ","reading":"リ","meaning":"On reading: リ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "璧",
     meanings: ["ball","sphere"],
     onyomi: ["ヘキ"],
     kunyomi: ["たま"],
-    examples: [{"word":"たま","pronunciation":"たま","meaning":"Kun reading: たま"},{"word":"ヘキ","pronunciation":"ヘキ","meaning":"On reading: ヘキ"}],
-    grade: "Junior High",
+    examples: [{"word":"たま","reading":"たま","meaning":"Kun reading: たま"},{"word":"ヘキ","reading":"ヘキ","meaning":"On reading: ヘキ"}],
+    grade: "juniorHigh",
     strokeCount: 18
   },
   {
@@ -7426,18 +7426,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["circle","loop","ring"],
     onyomi: ["カン"],
     kunyomi: ["わ"],
-    examples: [{"word":"わ","pronunciation":"わ","meaning":"Kun reading: わ"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"わ","reading":"わ","meaning":"Kun reading: わ"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "璽",
     meanings: ["emperor's seal"],
     onyomi: ["ジ"],
     kunyomi: [],
-    examples: [{"word":"ジ","pronunciation":"ジ","meaning":"On reading: ジ"}],
-    grade: "Junior High",
+    examples: [{"word":"ジ","reading":"ジ","meaning":"On reading: ジ"}],
+    grade: "juniorHigh",
     strokeCount: 19
   },
   {
@@ -7445,8 +7445,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["gram","tile"],
     onyomi: ["ガ"],
     kunyomi: ["かわら","ぐらむ"],
-    examples: [{"word":"かわら","pronunciation":"かわら","meaning":"Kun reading: かわら"},{"word":"ガ","pronunciation":"ガ","meaning":"On reading: ガ"}],
-    grade: "Junior High",
+    examples: [{"word":"かわら","reading":"かわら","meaning":"Kun reading: かわら"},{"word":"ガ","reading":"ガ","meaning":"On reading: ガ"}],
+    grade: "juniorHigh",
     strokeCount: 5
   },
   {
@@ -7454,48 +7454,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bottle","jar","jug","urn","vat","vial"],
     onyomi: ["ビン"],
     kunyomi: ["かめ","へい"],
-    examples: [{"word":"かめ","pronunciation":"かめ","meaning":"Kun reading: かめ"},{"word":"ビン","pronunciation":"ビン","meaning":"On reading: ビン"}],
-    grade: "Junior High",
+    examples: [{"word":"かめ","reading":"かめ","meaning":"Kun reading: かめ"},{"word":"ビン","reading":"ビン","meaning":"On reading: ビン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "甘",
     meanings: ["be content","coax","pamper","sugary","sweet"],
     onyomi: ["カン"],
     kunyomi: ["あま.い","あま.える","あま.やかす","うま.い"],
-    examples: [{"word":"あま.い","pronunciation":"あま.い","meaning":"Kun reading: あま.い"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"あま.い","reading":"あま.い","meaning":"Kun reading: あま.い"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "甚",
     meanings: ["exceedingly","great","tremendously","very"],
     onyomi: ["ジン"],
     kunyomi: ["はなは.だ","はなは.だしい"],
-    examples: [{"word":"はなは.だ","pronunciation":"はなは.だ","meaning":"Kun reading: はなは.だ"},{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"はなは.だ","reading":"はなは.だ","meaning":"Kun reading: はなは.だ"},{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "甲",
     meanings: ["A grade","armor","carapace","first class","former","high (voice)","instep"],
     onyomi: ["カン","コウ"],
     kunyomi: ["きのえ"],
-    examples: [{"word":"きのえ","pronunciation":"きのえ","meaning":"Kun reading: きのえ"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"きのえ","reading":"きのえ","meaning":"Kun reading: きのえ"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "畏",
     meanings: ["be apprehensive","fear","graciously","majestic"],
     onyomi: ["イ"],
     kunyomi: ["おそ.れる","かしこ","かしこ.し","かしこま.る"],
-    examples: [{"word":"おそ.れる","pronunciation":"おそ.れる","meaning":"Kun reading: おそ.れる"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"おそ.れる","reading":"おそ.れる","meaning":"Kun reading: おそ.れる"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -7503,48 +7503,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["levee","paddy ridge"],
     onyomi: ["ハン"],
     kunyomi: ["あぜ","くろ","ほとり"],
-    examples: [{"word":"あぜ","pronunciation":"あぜ","meaning":"Kun reading: あぜ"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"あぜ","reading":"あぜ","meaning":"Kun reading: あぜ"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "畜",
     meanings: ["domestic fowl and animals","livestock"],
     onyomi: ["チク"],
     kunyomi: [],
-    examples: [{"word":"チク","pronunciation":"チク","meaning":"On reading: チク"}],
-    grade: "Junior High",
+    examples: [{"word":"チク","reading":"チク","meaning":"On reading: チク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "畝",
     meanings: ["furrow","rib","ridge","thirty tsubo"],
     onyomi: ["ホ","ボウ","ム","モ"],
     kunyomi: ["うね","せ"],
-    examples: [{"word":"うね","pronunciation":"うね","meaning":"Kun reading: うね"},{"word":"ホ","pronunciation":"ホ","meaning":"On reading: ホ"}],
-    grade: "Junior High",
+    examples: [{"word":"うね","reading":"うね","meaning":"Kun reading: うね"},{"word":"ホ","reading":"ホ","meaning":"On reading: ホ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "畳",
     meanings: ["counter for tatami mats","do away with","fold","shut up","tatami mat"],
     onyomi: ["ジョウ","チョウ"],
     kunyomi: ["かさ.なる","たた.む","たたみ"],
-    examples: [{"word":"かさ.なる","pronunciation":"かさ.なる","meaning":"Kun reading: かさ.なる"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かさ.なる","reading":"かさ.なる","meaning":"Kun reading: かさ.なる"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "畿",
     meanings: ["capital","suburbs of capital"],
     onyomi: ["キ"],
     kunyomi: ["みやこ"],
-    examples: [{"word":"みやこ","pronunciation":"みやこ","meaning":"Kun reading: みやこ"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"みやこ","reading":"みやこ","meaning":"Kun reading: みやこ"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -7552,58 +7552,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["alienate","neglect","penetrate","rough","shun","sparse"],
     onyomi: ["ショ","ソ"],
     kunyomi: ["うと.い","うと.む","まば.ら"],
-    examples: [{"word":"うと.い","pronunciation":"うと.い","meaning":"Kun reading: うと.い"},{"word":"ショ","pronunciation":"ショ","meaning":"On reading: ショ"}],
-    grade: "Junior High",
+    examples: [{"word":"うと.い","reading":"うと.い","meaning":"Kun reading: うと.い"},{"word":"ショ","reading":"ショ","meaning":"On reading: ショ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "疫",
     meanings: ["epidemic"],
     onyomi: ["エキ","ヤク"],
     kunyomi: [],
-    examples: [{"word":"エキ","pronunciation":"エキ","meaning":"On reading: エキ"}],
-    grade: "Junior High",
+    examples: [{"word":"エキ","reading":"エキ","meaning":"On reading: エキ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "疲",
     meanings: ["exhausted","tire","weary"],
     onyomi: ["ヒ"],
     kunyomi: ["-づか.れ","つか.らす","つか.れる"],
-    examples: [{"word":"-づか.れ","pronunciation":"-づか.れ","meaning":"Kun reading: -づか.れ"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"-づか.れ","reading":"-づか.れ","meaning":"Kun reading: -づか.れ"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "疾",
     meanings: ["rapidly"],
     onyomi: ["シツ"],
     kunyomi: ["はや.い"],
-    examples: [{"word":"はや.い","pronunciation":"はや.い","meaning":"Kun reading: はや.い"},{"word":"シツ","pronunciation":"シツ","meaning":"On reading: シツ"}],
-    grade: "Junior High",
+    examples: [{"word":"はや.い","reading":"はや.い","meaning":"Kun reading: はや.い"},{"word":"シツ","reading":"シツ","meaning":"On reading: シツ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "症",
     meanings: ["illness","symptoms"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "痕",
     meanings: ["foot print","mark"],
     onyomi: ["コン"],
     kunyomi: ["あと"],
-    examples: [{"word":"あと","pronunciation":"あと","meaning":"Kun reading: あと"},{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"あと","reading":"あと","meaning":"Kun reading: あと"},{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -7611,28 +7611,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["pox","smallpox"],
     onyomi: ["トウ"],
     kunyomi: [],
-    examples: [{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "痢",
     meanings: ["diarrhea"],
     onyomi: ["リ"],
     kunyomi: [],
-    examples: [{"word":"リ","pronunciation":"リ","meaning":"On reading: リ"}],
-    grade: "Junior High",
+    examples: [{"word":"リ","reading":"リ","meaning":"On reading: リ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "痩",
     meanings: ["get thin"],
     onyomi: ["シュ","シュウ","ソウ","チュウ"],
     kunyomi: ["や.せる"],
-    examples: [{"word":"や.せる","pronunciation":"や.せる","meaning":"Kun reading: や.せる"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"や.せる","reading":"や.せる","meaning":"Kun reading: や.せる"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -7640,18 +7640,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["foolish","stupid"],
     onyomi: ["チ"],
     kunyomi: ["おろか","し.れる"],
-    examples: [{"word":"おろか","pronunciation":"おろか","meaning":"Kun reading: おろか"},{"word":"チ","pronunciation":"チ","meaning":"On reading: チ"}],
-    grade: "Junior High",
+    examples: [{"word":"おろか","reading":"おろか","meaning":"Kun reading: おろか"},{"word":"チ","reading":"チ","meaning":"On reading: チ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "瘍",
     meanings: ["boil","swelling","tumor"],
     onyomi: ["ヨウ"],
     kunyomi: ["かさ"],
-    examples: [{"word":"かさ","pronunciation":"かさ","meaning":"Kun reading: かさ"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かさ","reading":"かさ","meaning":"Kun reading: かさ"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -7659,438 +7659,438 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cure","heal"],
     onyomi: ["リョウ"],
     kunyomi: [],
-    examples: [{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "癒",
     meanings: ["cure","healing","quench (thirst)","wreak"],
     onyomi: ["ユ"],
     kunyomi: ["い.える","い.やす","いや.す"],
-    examples: [{"word":"い.える","pronunciation":"い.える","meaning":"Kun reading: い.える"},{"word":"ユ","pronunciation":"ユ","meaning":"On reading: ユ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.える","reading":"い.える","meaning":"Kun reading: い.える"},{"word":"ユ","reading":"ユ","meaning":"On reading: ユ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "癖",
     meanings: ["fault","habit","kink","mannerism","trait","vice"],
     onyomi: ["ヘキ"],
     kunyomi: ["くせ","くせ.に"],
-    examples: [{"word":"くせ","pronunciation":"くせ","meaning":"Kun reading: くせ"},{"word":"ヘキ","pronunciation":"ヘキ","meaning":"On reading: ヘキ"}],
-    grade: "Junior High",
+    examples: [{"word":"くせ","reading":"くせ","meaning":"Kun reading: くせ"},{"word":"ヘキ","reading":"ヘキ","meaning":"On reading: ヘキ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "皆",
     meanings: ["all","everything"],
     onyomi: ["カイ"],
     kunyomi: ["みな","みんな"],
-    examples: [{"word":"みな","pronunciation":"みな","meaning":"Kun reading: みな"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"みな","reading":"みな","meaning":"Kun reading: みな"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "盆",
     meanings: ["basin","lantern festival","tray"],
     onyomi: ["ボン"],
     kunyomi: [],
-    examples: [{"word":"ボン","pronunciation":"ボン","meaning":"On reading: ボン"}],
-    grade: "Junior High",
+    examples: [{"word":"ボン","reading":"ボン","meaning":"On reading: ボン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "盗",
     meanings: ["pilfer","rob","steal"],
     onyomi: ["トウ"],
     kunyomi: ["ぬす.み","ぬす.む"],
-    examples: [{"word":"ぬす.み","pronunciation":"ぬす.み","meaning":"Kun reading: ぬす.み"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬす.み","reading":"ぬす.み","meaning":"Kun reading: ぬす.み"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "監",
     meanings: ["administer","govt office","official","oversee","rule"],
     onyomi: ["カン"],
     kunyomi: [],
-    examples: [{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "盤",
     meanings: ["board","phonograph record","platter","shallow bowl","tray","tub"],
     onyomi: ["バン"],
     kunyomi: [],
-    examples: [{"word":"バン","pronunciation":"バン","meaning":"On reading: バン"}],
-    grade: "Junior High",
+    examples: [{"word":"バン","reading":"バン","meaning":"On reading: バン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "盲",
     meanings: ["blind","blind man","ignoramus"],
     onyomi: ["モウ"],
     kunyomi: ["めくら"],
-    examples: [{"word":"めくら","pronunciation":"めくら","meaning":"Kun reading: めくら"},{"word":"モウ","pronunciation":"モウ","meaning":"On reading: モウ"}],
-    grade: "Junior High",
+    examples: [{"word":"めくら","reading":"めくら","meaning":"Kun reading: めくら"},{"word":"モウ","reading":"モウ","meaning":"On reading: モウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "盾",
     meanings: ["escutcheon","pretext","shield"],
     onyomi: ["ジュン"],
     kunyomi: ["たて"],
-    examples: [{"word":"たて","pronunciation":"たて","meaning":"Kun reading: たて"},{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"たて","reading":"たて","meaning":"Kun reading: たて"},{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "眉",
     meanings: ["eyebrow"],
     onyomi: ["ビ","ミ"],
     kunyomi: ["まゆ"],
-    examples: [{"word":"まゆ","pronunciation":"まゆ","meaning":"Kun reading: まゆ"},{"word":"ビ","pronunciation":"ビ","meaning":"On reading: ビ"}],
-    grade: "Junior High",
+    examples: [{"word":"まゆ","reading":"まゆ","meaning":"Kun reading: まゆ"},{"word":"ビ","reading":"ビ","meaning":"On reading: ビ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "眠",
     meanings: ["die","sleep","sleepy"],
     onyomi: ["ミン"],
     kunyomi: ["ねむ.い","ねむ.る"],
-    examples: [{"word":"ねむ.い","pronunciation":"ねむ.い","meaning":"Kun reading: ねむ.い"},{"word":"ミン","pronunciation":"ミン","meaning":"On reading: ミン"}],
-    grade: "Junior High",
+    examples: [{"word":"ねむ.い","reading":"ねむ.い","meaning":"Kun reading: ねむ.い"},{"word":"ミン","reading":"ミン","meaning":"On reading: ミン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "眺",
     meanings: ["look at","scrutinize","see","stare","watch"],
     onyomi: ["チョウ"],
     kunyomi: ["なが.める"],
-    examples: [{"word":"なが.める","pronunciation":"なが.める","meaning":"Kun reading: なが.める"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"なが.める","reading":"なが.める","meaning":"Kun reading: なが.める"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "睡",
     meanings: ["die","drowsy","sleep"],
     onyomi: ["スイ"],
     kunyomi: ["ねむ.い","ねむ.る"],
-    examples: [{"word":"ねむ.い","pronunciation":"ねむ.い","meaning":"Kun reading: ねむ.い"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ねむ.い","reading":"ねむ.い","meaning":"Kun reading: ねむ.い"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "督",
     meanings: ["coach","command","lead","supervise","urge"],
     onyomi: ["トク"],
     kunyomi: [],
-    examples: [{"word":"トク","pronunciation":"トク","meaning":"On reading: トク"}],
-    grade: "Junior High",
+    examples: [{"word":"トク","reading":"トク","meaning":"On reading: トク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "睦",
     meanings: ["friendly","harmonious","intimate"],
     onyomi: ["ボク","モク"],
     kunyomi: ["むつ.ぶ","むつ.まじい","むつ.む"],
-    examples: [{"word":"むつ.ぶ","pronunciation":"むつ.ぶ","meaning":"Kun reading: むつ.ぶ"},{"word":"ボク","pronunciation":"ボク","meaning":"On reading: ボク"}],
-    grade: "Junior High",
+    examples: [{"word":"むつ.ぶ","reading":"むつ.ぶ","meaning":"Kun reading: むつ.ぶ"},{"word":"ボク","reading":"ボク","meaning":"On reading: ボク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "瞬",
     meanings: ["blink","twinkle","wink"],
     onyomi: ["シュン"],
     kunyomi: ["まじろ.ぐ","またた.く"],
-    examples: [{"word":"まじろ.ぐ","pronunciation":"まじろ.ぐ","meaning":"Kun reading: まじろ.ぐ"},{"word":"シュン","pronunciation":"シュン","meaning":"On reading: シュン"}],
-    grade: "Junior High",
+    examples: [{"word":"まじろ.ぐ","reading":"まじろ.ぐ","meaning":"Kun reading: まじろ.ぐ"},{"word":"シュン","reading":"シュン","meaning":"On reading: シュン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "瞭",
     meanings: ["clear"],
     onyomi: ["リョウ"],
     kunyomi: ["あきらか"],
-    examples: [{"word":"あきらか","pronunciation":"あきらか","meaning":"Kun reading: あきらか"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あきらか","reading":"あきらか","meaning":"Kun reading: あきらか"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "瞳",
     meanings: ["pupil (of eye)"],
     onyomi: ["トウ","ドウ"],
     kunyomi: ["ひとみ"],
-    examples: [{"word":"ひとみ","pronunciation":"ひとみ","meaning":"Kun reading: ひとみ"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひとみ","reading":"ひとみ","meaning":"Kun reading: ひとみ"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "矛",
     meanings: ["arms","festival float","halberd"],
     onyomi: ["ボウ","ム"],
     kunyomi: ["ほこ"],
-    examples: [{"word":"ほこ","pronunciation":"ほこ","meaning":"Kun reading: ほこ"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほこ","reading":"ほこ","meaning":"Kun reading: ほこ"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "矯",
     meanings: ["control","correct","cure","falsify","pretend","rectify","reform","straighten"],
     onyomi: ["キョウ"],
     kunyomi: ["た.める"],
-    examples: [{"word":"た.める","pronunciation":"た.める","meaning":"Kun reading: た.める"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"た.める","reading":"た.める","meaning":"Kun reading: た.める"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "砕",
     meanings: ["break","crush","familiar","popular","smash"],
     onyomi: ["サイ"],
     kunyomi: ["くだ.く","くだ.ける"],
-    examples: [{"word":"くだ.く","pronunciation":"くだ.く","meaning":"Kun reading: くだ.く"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"くだ.く","reading":"くだ.く","meaning":"Kun reading: くだ.く"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "砲",
     meanings: ["cannon","gun"],
     onyomi: ["ホウ"],
     kunyomi: [],
-    examples: [{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "硝",
     meanings: ["nitrate","saltpeter"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "硫",
     meanings: ["sulphur"],
     onyomi: ["リュウ"],
     kunyomi: [],
-    examples: [{"word":"リュウ","pronunciation":"リュウ","meaning":"On reading: リュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リュウ","reading":"リュウ","meaning":"On reading: リュウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "硬",
     meanings: ["hard","stiff"],
     onyomi: ["コウ"],
     kunyomi: ["かた.い"],
-    examples: [{"word":"かた.い","pronunciation":"かた.い","meaning":"Kun reading: かた.い"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かた.い","reading":"かた.い","meaning":"Kun reading: かた.い"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "碁",
     meanings: ["Go"],
     onyomi: ["ゴ"],
     kunyomi: [],
-    examples: [{"word":"ゴ","pronunciation":"ゴ","meaning":"On reading: ゴ"}],
-    grade: "Junior High",
+    examples: [{"word":"ゴ","reading":"ゴ","meaning":"On reading: ゴ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "碑",
     meanings: ["monument","tombstone"],
     onyomi: ["ヒ"],
     kunyomi: ["いしぶみ"],
-    examples: [{"word":"いしぶみ","pronunciation":"いしぶみ","meaning":"Kun reading: いしぶみ"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"いしぶみ","reading":"いしぶみ","meaning":"Kun reading: いしぶみ"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "磨",
     meanings: ["brush (teeth)","grind","improve","polish","scour"],
     onyomi: ["マ"],
     kunyomi: ["す.る","みが.く"],
-    examples: [{"word":"す.る","pronunciation":"す.る","meaning":"Kun reading: す.る"},{"word":"マ","pronunciation":"マ","meaning":"On reading: マ"}],
-    grade: "Junior High",
+    examples: [{"word":"す.る","reading":"す.る","meaning":"Kun reading: す.る"},{"word":"マ","reading":"マ","meaning":"On reading: マ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "礁",
     meanings: ["reef","sunken rock"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "礎",
     meanings: ["cornerstone","foundation stone"],
     onyomi: ["ソ"],
     kunyomi: ["いしずえ"],
-    examples: [{"word":"いしずえ","pronunciation":"いしずえ","meaning":"Kun reading: いしずえ"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"いしずえ","reading":"いしずえ","meaning":"Kun reading: いしずえ"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "祈",
     meanings: ["pray","wish"],
     onyomi: ["キ"],
     kunyomi: ["いの.る"],
-    examples: [{"word":"いの.る","pronunciation":"いの.る","meaning":"Kun reading: いの.る"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"いの.る","reading":"いの.る","meaning":"Kun reading: いの.る"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "祉",
     meanings: ["happiness","welfare"],
     onyomi: ["シ"],
     kunyomi: [],
-    examples: [{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "祥",
     meanings: ["auspicious","blessedness","good fortune","good omen","happiness"],
     onyomi: ["ショウ"],
     kunyomi: ["きざ.し","さいわ.い","つまび.らか","よ.い"],
-    examples: [{"word":"きざ.し","pronunciation":"きざ.し","meaning":"Kun reading: きざ.し"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"きざ.し","reading":"きざ.し","meaning":"Kun reading: きざ.し"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "禅",
     meanings: ["Zen","silent meditation"],
     onyomi: ["セン","ゼン"],
     kunyomi: ["しずか","ゆず.る"],
-    examples: [{"word":"しずか","pronunciation":"しずか","meaning":"Kun reading: しずか"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"しずか","reading":"しずか","meaning":"Kun reading: しずか"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "禍",
     meanings: ["calamity","curse","evil","misfortune"],
     onyomi: ["カ"],
     kunyomi: ["わざわい"],
-    examples: [{"word":"わざわい","pronunciation":"わざわい","meaning":"Kun reading: わざわい"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"わざわい","reading":"わざわい","meaning":"Kun reading: わざわい"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "秀",
     meanings: ["beauty","excel","excellence","surpass"],
     onyomi: ["シュウ"],
     kunyomi: ["ひい.でる"],
-    examples: [{"word":"ひい.でる","pronunciation":"ひい.でる","meaning":"Kun reading: ひい.でる"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひい.でる","reading":"ひい.でる","meaning":"Kun reading: ひい.でる"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "租",
     meanings: ["borrowing","crop tax","tariff"],
     onyomi: ["ソ"],
     kunyomi: [],
-    examples: [{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "秩",
     meanings: ["order","regularity","salary"],
     onyomi: ["チツ"],
     kunyomi: [],
-    examples: [{"word":"チツ","pronunciation":"チツ","meaning":"On reading: チツ"}],
-    grade: "Junior High",
+    examples: [{"word":"チツ","reading":"チツ","meaning":"On reading: チツ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "称",
     meanings: ["admire","appellation","fame","name","praise","title"],
     onyomi: ["ショウ"],
     kunyomi: ["あ.げる","かな.う","たた.える","とな.える","はか.り","はか.る","ほめ.る"],
-    examples: [{"word":"あ.げる","pronunciation":"あ.げる","meaning":"Kun reading: あ.げる"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.げる","reading":"あ.げる","meaning":"Kun reading: あ.げる"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "稚",
     meanings: ["immature","young"],
     onyomi: ["ジ","チ"],
     kunyomi: ["いとけない","おくて","おさない","おでる"],
-    examples: [{"word":"いとけない","pronunciation":"いとけない","meaning":"Kun reading: いとけない"},{"word":"ジ","pronunciation":"ジ","meaning":"On reading: ジ"}],
-    grade: "Junior High",
+    examples: [{"word":"いとけない","reading":"いとけない","meaning":"Kun reading: いとけない"},{"word":"ジ","reading":"ジ","meaning":"On reading: ジ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "稲",
     meanings: ["rice plant"],
     onyomi: ["テ","トウ"],
     kunyomi: ["いな-","いね"],
-    examples: [{"word":"いな-","pronunciation":"いな-","meaning":"Kun reading: いな-"},{"word":"テ","pronunciation":"テ","meaning":"On reading: テ"}],
-    grade: "Junior High",
+    examples: [{"word":"いな-","reading":"いな-","meaning":"Kun reading: いな-"},{"word":"テ","reading":"テ","meaning":"On reading: テ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "稼",
     meanings: ["earn money","earnings","work"],
     onyomi: ["カ"],
     kunyomi: ["かせ.ぐ"],
-    examples: [{"word":"かせ.ぐ","pronunciation":"かせ.ぐ","meaning":"Kun reading: かせ.ぐ"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"かせ.ぐ","reading":"かせ.ぐ","meaning":"Kun reading: かせ.ぐ"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "稽",
     meanings: ["consider","think"],
     onyomi: ["ケイ"],
     kunyomi: ["かんが.える","とど.める"],
-    examples: [{"word":"かんが.える","pronunciation":"かんが.える","meaning":"Kun reading: かんが.える"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かんが.える","reading":"かんが.える","meaning":"Kun reading: かんが.える"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -8098,78 +8098,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["copy","draft","manuscript","straw"],
     onyomi: ["コウ"],
     kunyomi: ["したがき","わら"],
-    examples: [{"word":"したがき","pronunciation":"したがき","meaning":"Kun reading: したがき"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"したがき","reading":"したがき","meaning":"Kun reading: したがき"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "穂",
     meanings: ["crest (wave)","ear","ear (grain)","head"],
     onyomi: ["スイ"],
     kunyomi: ["ほ"],
-    examples: [{"word":"ほ","pronunciation":"ほ","meaning":"Kun reading: ほ"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほ","reading":"ほ","meaning":"Kun reading: ほ"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "穏",
     meanings: ["calm","moderation","quiet"],
     onyomi: ["オン"],
     kunyomi: ["おだ.やか"],
-    examples: [{"word":"おだ.やか","pronunciation":"おだ.やか","meaning":"Kun reading: おだ.やか"},{"word":"オン","pronunciation":"オン","meaning":"On reading: オン"}],
-    grade: "Junior High",
+    examples: [{"word":"おだ.やか","reading":"おだ.やか","meaning":"Kun reading: おだ.やか"},{"word":"オン","reading":"オン","meaning":"On reading: オン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "穫",
     meanings: ["harvest","reap"],
     onyomi: ["カク"],
     kunyomi: [],
-    examples: [{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "突",
     meanings: ["collision","pierce","prick","protruding","stab","sudden","thrust"],
     onyomi: ["カ","トツ"],
     kunyomi: ["つ.く"],
-    examples: [{"word":"つ.く","pronunciation":"つ.く","meaning":"Kun reading: つ.く"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.く","reading":"つ.く","meaning":"Kun reading: つ.く"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "窃",
     meanings: ["hushed","private","secret","steal","stealth"],
     onyomi: ["セツ"],
     kunyomi: ["ぬす.む","ひそ.か"],
-    examples: [{"word":"ぬす.む","pronunciation":"ぬす.む","meaning":"Kun reading: ぬす.む"},{"word":"セツ","pronunciation":"セツ","meaning":"On reading: セツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬす.む","reading":"ぬす.む","meaning":"Kun reading: ぬす.む"},{"word":"セツ","reading":"セツ","meaning":"On reading: セツ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "窒",
     meanings: ["obstruct","plug up"],
     onyomi: ["チツ"],
     kunyomi: [],
-    examples: [{"word":"チツ","pronunciation":"チツ","meaning":"On reading: チツ"}],
-    grade: "Junior High",
+    examples: [{"word":"チツ","reading":"チツ","meaning":"On reading: チツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "窟",
     meanings: ["cavern"],
     onyomi: ["クツ","コツ"],
     kunyomi: ["あな","いはや","いわや"],
-    examples: [{"word":"あな","pronunciation":"あな","meaning":"Kun reading: あな"},{"word":"クツ","pronunciation":"クツ","meaning":"On reading: クツ"}],
-    grade: "Junior High",
+    examples: [{"word":"あな","reading":"あな","meaning":"Kun reading: あな"},{"word":"クツ","reading":"クツ","meaning":"On reading: クツ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -8177,78 +8177,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cornered","destitute","hard up","perplexed","suffer"],
     onyomi: ["キュウ","キョウ"],
     kunyomi: ["きわ.まり","きわ.まる","きわ.み","きわ.める"],
-    examples: [{"word":"きわ.まり","pronunciation":"きわ.まり","meaning":"Kun reading: きわ.まり"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"きわ.まり","reading":"きわ.まり","meaning":"Kun reading: きわ.まり"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "窯",
     meanings: ["furnace","kiln","oven"],
     onyomi: ["ヨウ"],
     kunyomi: ["かま"],
-    examples: [{"word":"かま","pronunciation":"かま","meaning":"Kun reading: かま"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かま","reading":"かま","meaning":"Kun reading: かま"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "竜",
     meanings: ["dragon","imperial"],
     onyomi: ["リュウ","リョウ","ロウ"],
     kunyomi: ["いせ","たつ"],
-    examples: [{"word":"いせ","pronunciation":"いせ","meaning":"Kun reading: いせ"},{"word":"リュウ","pronunciation":"リュウ","meaning":"On reading: リュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いせ","reading":"いせ","meaning":"Kun reading: いせ"},{"word":"リュウ","reading":"リュウ","meaning":"On reading: リュウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "端",
     meanings: ["border","cape","edge","end","origin","point","verge"],
     onyomi: ["タン"],
     kunyomi: ["-ばた","は","はし","はた","はな"],
-    examples: [{"word":"-ばた","pronunciation":"-ばた","meaning":"Kun reading: -ばた"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"-ばた","reading":"-ばた","meaning":"Kun reading: -ばた"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "符",
     meanings: ["charm","mark","sign","tally","token"],
     onyomi: ["フ"],
     kunyomi: [],
-    examples: [{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "筒",
     meanings: ["cylinder","gun barrel","pipe","sleeve","tube"],
     onyomi: ["トウ"],
     kunyomi: ["つつ"],
-    examples: [{"word":"つつ","pronunciation":"つつ","meaning":"Kun reading: つつ"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つつ","reading":"つつ","meaning":"Kun reading: つつ"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "箇",
     meanings: ["counter for articles"],
     onyomi: ["カ","コ"],
     kunyomi: [],
-    examples: [{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "箋",
     meanings: ["composition","label","letter","paper"],
     onyomi: ["セン"],
     kunyomi: ["ふだ"],
-    examples: [{"word":"ふだ","pronunciation":"ふだ","meaning":"Kun reading: ふだ"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふだ","reading":"ふだ","meaning":"Kun reading: ふだ"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -8256,8 +8256,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["chopsticks"],
     onyomi: ["チャク","チョ"],
     kunyomi: ["はし"],
-    examples: [{"word":"はし","pronunciation":"はし","meaning":"Kun reading: はし"},{"word":"チャク","pronunciation":"チャク","meaning":"On reading: チャク"}],
-    grade: "Junior High",
+    examples: [{"word":"はし","reading":"はし","meaning":"Kun reading: はし"},{"word":"チャク","reading":"チャク","meaning":"On reading: チャク"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -8265,48 +8265,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["example","model","pattern"],
     onyomi: ["ハン"],
     kunyomi: [],
-    examples: [{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "篤",
     meanings: ["cordial","deliberate","fervent","kind","serious"],
     onyomi: ["トク"],
     kunyomi: ["あつ.い"],
-    examples: [{"word":"あつ.い","pronunciation":"あつ.い","meaning":"Kun reading: あつ.い"},{"word":"トク","pronunciation":"トク","meaning":"On reading: トク"}],
-    grade: "Junior High",
+    examples: [{"word":"あつ.い","reading":"あつ.い","meaning":"Kun reading: あつ.い"},{"word":"トク","reading":"トク","meaning":"On reading: トク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "簿",
     meanings: ["record book","register"],
     onyomi: ["ボ"],
     kunyomi: [],
-    examples: [{"word":"ボ","pronunciation":"ボ","meaning":"On reading: ボ"}],
-    grade: "Junior High",
+    examples: [{"word":"ボ","reading":"ボ","meaning":"On reading: ボ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "籍",
     meanings: ["domiciliary register","enroll","membership"],
     onyomi: ["セキ"],
     kunyomi: [],
-    examples: [{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "籠",
     meanings: ["basket","cage","coop","devote oneself","implied","seclude oneself"],
     onyomi: ["ル","ロウ"],
     kunyomi: ["かご","こ.む","こ.める","こも.る"],
-    examples: [{"word":"かご","pronunciation":"かご","meaning":"Kun reading: かご"},{"word":"ル","pronunciation":"ル","meaning":"On reading: ル"}],
-    grade: "Junior High",
+    examples: [{"word":"かご","reading":"かご","meaning":"Kun reading: かご"},{"word":"ル","reading":"ル","meaning":"On reading: ル"}],
+    grade: "juniorHigh",
     strokeCount: 22
   },
   {
@@ -8314,58 +8314,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["chic","choice","cream","elite","essence","pith","purity","style"],
     onyomi: ["スイ"],
     kunyomi: ["いき"],
-    examples: [{"word":"いき","pronunciation":"いき","meaning":"Kun reading: いき"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いき","reading":"いき","meaning":"Kun reading: いき"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "粒",
     meanings: ["counter for tiny particles","drop","grains"],
     onyomi: ["リュウ"],
     kunyomi: ["つぶ"],
-    examples: [{"word":"つぶ","pronunciation":"つぶ","meaning":"Kun reading: つぶ"},{"word":"リュウ","pronunciation":"リュウ","meaning":"On reading: リュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つぶ","reading":"つぶ","meaning":"Kun reading: つぶ"},{"word":"リュウ","reading":"リュウ","meaning":"On reading: リュウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "粗",
     meanings: ["coarse","rough","rugged"],
     onyomi: ["ソ"],
     kunyomi: ["あら-","あら.い"],
-    examples: [{"word":"あら-","pronunciation":"あら-","meaning":"Kun reading: あら-"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"あら-","reading":"あら-","meaning":"Kun reading: あら-"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "粘",
     meanings: ["glutinous","greasy","persevere","sticky"],
     onyomi: ["ネン"],
     kunyomi: ["ねば.る"],
-    examples: [{"word":"ねば.る","pronunciation":"ねば.る","meaning":"Kun reading: ねば.る"},{"word":"ネン","pronunciation":"ネン","meaning":"On reading: ネン"}],
-    grade: "Junior High",
+    examples: [{"word":"ねば.る","reading":"ねば.る","meaning":"Kun reading: ねば.る"},{"word":"ネン","reading":"ネン","meaning":"On reading: ネン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "粛",
     meanings: ["quietly","softly","solemn"],
     onyomi: ["シュク","スク"],
     kunyomi: ["つつし.む"],
-    examples: [{"word":"つつし.む","pronunciation":"つつし.む","meaning":"Kun reading: つつし.む"},{"word":"シュク","pronunciation":"シュク","meaning":"On reading: シュク"}],
-    grade: "Junior High",
+    examples: [{"word":"つつし.む","reading":"つつし.む","meaning":"Kun reading: つつし.む"},{"word":"シュク","reading":"シュク","meaning":"On reading: シュク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "粧",
     meanings: ["adorn (one's person)","cosmetics"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -8373,178 +8373,178 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bread","food","provisions"],
     onyomi: ["リョウ","ロウ"],
     kunyomi: ["かて"],
-    examples: [{"word":"かて","pronunciation":"かて","meaning":"Kun reading: かて"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かて","reading":"かて","meaning":"Kun reading: かて"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "糾",
     meanings: ["ask","investigate","twist","verify"],
     onyomi: ["キュウ"],
     kunyomi: ["ただ.す"],
-    examples: [{"word":"ただ.す","pronunciation":"ただ.す","meaning":"Kun reading: ただ.す"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ただ.す","reading":"ただ.す","meaning":"Kun reading: ただ.す"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "紋",
     meanings: ["family crest","figures"],
     onyomi: ["モン"],
     kunyomi: [],
-    examples: [{"word":"モン","pronunciation":"モン","meaning":"On reading: モン"}],
-    grade: "Junior High",
+    examples: [{"word":"モン","reading":"モン","meaning":"On reading: モン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "紛",
     meanings: ["be mistaken for","distract","divert","go astray"],
     onyomi: ["フン"],
     kunyomi: ["-まぎ.れ","まぎ.らす","まぎ.らわしい","まぎ.らわす","まぎ.れる"],
-    examples: [{"word":"-まぎ.れ","pronunciation":"-まぎ.れ","meaning":"Kun reading: -まぎ.れ"},{"word":"フン","pronunciation":"フン","meaning":"On reading: フン"}],
-    grade: "Junior High",
+    examples: [{"word":"-まぎ.れ","reading":"-まぎ.れ","meaning":"Kun reading: -まぎ.れ"},{"word":"フン","reading":"フン","meaning":"On reading: フン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "紡",
     meanings: ["spinning"],
     onyomi: ["ボウ"],
     kunyomi: ["つむ.ぐ"],
-    examples: [{"word":"つむ.ぐ","pronunciation":"つむ.ぐ","meaning":"Kun reading: つむ.ぐ"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つむ.ぐ","reading":"つむ.ぐ","meaning":"Kun reading: つむ.ぐ"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "索",
     meanings: ["cord","inquiring","rope","searching"],
     onyomi: ["サク"],
     kunyomi: [],
-    examples: [{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "紫",
     meanings: ["purple","violet"],
     onyomi: ["シ"],
     kunyomi: ["むらさき"],
-    examples: [{"word":"むらさき","pronunciation":"むらさき","meaning":"Kun reading: むらさき"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"むらさき","reading":"むらさき","meaning":"Kun reading: むらさき"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "累",
     meanings: ["accumulate","continually","involvement","tie up","trouble"],
     onyomi: ["ルイ"],
     kunyomi: [],
-    examples: [{"word":"ルイ","pronunciation":"ルイ","meaning":"On reading: ルイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ルイ","reading":"ルイ","meaning":"On reading: ルイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "紳",
     meanings: ["gentleman","good belt","sire"],
     onyomi: ["シン"],
     kunyomi: [],
-    examples: [{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "紹",
     meanings: ["help","inherit","introduce"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "紺",
     meanings: ["dark blue","navy"],
     onyomi: ["コン"],
     kunyomi: [],
-    examples: [{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "絞",
     meanings: ["constrict","strangle","wring"],
     onyomi: ["コウ"],
     kunyomi: ["し.まる","し.める","しぼ.る"],
-    examples: [{"word":"し.まる","pronunciation":"し.まる","meaning":"Kun reading: し.まる"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"し.まる","reading":"し.まる","meaning":"Kun reading: し.まる"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "絡",
     meanings: ["coil around","entwine","get caught in"],
     onyomi: ["ラク"],
     kunyomi: ["から.まる","から.む"],
-    examples: [{"word":"から.まる","pronunciation":"から.まる","meaning":"Kun reading: から.まる"},{"word":"ラク","pronunciation":"ラク","meaning":"On reading: ラク"}],
-    grade: "Junior High",
+    examples: [{"word":"から.まる","reading":"から.まる","meaning":"Kun reading: から.まる"},{"word":"ラク","reading":"ラク","meaning":"On reading: ラク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "継",
     meanings: ["continue","graft (tree)","inherit","patch","succeed"],
     onyomi: ["ケイ"],
     kunyomi: ["つ.ぐ","まま-"],
-    examples: [{"word":"つ.ぐ","pronunciation":"つ.ぐ","meaning":"Kun reading: つ.ぐ"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.ぐ","reading":"つ.ぐ","meaning":"Kun reading: つ.ぐ"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "維",
     meanings: ["fiber","rope","tie"],
     onyomi: ["イ"],
     kunyomi: [],
-    examples: [{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "綱",
     meanings: ["cable","class (genus)","cord","hawser","rope"],
     onyomi: ["コウ"],
     kunyomi: ["つな"],
-    examples: [{"word":"つな","pronunciation":"つな","meaning":"Kun reading: つな"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つな","reading":"つな","meaning":"Kun reading: つな"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "網",
     meanings: ["netting","network"],
     onyomi: ["モウ"],
     kunyomi: ["あみ"],
-    examples: [{"word":"あみ","pronunciation":"あみ","meaning":"Kun reading: あみ"},{"word":"モウ","pronunciation":"モウ","meaning":"On reading: モウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あみ","reading":"あみ","meaning":"Kun reading: あみ"},{"word":"モウ","reading":"モウ","meaning":"On reading: モウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "綻",
     meanings: ["be rent","begin to open","ripped","run","smile","unravel"],
     onyomi: ["タン"],
     kunyomi: ["ほころ.びる"],
-    examples: [{"word":"ほころ.びる","pronunciation":"ほころ.びる","meaning":"Kun reading: ほころ.びる"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"ほころ.びる","reading":"ほころ.びる","meaning":"Kun reading: ほころ.びる"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -8552,58 +8552,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["hard","reliable","solid","tense","tight"],
     onyomi: ["キン"],
     kunyomi: ["し.まる","し.める"],
-    examples: [{"word":"し.まる","pronunciation":"し.まる","meaning":"Kun reading: し.まる"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"し.まる","reading":"し.まる","meaning":"Kun reading: し.まる"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "緒",
     meanings: ["beginning","cord","end","inception","mental or emotional state","strap","thong"],
     onyomi: ["ショ","チョ"],
     kunyomi: ["いとぐち","お"],
-    examples: [{"word":"いとぐち","pronunciation":"いとぐち","meaning":"Kun reading: いとぐち"},{"word":"ショ","pronunciation":"ショ","meaning":"On reading: ショ"}],
-    grade: "Junior High",
+    examples: [{"word":"いとぐち","reading":"いとぐち","meaning":"Kun reading: いとぐち"},{"word":"ショ","reading":"ショ","meaning":"On reading: ショ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "締",
     meanings: ["fasten","lock","shut","tie","tighten"],
     onyomi: ["テイ"],
     kunyomi: ["-し.め","-じ.め","し.まり","し.まる","し.める"],
-    examples: [{"word":"-し.め","pronunciation":"-し.め","meaning":"Kun reading: -し.め"},{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"-し.め","reading":"-し.め","meaning":"Kun reading: -し.め"},{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "緩",
     meanings: ["be moderate","ease","lessen","loosen","relax","slacken"],
     onyomi: ["カン"],
     kunyomi: ["ゆる.い","ゆる.む","ゆる.める","ゆる.やか"],
-    examples: [{"word":"ゆる.い","pronunciation":"ゆる.い","meaning":"Kun reading: ゆる.い"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"ゆる.い","reading":"ゆる.い","meaning":"Kun reading: ゆる.い"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "緯",
     meanings: ["(parallels of) latitude","horizontal","left & right","prediction","woof"],
     onyomi: ["イ"],
     kunyomi: ["ぬき","よこいと"],
-    examples: [{"word":"ぬき","pronunciation":"ぬき","meaning":"Kun reading: ぬき"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬき","reading":"ぬき","meaning":"Kun reading: ぬき"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "緻",
     meanings: ["fine (i.e. not coarse)"],
     onyomi: ["チ"],
     kunyomi: ["こまか.い"],
-    examples: [{"word":"こまか.い","pronunciation":"こまか.い","meaning":"Kun reading: こまか.い"},{"word":"チ","pronunciation":"チ","meaning":"On reading: チ"}],
-    grade: "Junior High",
+    examples: [{"word":"こまか.い","reading":"こまか.い","meaning":"Kun reading: こまか.い"},{"word":"チ","reading":"チ","meaning":"On reading: チ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -8611,118 +8611,118 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["affinity","border","brink","connection","edge","relation","verge"],
     onyomi: ["-ネン","エン"],
     kunyomi: ["えにし","ふち","ふち.どる","へり","ゆかり","よすが"],
-    examples: [{"word":"えにし","pronunciation":"えにし","meaning":"Kun reading: えにし"},{"word":"-ネン","pronunciation":"-ネン","meaning":"On reading: -ネン"}],
-    grade: "Junior High",
+    examples: [{"word":"えにし","reading":"えにし","meaning":"Kun reading: えにし"},{"word":"-ネン","reading":"-ネン","meaning":"On reading: -ネン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "縄",
     meanings: ["cord","straw rope"],
     onyomi: ["ジョウ"],
     kunyomi: ["ただ.す","なわ"],
-    examples: [{"word":"ただ.す","pronunciation":"ただ.す","meaning":"Kun reading: ただ.す"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ただ.す","reading":"ただ.す","meaning":"Kun reading: ただ.す"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "縛",
     meanings: ["arrest","bind","restrain","tie","truss"],
     onyomi: ["バク"],
     kunyomi: ["しば.る"],
-    examples: [{"word":"しば.る","pronunciation":"しば.る","meaning":"Kun reading: しば.る"},{"word":"バク","pronunciation":"バク","meaning":"On reading: バク"}],
-    grade: "Junior High",
+    examples: [{"word":"しば.る","reading":"しば.る","meaning":"Kun reading: しば.る"},{"word":"バク","reading":"バク","meaning":"On reading: バク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "縫",
     meanings: ["embroider","sew","stitch"],
     onyomi: ["ホウ"],
     kunyomi: ["ぬ.う"],
-    examples: [{"word":"ぬ.う","pronunciation":"ぬ.う","meaning":"Kun reading: ぬ.う"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬ.う","reading":"ぬ.う","meaning":"Kun reading: ぬ.う"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "繁",
     meanings: ["complexity","frequency","luxuriant","overgrown","thick","trouble"],
     onyomi: ["ハン"],
     kunyomi: ["しげ.く","しげ.る"],
-    examples: [{"word":"しげ.く","pronunciation":"しげ.く","meaning":"Kun reading: しげ.く"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"しげ.く","reading":"しげ.く","meaning":"Kun reading: しげ.く"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "繊",
     meanings: ["fine","slender","thin kimono"],
     onyomi: ["セン"],
     kunyomi: [],
-    examples: [{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "繕",
     meanings: ["adjust","darning","mend","repair","tidy up","trim"],
     onyomi: ["ゼン"],
     kunyomi: ["つくろ.う"],
-    examples: [{"word":"つくろ.う","pronunciation":"つくろ.う","meaning":"Kun reading: つくろ.う"},{"word":"ゼン","pronunciation":"ゼン","meaning":"On reading: ゼン"}],
-    grade: "Junior High",
+    examples: [{"word":"つくろ.う","reading":"つくろ.う","meaning":"Kun reading: つくろ.う"},{"word":"ゼン","reading":"ゼン","meaning":"On reading: ゼン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "繭",
     meanings: ["cocoon"],
     onyomi: ["ケン"],
     kunyomi: ["きぬ","まゆ"],
-    examples: [{"word":"きぬ","pronunciation":"きぬ","meaning":"Kun reading: きぬ"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"きぬ","reading":"きぬ","meaning":"Kun reading: きぬ"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "繰",
     meanings: ["look up","reel","refer to","spin","turn (pages)","winding"],
     onyomi: ["ソウ"],
     kunyomi: ["く.る"],
-    examples: [{"word":"く.る","pronunciation":"く.る","meaning":"Kun reading: く.る"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"く.る","reading":"く.る","meaning":"Kun reading: く.る"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "缶",
     meanings: ["container","jar radical (no. 121)","tin can"],
     onyomi: ["カン"],
     kunyomi: ["かま"],
-    examples: [{"word":"かま","pronunciation":"かま","meaning":"Kun reading: かま"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"かま","reading":"かま","meaning":"Kun reading: かま"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "罰",
     meanings: ["penalty","punishment"],
     onyomi: ["ハツ","バチ","バツ"],
     kunyomi: ["ばっ.する"],
-    examples: [{"word":"ばっ.する","pronunciation":"ばっ.する","meaning":"Kun reading: ばっ.する"},{"word":"ハツ","pronunciation":"ハツ","meaning":"On reading: ハツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ばっ.する","reading":"ばっ.する","meaning":"Kun reading: ばっ.する"},{"word":"ハツ","reading":"ハツ","meaning":"On reading: ハツ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "罵",
     meanings: ["abuse","insult"],
     onyomi: ["バ"],
     kunyomi: ["ののし.る"],
-    examples: [{"word":"ののし.る","pronunciation":"ののし.る","meaning":"Kun reading: ののし.る"},{"word":"バ","pronunciation":"バ","meaning":"On reading: バ"}],
-    grade: "Junior High",
+    examples: [{"word":"ののし.る","reading":"ののし.る","meaning":"Kun reading: ののし.る"},{"word":"バ","reading":"バ","meaning":"On reading: バ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -8730,28 +8730,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["go","leave","quit","stop","withdraw"],
     onyomi: ["ヒ"],
     kunyomi: ["まか.り-","や.める"],
-    examples: [{"word":"まか.り-","pronunciation":"まか.り-","meaning":"Kun reading: まか.り-"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"まか.り-","reading":"まか.り-","meaning":"Kun reading: まか.り-"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "羅",
     meanings: ["Rome","arrange","gauze","spread out","thin silk"],
     onyomi: ["ラ"],
     kunyomi: ["うすもの"],
-    examples: [{"word":"うすもの","pronunciation":"うすもの","meaning":"Kun reading: うすもの"},{"word":"ラ","pronunciation":"ラ","meaning":"On reading: ラ"}],
-    grade: "Junior High",
+    examples: [{"word":"うすもの","reading":"うすもの","meaning":"Kun reading: うすもの"},{"word":"ラ","reading":"ラ","meaning":"On reading: ラ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "羞",
     meanings: ["feel ashamed"],
     onyomi: ["シュウ"],
     kunyomi: ["すすめ.る","は.ずかしい","はじ.る"],
-    examples: [{"word":"すすめ.る","pronunciation":"すすめ.る","meaning":"Kun reading: すすめ.る"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"すすめ.る","reading":"すすめ.る","meaning":"Kun reading: すすめ.る"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -8759,8 +8759,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be jealous","covet","envious"],
     onyomi: ["エン","セン"],
     kunyomi: ["あまり","うらや.む"],
-    examples: [{"word":"あまり","pronunciation":"あまり","meaning":"Kun reading: あまり"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"あまり","reading":"あまり","meaning":"Kun reading: あまり"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -8768,88 +8768,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["venerable old man"],
     onyomi: ["オウ"],
     kunyomi: ["おきな"],
-    examples: [{"word":"おきな","pronunciation":"おきな","meaning":"Kun reading: おきな"},{"word":"オウ","pronunciation":"オウ","meaning":"On reading: オウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おきな","reading":"おきな","meaning":"Kun reading: おきな"},{"word":"オウ","reading":"オウ","meaning":"On reading: オウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "翻",
     meanings: ["change (mind)","flip","flutter","turn over","wave"],
     onyomi: ["ハン","ホン"],
     kunyomi: ["ひるがえ.す","ひるがえ.る"],
-    examples: [{"word":"ひるがえ.す","pronunciation":"ひるがえ.す","meaning":"Kun reading: ひるがえ.す"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ひるがえ.す","reading":"ひるがえ.す","meaning":"Kun reading: ひるがえ.す"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "翼",
     meanings: ["flank","plane","wing"],
     onyomi: ["ヨク"],
     kunyomi: ["つばさ"],
-    examples: [{"word":"つばさ","pronunciation":"つばさ","meaning":"Kun reading: つばさ"},{"word":"ヨク","pronunciation":"ヨク","meaning":"On reading: ヨク"}],
-    grade: "Junior High",
+    examples: [{"word":"つばさ","reading":"つばさ","meaning":"Kun reading: つばさ"},{"word":"ヨク","reading":"ヨク","meaning":"On reading: ヨク"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "耐",
     meanings: ["-proof","enduring"],
     onyomi: ["タイ"],
     kunyomi: ["た.える"],
-    examples: [{"word":"た.える","pronunciation":"た.える","meaning":"Kun reading: た.える"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"た.える","reading":"た.える","meaning":"Kun reading: た.える"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "耗",
     meanings: ["decrease"],
     onyomi: ["コウ","モウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "聴",
     meanings: ["careful inquiry","headstrong","listen","naughty"],
     onyomi: ["チョウ","テイ"],
     kunyomi: ["き.く","ゆる.す"],
-    examples: [{"word":"き.く","pronunciation":"き.く","meaning":"Kun reading: き.く"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"き.く","reading":"き.く","meaning":"Kun reading: き.く"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "肌",
     meanings: ["body","grain","skin","texture"],
     onyomi: ["キ"],
     kunyomi: ["はだ"],
-    examples: [{"word":"はだ","pronunciation":"はだ","meaning":"Kun reading: はだ"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"はだ","reading":"はだ","meaning":"Kun reading: はだ"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "肖",
     meanings: ["resemblance"],
     onyomi: ["ショウ"],
     kunyomi: ["あやか.る"],
-    examples: [{"word":"あやか.る","pronunciation":"あやか.る","meaning":"Kun reading: あやか.る"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あやか.る","reading":"あやか.る","meaning":"Kun reading: あやか.る"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "肘",
     meanings: ["arm","elbow"],
     onyomi: ["チュウ"],
     kunyomi: ["ひじ"],
-    examples: [{"word":"ひじ","pronunciation":"ひじ","meaning":"Kun reading: ひじ"},{"word":"チュウ","pronunciation":"チュウ","meaning":"On reading: チュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひじ","reading":"ひじ","meaning":"Kun reading: ひじ"},{"word":"チュウ","reading":"チュウ","meaning":"On reading: チュウ"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -8857,18 +8857,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["chutzpah","liver","nerve","pluck"],
     onyomi: ["カン"],
     kunyomi: ["きも"],
-    examples: [{"word":"きも","pronunciation":"きも","meaning":"Kun reading: きも"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"きも","reading":"きも","meaning":"Kun reading: きも"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "股",
     meanings: ["crotch","thigh"],
     onyomi: ["コ"],
     kunyomi: ["また","もも"],
-    examples: [{"word":"また","pronunciation":"また","meaning":"Kun reading: また"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"また","reading":"また","meaning":"Kun reading: また"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -8876,108 +8876,108 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["arms & legs","limb"],
     onyomi: ["シ"],
     kunyomi: [],
-    examples: [{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "肩",
     meanings: ["shoulder"],
     onyomi: ["ケン"],
     kunyomi: ["かた"],
-    examples: [{"word":"かた","pronunciation":"かた","meaning":"Kun reading: かた"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"かた","reading":"かた","meaning":"Kun reading: かた"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "肪",
     meanings: ["fat","obese"],
     onyomi: ["ボウ"],
     kunyomi: [],
-    examples: [{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "肯",
     meanings: ["agreement","comply with","consent"],
     onyomi: ["コウ"],
     kunyomi: ["がえんじ.る"],
-    examples: [{"word":"がえんじ.る","pronunciation":"がえんじ.る","meaning":"Kun reading: がえんじ.る"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"がえんじ.る","reading":"がえんじ.る","meaning":"Kun reading: がえんじ.る"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "胆",
     meanings: ["courage","gall bladder","nerve","pluck"],
     onyomi: ["タン"],
     kunyomi: ["きも"],
-    examples: [{"word":"きも","pronunciation":"きも","meaning":"Kun reading: きも"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"きも","reading":"きも","meaning":"Kun reading: きも"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "胎",
     meanings: ["uterus","womb"],
     onyomi: ["タイ"],
     kunyomi: [],
-    examples: [{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "胞",
     meanings: ["placenta","sac","sheath"],
     onyomi: ["ホウ"],
     kunyomi: [],
-    examples: [{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "胴",
     meanings: ["hub of wheel","hull (ship)","torso","trunk"],
     onyomi: ["ドウ"],
     kunyomi: [],
-    examples: [{"word":"ドウ","pronunciation":"ドウ","meaning":"On reading: ドウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ドウ","reading":"ドウ","meaning":"On reading: ドウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "脂",
     meanings: ["fat","grease","gum","lard","rosin","tallow","tar"],
     onyomi: ["シ"],
     kunyomi: ["あぶら"],
-    examples: [{"word":"あぶら","pronunciation":"あぶら","meaning":"Kun reading: あぶら"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"あぶら","reading":"あぶら","meaning":"Kun reading: あぶら"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "脅",
     meanings: ["coerce","threaten"],
     onyomi: ["キョウ"],
     kunyomi: ["おど.かす","おど.す","おびや.かす"],
-    examples: [{"word":"おど.かす","pronunciation":"おど.かす","meaning":"Kun reading: おど.かす"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おど.かす","reading":"おど.かす","meaning":"Kun reading: おど.かす"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "脇",
     meanings: ["another place","armpit","flank","supporting role","the other way"],
     onyomi: ["キョウ"],
     kunyomi: ["わき","わけ"],
-    examples: [{"word":"わき","pronunciation":"わき","meaning":"Kun reading: わき"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"わき","reading":"わき","meaning":"Kun reading: わき"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -8985,8 +8985,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["height","stature"],
     onyomi: ["セキ"],
     kunyomi: ["せ","せい"],
-    examples: [{"word":"せ","pronunciation":"せ","meaning":"Kun reading: せ"},{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"せ","reading":"せ","meaning":"Kun reading: せ"},{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -8994,28 +8994,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["base","leg","lower part","skids","undercarriage"],
     onyomi: ["カク","キャ","キャク"],
     kunyomi: ["あし"],
-    examples: [{"word":"あし","pronunciation":"あし","meaning":"Kun reading: あし"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"あし","reading":"あし","meaning":"Kun reading: あし"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "脱",
     meanings: ["be left out","escape from","get rid of","removing","take off","undress"],
     onyomi: ["ダツ"],
     kunyomi: ["ぬ.ぐ","ぬ.げる"],
-    examples: [{"word":"ぬ.ぐ","pronunciation":"ぬ.ぐ","meaning":"Kun reading: ぬ.ぐ"},{"word":"ダツ","pronunciation":"ダツ","meaning":"On reading: ダツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ぬ.ぐ","reading":"ぬ.ぐ","meaning":"Kun reading: ぬ.ぐ"},{"word":"ダツ","reading":"ダツ","meaning":"On reading: ダツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "腎",
     meanings: ["kidney"],
     onyomi: ["ジン"],
     kunyomi: [],
-    examples: [{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9023,28 +9023,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["decay","rot","sour"],
     onyomi: ["フ"],
     kunyomi: ["-くさ.る","くさ.す","くさ.らす","くさ.る","くさ.れ","くさ.れる"],
-    examples: [{"word":"-くさ.る","pronunciation":"-くさ.る","meaning":"Kun reading: -くさ.る"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"-くさ.る","reading":"-くさ.る","meaning":"Kun reading: -くさ.る"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "腕",
     meanings: ["ability","arm","talent"],
     onyomi: ["ワン"],
     kunyomi: ["うで"],
-    examples: [{"word":"うで","pronunciation":"うで","meaning":"Kun reading: うで"},{"word":"ワン","pronunciation":"ワン","meaning":"On reading: ワン"}],
-    grade: "Junior High",
+    examples: [{"word":"うで","reading":"うで","meaning":"Kun reading: うで"},{"word":"ワン","reading":"ワン","meaning":"On reading: ワン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "腫",
     meanings: ["swelling","tumor"],
     onyomi: ["シュ","ショウ"],
     kunyomi: ["は.らす","は.れ","は.れる","はれもの"],
-    examples: [{"word":"は.らす","pronunciation":"は.らす","meaning":"Kun reading: は.らす"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"は.らす","reading":"は.らす","meaning":"Kun reading: は.らす"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9052,18 +9052,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["hips","loins","low wainscoting","waist"],
     onyomi: ["ヨウ"],
     kunyomi: ["こし"],
-    examples: [{"word":"こし","pronunciation":"こし","meaning":"Kun reading: こし"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"こし","reading":"こし","meaning":"Kun reading: こし"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "腺",
     meanings: ["(kokuji)","gland"],
     onyomi: ["セン"],
     kunyomi: [],
-    examples: [{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9071,28 +9071,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["body","disposition","grain","skin","texture"],
     onyomi: ["フ"],
     kunyomi: ["はだ"],
-    examples: [{"word":"はだ","pronunciation":"はだ","meaning":"Kun reading: はだ"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"はだ","reading":"はだ","meaning":"Kun reading: はだ"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "膜",
     meanings: ["membrane"],
     onyomi: ["マク"],
     kunyomi: [],
-    examples: [{"word":"マク","pronunciation":"マク","meaning":"On reading: マク"}],
-    grade: "Junior High",
+    examples: [{"word":"マク","reading":"マク","meaning":"On reading: マク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "膝",
     meanings: ["knee","lap"],
     onyomi: ["シツ"],
     kunyomi: ["ひざ"],
-    examples: [{"word":"ひざ","pronunciation":"ひざ","meaning":"Kun reading: ひざ"},{"word":"シツ","pronunciation":"シツ","meaning":"On reading: シツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひざ","reading":"ひざ","meaning":"Kun reading: ひざ"},{"word":"シツ","reading":"シツ","meaning":"On reading: シツ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -9100,18 +9100,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["get fat","swell","thick"],
     onyomi: ["ボウ"],
     kunyomi: ["ふく.らむ","ふく.れる"],
-    examples: [{"word":"ふく.らむ","pronunciation":"ふく.らむ","meaning":"Kun reading: ふく.らむ"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふく.らむ","reading":"ふく.らむ","meaning":"Kun reading: ふく.らむ"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "膳",
     meanings: ["small low table","tray"],
     onyomi: ["セン","ゼン"],
     kunyomi: ["かしわ","すす.める","そな.える"],
-    examples: [{"word":"かしわ","pronunciation":"かしわ","meaning":"Kun reading: かしわ"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"かしわ","reading":"かしわ","meaning":"Kun reading: かしわ"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -9119,8 +9119,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cowardly","fear","heart","mind","timidity"],
     onyomi: ["オク","ヨク"],
     kunyomi: ["おくする","むね"],
-    examples: [{"word":"おくする","pronunciation":"おくする","meaning":"Kun reading: おくする"},{"word":"オク","pronunciation":"オク","meaning":"On reading: オク"}],
-    grade: "Junior High",
+    examples: [{"word":"おくする","reading":"おくする","meaning":"Kun reading: おくする"},{"word":"オク","reading":"オク","meaning":"On reading: オク"}],
+    grade: "juniorHigh",
     strokeCount: 17
   },
   {
@@ -9128,28 +9128,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be bright","be fragrant","fragrance","glow","ill-smelling","odor","savor","stink","stinking","suspicious looking"],
     onyomi: ["シュウ"],
     kunyomi: ["-くさ.い","くさ.い","にお.い","にお.う"],
-    examples: [{"word":"-くさ.い","pronunciation":"-くさ.い","meaning":"Kun reading: -くさ.い"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-くさ.い","reading":"-くさ.い","meaning":"Kun reading: -くさ.い"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "致",
     meanings: ["cause","do","doth","engage","exert","forward","incur","send"],
     onyomi: ["チ"],
     kunyomi: ["いた.す"],
-    examples: [{"word":"いた.す","pronunciation":"いた.す","meaning":"Kun reading: いた.す"},{"word":"チ","pronunciation":"チ","meaning":"On reading: チ"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.す","reading":"いた.す","meaning":"Kun reading: いた.す"},{"word":"チ","reading":"チ","meaning":"On reading: チ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "臼",
     meanings: ["mortar"],
     onyomi: ["キュウ","グ"],
     kunyomi: ["うす","うすづ.く"],
-    examples: [{"word":"うす","pronunciation":"うす","meaning":"Kun reading: うす"},{"word":"キュウ","pronunciation":"キュウ","meaning":"On reading: キュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うす","reading":"うす","meaning":"Kun reading: うす"},{"word":"キュウ","reading":"キュウ","meaning":"On reading: キュウ"}],
+    grade: "juniorHigh",
     strokeCount: 6
   },
   {
@@ -9157,58 +9157,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["pave","shop","store"],
     onyomi: ["ホ"],
     kunyomi: [],
-    examples: [{"word":"ホ","pronunciation":"ホ","meaning":"On reading: ホ"}],
-    grade: "Junior High",
+    examples: [{"word":"ホ","reading":"ホ","meaning":"On reading: ホ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "舞",
     meanings: ["circle","dance","flit","wheel"],
     onyomi: ["ブ"],
     kunyomi: ["-ま.う","ま.う","まい"],
-    examples: [{"word":"-ま.う","pronunciation":"-ま.う","meaning":"Kun reading: -ま.う"},{"word":"ブ","pronunciation":"ブ","meaning":"On reading: ブ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ま.う","reading":"-ま.う","meaning":"Kun reading: -ま.う"},{"word":"ブ","reading":"ブ","meaning":"On reading: ブ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "舟",
     meanings: ["boat","ship"],
     onyomi: ["シュウ"],
     kunyomi: ["-ぶね","ふな-","ふね"],
-    examples: [{"word":"-ぶね","pronunciation":"-ぶね","meaning":"Kun reading: -ぶね"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ぶね","reading":"-ぶね","meaning":"Kun reading: -ぶね"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "般",
     meanings: ["all","carrier","carry","general","kind","sort"],
     onyomi: ["ハン"],
     kunyomi: [],
-    examples: [{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "舶",
     meanings: ["liner","ship"],
     onyomi: ["ハク"],
     kunyomi: [],
-    examples: [{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "舷",
     meanings: ["gunwale"],
     onyomi: ["ゲン"],
     kunyomi: ["ふなばた","ふなべり"],
-    examples: [{"word":"ふなばた","pronunciation":"ふなばた","meaning":"Kun reading: ふなばた"},{"word":"ゲン","pronunciation":"ゲン","meaning":"On reading: ゲン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふなばた","reading":"ふなばた","meaning":"Kun reading: ふなばた"},{"word":"ゲン","reading":"ゲン","meaning":"On reading: ゲン"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -9216,58 +9216,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["rowboat","small boat"],
     onyomi: ["テイ"],
     kunyomi: [],
-    examples: [{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "艦",
     meanings: ["warship"],
     onyomi: ["カン"],
     kunyomi: [],
-    examples: [{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 21,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "艶",
     meanings: ["captivating","charm","colorful","glaze","glossy","luster","polish"],
     onyomi: ["エン"],
     kunyomi: ["あで.やか","つや","つや.めく","なま.めかしい","なま.めく"],
-    examples: [{"word":"あで.やか","pronunciation":"あで.やか","meaning":"Kun reading: あで.やか"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"あで.やか","reading":"あで.やか","meaning":"Kun reading: あで.やか"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "芋",
     meanings: ["potato"],
     onyomi: ["ウ"],
     kunyomi: ["いも"],
-    examples: [{"word":"いも","pronunciation":"いも","meaning":"Kun reading: いも"},{"word":"ウ","pronunciation":"ウ","meaning":"On reading: ウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いも","reading":"いも","meaning":"Kun reading: いも"},{"word":"ウ","reading":"ウ","meaning":"On reading: ウ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "芝",
     meanings: ["lawn","turf"],
     onyomi: ["シ"],
     kunyomi: ["しば"],
-    examples: [{"word":"しば","pronunciation":"しば","meaning":"Kun reading: しば"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"しば","reading":"しば","meaning":"Kun reading: しば"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "芯",
     meanings: ["wick"],
     onyomi: ["シン"],
     kunyomi: [],
-    examples: [{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -9275,28 +9275,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["balmy","favorable","fragrant","perfume"],
     onyomi: ["ホウ"],
     kunyomi: ["かんば.しい"],
-    examples: [{"word":"かんば.しい","pronunciation":"かんば.しい","meaning":"Kun reading: かんば.しい"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かんば.しい","reading":"かんば.しい","meaning":"Kun reading: かんば.しい"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "苗",
     meanings: ["sapling","seedling","shoot"],
     onyomi: ["ビョウ","ミョウ"],
     kunyomi: ["なえ","なわ-"],
-    examples: [{"word":"なえ","pronunciation":"なえ","meaning":"Kun reading: なえ"},{"word":"ビョウ","pronunciation":"ビョウ","meaning":"On reading: ビョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"なえ","reading":"なえ","meaning":"Kun reading: なえ"},{"word":"ビョウ","reading":"ビョウ","meaning":"On reading: ビョウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "苛",
     meanings: ["chastise","scold","torment"],
     onyomi: ["カ"],
     kunyomi: ["いじ.める","いらだ.つ","からい","こまかい","さいな.む"],
-    examples: [{"word":"いじ.める","pronunciation":"いじ.める","meaning":"Kun reading: いじ.める"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"いじ.める","reading":"いじ.める","meaning":"Kun reading: いじ.める"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -9304,28 +9304,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be luxuriant","grow thick","overgrown"],
     onyomi: ["モ"],
     kunyomi: ["しげ.る"],
-    examples: [{"word":"しげ.る","pronunciation":"しげ.る","meaning":"Kun reading: しげ.る"},{"word":"モ","pronunciation":"モ","meaning":"On reading: モ"}],
-    grade: "Junior High",
+    examples: [{"word":"しげ.る","reading":"しげ.る","meaning":"Kun reading: しげ.る"},{"word":"モ","reading":"モ","meaning":"On reading: モ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "茎",
     meanings: ["stalk","stem"],
     onyomi: ["キョウ","ケイ"],
     kunyomi: ["くき"],
-    examples: [{"word":"くき","pronunciation":"くき","meaning":"Kun reading: くき"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くき","reading":"くき","meaning":"Kun reading: くき"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "茨",
     meanings: ["briar","thorn"],
     onyomi: ["シ","ジ"],
     kunyomi: ["いばら","かや","くさぶき"],
-    examples: [{"word":"いばら","pronunciation":"いばら","meaning":"Kun reading: いばら"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"いばら","reading":"いばら","meaning":"Kun reading: いばら"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -9333,68 +9333,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["laid waste","rough","rude","wild"],
     onyomi: ["コウ"],
     kunyomi: ["あ.らし","あ.らす","あ.れる","あら.い","すさ.ぶ","すさ.む"],
-    examples: [{"word":"あ.らし","pronunciation":"あ.らし","meaning":"Kun reading: あ.らし"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.らし","reading":"あ.らし","meaning":"Kun reading: あ.らし"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "荘",
     meanings: ["cottage","dignified","feudal manor","inn","solemn","villa"],
     onyomi: ["ショウ","ソウ","チャン"],
     kunyomi: ["おごそ.か","ほうき"],
-    examples: [{"word":"おごそ.か","pronunciation":"おごそ.か","meaning":"Kun reading: おごそ.か"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おごそ.か","reading":"おごそ.か","meaning":"Kun reading: おごそ.か"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "菊",
     meanings: ["chrysanthemum"],
     onyomi: ["キク"],
     kunyomi: [],
-    examples: [{"word":"キク","pronunciation":"キク","meaning":"On reading: キク"}],
-    grade: "Junior High",
+    examples: [{"word":"キク","reading":"キク","meaning":"On reading: キク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "菌",
     meanings: ["bacteria","fungus","germ"],
     onyomi: ["キン"],
     kunyomi: [],
-    examples: [{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "菓",
     meanings: ["cakes","candy","fruit"],
     onyomi: ["カ"],
     kunyomi: [],
-    examples: [{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "華",
     meanings: ["flower","gay","gorgeous","luster","ostentatious","petal","shine","showy","splendor"],
     onyomi: ["カ","ケ"],
     kunyomi: ["はな"],
-    examples: [{"word":"はな","pronunciation":"はな","meaning":"Kun reading: はな"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"はな","reading":"はな","meaning":"Kun reading: はな"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "萎",
     meanings: ["droop","lame","wither"],
     onyomi: ["イ"],
     kunyomi: ["しお.れる","しな.びる","しぼ.む","な","な.える"],
-    examples: [{"word":"しお.れる","pronunciation":"しお.れる","meaning":"Kun reading: しお.れる"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"しお.れる","reading":"しお.れる","meaning":"Kun reading: しお.れる"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -9402,8 +9402,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["arrowroot","kudzu"],
     onyomi: ["カチ","カツ"],
     kunyomi: ["くず","つづら"],
-    examples: [{"word":"くず","pronunciation":"くず","meaning":"Kun reading: くず"},{"word":"カチ","pronunciation":"カチ","meaning":"On reading: カチ"}],
-    grade: "Junior High",
+    examples: [{"word":"くず","reading":"くず","meaning":"Kun reading: くず"},{"word":"カチ","reading":"カチ","meaning":"On reading: カチ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -9411,28 +9411,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bury","interment","shelve"],
     onyomi: ["ソウ"],
     kunyomi: ["ほうむ.る"],
-    examples: [{"word":"ほうむ.る","pronunciation":"ほうむ.る","meaning":"Kun reading: ほうむ.る"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほうむ.る","reading":"ほうむ.る","meaning":"Kun reading: ほうむ.る"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蓄",
     meanings: ["amass","hoard","raise","store"],
     onyomi: ["チク"],
     kunyomi: ["たくわ.える"],
-    examples: [{"word":"たくわ.える","pronunciation":"たくわ.える","meaning":"Kun reading: たくわ.える"},{"word":"チク","pronunciation":"チク","meaning":"On reading: チク"}],
-    grade: "Junior High",
+    examples: [{"word":"たくわ.える","reading":"たくわ.える","meaning":"Kun reading: たくわ.える"},{"word":"チク","reading":"チク","meaning":"On reading: チク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蓋",
     meanings: ["cover","flap","lid"],
     onyomi: ["カイ","ガイ","コウ"],
     kunyomi: ["おお.う","かこう","かさ","けだ.し","ふた"],
-    examples: [{"word":"おお.う","pronunciation":"おお.う","meaning":"Kun reading: おお.う"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"おお.う","reading":"おお.う","meaning":"Kun reading: おお.う"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9440,8 +9440,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["despise","ignore","neglect","ridicule"],
     onyomi: ["ベツ"],
     kunyomi: ["くらい","さげす.む","ないがしろ","なみ.する"],
-    examples: [{"word":"くらい","pronunciation":"くらい","meaning":"Kun reading: くらい"},{"word":"ベツ","pronunciation":"ベツ","meaning":"On reading: ベツ"}],
-    grade: "Junior High",
+    examples: [{"word":"くらい","reading":"くらい","meaning":"Kun reading: くらい"},{"word":"ベツ","reading":"ベツ","meaning":"On reading: ベツ"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -9449,8 +9449,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be ruined","capsize","cover","mantle","shade"],
     onyomi: ["フツ","ヘイ","ヘツ"],
     kunyomi: ["おお.い","おお.う"],
-    examples: [{"word":"おお.い","pronunciation":"おお.い","meaning":"Kun reading: おお.い"},{"word":"フツ","pronunciation":"フツ","meaning":"On reading: フツ"}],
-    grade: "Junior High",
+    examples: [{"word":"おお.い","reading":"おお.い","meaning":"Kun reading: おお.い"},{"word":"フツ","reading":"フツ","meaning":"On reading: フツ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -9458,188 +9458,188 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["dilute","pampas grass","thin","weak (tea)"],
     onyomi: ["ハク"],
     kunyomi: ["-うす","うす-","うす.い","うす.まる","うす.める","うす.ら-","うす.らぐ","うす.れる","すすき"],
-    examples: [{"word":"-うす","pronunciation":"-うす","meaning":"Kun reading: -うす"},{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"-うす","reading":"-うす","meaning":"Kun reading: -うす"},{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "薦",
     meanings: ["advise","encourage","mat","offer","recommend"],
     onyomi: ["セン"],
     kunyomi: ["すす.める"],
-    examples: [{"word":"すす.める","pronunciation":"すす.める","meaning":"Kun reading: すす.める"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"すす.める","reading":"すす.める","meaning":"Kun reading: すす.める"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "薪",
     meanings: ["firewood","fuel","kindling"],
     onyomi: ["シン"],
     kunyomi: ["たきぎ","まき"],
-    examples: [{"word":"たきぎ","pronunciation":"たきぎ","meaning":"Kun reading: たきぎ"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"たきぎ","reading":"たきぎ","meaning":"Kun reading: たきぎ"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "薫",
     meanings: ["be scented","fragrant","send forth fragrance","smoke (tobacco)"],
     onyomi: ["クン"],
     kunyomi: ["かお.る"],
-    examples: [{"word":"かお.る","pronunciation":"かお.る","meaning":"Kun reading: かお.る"},{"word":"クン","pronunciation":"クン","meaning":"On reading: クン"}],
-    grade: "Junior High",
+    examples: [{"word":"かお.る","reading":"かお.る","meaning":"Kun reading: かお.る"},{"word":"クン","reading":"クン","meaning":"On reading: クン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "藍",
     meanings: ["indigo"],
     onyomi: ["ラン"],
     kunyomi: ["あい"],
-    examples: [{"word":"あい","pronunciation":"あい","meaning":"Kun reading: あい"},{"word":"ラン","pronunciation":"ラン","meaning":"On reading: ラン"}],
-    grade: "Junior High",
+    examples: [{"word":"あい","reading":"あい","meaning":"Kun reading: あい"},{"word":"ラン","reading":"ラン","meaning":"On reading: ラン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "藤",
     meanings: ["wisteria"],
     onyomi: ["トウ","ドウ"],
     kunyomi: ["ふじ"],
-    examples: [{"word":"ふじ","pronunciation":"ふじ","meaning":"Kun reading: ふじ"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふじ","reading":"ふじ","meaning":"Kun reading: ふじ"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "藩",
     meanings: ["clan","enclosure"],
     onyomi: ["ハン"],
     kunyomi: [],
-    examples: [{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "藻",
     meanings: ["duckweed","seaweed"],
     onyomi: ["ソウ"],
     kunyomi: ["も"],
-    examples: [{"word":"も","pronunciation":"も","meaning":"Kun reading: も"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"も","reading":"も","meaning":"Kun reading: も"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "虎",
     meanings: ["drunkard","tiger"],
     onyomi: ["コ"],
     kunyomi: ["とら"],
-    examples: [{"word":"とら","pronunciation":"とら","meaning":"Kun reading: とら"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"とら","reading":"とら","meaning":"Kun reading: とら"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "虐",
     meanings: ["oppress","tyrannize"],
     onyomi: ["ギャク"],
     kunyomi: ["しいた.げる"],
-    examples: [{"word":"しいた.げる","pronunciation":"しいた.げる","meaning":"Kun reading: しいた.げる"},{"word":"ギャク","pronunciation":"ギャク","meaning":"On reading: ギャク"}],
-    grade: "Junior High",
+    examples: [{"word":"しいた.げる","reading":"しいた.げる","meaning":"Kun reading: しいた.げる"},{"word":"ギャク","reading":"ギャク","meaning":"On reading: ギャク"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "虚",
     meanings: ["crack","emptiness","fissure","unpreparedness","untruth","void"],
     onyomi: ["キョ","コ"],
     kunyomi: ["うつ.ろ","むな.しい"],
-    examples: [{"word":"うつ.ろ","pronunciation":"うつ.ろ","meaning":"Kun reading: うつ.ろ"},{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"うつ.ろ","reading":"うつ.ろ","meaning":"Kun reading: うつ.ろ"},{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "虜",
     meanings: ["barbarian","captive","low epithet for the enemy"],
     onyomi: ["リョ","ロ"],
     kunyomi: ["とりく","とりこ"],
-    examples: [{"word":"とりく","pronunciation":"とりく","meaning":"Kun reading: とりく"},{"word":"リョ","pronunciation":"リョ","meaning":"On reading: リョ"}],
-    grade: "Junior High",
+    examples: [{"word":"とりく","reading":"とりく","meaning":"Kun reading: とりく"},{"word":"リョ","reading":"リョ","meaning":"On reading: リョ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "虞",
     meanings: ["anxiety","concern","consideration","expectation","fear","uneasiness"],
     onyomi: ["グ"],
     kunyomi: ["あざむ.く","あやま.る","うれ.える","おそれ","おもんぱか.る","たの.しむ","のぞ.む","はか.る"],
-    examples: [{"word":"あざむ.く","pronunciation":"あざむ.く","meaning":"Kun reading: あざむ.く"},{"word":"グ","pronunciation":"グ","meaning":"On reading: グ"}],
-    grade: "Junior High",
+    examples: [{"word":"あざむ.く","reading":"あざむ.く","meaning":"Kun reading: あざむ.く"},{"word":"グ","reading":"グ","meaning":"On reading: グ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "虹",
     meanings: ["rainbow"],
     onyomi: ["コウ"],
     kunyomi: ["にじ"],
-    examples: [{"word":"にじ","pronunciation":"にじ","meaning":"Kun reading: にじ"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"にじ","reading":"にじ","meaning":"Kun reading: にじ"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蚊",
     meanings: ["mosquito"],
     onyomi: ["ブン"],
     kunyomi: ["か"],
-    examples: [{"word":"か","pronunciation":"か","meaning":"Kun reading: か"},{"word":"ブン","pronunciation":"ブン","meaning":"On reading: ブン"}],
-    grade: "Junior High",
+    examples: [{"word":"か","reading":"か","meaning":"Kun reading: か"},{"word":"ブン","reading":"ブン","meaning":"On reading: ブン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蛇",
     meanings: ["hard drinker","serpent","snake"],
     onyomi: ["イ","ジャ","ダ","ヤ"],
     kunyomi: ["へび"],
-    examples: [{"word":"へび","pronunciation":"へび","meaning":"Kun reading: へび"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"へび","reading":"へび","meaning":"Kun reading: へび"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蛍",
     meanings: ["firefly","lightning-bug"],
     onyomi: ["ケイ"],
     kunyomi: ["ほたる"],
-    examples: [{"word":"ほたる","pronunciation":"ほたる","meaning":"Kun reading: ほたる"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほたる","reading":"ほたる","meaning":"Kun reading: ほたる"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蛮",
     meanings: ["barbarian"],
     onyomi: ["バン"],
     kunyomi: ["えびす"],
-    examples: [{"word":"えびす","pronunciation":"えびす","meaning":"Kun reading: えびす"},{"word":"バン","pronunciation":"バン","meaning":"On reading: バン"}],
-    grade: "Junior High",
+    examples: [{"word":"えびす","reading":"えびす","meaning":"Kun reading: えびす"},{"word":"バン","reading":"バン","meaning":"On reading: バン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "蜂",
     meanings: ["bee","hornet","wasp"],
     onyomi: ["ホウ"],
     kunyomi: ["はち"],
-    examples: [{"word":"はち","pronunciation":"はち","meaning":"Kun reading: はち"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"はち","reading":"はち","meaning":"Kun reading: はち"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9647,8 +9647,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["honey","molasses","nectar"],
     onyomi: ["ビツ","ミツ"],
     kunyomi: [],
-    examples: [{"word":"ビツ","pronunciation":"ビツ","meaning":"On reading: ビツ"}],
-    grade: "Junior High",
+    examples: [{"word":"ビツ","reading":"ビツ","meaning":"On reading: ビツ"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -9656,68 +9656,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["dissolve","melt"],
     onyomi: ["ユウ"],
     kunyomi: ["と.かす","と.ける"],
-    examples: [{"word":"と.かす","pronunciation":"と.かす","meaning":"Kun reading: と.かす"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"と.かす","reading":"と.かす","meaning":"Kun reading: と.かす"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "衝",
     meanings: ["brunt","collide","highway","opposition (astronomy)","pierce","prick","stab","thrust"],
     onyomi: ["ショウ"],
     kunyomi: ["つ.く"],
-    examples: [{"word":"つ.く","pronunciation":"つ.く","meaning":"Kun reading: つ.く"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.く","reading":"つ.く","meaning":"Kun reading: つ.く"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "衡",
     meanings: ["equilibrium","measuring rod","scale"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "衰",
     meanings: ["decline","wane","weaken"],
     onyomi: ["スイ"],
     kunyomi: ["おとろ.える"],
-    examples: [{"word":"おとろ.える","pronunciation":"おとろ.える","meaning":"Kun reading: おとろ.える"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"おとろ.える","reading":"おとろ.える","meaning":"Kun reading: おとろ.える"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "衷",
     meanings: ["heart","inmost","inside","mind"],
     onyomi: ["チュウ"],
     kunyomi: [],
-    examples: [{"word":"チュウ","pronunciation":"チュウ","meaning":"On reading: チュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"チュウ","reading":"チュウ","meaning":"On reading: チュウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "袋",
     meanings: ["bag","pouch","sack"],
     onyomi: ["タイ","ダイ"],
     kunyomi: ["ふくろ"],
-    examples: [{"word":"ふくろ","pronunciation":"ふくろ","meaning":"Kun reading: ふくろ"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふくろ","reading":"ふくろ","meaning":"Kun reading: ふくろ"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "袖",
     meanings: ["extension","give cold shoulder","sleeve","wing (building)"],
     onyomi: ["シュウ"],
     kunyomi: ["そで"],
-    examples: [{"word":"そで","pronunciation":"そで","meaning":"Kun reading: そで"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"そで","reading":"そで","meaning":"Kun reading: そで"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -9725,48 +9725,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be exposed (film)","brood over","cover","incur","put on","receiving","shelter","veil","wear"],
     onyomi: ["ヒ"],
     kunyomi: ["おお.う","かぶ.せる","かぶ.る","こうむ.る"],
-    examples: [{"word":"おお.う","pronunciation":"おお.う","meaning":"Kun reading: おお.う"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"おお.う","reading":"おお.う","meaning":"Kun reading: おお.う"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "裂",
     meanings: ["rend","split","tear"],
     onyomi: ["レツ"],
     kunyomi: ["-ぎ.れ","さ.く","さ.ける"],
-    examples: [{"word":"-ぎ.れ","pronunciation":"-ぎ.れ","meaning":"Kun reading: -ぎ.れ"},{"word":"レツ","pronunciation":"レツ","meaning":"On reading: レツ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ぎ.れ","reading":"-ぎ.れ","meaning":"Kun reading: -ぎ.れ"},{"word":"レツ","reading":"レツ","meaning":"On reading: レツ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "裕",
     meanings: ["abundant","fertile","rich"],
     onyomi: ["ユウ"],
     kunyomi: [],
-    examples: [{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "裸",
     meanings: ["naked","nude","partially clothed","uncovered"],
     onyomi: ["ラ"],
     kunyomi: ["はだか"],
-    examples: [{"word":"はだか","pronunciation":"はだか","meaning":"Kun reading: はだか"},{"word":"ラ","pronunciation":"ラ","meaning":"On reading: ラ"}],
-    grade: "Junior High",
+    examples: [{"word":"はだか","reading":"はだか","meaning":"Kun reading: はだか"},{"word":"ラ","reading":"ラ","meaning":"On reading: ラ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "裾",
     meanings: ["cuff","foot of mountain","hem"],
     onyomi: ["キョ","コ"],
     kunyomi: ["すそ"],
-    examples: [{"word":"すそ","pronunciation":"すそ","meaning":"Kun reading: すそ"},{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"すそ","reading":"すそ","meaning":"Kun reading: すそ"},{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9774,88 +9774,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["brown","woollen kimono"],
     onyomi: ["カツ"],
     kunyomi: [],
-    examples: [{"word":"カツ","pronunciation":"カツ","meaning":"On reading: カツ"}],
-    grade: "Junior High",
+    examples: [{"word":"カツ","reading":"カツ","meaning":"On reading: カツ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "褒",
     meanings: ["extol","praise"],
     onyomi: ["ホウ"],
     kunyomi: ["ほ.める"],
-    examples: [{"word":"ほ.める","pronunciation":"ほ.める","meaning":"Kun reading: ほ.める"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほ.める","reading":"ほ.める","meaning":"Kun reading: ほ.める"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "襟",
     meanings: ["collar","lapel","neck","one's inner feelings"],
     onyomi: ["キン"],
     kunyomi: ["えり"],
-    examples: [{"word":"えり","pronunciation":"えり","meaning":"Kun reading: えり"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"えり","reading":"えり","meaning":"Kun reading: えり"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "襲",
     meanings: ["advance on","attack","heap","pile","succeed to"],
     onyomi: ["シュウ"],
     kunyomi: ["おそ.う","かさ.ね"],
-    examples: [{"word":"おそ.う","pronunciation":"おそ.う","meaning":"Kun reading: おそ.う"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おそ.う","reading":"おそ.う","meaning":"Kun reading: おそ.う"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 22,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "覆",
     meanings: ["be ruined","capsize","cover","mantle","shade"],
     onyomi: ["フク"],
     kunyomi: ["おお.う","くつがえ.す","くつがえ.る"],
-    examples: [{"word":"おお.う","pronunciation":"おお.う","meaning":"Kun reading: おお.う"},{"word":"フク","pronunciation":"フク","meaning":"On reading: フク"}],
-    grade: "Junior High",
+    examples: [{"word":"おお.う","reading":"おお.う","meaning":"Kun reading: おお.う"},{"word":"フク","reading":"フク","meaning":"On reading: フク"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "覇",
     meanings: ["champion","hegemony","leadership","supremacy"],
     onyomi: ["ハ","ハク"],
     kunyomi: ["はたがしら"],
-    examples: [{"word":"はたがしら","pronunciation":"はたがしら","meaning":"Kun reading: はたがしら"},{"word":"ハ","pronunciation":"ハ","meaning":"On reading: ハ"}],
-    grade: "Junior High",
+    examples: [{"word":"はたがしら","reading":"はたがしら","meaning":"Kun reading: はたがしら"},{"word":"ハ","reading":"ハ","meaning":"On reading: ハ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "触",
     meanings: ["announce","conflict","contact","feel","hit","proclaim","touch"],
     onyomi: ["ショク"],
     kunyomi: ["さわ","さわ.る","ふ.れる"],
-    examples: [{"word":"さわ","pronunciation":"さわ","meaning":"Kun reading: さわ"},{"word":"ショク","pronunciation":"ショク","meaning":"On reading: ショク"}],
-    grade: "Junior High",
+    examples: [{"word":"さわ","reading":"さわ","meaning":"Kun reading: さわ"},{"word":"ショク","reading":"ショク","meaning":"On reading: ショク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "訂",
     meanings: ["correct","decide","revise"],
     onyomi: ["テイ"],
     kunyomi: ["ただ.す"],
-    examples: [{"word":"ただ.す","pronunciation":"ただ.す","meaning":"Kun reading: ただ.す"},{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ただ.す","reading":"ただ.す","meaning":"Kun reading: ただ.す"},{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "訃",
     meanings: ["obituary"],
     onyomi: ["フ"],
     kunyomi: ["しらせ"],
-    examples: [{"word":"しらせ","pronunciation":"しらせ","meaning":"Kun reading: しらせ"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"しらせ","reading":"しらせ","meaning":"Kun reading: しらせ"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 9
   },
   {
@@ -9863,78 +9863,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["consign","entrusting with","hint","pretend","requesting"],
     onyomi: ["タク"],
     kunyomi: ["かこ.つ","かこ.つける","かこつ.ける"],
-    examples: [{"word":"かこ.つ","pronunciation":"かこ.つ","meaning":"Kun reading: かこ.つ"},{"word":"タク","pronunciation":"タク","meaning":"On reading: タク"}],
-    grade: "Junior High",
+    examples: [{"word":"かこ.つ","reading":"かこ.つ","meaning":"Kun reading: かこ.つ"},{"word":"タク","reading":"タク","meaning":"On reading: タク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "訟",
     meanings: ["accuse","sue"],
     onyomi: ["ショウ"],
     kunyomi: [],
-    examples: [{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "訴",
     meanings: ["accusation","appeal to","complain of pain","sue"],
     onyomi: ["ソ"],
     kunyomi: ["うった.える"],
-    examples: [{"word":"うった.える","pronunciation":"うった.える","meaning":"Kun reading: うった.える"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"うった.える","reading":"うった.える","meaning":"Kun reading: うった.える"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "診",
     meanings: ["checkup","diagnose","examine","seeing"],
     onyomi: ["シン"],
     kunyomi: ["み.る"],
-    examples: [{"word":"み.る","pronunciation":"み.る","meaning":"Kun reading: み.る"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"み.る","reading":"み.る","meaning":"Kun reading: み.る"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "詐",
     meanings: ["deceive","falsehood","lie","pretend"],
     onyomi: ["サ"],
     kunyomi: ["いつわ.る"],
-    examples: [{"word":"いつわ.る","pronunciation":"いつわ.る","meaning":"Kun reading: いつわ.る"},{"word":"サ","pronunciation":"サ","meaning":"On reading: サ"}],
-    grade: "Junior High",
+    examples: [{"word":"いつわ.る","reading":"いつわ.る","meaning":"Kun reading: いつわ.る"},{"word":"サ","reading":"サ","meaning":"On reading: サ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "詔",
     meanings: ["imperial edict"],
     onyomi: ["ショウ"],
     kunyomi: ["みことのり"],
-    examples: [{"word":"みことのり","pronunciation":"みことのり","meaning":"Kun reading: みことのり"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"みことのり","reading":"みことのり","meaning":"Kun reading: みことのり"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "詠",
     meanings: ["composing","poem","recitation","song"],
     onyomi: ["エイ"],
     kunyomi: ["うた.う","よ.む"],
-    examples: [{"word":"うた.う","pronunciation":"うた.う","meaning":"Kun reading: うた.う"},{"word":"エイ","pronunciation":"エイ","meaning":"On reading: エイ"}],
-    grade: "Junior High",
+    examples: [{"word":"うた.う","reading":"うた.う","meaning":"Kun reading: うた.う"},{"word":"エイ","reading":"エイ","meaning":"On reading: エイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "詣",
     meanings: ["arrive","attain","visit a temple"],
     onyomi: ["ケイ","ゲイ"],
     kunyomi: ["いた.る","けい.する","まい.る","もう.でる"],
-    examples: [{"word":"いた.る","pronunciation":"いた.る","meaning":"Kun reading: いた.る"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いた.る","reading":"いた.る","meaning":"Kun reading: いた.る"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9942,8 +9942,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["discussion","methods called for","result","selection"],
     onyomi: ["セン"],
     kunyomi: ["あき.らか","かい","せん.ずる"],
-    examples: [{"word":"あき.らか","pronunciation":"あき.らか","meaning":"Kun reading: あき.らか"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"あき.らか","reading":"あき.らか","meaning":"Kun reading: あき.らか"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -9951,78 +9951,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["blame","close","packed","pressed","rebuke","reprove"],
     onyomi: ["キチ","キツ"],
     kunyomi: ["-づ.め","つ.まる","つ.む","つ.め","つ.める"],
-    examples: [{"word":"-づ.め","pronunciation":"-づ.め","meaning":"Kun reading: -づ.め"},{"word":"キチ","pronunciation":"キチ","meaning":"On reading: キチ"}],
-    grade: "Junior High",
+    examples: [{"word":"-づ.め","reading":"-づ.め","meaning":"Kun reading: -づ.め"},{"word":"キチ","reading":"キチ","meaning":"On reading: キチ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "該",
     meanings: ["above-stated","that specific","the said"],
     onyomi: ["ガイ"],
     kunyomi: [],
-    examples: [{"word":"ガイ","pronunciation":"ガイ","meaning":"On reading: ガイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ガイ","reading":"ガイ","meaning":"On reading: ガイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "詳",
     meanings: ["accurate","detailed","full","minute","well-informed"],
     onyomi: ["ショウ"],
     kunyomi: ["くわ.しい","つまび.らか"],
-    examples: [{"word":"くわ.しい","pronunciation":"くわ.しい","meaning":"Kun reading: くわ.しい"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くわ.しい","reading":"くわ.しい","meaning":"Kun reading: くわ.しい"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "誇",
     meanings: ["be proud","boast","pride","triumphantly"],
     onyomi: ["コ"],
     kunyomi: ["ほこ.る"],
-    examples: [{"word":"ほこ.る","pronunciation":"ほこ.る","meaning":"Kun reading: ほこ.る"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほこ.る","reading":"ほこ.る","meaning":"Kun reading: ほこ.る"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "誉",
     meanings: ["glory","honor","praise","reputation"],
     onyomi: ["ヨ"],
     kunyomi: ["ほ.める","ほま.れ"],
-    examples: [{"word":"ほ.める","pronunciation":"ほ.める","meaning":"Kun reading: ほ.める"},{"word":"ヨ","pronunciation":"ヨ","meaning":"On reading: ヨ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほ.める","reading":"ほ.める","meaning":"Kun reading: ほ.める"},{"word":"ヨ","reading":"ヨ","meaning":"On reading: ヨ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "誓",
     meanings: ["pledge","swear","vow"],
     onyomi: ["セイ"],
     kunyomi: ["ちか.う"],
-    examples: [{"word":"ちか.う","pronunciation":"ちか.う","meaning":"Kun reading: ちか.う"},{"word":"セイ","pronunciation":"セイ","meaning":"On reading: セイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ちか.う","reading":"ちか.う","meaning":"Kun reading: ちか.う"},{"word":"セイ","reading":"セイ","meaning":"On reading: セイ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "誘",
     meanings: ["allure","ask","call for","entice","invite","lead","seduce","tempt"],
     onyomi: ["ユウ"],
     kunyomi: ["いざな.う","さそ.う"],
-    examples: [{"word":"いざな.う","pronunciation":"いざな.う","meaning":"Kun reading: いざな.う"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"いざな.う","reading":"いざな.う","meaning":"Kun reading: いざな.う"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "誰",
     meanings: ["somebody","someone","who"],
     onyomi: ["スイ"],
     kunyomi: ["た","たれ","だれ"],
-    examples: [{"word":"た","pronunciation":"た","meaning":"Kun reading: た"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"た","reading":"た","meaning":"Kun reading: た"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -10030,18 +10030,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["ask","invite","solicit"],
     onyomi: ["ショウ","シン","セイ"],
     kunyomi: ["う.ける","こ.う"],
-    examples: [{"word":"う.ける","pronunciation":"う.ける","meaning":"Kun reading: う.ける"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.ける","reading":"う.ける","meaning":"Kun reading: う.ける"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "諦",
     meanings: ["abandon","clarity","give up","truth"],
     onyomi: ["タイ","テイ"],
     kunyomi: ["あきら.める","つまびらか","まこと"],
-    examples: [{"word":"あきら.める","pronunciation":"あきら.める","meaning":"Kun reading: あきら.める"},{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"あきら.める","reading":"あきら.める","meaning":"Kun reading: あきら.める"},{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -10049,8 +10049,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["harmony"],
     onyomi: ["カイ"],
     kunyomi: ["かな.う","やわ.らぐ"],
-    examples: [{"word":"かな.う","pronunciation":"かな.う","meaning":"Kun reading: かな.う"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かな.う","reading":"かな.う","meaning":"Kun reading: かな.う"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -10058,68 +10058,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["admonish","charge","persuade","rebuke","warn"],
     onyomi: ["ユ"],
     kunyomi: ["さと.す"],
-    examples: [{"word":"さと.す","pronunciation":"さと.す","meaning":"Kun reading: さと.す"},{"word":"ユ","pronunciation":"ユ","meaning":"On reading: ユ"}],
-    grade: "Junior High",
+    examples: [{"word":"さと.す","reading":"さと.す","meaning":"Kun reading: さと.す"},{"word":"ユ","reading":"ユ","meaning":"On reading: ユ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "諮",
     meanings: ["consult with"],
     onyomi: ["シ"],
     kunyomi: ["はか.る"],
-    examples: [{"word":"はか.る","pronunciation":"はか.る","meaning":"Kun reading: はか.る"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"はか.る","reading":"はか.る","meaning":"Kun reading: はか.る"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "諾",
     meanings: ["agreement","assent","consent"],
     onyomi: ["ダク"],
     kunyomi: [],
-    examples: [{"word":"ダク","pronunciation":"ダク","meaning":"On reading: ダク"}],
-    grade: "Junior High",
+    examples: [{"word":"ダク","reading":"ダク","meaning":"On reading: ダク"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "謀",
     meanings: ["cheat","conspire","deceive","devise","have in mind","impose on","plan","scheme"],
     onyomi: ["ボウ","ム"],
     kunyomi: ["たばか.る","はか.る","はかりごと"],
-    examples: [{"word":"たばか.る","pronunciation":"たばか.る","meaning":"Kun reading: たばか.る"},{"word":"ボウ","pronunciation":"ボウ","meaning":"On reading: ボウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たばか.る","reading":"たばか.る","meaning":"Kun reading: たばか.る"},{"word":"ボウ","reading":"ボウ","meaning":"On reading: ボウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "謁",
     meanings: ["audience","audience (with king)"],
     onyomi: ["エツ"],
     kunyomi: [],
-    examples: [{"word":"エツ","pronunciation":"エツ","meaning":"On reading: エツ"}],
-    grade: "Junior High",
+    examples: [{"word":"エツ","reading":"エツ","meaning":"On reading: エツ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "謄",
     meanings: ["copy","mimeograph"],
     onyomi: ["トウ"],
     kunyomi: [],
-    examples: [{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "謎",
     meanings: ["enigma","hint","puzzle","riddle","tip"],
     onyomi: ["ベイ","メイ"],
     kunyomi: ["なぞ"],
-    examples: [{"word":"なぞ","pronunciation":"なぞ","meaning":"Kun reading: なぞ"},{"word":"ベイ","pronunciation":"ベイ","meaning":"On reading: ベイ"}],
-    grade: "Junior High",
+    examples: [{"word":"なぞ","reading":"なぞ","meaning":"Kun reading: なぞ"},{"word":"ベイ","reading":"ベイ","meaning":"On reading: ベイ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -10127,78 +10127,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be modest","condescend","humble oneself","self-effacing"],
     onyomi: ["ケン"],
     kunyomi: ["へりくだ.る"],
-    examples: [{"word":"へりくだ.る","pronunciation":"へりくだ.る","meaning":"Kun reading: へりくだ.る"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"へりくだ.る","reading":"へりくだ.る","meaning":"Kun reading: へりくだ.る"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "謡",
     meanings: ["ballad","noh chanting","sing","song"],
     onyomi: ["ヨウ"],
     kunyomi: ["うた.い","うた.う"],
-    examples: [{"word":"うた.い","pronunciation":"うた.い","meaning":"Kun reading: うた.い"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うた.い","reading":"うた.い","meaning":"Kun reading: うた.い"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "謹",
     meanings: ["discreet","humbly","reverently"],
     onyomi: ["キン"],
     kunyomi: ["つつし.む"],
-    examples: [{"word":"つつし.む","pronunciation":"つつし.む","meaning":"Kun reading: つつし.む"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"つつし.む","reading":"つつし.む","meaning":"Kun reading: つつし.む"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "譜",
     meanings: ["genealogy","music","musical score","note","staff","table"],
     onyomi: ["フ"],
     kunyomi: [],
-    examples: [{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "譲",
     meanings: ["convey","defer","transfer","turnover"],
     onyomi: ["ジョウ"],
     kunyomi: ["ゆず.る"],
-    examples: [{"word":"ゆず.る","pronunciation":"ゆず.る","meaning":"Kun reading: ゆず.る"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ゆず.る","reading":"ゆず.る","meaning":"Kun reading: ゆず.る"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "豚",
     meanings: ["pig","pork"],
     onyomi: ["トン"],
     kunyomi: ["ぶた"],
-    examples: [{"word":"ぶた","pronunciation":"ぶた","meaning":"Kun reading: ぶた"},{"word":"トン","pronunciation":"トン","meaning":"On reading: トン"}],
-    grade: "Junior High",
+    examples: [{"word":"ぶた","reading":"ぶた","meaning":"Kun reading: ぶた"},{"word":"トン","reading":"トン","meaning":"On reading: トン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "豪",
     meanings: ["Australia","excelling","great","overpowering","powerful"],
     onyomi: ["ゴウ"],
     kunyomi: ["えら.い"],
-    examples: [{"word":"えら.い","pronunciation":"えら.い","meaning":"Kun reading: えら.い"},{"word":"ゴウ","pronunciation":"ゴウ","meaning":"On reading: ゴウ"}],
-    grade: "Junior High",
+    examples: [{"word":"えら.い","reading":"えら.い","meaning":"Kun reading: えら.い"},{"word":"ゴウ","reading":"ゴウ","meaning":"On reading: ゴウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "貌",
     meanings: ["appearance","countenance","form"],
     onyomi: ["バク","ボウ"],
     kunyomi: ["かたち","かたどる"],
-    examples: [{"word":"かたち","pronunciation":"かたち","meaning":"Kun reading: かたち"},{"word":"バク","pronunciation":"バク","meaning":"On reading: バク"}],
-    grade: "Junior High",
+    examples: [{"word":"かたち","reading":"かたち","meaning":"Kun reading: かたち"},{"word":"バク","reading":"バク","meaning":"On reading: バク"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -10206,38 +10206,38 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["chastity","constancy","righteousness","upright"],
     onyomi: ["ジョウ","テイ"],
     kunyomi: ["さだ","ただし.い"],
-    examples: [{"word":"さだ","pronunciation":"さだ","meaning":"Kun reading: さだ"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"さだ","reading":"さだ","meaning":"Kun reading: さだ"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "貢",
     meanings: ["finance","support","tribute"],
     onyomi: ["ク","コウ"],
     kunyomi: ["みつ.ぐ"],
-    examples: [{"word":"みつ.ぐ","pronunciation":"みつ.ぐ","meaning":"Kun reading: みつ.ぐ"},{"word":"ク","pronunciation":"ク","meaning":"On reading: ク"}],
-    grade: "Junior High",
+    examples: [{"word":"みつ.ぐ","reading":"みつ.ぐ","meaning":"Kun reading: みつ.ぐ"},{"word":"ク","reading":"ク","meaning":"On reading: ク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "販",
     meanings: ["marketing","sell","trade"],
     onyomi: ["ハン"],
     kunyomi: [],
-    examples: [{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "貪",
     meanings: ["covet","indulge in"],
     onyomi: ["タン","トン","ドン"],
     kunyomi: ["むさぼ.る"],
-    examples: [{"word":"むさぼ.る","pronunciation":"むさぼ.る","meaning":"Kun reading: むさぼ.る"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"むさぼ.る","reading":"むさぼ.る","meaning":"Kun reading: むさぼ.る"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -10245,18 +10245,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["8 1/3lbs","brace","penetrate","pierce"],
     onyomi: ["カン"],
     kunyomi: ["つらぬ.く","ぬ.く","ぬき"],
-    examples: [{"word":"つらぬ.く","pronunciation":"つらぬ.く","meaning":"Kun reading: つらぬ.く"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"つらぬ.く","reading":"つらぬ.く","meaning":"Kun reading: つらぬ.く"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "貼",
     meanings: ["apply","paste","stick"],
     onyomi: ["チョウ","テン"],
     kunyomi: ["つ.く","は.る"],
-    examples: [{"word":"つ.く","pronunciation":"つ.く","meaning":"Kun reading: つ.く"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.く","reading":"つ.く","meaning":"Kun reading: つ.く"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 12
   },
   {
@@ -10264,8 +10264,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bribe"],
     onyomi: ["ロ"],
     kunyomi: ["まいな.い","まいな.う"],
-    examples: [{"word":"まいな.い","pronunciation":"まいな.い","meaning":"Kun reading: まいな.い"},{"word":"ロ","pronunciation":"ロ","meaning":"On reading: ロ"}],
-    grade: "Junior High",
+    examples: [{"word":"まいな.い","reading":"まいな.い","meaning":"Kun reading: まいな.い"},{"word":"ロ","reading":"ロ","meaning":"On reading: ロ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -10273,78 +10273,78 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["board","bribe","finance","supply"],
     onyomi: ["ワイ"],
     kunyomi: ["まかな.う"],
-    examples: [{"word":"まかな.う","pronunciation":"まかな.う","meaning":"Kun reading: まかな.う"},{"word":"ワイ","pronunciation":"ワイ","meaning":"On reading: ワイ"}],
-    grade: "Junior High",
+    examples: [{"word":"まかな.う","reading":"まかな.う","meaning":"Kun reading: まかな.う"},{"word":"ワイ","reading":"ワイ","meaning":"On reading: ワイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "賊",
     meanings: ["burglar","rebel","robber","traitor"],
     onyomi: ["ゾク"],
     kunyomi: [],
-    examples: [{"word":"ゾク","pronunciation":"ゾク","meaning":"On reading: ゾク"}],
-    grade: "Junior High",
+    examples: [{"word":"ゾク","reading":"ゾク","meaning":"On reading: ゾク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "賓",
     meanings: ["V.I.P.","guest"],
     onyomi: ["ヒン"],
     kunyomi: [],
-    examples: [{"word":"ヒン","pronunciation":"ヒン","meaning":"On reading: ヒン"}],
-    grade: "Junior High",
+    examples: [{"word":"ヒン","reading":"ヒン","meaning":"On reading: ヒン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "賜",
     meanings: ["boon","gift","grant","results"],
     onyomi: ["シ"],
     kunyomi: ["たま.う","たまわ.る","たも.う"],
-    examples: [{"word":"たま.う","pronunciation":"たま.う","meaning":"Kun reading: たま.う"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"たま.う","reading":"たま.う","meaning":"Kun reading: たま.う"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "賠",
     meanings: ["compensation","indemnify"],
     onyomi: ["バイ"],
     kunyomi: [],
-    examples: [{"word":"バイ","pronunciation":"バイ","meaning":"On reading: バイ"}],
-    grade: "Junior High",
+    examples: [{"word":"バイ","reading":"バイ","meaning":"On reading: バイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "賢",
     meanings: ["cleverness","intelligent","wisdom","wise"],
     onyomi: ["ケン"],
     kunyomi: ["かしこ.い"],
-    examples: [{"word":"かしこ.い","pronunciation":"かしこ.い","meaning":"Kun reading: かしこ.い"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"かしこ.い","reading":"かしこ.い","meaning":"Kun reading: かしこ.い"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "賦",
     meanings: ["installment","levy","ode","poem","prose","tribute"],
     onyomi: ["フ","ブ"],
     kunyomi: [],
-    examples: [{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "賭",
     meanings: ["bet","gamble","wager"],
     onyomi: ["ト"],
     kunyomi: ["か.ける","かけ"],
-    examples: [{"word":"か.ける","pronunciation":"か.ける","meaning":"Kun reading: か.ける"},{"word":"ト","pronunciation":"ト","meaning":"On reading: ト"}],
-    grade: "Junior High",
+    examples: [{"word":"か.ける","reading":"か.ける","meaning":"Kun reading: か.ける"},{"word":"ト","reading":"ト","meaning":"On reading: ト"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -10352,138 +10352,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["buy","subscription"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "贈",
     meanings: ["award to","confer on","give to","presenting something","presents","send"],
     onyomi: ["ソウ","ゾウ"],
     kunyomi: ["おく.る"],
-    examples: [{"word":"おく.る","pronunciation":"おく.る","meaning":"Kun reading: おく.る"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おく.る","reading":"おく.る","meaning":"Kun reading: おく.る"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "赦",
     meanings: ["forgiveness","pardon"],
     onyomi: ["シャ"],
     kunyomi: [],
-    examples: [{"word":"シャ","pronunciation":"シャ","meaning":"On reading: シャ"}],
-    grade: "Junior High",
+    examples: [{"word":"シャ","reading":"シャ","meaning":"On reading: シャ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "赴",
     meanings: ["become","get","proceed","tend"],
     onyomi: ["フ"],
     kunyomi: ["おもむ.く"],
-    examples: [{"word":"おもむ.く","pronunciation":"おもむ.く","meaning":"Kun reading: おもむ.く"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"おもむ.く","reading":"おもむ.く","meaning":"Kun reading: おもむ.く"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "超",
     meanings: ["super-","transcend","ultra-"],
     onyomi: ["チョウ"],
     kunyomi: ["こ.える","こ.す"],
-    examples: [{"word":"こ.える","pronunciation":"こ.える","meaning":"Kun reading: こ.える"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"こ.える","reading":"こ.える","meaning":"Kun reading: こ.える"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "越",
     meanings: ["Vietnam","cross over","exceed","move to","surpass"],
     onyomi: ["エツ","オツ"],
     kunyomi: ["-こ.す","-ご.え","-ご.し","こ.える","こ.す"],
-    examples: [{"word":"-こ.す","pronunciation":"-こ.す","meaning":"Kun reading: -こ.す"},{"word":"エツ","pronunciation":"エツ","meaning":"On reading: エツ"}],
-    grade: "Junior High",
+    examples: [{"word":"-こ.す","reading":"-こ.す","meaning":"Kun reading: -こ.す"},{"word":"エツ","reading":"エツ","meaning":"On reading: エツ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "趣",
     meanings: ["become","elegance","gist","interest","proceed to","purport","tend"],
     onyomi: ["シュ"],
     kunyomi: ["おもむ.く","おもむき"],
-    examples: [{"word":"おもむ.く","pronunciation":"おもむ.く","meaning":"Kun reading: おもむ.く"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"おもむ.く","reading":"おもむ.く","meaning":"Kun reading: おもむ.く"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "距",
     meanings: ["fetlock","long-distance","spur"],
     onyomi: ["キョ"],
     kunyomi: ["けづめ","へだ.たる"],
-    examples: [{"word":"けづめ","pronunciation":"けづめ","meaning":"Kun reading: けづめ"},{"word":"キョ","pronunciation":"キョ","meaning":"On reading: キョ"}],
-    grade: "Junior High",
+    examples: [{"word":"けづめ","reading":"けづめ","meaning":"Kun reading: けづめ"},{"word":"キョ","reading":"キョ","meaning":"On reading: キョ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "跡",
     meanings: ["impression","mark","print","tracks"],
     onyomi: ["セキ"],
     kunyomi: ["あと"],
-    examples: [{"word":"あと","pronunciation":"あと","meaning":"Kun reading: あと"},{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"あと","reading":"あと","meaning":"Kun reading: あと"},{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "跳",
     meanings: ["buck","hop","jerk","leap up","prance","snap","splash","spring","sputter"],
     onyomi: ["チョウ"],
     kunyomi: ["-と.び","と.ぶ","は.ねる"],
-    examples: [{"word":"-と.び","pronunciation":"-と.び","meaning":"Kun reading: -と.び"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"-と.び","reading":"-と.び","meaning":"Kun reading: -と.び"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "践",
     meanings: ["carry through","practice","step on","trample","tread"],
     onyomi: ["セン"],
     kunyomi: ["ふ.む"],
-    examples: [{"word":"ふ.む","pronunciation":"ふ.む","meaning":"Kun reading: ふ.む"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.む","reading":"ふ.む","meaning":"Kun reading: ふ.む"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "踊",
     meanings: ["dance","jump","leap","skip"],
     onyomi: ["ヨウ"],
     kunyomi: ["おど.る"],
-    examples: [{"word":"おど.る","pronunciation":"おど.る","meaning":"Kun reading: おど.る"},{"word":"ヨウ","pronunciation":"ヨウ","meaning":"On reading: ヨウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おど.る","reading":"おど.る","meaning":"Kun reading: おど.る"},{"word":"ヨウ","reading":"ヨウ","meaning":"On reading: ヨウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "踏",
     meanings: ["appraise","carry through","evade payment","step","trample"],
     onyomi: ["トウ"],
     kunyomi: ["ふ.まえる","ふ.む"],
-    examples: [{"word":"ふ.まえる","pronunciation":"ふ.まえる","meaning":"Kun reading: ふ.まえる"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふ.まえる","reading":"ふ.まえる","meaning":"Kun reading: ふ.まえる"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "踪",
     meanings: ["clue","footprint","remains"],
     onyomi: ["ショウ","ソウ"],
     kunyomi: ["あと"],
-    examples: [{"word":"あと","pronunciation":"あと","meaning":"Kun reading: あと"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あと","reading":"あと","meaning":"Kun reading: あと"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -10491,8 +10491,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["kick"],
     onyomi: ["シュウ","シュク"],
     kunyomi: ["け.る"],
-    examples: [{"word":"け.る","pronunciation":"け.る","meaning":"Kun reading: け.る"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"け.る","reading":"け.る","meaning":"Kun reading: け.る"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 19
   },
   {
@@ -10500,118 +10500,118 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["dance","leap","skip"],
     onyomi: ["ヤク"],
     kunyomi: ["おど.る"],
-    examples: [{"word":"おど.る","pronunciation":"おど.る","meaning":"Kun reading: おど.る"},{"word":"ヤク","pronunciation":"ヤク","meaning":"On reading: ヤク"}],
-    grade: "Junior High",
+    examples: [{"word":"おど.る","reading":"おど.る","meaning":"Kun reading: おど.る"},{"word":"ヤク","reading":"ヤク","meaning":"On reading: ヤク"}],
+    grade: "juniorHigh",
     strokeCount: 21,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "軌",
     meanings: ["model","rut","track","way of doing","wheel"],
     onyomi: ["キ"],
     kunyomi: [],
-    examples: [{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "軒",
     meanings: ["counter for houses","eaves","flats"],
     onyomi: ["ケン"],
     kunyomi: ["のき"],
-    examples: [{"word":"のき","pronunciation":"のき","meaning":"Kun reading: のき"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"のき","reading":"のき","meaning":"Kun reading: のき"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "軟",
     meanings: ["soft"],
     onyomi: ["ナン"],
     kunyomi: ["やわ.らか","やわ.らかい"],
-    examples: [{"word":"やわ.らか","pronunciation":"やわ.らか","meaning":"Kun reading: やわ.らか"},{"word":"ナン","pronunciation":"ナン","meaning":"On reading: ナン"}],
-    grade: "Junior High",
+    examples: [{"word":"やわ.らか","reading":"やわ.らか","meaning":"Kun reading: やわ.らか"},{"word":"ナン","reading":"ナン","meaning":"On reading: ナン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "軸",
     meanings: ["axis","counter for book scrolls","pivot","stalk","stem"],
     onyomi: ["ジク"],
     kunyomi: [],
-    examples: [{"word":"ジク","pronunciation":"ジク","meaning":"On reading: ジク"}],
-    grade: "Junior High",
+    examples: [{"word":"ジク","reading":"ジク","meaning":"On reading: ジク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "較",
     meanings: ["compare","contrast"],
     onyomi: ["カク","コウ"],
     kunyomi: ["くら.べる"],
-    examples: [{"word":"くら.べる","pronunciation":"くら.べる","meaning":"Kun reading: くら.べる"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"くら.べる","reading":"くら.べる","meaning":"Kun reading: くら.べる"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "載",
     meanings: ["10**44","board","get on","place","publish","record","ride","spread"],
     onyomi: ["サイ"],
     kunyomi: ["の.せる","の.る"],
-    examples: [{"word":"の.せる","pronunciation":"の.せる","meaning":"Kun reading: の.せる"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"の.せる","reading":"の.せる","meaning":"Kun reading: の.せる"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "輝",
     meanings: ["gleam","radiance","shine","sparkle","twinkle"],
     onyomi: ["キ"],
     kunyomi: ["かがや.く"],
-    examples: [{"word":"かがや.く","pronunciation":"かがや.く","meaning":"Kun reading: かがや.く"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"かがや.く","reading":"かがや.く","meaning":"Kun reading: かがや.く"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "輩",
     meanings: ["companions","comrade","fellow","people"],
     onyomi: ["ハイ"],
     kunyomi: ["-ばら","ともがら","やかい","やから"],
-    examples: [{"word":"-ばら","pronunciation":"-ばら","meaning":"Kun reading: -ばら"},{"word":"ハイ","pronunciation":"ハイ","meaning":"On reading: ハイ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ばら","reading":"-ばら","meaning":"Kun reading: -ばら"},{"word":"ハイ","reading":"ハイ","meaning":"On reading: ハイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "轄",
     meanings: ["control","wedge"],
     onyomi: ["カツ"],
     kunyomi: ["くさび"],
-    examples: [{"word":"くさび","pronunciation":"くさび","meaning":"Kun reading: くさび"},{"word":"カツ","pronunciation":"カツ","meaning":"On reading: カツ"}],
-    grade: "Junior High",
+    examples: [{"word":"くさび","reading":"くさび","meaning":"Kun reading: くさび"},{"word":"カツ","reading":"カツ","meaning":"On reading: カツ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "辛",
     meanings: ["acrid","bitter","hot","spicy"],
     onyomi: ["シン"],
     kunyomi: ["-づら.い","かのと","から.い","つら.い"],
-    examples: [{"word":"-づら.い","pronunciation":"-づら.い","meaning":"Kun reading: -づら.い"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"-づら.い","reading":"-づら.い","meaning":"Kun reading: -づら.い"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "辣",
     meanings: ["cruel","harsh","pungent","severe","spicy"],
     onyomi: ["ラツ"],
     kunyomi: ["から.い"],
-    examples: [{"word":"から.い","pronunciation":"から.い","meaning":"Kun reading: から.い"},{"word":"ラツ","pronunciation":"ラツ","meaning":"On reading: ラツ"}],
-    grade: "Junior High",
+    examples: [{"word":"から.い","reading":"から.い","meaning":"Kun reading: から.い"},{"word":"ラツ","reading":"ラツ","meaning":"On reading: ラツ"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -10619,198 +10619,198 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["embarrass","humiliate","shame"],
     onyomi: ["ジョク"],
     kunyomi: ["はずかし.める"],
-    examples: [{"word":"はずかし.める","pronunciation":"はずかし.める","meaning":"Kun reading: はずかし.める"},{"word":"ジョク","pronunciation":"ジョク","meaning":"On reading: ジョク"}],
-    grade: "Junior High",
+    examples: [{"word":"はずかし.める","reading":"はずかし.める","meaning":"Kun reading: はずかし.める"},{"word":"ジョク","reading":"ジョク","meaning":"On reading: ジョク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "込",
     meanings: ["(kokuji)","crowded","in bulk","included","mixture"],
     onyomi: [],
     kunyomi: ["-こ.み","-こ.む","こ.み","こ.む","こ.める"],
-    examples: [{"word":"-こ.み","pronunciation":"-こ.み","meaning":"Kun reading: -こ.み"}],
-    grade: "Junior High",
+    examples: [{"word":"-こ.み","reading":"-こ.み","meaning":"Kun reading: -こ.み"}],
+    grade: "juniorHigh",
     strokeCount: 5,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "迅",
     meanings: ["fast","swift"],
     onyomi: ["ジン"],
     kunyomi: [],
-    examples: [{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 6,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "迎",
     meanings: ["greet","meet","welcome"],
     onyomi: ["ゲイ"],
     kunyomi: ["むか.える"],
-    examples: [{"word":"むか.える","pronunciation":"むか.える","meaning":"Kun reading: むか.える"},{"word":"ゲイ","pronunciation":"ゲイ","meaning":"On reading: ゲイ"}],
-    grade: "Junior High",
+    examples: [{"word":"むか.える","reading":"むか.える","meaning":"Kun reading: むか.える"},{"word":"ゲイ","reading":"ゲイ","meaning":"On reading: ゲイ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "迫",
     meanings: ["force","imminent","spur on","urge"],
     onyomi: ["ハク"],
     kunyomi: ["せま.る"],
-    examples: [{"word":"せま.る","pronunciation":"せま.る","meaning":"Kun reading: せま.る"},{"word":"ハク","pronunciation":"ハク","meaning":"On reading: ハク"}],
-    grade: "Junior High",
+    examples: [{"word":"せま.る","reading":"せま.る","meaning":"Kun reading: せま.る"},{"word":"ハク","reading":"ハク","meaning":"On reading: ハク"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "迭",
     meanings: ["alternation","transfer"],
     onyomi: ["テツ"],
     kunyomi: [],
-    examples: [{"word":"テツ","pronunciation":"テツ","meaning":"On reading: テツ"}],
-    grade: "Junior High",
+    examples: [{"word":"テツ","reading":"テツ","meaning":"On reading: テツ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "逃",
     meanings: ["escape","evade","flee","set free","shirk"],
     onyomi: ["トウ"],
     kunyomi: ["に.がす","に.げる","のが.す","のが.れる"],
-    examples: [{"word":"に.がす","pronunciation":"に.がす","meaning":"Kun reading: に.がす"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"に.がす","reading":"に.がす","meaning":"Kun reading: に.がす"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "透",
     meanings: ["filter","penetrate","permeate","transparent"],
     onyomi: ["トウ"],
     kunyomi: ["す.かす","す.く","す.ける","とう.す","とう.る"],
-    examples: [{"word":"す.かす","pronunciation":"す.かす","meaning":"Kun reading: す.かす"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"す.かす","reading":"す.かす","meaning":"Kun reading: す.かす"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "逐",
     meanings: ["accomplish","attain","chase","commit","drive away","pursue"],
     onyomi: ["チク"],
     kunyomi: [],
-    examples: [{"word":"チク","pronunciation":"チク","meaning":"On reading: チク"}],
-    grade: "Junior High",
+    examples: [{"word":"チク","reading":"チク","meaning":"On reading: チク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "逓",
     meanings: ["in turn","relay","sending"],
     onyomi: ["テイ"],
     kunyomi: ["かわ.る","たがいに"],
-    examples: [{"word":"かわ.る","pronunciation":"かわ.る","meaning":"Kun reading: かわ.る"},{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"かわ.る","reading":"かわ.る","meaning":"Kun reading: かわ.る"},{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "途",
     meanings: ["road","route","way"],
     onyomi: ["ト"],
     kunyomi: ["みち"],
-    examples: [{"word":"みち","pronunciation":"みち","meaning":"Kun reading: みち"},{"word":"ト","pronunciation":"ト","meaning":"On reading: ト"}],
-    grade: "Junior High",
+    examples: [{"word":"みち","reading":"みち","meaning":"Kun reading: みち"},{"word":"ト","reading":"ト","meaning":"On reading: ト"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "逝",
     meanings: ["departed","die"],
     onyomi: ["セイ"],
     kunyomi: ["い.く","ゆ.く"],
-    examples: [{"word":"い.く","pronunciation":"い.く","meaning":"Kun reading: い.く"},{"word":"セイ","pronunciation":"セイ","meaning":"On reading: セイ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.く","reading":"い.く","meaning":"Kun reading: い.く"},{"word":"セイ","reading":"セイ","meaning":"On reading: セイ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "逮",
     meanings: ["apprehend","chase"],
     onyomi: ["タイ"],
     kunyomi: [],
-    examples: [{"word":"タイ","pronunciation":"タイ","meaning":"On reading: タイ"}],
-    grade: "Junior High",
+    examples: [{"word":"タイ","reading":"タイ","meaning":"On reading: タイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "逸",
     meanings: ["deviate","diverge","elude","evade","idleness","leisure","miss the mark","parry"],
     onyomi: ["イツ"],
     kunyomi: ["そ.らす","そ.れる","はぐ.れる"],
-    examples: [{"word":"そ.らす","pronunciation":"そ.らす","meaning":"Kun reading: そ.らす"},{"word":"イツ","pronunciation":"イツ","meaning":"On reading: イツ"}],
-    grade: "Junior High",
+    examples: [{"word":"そ.らす","reading":"そ.らす","meaning":"Kun reading: そ.らす"},{"word":"イツ","reading":"イツ","meaning":"On reading: イツ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遂",
     meanings: ["accomplish","attain","commit (suicide)","consummate"],
     onyomi: ["スイ"],
     kunyomi: ["つい.に","と.げる"],
-    examples: [{"word":"つい.に","pronunciation":"つい.に","meaning":"Kun reading: つい.に"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"つい.に","reading":"つい.に","meaning":"Kun reading: つい.に"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遅",
     meanings: ["back","late","later","slow"],
     onyomi: ["チ"],
     kunyomi: ["おく.らす","おく.れる","おそ.い"],
-    examples: [{"word":"おく.らす","pronunciation":"おく.らす","meaning":"Kun reading: おく.らす"},{"word":"チ","pronunciation":"チ","meaning":"On reading: チ"}],
-    grade: "Junior High",
+    examples: [{"word":"おく.らす","reading":"おく.らす","meaning":"Kun reading: おく.らす"},{"word":"チ","reading":"チ","meaning":"On reading: チ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "遇",
     meanings: ["deal with","encounter","entertain","interview","meet","receive","treat"],
     onyomi: ["グウ"],
     kunyomi: ["あ.う"],
-    examples: [{"word":"あ.う","pronunciation":"あ.う","meaning":"Kun reading: あ.う"},{"word":"グウ","pronunciation":"グウ","meaning":"On reading: グウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.う","reading":"あ.う","meaning":"Kun reading: あ.う"},{"word":"グウ","reading":"グウ","meaning":"On reading: グウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遍",
     meanings: ["everywhere","generally","times","widely"],
     onyomi: ["ヘン"],
     kunyomi: ["あまね.く"],
-    examples: [{"word":"あまね.く","pronunciation":"あまね.く","meaning":"Kun reading: あまね.く"},{"word":"ヘン","pronunciation":"ヘン","meaning":"On reading: ヘン"}],
-    grade: "Junior High",
+    examples: [{"word":"あまね.く","reading":"あまね.く","meaning":"Kun reading: あまね.く"},{"word":"ヘン","reading":"ヘン","meaning":"On reading: ヘン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "違",
     meanings: ["differ","difference"],
     onyomi: ["イ"],
     kunyomi: ["-ちが.える","たが.う","たが.える","ちが.い","ちが.う","ちが.える"],
-    examples: [{"word":"-ちが.える","pronunciation":"-ちが.える","meaning":"Kun reading: -ちが.える"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"-ちが.える","reading":"-ちが.える","meaning":"Kun reading: -ちが.える"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "遜",
     meanings: ["humble","modest"],
     onyomi: ["ソン"],
     kunyomi: ["したが.う","へりくだ.る","ゆず.る"],
-    examples: [{"word":"したが.う","pronunciation":"したが.う","meaning":"Kun reading: したが.う"},{"word":"ソン","pronunciation":"ソン","meaning":"On reading: ソン"}],
-    grade: "Junior High",
+    examples: [{"word":"したが.う","reading":"したが.う","meaning":"Kun reading: したが.う"},{"word":"ソン","reading":"ソン","meaning":"On reading: ソン"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -10818,8 +10818,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["go upstream","retrace the past"],
     onyomi: ["サク","ソ"],
     kunyomi: ["さかのぼ.る"],
-    examples: [{"word":"さかのぼ.る","pronunciation":"さかのぼ.る","meaning":"Kun reading: さかのぼ.る"},{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"さかのぼ.る","reading":"さかのぼ.る","meaning":"Kun reading: さかのぼ.る"},{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -10827,158 +10827,158 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["despatch","dispatch","do","donate","give","send","undertake"],
     onyomi: ["ケン"],
     kunyomi: ["-つか.い","-づか.い","つか.う","つか.わす","や.る"],
-    examples: [{"word":"-つか.い","pronunciation":"-つか.い","meaning":"Kun reading: -つか.い"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"-つか.い","reading":"-つか.い","meaning":"Kun reading: -つか.い"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遭",
     meanings: ["association","encounter","interview","join","meet","party"],
     onyomi: ["ソウ"],
     kunyomi: ["あ.う","あ.わせる"],
-    examples: [{"word":"あ.う","pronunciation":"あ.う","meaning":"Kun reading: あ.う"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.う","reading":"あ.う","meaning":"Kun reading: あ.う"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遮",
     meanings: ["intercept","interrupt","obstruct"],
     onyomi: ["シャ"],
     kunyomi: ["さえぎ.る"],
-    examples: [{"word":"さえぎ.る","pronunciation":"さえぎ.る","meaning":"Kun reading: さえぎ.る"},{"word":"シャ","pronunciation":"シャ","meaning":"On reading: シャ"}],
-    grade: "Junior High",
+    examples: [{"word":"さえぎ.る","reading":"さえぎ.る","meaning":"Kun reading: さえぎ.る"},{"word":"シャ","reading":"シャ","meaning":"On reading: シャ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遵",
     meanings: ["abide by","follow","learn","obey"],
     onyomi: ["ジュン"],
     kunyomi: [],
-    examples: [{"word":"ジュン","pronunciation":"ジュン","meaning":"On reading: ジュン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュン","reading":"ジュン","meaning":"On reading: ジュン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "遷",
     meanings: ["change","move","transition"],
     onyomi: ["セン"],
     kunyomi: ["うつ.す","うつ.る","みやこがえ"],
-    examples: [{"word":"うつ.す","pronunciation":"うつ.す","meaning":"Kun reading: うつ.す"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"うつ.す","reading":"うつ.す","meaning":"Kun reading: うつ.す"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "避",
     meanings: ["avert","avoid","evade","shirk","shun","ward off"],
     onyomi: ["ヒ"],
     kunyomi: ["さ.ける","よ.ける"],
-    examples: [{"word":"さ.ける","pronunciation":"さ.ける","meaning":"Kun reading: さ.ける"},{"word":"ヒ","pronunciation":"ヒ","meaning":"On reading: ヒ"}],
-    grade: "Junior High",
+    examples: [{"word":"さ.ける","reading":"さ.ける","meaning":"Kun reading: さ.ける"},{"word":"ヒ","reading":"ヒ","meaning":"On reading: ヒ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "還",
     meanings: ["return","send back"],
     onyomi: ["カン"],
     kunyomi: ["かえ.る"],
-    examples: [{"word":"かえ.る","pronunciation":"かえ.る","meaning":"Kun reading: かえ.る"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"かえ.る","reading":"かえ.る","meaning":"Kun reading: かえ.る"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "那",
     meanings: ["what?"],
     onyomi: ["ダ","ナ"],
     kunyomi: ["いかん","なに","なんぞ"],
-    examples: [{"word":"いかん","pronunciation":"いかん","meaning":"Kun reading: いかん"},{"word":"ダ","pronunciation":"ダ","meaning":"On reading: ダ"}],
-    grade: "Junior High",
+    examples: [{"word":"いかん","reading":"いかん","meaning":"Kun reading: いかん"},{"word":"ダ","reading":"ダ","meaning":"On reading: ダ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "邦",
     meanings: ["Japan","country","home country"],
     onyomi: ["ホウ"],
     kunyomi: ["くに"],
-    examples: [{"word":"くに","pronunciation":"くに","meaning":"Kun reading: くに"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"くに","reading":"くに","meaning":"Kun reading: くに"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 7,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "邪",
     meanings: ["injustice","wicked","wrong"],
     onyomi: ["ジャ"],
     kunyomi: ["よこし.ま"],
-    examples: [{"word":"よこし.ま","pronunciation":"よこし.ま","meaning":"Kun reading: よこし.ま"},{"word":"ジャ","pronunciation":"ジャ","meaning":"On reading: ジャ"}],
-    grade: "Junior High",
+    examples: [{"word":"よこし.ま","reading":"よこし.ま","meaning":"Kun reading: よこし.ま"},{"word":"ジャ","reading":"ジャ","meaning":"On reading: ジャ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "邸",
     meanings: ["mansion","residence"],
     onyomi: ["テイ"],
     kunyomi: ["やしき"],
-    examples: [{"word":"やしき","pronunciation":"やしき","meaning":"Kun reading: やしき"},{"word":"テイ","pronunciation":"テイ","meaning":"On reading: テイ"}],
-    grade: "Junior High",
+    examples: [{"word":"やしき","reading":"やしき","meaning":"Kun reading: やしき"},{"word":"テイ","reading":"テイ","meaning":"On reading: テイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "郊",
     meanings: ["outskirts","rural area","suburbs"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "郎",
     meanings: ["counter for sons","son"],
     onyomi: ["リョウ","ロウ"],
     kunyomi: ["おとこ"],
-    examples: [{"word":"おとこ","pronunciation":"おとこ","meaning":"Kun reading: おとこ"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おとこ","reading":"おとこ","meaning":"Kun reading: おとこ"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "郭",
     meanings: ["enclosure","fortification","quarters","red-light district"],
     onyomi: ["カク"],
     kunyomi: ["くるわ"],
-    examples: [{"word":"くるわ","pronunciation":"くるわ","meaning":"Kun reading: くるわ"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"くるわ","reading":"くるわ","meaning":"Kun reading: くるわ"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酌",
     meanings: ["bar-tending","draw (water)","ladle","pump","scoop","serving sake","the host"],
     onyomi: ["シャク"],
     kunyomi: ["く.む"],
-    examples: [{"word":"く.む","pronunciation":"く.む","meaning":"Kun reading: く.む"},{"word":"シャク","pronunciation":"シャク","meaning":"On reading: シャク"}],
-    grade: "Junior High",
+    examples: [{"word":"く.む","reading":"く.む","meaning":"Kun reading: く.む"},{"word":"シャク","reading":"シャク","meaning":"On reading: シャク"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酎",
     meanings: ["sake"],
     onyomi: ["チュ","チュウ"],
     kunyomi: ["かも.す"],
-    examples: [{"word":"かも.す","pronunciation":"かも.す","meaning":"Kun reading: かも.す"},{"word":"チュ","pronunciation":"チュ","meaning":"On reading: チュ"}],
-    grade: "Junior High",
+    examples: [{"word":"かも.す","reading":"かも.す","meaning":"Kun reading: かも.す"},{"word":"チュ","reading":"チュ","meaning":"On reading: チュ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -10986,68 +10986,68 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["drunk","elated","feel sick","poisoned","spellbound"],
     onyomi: ["スイ"],
     kunyomi: ["よ","よ.い","よ.う"],
-    examples: [{"word":"よ","pronunciation":"よ","meaning":"Kun reading: よ"},{"word":"スイ","pronunciation":"スイ","meaning":"On reading: スイ"}],
-    grade: "Junior High",
+    examples: [{"word":"よ","reading":"よ","meaning":"Kun reading: よ"},{"word":"スイ","reading":"スイ","meaning":"On reading: スイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酢",
     meanings: ["acid","sour","tart","vinegar"],
     onyomi: ["サク"],
     kunyomi: ["す"],
-    examples: [{"word":"す","pronunciation":"す","meaning":"Kun reading: す"},{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"す","reading":"す","meaning":"Kun reading: す"},{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酪",
     meanings: ["broth","dairy products","fruit juice","whey"],
     onyomi: ["ラク"],
     kunyomi: [],
-    examples: [{"word":"ラク","pronunciation":"ラク","meaning":"On reading: ラク"}],
-    grade: "Junior High",
+    examples: [{"word":"ラク","reading":"ラク","meaning":"On reading: ラク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酬",
     meanings: ["repay","retribution","reward"],
     onyomi: ["シュ","シュウ","トウ"],
     kunyomi: ["むく.いる"],
-    examples: [{"word":"むく.いる","pronunciation":"むく.いる","meaning":"Kun reading: むく.いる"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"むく.いる","reading":"むく.いる","meaning":"Kun reading: むく.いる"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酵",
     meanings: ["fermentation"],
     onyomi: ["コウ"],
     kunyomi: [],
-    examples: [{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "酷",
     meanings: ["atrocious","cruel","severe","unjust"],
     onyomi: ["コク"],
     kunyomi: ["ひど.い"],
-    examples: [{"word":"ひど.い","pronunciation":"ひど.い","meaning":"Kun reading: ひど.い"},{"word":"コク","pronunciation":"コク","meaning":"On reading: コク"}],
-    grade: "Junior High",
+    examples: [{"word":"ひど.い","reading":"ひど.い","meaning":"Kun reading: ひど.い"},{"word":"コク","reading":"コク","meaning":"On reading: コク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "醒",
     meanings: ["awake","be disillusioned","sober up"],
     onyomi: ["セイ"],
     kunyomi: ["さ.ます","さ.める"],
-    examples: [{"word":"さ.ます","pronunciation":"さ.ます","meaning":"Kun reading: さ.ます"},{"word":"セイ","pronunciation":"セイ","meaning":"On reading: セイ"}],
-    grade: "Junior High",
+    examples: [{"word":"さ.ます","reading":"さ.ます","meaning":"Kun reading: さ.ます"},{"word":"セイ","reading":"セイ","meaning":"On reading: セイ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -11055,48 +11055,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bad looking","shame","ugly","unclean"],
     onyomi: ["シュウ"],
     kunyomi: ["しこ","みにく.い"],
-    examples: [{"word":"しこ","pronunciation":"しこ","meaning":"Kun reading: しこ"},{"word":"シュウ","pronunciation":"シュウ","meaning":"On reading: シュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"しこ","reading":"しこ","meaning":"Kun reading: しこ"},{"word":"シュウ","reading":"シュウ","meaning":"On reading: シュウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "醸",
     meanings: ["brew","cause"],
     onyomi: ["ジョウ"],
     kunyomi: ["かも.す"],
-    examples: [{"word":"かも.す","pronunciation":"かも.す","meaning":"Kun reading: かも.す"},{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かも.す","reading":"かも.す","meaning":"Kun reading: かも.す"},{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "采",
     meanings: ["appearance","coloring","dice","form","gather","take"],
     onyomi: ["サイ"],
     kunyomi: ["いろどり","と.る"],
-    examples: [{"word":"いろどり","pronunciation":"いろどり","meaning":"Kun reading: いろどり"},{"word":"サイ","pronunciation":"サイ","meaning":"On reading: サイ"}],
-    grade: "Junior High",
+    examples: [{"word":"いろどり","reading":"いろどり","meaning":"Kun reading: いろどり"},{"word":"サイ","reading":"サイ","meaning":"On reading: サイ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "釈",
     meanings: ["explanation"],
     onyomi: ["シャク","セキ"],
     kunyomi: ["す.てる","とく","ゆる.す"],
-    examples: [{"word":"す.てる","pronunciation":"す.てる","meaning":"Kun reading: す.てる"},{"word":"シャク","pronunciation":"シャク","meaning":"On reading: シャク"}],
-    grade: "Junior High",
+    examples: [{"word":"す.てる","reading":"す.てる","meaning":"Kun reading: す.てる"},{"word":"シャク","reading":"シャク","meaning":"On reading: シャク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "釜",
     meanings: ["cauldron","iron pot","kettle"],
     onyomi: ["フ"],
     kunyomi: ["かま"],
-    examples: [{"word":"かま","pronunciation":"かま","meaning":"Kun reading: かま"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"かま","reading":"かま","meaning":"Kun reading: かま"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 10
   },
   {
@@ -11104,128 +11104,128 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["allure","angling","catch","ensnare","fish"],
     onyomi: ["チョウ"],
     kunyomi: ["つ.り","つ.り-","つ.る"],
-    examples: [{"word":"つ.り","pronunciation":"つ.り","meaning":"Kun reading: つ.り"},{"word":"チョウ","pronunciation":"チョウ","meaning":"On reading: チョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.り","reading":"つ.り","meaning":"Kun reading: つ.り"},{"word":"チョウ","reading":"チョウ","meaning":"On reading: チョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鈍",
     meanings: ["blunt","dull","foolish","slow"],
     onyomi: ["ドン"],
     kunyomi: ["なま.る","なまく.ら","にぶ-","にぶ.い","にぶ.る"],
-    examples: [{"word":"なま.る","pronunciation":"なま.る","meaning":"Kun reading: なま.る"},{"word":"ドン","pronunciation":"ドン","meaning":"On reading: ドン"}],
-    grade: "Junior High",
+    examples: [{"word":"なま.る","reading":"なま.る","meaning":"Kun reading: なま.る"},{"word":"ドン","reading":"ドン","meaning":"On reading: ドン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "鈴",
     meanings: ["buzzer","small bell"],
     onyomi: ["リン","レイ"],
     kunyomi: ["すず"],
-    examples: [{"word":"すず","pronunciation":"すず","meaning":"Kun reading: すず"},{"word":"リン","pronunciation":"リン","meaning":"On reading: リン"}],
-    grade: "Junior High",
+    examples: [{"word":"すず","reading":"すず","meaning":"Kun reading: すず"},{"word":"リン","reading":"リン","meaning":"On reading: リン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鉛",
     meanings: ["lead"],
     onyomi: ["エン"],
     kunyomi: ["なまり"],
-    examples: [{"word":"なまり","pronunciation":"なまり","meaning":"Kun reading: なまり"},{"word":"エン","pronunciation":"エン","meaning":"On reading: エン"}],
-    grade: "Junior High",
+    examples: [{"word":"なまり","reading":"なまり","meaning":"Kun reading: なまり"},{"word":"エン","reading":"エン","meaning":"On reading: エン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鉢",
     meanings: ["bowl","crown","pot","rice tub"],
     onyomi: ["ハチ","ハツ"],
     kunyomi: [],
-    examples: [{"word":"ハチ","pronunciation":"ハチ","meaning":"On reading: ハチ"}],
-    grade: "Junior High",
+    examples: [{"word":"ハチ","reading":"ハチ","meaning":"On reading: ハチ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "銃",
     meanings: ["arms","gun"],
     onyomi: ["ジュウ"],
     kunyomi: ["つつ"],
-    examples: [{"word":"つつ","pronunciation":"つつ","meaning":"Kun reading: つつ"},{"word":"ジュウ","pronunciation":"ジュウ","meaning":"On reading: ジュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"つつ","reading":"つつ","meaning":"Kun reading: つつ"},{"word":"ジュウ","reading":"ジュウ","meaning":"On reading: ジュウ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "銘",
     meanings: ["inscription","signature (of artisan)"],
     onyomi: ["メイ"],
     kunyomi: [],
-    examples: [{"word":"メイ","pronunciation":"メイ","meaning":"On reading: メイ"}],
-    grade: "Junior High",
+    examples: [{"word":"メイ","reading":"メイ","meaning":"On reading: メイ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鋭",
     meanings: ["edge","pointed","sharp","sharpness","violent","weapon"],
     onyomi: ["エイ"],
     kunyomi: ["するど.い"],
-    examples: [{"word":"するど.い","pronunciation":"するど.い","meaning":"Kun reading: するど.い"},{"word":"エイ","pronunciation":"エイ","meaning":"On reading: エイ"}],
-    grade: "Junior High",
+    examples: [{"word":"するど.い","reading":"するど.い","meaning":"Kun reading: するど.い"},{"word":"エイ","reading":"エイ","meaning":"On reading: エイ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "鋳",
     meanings: ["casting","mint"],
     onyomi: ["イ","シュ","シュウ","チュウ"],
     kunyomi: ["い.る"],
-    examples: [{"word":"い.る","pronunciation":"い.る","meaning":"Kun reading: い.る"},{"word":"イ","pronunciation":"イ","meaning":"On reading: イ"}],
-    grade: "Junior High",
+    examples: [{"word":"い.る","reading":"い.る","meaning":"Kun reading: い.る"},{"word":"イ","reading":"イ","meaning":"On reading: イ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "錠",
     meanings: ["fetters","lock","shackles"],
     onyomi: ["ジョウ"],
     kunyomi: [],
-    examples: [{"word":"ジョウ","pronunciation":"ジョウ","meaning":"On reading: ジョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ジョウ","reading":"ジョウ","meaning":"On reading: ジョウ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "錦",
     meanings: ["brocade","fine dress","honors"],
     onyomi: ["キン"],
     kunyomi: ["にしき"],
-    examples: [{"word":"にしき","pronunciation":"にしき","meaning":"Kun reading: にしき"},{"word":"キン","pronunciation":"キン","meaning":"On reading: キン"}],
-    grade: "Junior High",
+    examples: [{"word":"にしき","reading":"にしき","meaning":"Kun reading: にしき"},{"word":"キン","reading":"キン","meaning":"On reading: キン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "錬",
     meanings: ["drill","polish","refine","tempering","train"],
     onyomi: ["レン"],
     kunyomi: ["ね.る"],
-    examples: [{"word":"ね.る","pronunciation":"ね.る","meaning":"Kun reading: ね.る"},{"word":"レン","pronunciation":"レン","meaning":"On reading: レン"}],
-    grade: "Junior High",
+    examples: [{"word":"ね.る","reading":"ね.る","meaning":"Kun reading: ね.る"},{"word":"レン","reading":"レン","meaning":"On reading: レン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "錮",
     meanings: ["confinement","to tie"],
     onyomi: ["コ"],
     kunyomi: ["ふさ.ぐ"],
-    examples: [{"word":"ふさ.ぐ","pronunciation":"ふさ.ぐ","meaning":"Kun reading: ふさ.ぐ"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"ふさ.ぐ","reading":"ふさ.ぐ","meaning":"Kun reading: ふさ.ぐ"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -11233,18 +11233,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["be in disorder","confused","mix"],
     onyomi: ["サク","シャク"],
     kunyomi: [],
-    examples: [{"word":"サク","pronunciation":"サク","meaning":"On reading: サク"}],
-    grade: "Junior High",
+    examples: [{"word":"サク","reading":"サク","meaning":"On reading: サク"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鍋",
     meanings: ["kettle","pan","pot"],
     onyomi: ["カ"],
     kunyomi: ["なべ"],
-    examples: [{"word":"なべ","pronunciation":"なべ","meaning":"Kun reading: なべ"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"なべ","reading":"なべ","meaning":"Kun reading: なべ"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 17
   },
   {
@@ -11252,18 +11252,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["discipline","forge","train"],
     onyomi: ["タン"],
     kunyomi: ["きた.える"],
-    examples: [{"word":"きた.える","pronunciation":"きた.える","meaning":"Kun reading: きた.える"},{"word":"タン","pronunciation":"タン","meaning":"On reading: タン"}],
-    grade: "Junior High",
+    examples: [{"word":"きた.える","reading":"きた.える","meaning":"Kun reading: きた.える"},{"word":"タン","reading":"タン","meaning":"On reading: タン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鍵",
     meanings: ["key"],
     onyomi: ["ケン"],
     kunyomi: ["かぎ"],
-    examples: [{"word":"かぎ","pronunciation":"かぎ","meaning":"Kun reading: かぎ"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"かぎ","reading":"かぎ","meaning":"Kun reading: かぎ"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 17
   },
   {
@@ -11271,88 +11271,88 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["scythe","sickle","trick"],
     onyomi: ["ケン","レン"],
     kunyomi: ["かま"],
-    examples: [{"word":"かま","pronunciation":"かま","meaning":"Kun reading: かま"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"かま","reading":"かま","meaning":"Kun reading: かま"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鎖",
     meanings: ["chain","connection","irons"],
     onyomi: ["サ"],
     kunyomi: ["くさり","とざ.す"],
-    examples: [{"word":"くさり","pronunciation":"くさり","meaning":"Kun reading: くさり"},{"word":"サ","pronunciation":"サ","meaning":"On reading: サ"}],
-    grade: "Junior High",
+    examples: [{"word":"くさり","reading":"くさり","meaning":"Kun reading: くさり"},{"word":"サ","reading":"サ","meaning":"On reading: サ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鎮",
     meanings: ["ancient peace-preservation centers","tranquilize"],
     onyomi: ["チン"],
     kunyomi: ["おさえ","しず.まる","しず.める"],
-    examples: [{"word":"おさえ","pronunciation":"おさえ","meaning":"Kun reading: おさえ"},{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"おさえ","reading":"おさえ","meaning":"Kun reading: おさえ"},{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鐘",
     meanings: ["bell","chimes","gong"],
     onyomi: ["ショウ"],
     kunyomi: ["かね"],
-    examples: [{"word":"かね","pronunciation":"かね","meaning":"Kun reading: かね"},{"word":"ショウ","pronunciation":"ショウ","meaning":"On reading: ショウ"}],
-    grade: "Junior High",
+    examples: [{"word":"かね","reading":"かね","meaning":"Kun reading: かね"},{"word":"ショウ","reading":"ショウ","meaning":"On reading: ショウ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鑑",
     meanings: ["learn from","specimen","take warning from"],
     onyomi: ["カン"],
     kunyomi: ["かがみ","かんが.みる"],
-    examples: [{"word":"かがみ","pronunciation":"かがみ","meaning":"Kun reading: かがみ"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"かがみ","reading":"かがみ","meaning":"Kun reading: かがみ"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 23,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "閑",
     meanings: ["leisure"],
     onyomi: ["カン"],
     kunyomi: [],
-    examples: [{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "閥",
     meanings: ["clan","clique","faction","lineage","pedigree"],
     onyomi: ["バツ"],
     kunyomi: [],
-    examples: [{"word":"バツ","pronunciation":"バツ","meaning":"On reading: バツ"}],
-    grade: "Junior High",
+    examples: [{"word":"バツ","reading":"バツ","meaning":"On reading: バツ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "閲",
     meanings: ["inspection","review","revision"],
     onyomi: ["エツ"],
     kunyomi: ["けみ.する"],
-    examples: [{"word":"けみ.する","pronunciation":"けみ.する","meaning":"Kun reading: けみ.する"},{"word":"エツ","pronunciation":"エツ","meaning":"On reading: エツ"}],
-    grade: "Junior High",
+    examples: [{"word":"けみ.する","reading":"けみ.する","meaning":"Kun reading: けみ.する"},{"word":"エツ","reading":"エツ","meaning":"On reading: エツ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "闇",
     meanings: ["disorder","get dark","gloom"],
     onyomi: ["アン","オン"],
     kunyomi: ["くら.い","やみ"],
-    examples: [{"word":"くら.い","pronunciation":"くら.い","meaning":"Kun reading: くら.い"},{"word":"アン","pronunciation":"アン","meaning":"On reading: アン"}],
-    grade: "Junior High",
+    examples: [{"word":"くら.い","reading":"くら.い","meaning":"Kun reading: くら.い"},{"word":"アン","reading":"アン","meaning":"On reading: アン"}],
+    grade: "juniorHigh",
     strokeCount: 17
   },
   {
@@ -11360,18 +11360,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["fight","war"],
     onyomi: ["トウ"],
     kunyomi: ["あらそ.う","たたか.う"],
-    examples: [{"word":"あらそ.う","pronunciation":"あらそ.う","meaning":"Kun reading: あらそ.う"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あらそ.う","reading":"あらそ.う","meaning":"Kun reading: あらそ.う"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "阜",
     meanings: ["hill","left village radical (no. 170)","mound"],
     onyomi: ["フ","フウ"],
     kunyomi: [],
-    examples: [{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 8
   },
   {
@@ -11379,8 +11379,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["heights","slope"],
     onyomi: ["ハン"],
     kunyomi: ["さか"],
-    examples: [{"word":"さか","pronunciation":"さか","meaning":"Kun reading: さか"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"さか","reading":"さか","meaning":"Kun reading: さか"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 7
   },
   {
@@ -11388,138 +11388,138 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["deter","impede","obstruct","prevent","separate from","thwart"],
     onyomi: ["ソ"],
     kunyomi: ["はば.む"],
-    examples: [{"word":"はば.む","pronunciation":"はば.む","meaning":"Kun reading: はば.む"},{"word":"ソ","pronunciation":"ソ","meaning":"On reading: ソ"}],
-    grade: "Junior High",
+    examples: [{"word":"はば.む","reading":"はば.む","meaning":"Kun reading: はば.む"},{"word":"ソ","reading":"ソ","meaning":"On reading: ソ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "附",
     meanings: ["affixed","append","attach","refer to"],
     onyomi: ["フ"],
     kunyomi: ["つ.く","つ.ける"],
-    examples: [{"word":"つ.く","pronunciation":"つ.く","meaning":"Kun reading: つ.く"},{"word":"フ","pronunciation":"フ","meaning":"On reading: フ"}],
-    grade: "Junior High",
+    examples: [{"word":"つ.く","reading":"つ.く","meaning":"Kun reading: つ.く"},{"word":"フ","reading":"フ","meaning":"On reading: フ"}],
+    grade: "juniorHigh",
     strokeCount: 8,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陣",
     meanings: ["battle array","brief time","camp","position","ranks","sudden"],
     onyomi: ["ジン"],
     kunyomi: [],
-    examples: [{"word":"ジン","pronunciation":"ジン","meaning":"On reading: ジン"}],
-    grade: "Junior High",
+    examples: [{"word":"ジン","reading":"ジン","meaning":"On reading: ジン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陥",
     meanings: ["cave in","collapse","fall (castle)","fall into","slide into"],
     onyomi: ["カン"],
     kunyomi: ["おちい.る","おとしい.れる"],
-    examples: [{"word":"おちい.る","pronunciation":"おちい.る","meaning":"Kun reading: おちい.る"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"おちい.る","reading":"おちい.る","meaning":"Kun reading: おちい.る"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陪",
     meanings: ["accompany","attend on","follow","obeisance"],
     onyomi: ["バイ"],
     kunyomi: [],
-    examples: [{"word":"バイ","pronunciation":"バイ","meaning":"On reading: バイ"}],
-    grade: "Junior High",
+    examples: [{"word":"バイ","reading":"バイ","meaning":"On reading: バイ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陰",
     meanings: ["negative","secret","sex organs","shade","shadow","yin"],
     onyomi: ["イン"],
     kunyomi: ["かげ","かげ.る"],
-    examples: [{"word":"かげ","pronunciation":"かげ","meaning":"Kun reading: かげ"},{"word":"イン","pronunciation":"イン","meaning":"On reading: イン"}],
-    grade: "Junior High",
+    examples: [{"word":"かげ","reading":"かげ","meaning":"Kun reading: かげ"},{"word":"イン","reading":"イン","meaning":"On reading: イン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陳",
     meanings: ["exhibit","explain","relate","state"],
     onyomi: ["チン"],
     kunyomi: ["ひ.ねる"],
-    examples: [{"word":"ひ.ねる","pronunciation":"ひ.ねる","meaning":"Kun reading: ひ.ねる"},{"word":"チン","pronunciation":"チン","meaning":"On reading: チン"}],
-    grade: "Junior High",
+    examples: [{"word":"ひ.ねる","reading":"ひ.ねる","meaning":"Kun reading: ひ.ねる"},{"word":"チン","reading":"チン","meaning":"On reading: チン"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陵",
     meanings: ["hill","imperial tomb","mausoleum","mound"],
     onyomi: ["リョウ"],
     kunyomi: ["みささぎ"],
-    examples: [{"word":"みささぎ","pronunciation":"みささぎ","meaning":"Kun reading: みささぎ"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"みささぎ","reading":"みささぎ","meaning":"Kun reading: みささぎ"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "陶",
     meanings: ["porcelain","pottery"],
     onyomi: ["トウ"],
     kunyomi: ["すえ"],
-    examples: [{"word":"すえ","pronunciation":"すえ","meaning":"Kun reading: すえ"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"すえ","reading":"すえ","meaning":"Kun reading: すえ"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "隅",
     meanings: ["corner","nook"],
     onyomi: ["グウ"],
     kunyomi: ["すみ"],
-    examples: [{"word":"すみ","pronunciation":"すみ","meaning":"Kun reading: すみ"},{"word":"グウ","pronunciation":"グウ","meaning":"On reading: グウ"}],
-    grade: "Junior High",
+    examples: [{"word":"すみ","reading":"すみ","meaning":"Kun reading: すみ"},{"word":"グウ","reading":"グウ","meaning":"On reading: グウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "隆",
     meanings: ["high","hump","noble","prosperity"],
     onyomi: ["リュウ"],
     kunyomi: [],
-    examples: [{"word":"リュウ","pronunciation":"リュウ","meaning":"On reading: リュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"リュウ","reading":"リュウ","meaning":"On reading: リュウ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "随",
     meanings: ["all","at the mercy of (the waves)","both","comply","during","follow","notwithstanding","obey","submit to","though","while"],
     onyomi: ["ズイ"],
     kunyomi: ["したが.う","まにま.に"],
-    examples: [{"word":"したが.う","pronunciation":"したが.う","meaning":"Kun reading: したが.う"},{"word":"ズイ","pronunciation":"ズイ","meaning":"On reading: ズイ"}],
-    grade: "Junior High",
+    examples: [{"word":"したが.う","reading":"したが.う","meaning":"Kun reading: したが.う"},{"word":"ズイ","reading":"ズイ","meaning":"On reading: ズイ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "隔",
     meanings: ["alternate","distance","gulf","isolate","separate"],
     onyomi: ["カク"],
     kunyomi: ["へだ.たる","へだ.てる"],
-    examples: [{"word":"へだ.たる","pronunciation":"へだ.たる","meaning":"Kun reading: へだ.たる"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"へだ.たる","reading":"へだ.たる","meaning":"Kun reading: へだ.たる"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "隙",
     meanings: ["crevice","discord","fissure","leisure","opportunity"],
     onyomi: ["キャク","ケキ","ゲキ"],
     kunyomi: ["す.かす","す.く","すき","ひま"],
-    examples: [{"word":"す.かす","pronunciation":"す.かす","meaning":"Kun reading: す.かす"},{"word":"キャク","pronunciation":"キャク","meaning":"On reading: キャク"}],
-    grade: "Junior High",
+    examples: [{"word":"す.かす","reading":"す.かす","meaning":"Kun reading: す.かす"},{"word":"キャク","reading":"キャク","meaning":"On reading: キャク"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -11527,198 +11527,198 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["conceal","cover","hide"],
     onyomi: ["イン","オン"],
     kunyomi: ["かく.し","かく.す","かく.れる","よ.る"],
-    examples: [{"word":"かく.し","pronunciation":"かく.し","meaning":"Kun reading: かく.し"},{"word":"イン","pronunciation":"イン","meaning":"On reading: イン"}],
-    grade: "Junior High",
+    examples: [{"word":"かく.し","reading":"かく.し","meaning":"Kun reading: かく.し"},{"word":"イン","reading":"イン","meaning":"On reading: イン"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "隣",
     meanings: ["neighboring"],
     onyomi: ["リン"],
     kunyomi: ["とな.る","となり"],
-    examples: [{"word":"とな.る","pronunciation":"とな.る","meaning":"Kun reading: とな.る"},{"word":"リン","pronunciation":"リン","meaning":"On reading: リン"}],
-    grade: "Junior High",
+    examples: [{"word":"とな.る","reading":"とな.る","meaning":"Kun reading: とな.る"},{"word":"リン","reading":"リン","meaning":"On reading: リン"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "隷",
     meanings: ["criminal","follower","prisoner","servant","slave"],
     onyomi: ["レイ"],
     kunyomi: ["したが.う","しもべ"],
-    examples: [{"word":"したが.う","pronunciation":"したが.う","meaning":"Kun reading: したが.う"},{"word":"レイ","pronunciation":"レイ","meaning":"On reading: レイ"}],
-    grade: "Junior High",
+    examples: [{"word":"したが.う","reading":"したが.う","meaning":"Kun reading: したが.う"},{"word":"レイ","reading":"レイ","meaning":"On reading: レイ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "隻",
     meanings: ["arrows","birds","counter for ships","fish","one of a pair","vessels"],
     onyomi: ["セキ"],
     kunyomi: [],
-    examples: [{"word":"セキ","pronunciation":"セキ","meaning":"On reading: セキ"}],
-    grade: "Junior High",
+    examples: [{"word":"セキ","reading":"セキ","meaning":"On reading: セキ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "雄",
     meanings: ["excellence","hero","leader","male","masculine","superiority"],
     onyomi: ["ユウ"],
     kunyomi: ["お-","おす","おん"],
-    examples: [{"word":"お-","pronunciation":"お-","meaning":"Kun reading: お-"},{"word":"ユウ","pronunciation":"ユウ","meaning":"On reading: ユウ"}],
-    grade: "Junior High",
+    examples: [{"word":"お-","reading":"お-","meaning":"Kun reading: お-"},{"word":"ユウ","reading":"ユウ","meaning":"On reading: ユウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "雅",
     meanings: ["elegant","graceful","gracious","refined"],
     onyomi: ["ガ"],
     kunyomi: ["みや.び"],
-    examples: [{"word":"みや.び","pronunciation":"みや.び","meaning":"Kun reading: みや.び"},{"word":"ガ","pronunciation":"ガ","meaning":"On reading: ガ"}],
-    grade: "Junior High",
+    examples: [{"word":"みや.び","reading":"みや.び","meaning":"Kun reading: みや.び"},{"word":"ガ","reading":"ガ","meaning":"On reading: ガ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "雇",
     meanings: ["employ","hire"],
     onyomi: ["コ"],
     kunyomi: ["やと.う"],
-    examples: [{"word":"やと.う","pronunciation":"やと.う","meaning":"Kun reading: やと.う"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"やと.う","reading":"やと.う","meaning":"Kun reading: やと.う"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "雌",
     meanings: ["female","feminine"],
     onyomi: ["シ"],
     kunyomi: ["め-","めす","めん"],
-    examples: [{"word":"め-","pronunciation":"め-","meaning":"Kun reading: め-"},{"word":"シ","pronunciation":"シ","meaning":"On reading: シ"}],
-    grade: "Junior High",
+    examples: [{"word":"め-","reading":"め-","meaning":"Kun reading: め-"},{"word":"シ","reading":"シ","meaning":"On reading: シ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "離",
     meanings: ["detach","digress","disjoin","separation"],
     onyomi: ["リ"],
     kunyomi: ["はな.す","はな.れる"],
-    examples: [{"word":"はな.す","pronunciation":"はな.す","meaning":"Kun reading: はな.す"},{"word":"リ","pronunciation":"リ","meaning":"On reading: リ"}],
-    grade: "Junior High",
+    examples: [{"word":"はな.す","reading":"はな.す","meaning":"Kun reading: はな.す"},{"word":"リ","reading":"リ","meaning":"On reading: リ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "雰",
     meanings: ["atmosphere","fog"],
     onyomi: ["フン"],
     kunyomi: [],
-    examples: [{"word":"フン","pronunciation":"フン","meaning":"On reading: フン"}],
-    grade: "Junior High",
+    examples: [{"word":"フン","reading":"フン","meaning":"On reading: フン"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "零",
     meanings: ["cipher","nothing","overflow","spill","zero"],
     onyomi: ["レイ"],
     kunyomi: ["こぼ.す","こぼ.れる","ぜろ"],
-    examples: [{"word":"こぼ.す","pronunciation":"こぼ.す","meaning":"Kun reading: こぼ.す"},{"word":"レイ","pronunciation":"レイ","meaning":"On reading: レイ"}],
-    grade: "Junior High",
+    examples: [{"word":"こぼ.す","reading":"こぼ.す","meaning":"Kun reading: こぼ.す"},{"word":"レイ","reading":"レイ","meaning":"On reading: レイ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "雷",
     meanings: ["lightning bolt","thunder"],
     onyomi: ["ライ"],
     kunyomi: ["いかずち","いかづち","かみなり"],
-    examples: [{"word":"いかずち","pronunciation":"いかずち","meaning":"Kun reading: いかずち"},{"word":"ライ","pronunciation":"ライ","meaning":"On reading: ライ"}],
-    grade: "Junior High",
+    examples: [{"word":"いかずち","reading":"いかずち","meaning":"Kun reading: いかずち"},{"word":"ライ","reading":"ライ","meaning":"On reading: ライ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "需",
     meanings: ["demand","need","request"],
     onyomi: ["ジュ"],
     kunyomi: [],
-    examples: [{"word":"ジュ","pronunciation":"ジュ","meaning":"On reading: ジュ"}],
-    grade: "Junior High",
+    examples: [{"word":"ジュ","reading":"ジュ","meaning":"On reading: ジュ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "震",
     meanings: ["quake","quiver","shake","shiver","tremble"],
     onyomi: ["シン"],
     kunyomi: ["ふる.う","ふる.える","ふる.わす","ふる.わせる"],
-    examples: [{"word":"ふる.う","pronunciation":"ふる.う","meaning":"Kun reading: ふる.う"},{"word":"シン","pronunciation":"シン","meaning":"On reading: シン"}],
-    grade: "Junior High",
+    examples: [{"word":"ふる.う","reading":"ふる.う","meaning":"Kun reading: ふる.う"},{"word":"シン","reading":"シン","meaning":"On reading: シン"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "霊",
     meanings: ["soul","spirits"],
     onyomi: ["リョウ","レイ"],
     kunyomi: ["たま"],
-    examples: [{"word":"たま","pronunciation":"たま","meaning":"Kun reading: たま"},{"word":"リョウ","pronunciation":"リョウ","meaning":"On reading: リョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"たま","reading":"たま","meaning":"Kun reading: たま"},{"word":"リョウ","reading":"リョウ","meaning":"On reading: リョウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "霜",
     meanings: ["frost"],
     onyomi: ["ソウ"],
     kunyomi: ["しも"],
-    examples: [{"word":"しも","pronunciation":"しも","meaning":"Kun reading: しも"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"しも","reading":"しも","meaning":"Kun reading: しも"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "霧",
     meanings: ["fog","mist"],
     onyomi: ["ブ","ボウ","ム"],
     kunyomi: ["きり"],
-    examples: [{"word":"きり","pronunciation":"きり","meaning":"Kun reading: きり"},{"word":"ブ","pronunciation":"ブ","meaning":"On reading: ブ"}],
-    grade: "Junior High",
+    examples: [{"word":"きり","reading":"きり","meaning":"Kun reading: きり"},{"word":"ブ","reading":"ブ","meaning":"On reading: ブ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "露",
     meanings: ["Russia","dew","expose","tears"],
     onyomi: ["ロ","ロウ"],
     kunyomi: ["つゆ"],
-    examples: [{"word":"つゆ","pronunciation":"つゆ","meaning":"Kun reading: つゆ"},{"word":"ロ","pronunciation":"ロ","meaning":"On reading: ロ"}],
-    grade: "Junior High",
+    examples: [{"word":"つゆ","reading":"つゆ","meaning":"Kun reading: つゆ"},{"word":"ロ","reading":"ロ","meaning":"On reading: ロ"}],
+    grade: "juniorHigh",
     strokeCount: 21,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "靴",
     meanings: ["shoes"],
     onyomi: ["カ"],
     kunyomi: ["くつ"],
-    examples: [{"word":"くつ","pronunciation":"くつ","meaning":"Kun reading: くつ"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"くつ","reading":"くつ","meaning":"Kun reading: くつ"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "韓",
     meanings: ["Korea"],
     onyomi: ["カン"],
     kunyomi: ["いげた","から"],
-    examples: [{"word":"いげた","pronunciation":"いげた","meaning":"Kun reading: いげた"},{"word":"カン","pronunciation":"カン","meaning":"On reading: カン"}],
-    grade: "Junior High",
+    examples: [{"word":"いげた","reading":"いげた","meaning":"Kun reading: いげた"},{"word":"カン","reading":"カン","meaning":"On reading: カン"}],
+    grade: "juniorHigh",
     strokeCount: 18
   },
   {
@@ -11726,28 +11726,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["elegance","rhyme","tone"],
     onyomi: ["イン"],
     kunyomi: [],
-    examples: [{"word":"イン","pronunciation":"イン","meaning":"On reading: イン"}],
-    grade: "Junior High",
+    examples: [{"word":"イン","reading":"イン","meaning":"On reading: イン"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "響",
     meanings: ["echo","resound","ring","sound","vibrate"],
     onyomi: ["キョウ"],
     kunyomi: ["ひび.く"],
-    examples: [{"word":"ひび.く","pronunciation":"ひび.く","meaning":"Kun reading: ひび.く"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ひび.く","reading":"ひび.く","meaning":"Kun reading: ひび.く"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "頃",
     meanings: ["about","time","toward"],
     onyomi: ["キョウ","ケイ"],
     kunyomi: ["ころ","ごろ","しばら.く"],
-    examples: [{"word":"ころ","pronunciation":"ころ","meaning":"Kun reading: ころ"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ころ","reading":"ころ","meaning":"Kun reading: ころ"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 11
   },
   {
@@ -11755,48 +11755,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["clause","item","nape of neck","paragraph","term (expression)"],
     onyomi: ["コウ"],
     kunyomi: ["うなじ"],
-    examples: [{"word":"うなじ","pronunciation":"うなじ","meaning":"Kun reading: うなじ"},{"word":"コウ","pronunciation":"コウ","meaning":"On reading: コウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うなじ","reading":"うなじ","meaning":"Kun reading: うなじ"},{"word":"コウ","reading":"コウ","meaning":"On reading: コウ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "須",
     meanings: ["by all means","necessarily","ought"],
     onyomi: ["シュ","ス"],
     kunyomi: ["すべから.く","すべし","ひげ","まつ","もち.いる","もと.める"],
-    examples: [{"word":"すべから.く","pronunciation":"すべから.く","meaning":"Kun reading: すべから.く"},{"word":"シュ","pronunciation":"シュ","meaning":"On reading: シュ"}],
-    grade: "Junior High",
+    examples: [{"word":"すべから.く","reading":"すべから.く","meaning":"Kun reading: すべから.く"},{"word":"シュ","reading":"シュ","meaning":"On reading: シュ"}],
+    grade: "juniorHigh",
     strokeCount: 12,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "頑",
     meanings: ["firmly","foolish","stubborn"],
     onyomi: ["ガン"],
     kunyomi: ["かたく.な"],
-    examples: [{"word":"かたく.な","pronunciation":"かたく.な","meaning":"Kun reading: かたく.な"},{"word":"ガン","pronunciation":"ガン","meaning":"On reading: ガン"}],
-    grade: "Junior High",
+    examples: [{"word":"かたく.な","reading":"かたく.な","meaning":"Kun reading: かたく.な"},{"word":"ガン","reading":"ガン","meaning":"On reading: ガン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "頒",
     meanings: ["disseminate","distribute","partition","understand"],
     onyomi: ["ハン"],
     kunyomi: ["わ.かつ","わ.ける"],
-    examples: [{"word":"わ.かつ","pronunciation":"わ.かつ","meaning":"Kun reading: わ.かつ"},{"word":"ハン","pronunciation":"ハン","meaning":"On reading: ハン"}],
-    grade: "Junior High",
+    examples: [{"word":"わ.かつ","reading":"わ.かつ","meaning":"Kun reading: わ.かつ"},{"word":"ハン","reading":"ハン","meaning":"On reading: ハン"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "頓",
     meanings: ["arrange","bow","immediately","in a hurry","kowtow","stay in place","suddenly"],
     onyomi: ["トツ","トン"],
     kunyomi: ["つまず.く","とみ.に","とん.と","にわか.に","ぬかずく"],
-    examples: [{"word":"つまず.く","pronunciation":"つまず.く","meaning":"Kun reading: つまず.く"},{"word":"トツ","pronunciation":"トツ","meaning":"On reading: トツ"}],
-    grade: "Junior High",
+    examples: [{"word":"つまず.く","reading":"つまず.く","meaning":"Kun reading: つまず.く"},{"word":"トツ","reading":"トツ","meaning":"On reading: トツ"}],
+    grade: "juniorHigh",
     strokeCount: 13
   },
   {
@@ -11804,8 +11804,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cheeks","jaw"],
     onyomi: ["キョウ"],
     kunyomi: ["ほお","ほほ"],
-    examples: [{"word":"ほお","pronunciation":"ほお","meaning":"Kun reading: ほお"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほお","reading":"ほお","meaning":"Kun reading: ほお"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 15
   },
   {
@@ -11813,8 +11813,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["cheeks","jaw"],
     onyomi: ["キョウ"],
     kunyomi: ["ほお","ほほ"],
-    examples: [{"word":"ほお","pronunciation":"ほお","meaning":"Kun reading: ほお"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"ほお","reading":"ほお","meaning":"Kun reading: ほお"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -11822,28 +11822,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["recur","repeatedly"],
     onyomi: ["ヒン"],
     kunyomi: ["しき.りに"],
-    examples: [{"word":"しき.りに","pronunciation":"しき.りに","meaning":"Kun reading: しき.りに"},{"word":"ヒン","pronunciation":"ヒン","meaning":"On reading: ヒン"}],
-    grade: "Junior High",
+    examples: [{"word":"しき.りに","reading":"しき.りに","meaning":"Kun reading: しき.りに"},{"word":"ヒン","reading":"ヒン","meaning":"On reading: ヒン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "頼",
     meanings: ["request","trust"],
     onyomi: ["ライ"],
     kunyomi: ["たの.む","たの.もしい","たよ.る"],
-    examples: [{"word":"たの.む","pronunciation":"たの.む","meaning":"Kun reading: たの.む"},{"word":"ライ","pronunciation":"ライ","meaning":"On reading: ライ"}],
-    grade: "Junior High",
+    examples: [{"word":"たの.む","reading":"たの.む","meaning":"Kun reading: たの.む"},{"word":"ライ","reading":"ライ","meaning":"On reading: ライ"}],
+    grade: "juniorHigh",
     strokeCount: 16,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "顎",
     meanings: ["chin","gill","jaw"],
     onyomi: ["ガク"],
     kunyomi: ["あぎと","あご"],
-    examples: [{"word":"あぎと","pronunciation":"あぎと","meaning":"Kun reading: あぎと"},{"word":"ガク","pronunciation":"ガク","meaning":"On reading: ガク"}],
-    grade: "Junior High",
+    examples: [{"word":"あぎと","reading":"あぎと","meaning":"Kun reading: あぎと"},{"word":"ガク","reading":"ガク","meaning":"On reading: ガク"}],
+    grade: "juniorHigh",
     strokeCount: 18
   },
   {
@@ -11851,58 +11851,58 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["appear","existing"],
     onyomi: ["ケン"],
     kunyomi: ["あきらか","あらわ.れる"],
-    examples: [{"word":"あきらか","pronunciation":"あきらか","meaning":"Kun reading: あきらか"},{"word":"ケン","pronunciation":"ケン","meaning":"On reading: ケン"}],
-    grade: "Junior High",
+    examples: [{"word":"あきらか","reading":"あきらか","meaning":"Kun reading: あきらか"},{"word":"ケン","reading":"ケン","meaning":"On reading: ケン"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "顧",
     meanings: ["examine oneself","look back","review","turn around"],
     onyomi: ["コ"],
     kunyomi: ["かえり.みる"],
-    examples: [{"word":"かえり.みる","pronunciation":"かえり.みる","meaning":"Kun reading: かえり.みる"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"かえり.みる","reading":"かえり.みる","meaning":"Kun reading: かえり.みる"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 21,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "飢",
     meanings: ["hungry","starve"],
     onyomi: ["キ"],
     kunyomi: ["う.える"],
-    examples: [{"word":"う.える","pronunciation":"う.える","meaning":"Kun reading: う.える"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.える","reading":"う.える","meaning":"Kun reading: う.える"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "飽",
     meanings: ["bored","sated","satiate","tired of"],
     onyomi: ["ホウ"],
     kunyomi: ["あ.かす","あ.きる","あ.く"],
-    examples: [{"word":"あ.かす","pronunciation":"あ.かす","meaning":"Kun reading: あ.かす"},{"word":"ホウ","pronunciation":"ホウ","meaning":"On reading: ホウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あ.かす","reading":"あ.かす","meaning":"Kun reading: あ.かす"},{"word":"ホウ","reading":"ホウ","meaning":"On reading: ホウ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "飾",
     meanings: ["adorn","decorate","embellish","ornament"],
     onyomi: ["ショク"],
     kunyomi: ["かざ.り","かざ.る"],
-    examples: [{"word":"かざ.り","pronunciation":"かざ.り","meaning":"Kun reading: かざ.り"},{"word":"ショク","pronunciation":"ショク","meaning":"On reading: ショク"}],
-    grade: "Junior High",
+    examples: [{"word":"かざ.り","reading":"かざ.り","meaning":"Kun reading: かざ.り"},{"word":"ショク","reading":"ショク","meaning":"On reading: ショク"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "餅",
     meanings: ["mochi rice cake"],
     onyomi: ["ヒョウ","ヘイ"],
     kunyomi: ["もち","もちい"],
-    examples: [{"word":"もち","pronunciation":"もち","meaning":"Kun reading: もち"},{"word":"ヒョウ","pronunciation":"ヒョウ","meaning":"On reading: ヒョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"もち","reading":"もち","meaning":"Kun reading: もち"},{"word":"ヒョウ","reading":"ヒョウ","meaning":"On reading: ヒョウ"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -11910,8 +11910,8 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["bait","food","prey","tempting profit"],
     onyomi: ["ジ","ニ"],
     kunyomi: ["え","えさ","えば","もち"],
-    examples: [{"word":"え","pronunciation":"え","meaning":"Kun reading: え"},{"word":"ジ","pronunciation":"ジ","meaning":"On reading: ジ"}],
-    grade: "Junior High",
+    examples: [{"word":"え","reading":"え","meaning":"Kun reading: え"},{"word":"ジ","reading":"ジ","meaning":"On reading: ジ"}],
+    grade: "juniorHigh",
     strokeCount: 14
   },
   {
@@ -11919,108 +11919,108 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["hungry","starve","thirst"],
     onyomi: ["ガ"],
     kunyomi: ["う.える"],
-    examples: [{"word":"う.える","pronunciation":"う.える","meaning":"Kun reading: う.える"},{"word":"ガ","pronunciation":"ガ","meaning":"On reading: ガ"}],
-    grade: "Junior High",
+    examples: [{"word":"う.える","reading":"う.える","meaning":"Kun reading: う.える"},{"word":"ガ","reading":"ガ","meaning":"On reading: ガ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "香",
     meanings: ["incense","perfume","smell"],
     onyomi: ["キョウ","コウ"],
     kunyomi: ["か","かお.り","かお.る"],
-    examples: [{"word":"か","pronunciation":"か","meaning":"Kun reading: か"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"か","reading":"か","meaning":"Kun reading: か"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 9,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "駄",
     meanings: ["burdensome","horse load","pack horse","send by horse","trivial","worthless"],
     onyomi: ["タ","ダ"],
     kunyomi: [],
-    examples: [{"word":"タ","pronunciation":"タ","meaning":"On reading: タ"}],
-    grade: "Junior High",
+    examples: [{"word":"タ","reading":"タ","meaning":"On reading: タ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "駆",
     meanings: ["advance","drive","gallop","impel","inspire","run"],
     onyomi: ["ク"],
     kunyomi: ["か.ける","か.る"],
-    examples: [{"word":"か.ける","pronunciation":"か.ける","meaning":"Kun reading: か.ける"},{"word":"ク","pronunciation":"ク","meaning":"On reading: ク"}],
-    grade: "Junior High",
+    examples: [{"word":"か.ける","reading":"か.ける","meaning":"Kun reading: か.ける"},{"word":"ク","reading":"ク","meaning":"On reading: ク"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "駐",
     meanings: ["reside in","resident","stop-over"],
     onyomi: ["チュウ"],
     kunyomi: [],
-    examples: [{"word":"チュウ","pronunciation":"チュウ","meaning":"On reading: チュウ"}],
-    grade: "Junior High",
+    examples: [{"word":"チュウ","reading":"チュウ","meaning":"On reading: チュウ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "駒",
     meanings: ["colt","horse","pony"],
     onyomi: ["ク"],
     kunyomi: ["こま"],
-    examples: [{"word":"こま","pronunciation":"こま","meaning":"Kun reading: こま"},{"word":"ク","pronunciation":"ク","meaning":"On reading: ク"}],
-    grade: "Junior High",
+    examples: [{"word":"こま","reading":"こま","meaning":"Kun reading: こま"},{"word":"ク","reading":"ク","meaning":"On reading: ク"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "騎",
     meanings: ["counter for equestrians","equestrian","riding on horses"],
     onyomi: ["キ"],
     kunyomi: [],
-    examples: [{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "騒",
     meanings: ["boisterous","clamor","disturb","excite","make noise"],
     onyomi: ["ソウ"],
     kunyomi: ["うれい","さわ.がしい","さわ.ぐ"],
-    examples: [{"word":"うれい","pronunciation":"うれい","meaning":"Kun reading: うれい"},{"word":"ソウ","pronunciation":"ソウ","meaning":"On reading: ソウ"}],
-    grade: "Junior High",
+    examples: [{"word":"うれい","reading":"うれい","meaning":"Kun reading: うれい"},{"word":"ソウ","reading":"ソウ","meaning":"On reading: ソウ"}],
+    grade: "juniorHigh",
     strokeCount: 18,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "騰",
     meanings: ["advancing","going","jumping up","leaping up","rising"],
     onyomi: ["トウ"],
     kunyomi: ["あが.る","のぼ.る"],
-    examples: [{"word":"あが.る","pronunciation":"あが.る","meaning":"Kun reading: あが.る"},{"word":"トウ","pronunciation":"トウ","meaning":"On reading: トウ"}],
-    grade: "Junior High",
+    examples: [{"word":"あが.る","reading":"あが.る","meaning":"Kun reading: あが.る"},{"word":"トウ","reading":"トウ","meaning":"On reading: トウ"}],
+    grade: "juniorHigh",
     strokeCount: 20,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "驚",
     meanings: ["amazed","be surprised","frightened","wonder"],
     onyomi: ["キョウ"],
     kunyomi: ["おどろ.かす","おどろ.く"],
-    examples: [{"word":"おどろ.かす","pronunciation":"おどろ.かす","meaning":"Kun reading: おどろ.かす"},{"word":"キョウ","pronunciation":"キョウ","meaning":"On reading: キョウ"}],
-    grade: "Junior High",
+    examples: [{"word":"おどろ.かす","reading":"おどろ.かす","meaning":"Kun reading: おどろ.かす"},{"word":"キョウ","reading":"キョウ","meaning":"On reading: キョウ"}],
+    grade: "juniorHigh",
     strokeCount: 22,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "骸",
     meanings: ["body","bone","corpse"],
     onyomi: ["カイ","ガイ"],
     kunyomi: ["むくろ"],
-    examples: [{"word":"むくろ","pronunciation":"むくろ","meaning":"Kun reading: むくろ"},{"word":"カイ","pronunciation":"カイ","meaning":"On reading: カイ"}],
-    grade: "Junior High",
+    examples: [{"word":"むくろ","reading":"むくろ","meaning":"Kun reading: むくろ"},{"word":"カイ","reading":"カイ","meaning":"On reading: カイ"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -12028,28 +12028,28 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["essence","marrow","pith"],
     onyomi: ["ズイ"],
     kunyomi: [],
-    examples: [{"word":"ズイ","pronunciation":"ズイ","meaning":"On reading: ズイ"}],
-    grade: "Junior High",
+    examples: [{"word":"ズイ","reading":"ズイ","meaning":"On reading: ズイ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "髪",
     meanings: ["hair of the head"],
     onyomi: ["ハツ"],
     kunyomi: ["かみ"],
-    examples: [{"word":"かみ","pronunciation":"かみ","meaning":"Kun reading: かみ"},{"word":"ハツ","pronunciation":"ハツ","meaning":"On reading: ハツ"}],
-    grade: "Junior High",
+    examples: [{"word":"かみ","reading":"かみ","meaning":"Kun reading: かみ"},{"word":"ハツ","reading":"ハツ","meaning":"On reading: ハツ"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 3
+    jlptLevel: "N3"
   },
   {
     character: "鬱",
     meanings: ["depression","gloom","luxuriant","melancholy"],
     onyomi: ["ウツ"],
     kunyomi: ["うっ.する","しげ.る","ふさ.ぐ"],
-    examples: [{"word":"うっ.する","pronunciation":"うっ.する","meaning":"Kun reading: うっ.する"},{"word":"ウツ","pronunciation":"ウツ","meaning":"On reading: ウツ"}],
-    grade: "Junior High",
+    examples: [{"word":"うっ.する","reading":"うっ.する","meaning":"Kun reading: うっ.する"},{"word":"ウツ","reading":"ウツ","meaning":"On reading: ウツ"}],
+    grade: "juniorHigh",
     strokeCount: 29
   },
   {
@@ -12057,98 +12057,98 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["devil","ghost"],
     onyomi: ["キ"],
     kunyomi: ["おに","おに-"],
-    examples: [{"word":"おに","pronunciation":"おに","meaning":"Kun reading: おに"},{"word":"キ","pronunciation":"キ","meaning":"On reading: キ"}],
-    grade: "Junior High",
+    examples: [{"word":"おに","reading":"おに","meaning":"Kun reading: おに"},{"word":"キ","reading":"キ","meaning":"On reading: キ"}],
+    grade: "juniorHigh",
     strokeCount: 10,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "魂",
     meanings: ["soul","spirit"],
     onyomi: ["コン"],
     kunyomi: ["たま","たましい"],
-    examples: [{"word":"たま","pronunciation":"たま","meaning":"Kun reading: たま"},{"word":"コン","pronunciation":"コン","meaning":"On reading: コン"}],
-    grade: "Junior High",
+    examples: [{"word":"たま","reading":"たま","meaning":"Kun reading: たま"},{"word":"コン","reading":"コン","meaning":"On reading: コン"}],
+    grade: "juniorHigh",
     strokeCount: 14,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "魅",
     meanings: ["bewitch","charm","fascination"],
     onyomi: ["ミ"],
     kunyomi: [],
-    examples: [{"word":"ミ","pronunciation":"ミ","meaning":"On reading: ミ"}],
-    grade: "Junior High",
+    examples: [{"word":"ミ","reading":"ミ","meaning":"On reading: ミ"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "魔",
     meanings: ["demon","evil spirit","witch"],
     onyomi: ["マ"],
     kunyomi: [],
-    examples: [{"word":"マ","pronunciation":"マ","meaning":"On reading: マ"}],
-    grade: "Junior High",
+    examples: [{"word":"マ","reading":"マ","meaning":"On reading: マ"}],
+    grade: "juniorHigh",
     strokeCount: 21,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鮮",
     meanings: ["Korea","brilliant","clear","fresh","vivid"],
     onyomi: ["セン"],
     kunyomi: ["あざ.やか"],
-    examples: [{"word":"あざ.やか","pronunciation":"あざ.やか","meaning":"Kun reading: あざ.やか"},{"word":"セン","pronunciation":"セン","meaning":"On reading: セン"}],
-    grade: "Junior High",
+    examples: [{"word":"あざ.やか","reading":"あざ.やか","meaning":"Kun reading: あざ.やか"},{"word":"セン","reading":"セン","meaning":"On reading: セン"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鯨",
     meanings: ["whale"],
     onyomi: ["ゲイ"],
     kunyomi: ["くじら"],
-    examples: [{"word":"くじら","pronunciation":"くじら","meaning":"Kun reading: くじら"},{"word":"ゲイ","pronunciation":"ゲイ","meaning":"On reading: ゲイ"}],
-    grade: "Junior High",
+    examples: [{"word":"くじら","reading":"くじら","meaning":"Kun reading: くじら"},{"word":"ゲイ","reading":"ゲイ","meaning":"On reading: ゲイ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鶏",
     meanings: ["chicken"],
     onyomi: ["ケイ"],
     kunyomi: ["とり","にわとり"],
-    examples: [{"word":"とり","pronunciation":"とり","meaning":"Kun reading: とり"},{"word":"ケイ","pronunciation":"ケイ","meaning":"On reading: ケイ"}],
-    grade: "Junior High",
+    examples: [{"word":"とり","reading":"とり","meaning":"Kun reading: とり"},{"word":"ケイ","reading":"ケイ","meaning":"On reading: ケイ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鶴",
     meanings: ["crane","stork"],
     onyomi: ["カク"],
     kunyomi: ["つる"],
-    examples: [{"word":"つる","pronunciation":"つる","meaning":"Kun reading: つる"},{"word":"カク","pronunciation":"カク","meaning":"On reading: カク"}],
-    grade: "Junior High",
+    examples: [{"word":"つる","reading":"つる","meaning":"Kun reading: つる"},{"word":"カク","reading":"カク","meaning":"On reading: カク"}],
+    grade: "juniorHigh",
     strokeCount: 21,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鹿",
     meanings: ["deer"],
     onyomi: ["ロク"],
     kunyomi: ["か","しか"],
-    examples: [{"word":"か","pronunciation":"か","meaning":"Kun reading: か"},{"word":"ロク","pronunciation":"ロク","meaning":"On reading: ロク"}],
-    grade: "Junior High",
+    examples: [{"word":"か","reading":"か","meaning":"Kun reading: か"},{"word":"ロク","reading":"ロク","meaning":"On reading: ロク"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "麓",
     meanings: ["foot of a mountain"],
     onyomi: ["ロク"],
     kunyomi: ["ふもと"],
-    examples: [{"word":"ふもと","pronunciation":"ふもと","meaning":"Kun reading: ふもと"},{"word":"ロク","pronunciation":"ロク","meaning":"On reading: ロク"}],
-    grade: "Junior High",
+    examples: [{"word":"ふもと","reading":"ふもと","meaning":"Kun reading: ふもと"},{"word":"ロク","reading":"ロク","meaning":"On reading: ロク"}],
+    grade: "juniorHigh",
     strokeCount: 19
   },
   {
@@ -12156,18 +12156,18 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["beautiful","graceful","lovely","resplendent"],
     onyomi: ["レイ"],
     kunyomi: ["うら.らか","うるわ.しい"],
-    examples: [{"word":"うら.らか","pronunciation":"うら.らか","meaning":"Kun reading: うら.らか"},{"word":"レイ","pronunciation":"レイ","meaning":"On reading: レイ"}],
-    grade: "Junior High",
+    examples: [{"word":"うら.らか","reading":"うら.らか","meaning":"Kun reading: うら.らか"},{"word":"レイ","reading":"レイ","meaning":"On reading: レイ"}],
+    grade: "juniorHigh",
     strokeCount: 19,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "麺",
     meanings: ["noodles","wheat flour"],
     onyomi: ["ベン","メン"],
     kunyomi: ["むぎこ"],
-    examples: [{"word":"むぎこ","pronunciation":"むぎこ","meaning":"Kun reading: むぎこ"},{"word":"ベン","pronunciation":"ベン","meaning":"On reading: ベン"}],
-    grade: "Junior High",
+    examples: [{"word":"むぎこ","reading":"むぎこ","meaning":"Kun reading: むぎこ"},{"word":"ベン","reading":"ベン","meaning":"On reading: ベン"}],
+    grade: "juniorHigh",
     strokeCount: 16
   },
   {
@@ -12175,48 +12175,48 @@ export const juniorHighKanji: KanjiCharacter[] = [
     meanings: ["flax","hemp","numb"],
     onyomi: ["マ","マア"],
     kunyomi: ["あさ"],
-    examples: [{"word":"あさ","pronunciation":"あさ","meaning":"Kun reading: あさ"},{"word":"マ","pronunciation":"マ","meaning":"On reading: マ"}],
-    grade: "Junior High",
+    examples: [{"word":"あさ","reading":"あさ","meaning":"Kun reading: あさ"},{"word":"マ","reading":"マ","meaning":"On reading: マ"}],
+    grade: "juniorHigh",
     strokeCount: 11,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "黙",
     meanings: ["become silent","leave as is","silence","stop speaking"],
     onyomi: ["ボク","モク"],
     kunyomi: ["だま.る","もだ.す"],
-    examples: [{"word":"だま.る","pronunciation":"だま.る","meaning":"Kun reading: だま.る"},{"word":"ボク","pronunciation":"ボク","meaning":"On reading: ボク"}],
-    grade: "Junior High",
+    examples: [{"word":"だま.る","reading":"だま.る","meaning":"Kun reading: だま.る"},{"word":"ボク","reading":"ボク","meaning":"On reading: ボク"}],
+    grade: "juniorHigh",
     strokeCount: 15,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "鼓",
     meanings: ["beat","drum","muster","rouse"],
     onyomi: ["コ"],
     kunyomi: ["つづみ"],
-    examples: [{"word":"つづみ","pronunciation":"つづみ","meaning":"Kun reading: つづみ"},{"word":"コ","pronunciation":"コ","meaning":"On reading: コ"}],
-    grade: "Junior High",
+    examples: [{"word":"つづみ","reading":"つづみ","meaning":"Kun reading: つづみ"},{"word":"コ","reading":"コ","meaning":"On reading: コ"}],
+    grade: "juniorHigh",
     strokeCount: 13,
-    jlptLevel: 1
+    jlptLevel: "N1"
   },
   {
     character: "齢",
     meanings: ["age"],
     onyomi: ["レイ"],
     kunyomi: ["とし","よわい"],
-    examples: [{"word":"とし","pronunciation":"とし","meaning":"Kun reading: とし"},{"word":"レイ","pronunciation":"レイ","meaning":"On reading: レイ"}],
-    grade: "Junior High",
+    examples: [{"word":"とし","reading":"とし","meaning":"Kun reading: とし"},{"word":"レイ","reading":"レイ","meaning":"On reading: レイ"}],
+    grade: "juniorHigh",
     strokeCount: 17,
-    jlptLevel: 2
+    jlptLevel: "N2"
   },
   {
     character: "𠮟",
     meanings: ["reprove","scold"],
     onyomi: ["カ","シチ","シツ"],
     kunyomi: ["しか.る"],
-    examples: [{"word":"しか.る","pronunciation":"しか.る","meaning":"Kun reading: しか.る"},{"word":"カ","pronunciation":"カ","meaning":"On reading: カ"}],
-    grade: "Junior High",
+    examples: [{"word":"しか.る","reading":"しか.る","meaning":"Kun reading: しか.る"},{"word":"カ","reading":"カ","meaning":"On reading: カ"}],
+    grade: "juniorHigh",
     strokeCount: 5
   }
 ];

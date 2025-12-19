@@ -4,6 +4,13 @@ A modern, interactive web application for learning Japanese Hiragana and Katakan
 
 ## Features
 
+### 📋 Kana Chart
+- Complete visual reference of all Hiragana and Katakana characters
+- Traditional grid layout organized by consonant rows and vowel columns
+- Three view modes: Hiragana only, Katakana only, or both side-by-side
+- Each character displays with its romaji pronunciation
+- Hover effects and mobile-responsive design
+
 ### 🎴 Flashcards
 - Interactive flip cards showing characters and romaji
 - Three learning modes: Hiragana only, Katakana only, or Mixed
@@ -66,6 +73,7 @@ npm start
 Learn-Kana/
 ├── app/                      # Next.js App Router pages
 │   ├── page.tsx             # Home page
+│   ├── chart/page.tsx       # Kana chart reference
 │   ├── learn/page.tsx       # Flashcard mode
 │   ├── quiz/page.tsx        # Quiz mode
 │   ├── progress/page.tsx    # Progress dashboard
