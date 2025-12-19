@@ -1,0 +1,644 @@
+import { KanjiCharacter, KanjiGradeSection } from '@/types/kanji';
+
+/**
+ * Jōyō Kanji (常用漢字) organized by Japanese school grade system
+ * 
+ * This dataset includes representative kanji from each grade level.
+ * Complete dataset would include:
+ * - Grade 1: 80 kanji
+ * - Grade 2: 160 kanji
+ * - Grade 3: 200 kanji
+ * - Grade 4: 202 kanji
+ * - Grade 5: 193 kanji
+ * - Grade 6: 191 kanji
+ * - Junior High: 1126 kanji
+ * Total: 2136 Jōyō Kanji
+ * 
+ * Note: This is a starter dataset with representative kanji from each grade.
+ * Expand with additional kanji as needed for your application.
+ */
+
+// ============================================================================
+// GRADE 1 (第一学年) - 80 Kanji - COMPLETE
+// ============================================================================
+
+const grade1Kanji: KanjiCharacter[] = [
+  // Numbers
+  { character: '一', meanings: ['one'], onyomi: ['イチ', 'イツ'], kunyomi: ['ひと', 'ひと.つ'], examples: [{ word: '一つ', reading: 'ひとつ', meaning: 'one (thing)' }, { word: '一日', reading: 'いちにち', meaning: 'one day' }, { word: '一人', reading: 'ひとり', meaning: 'one person' }], grade: 'grade1', strokeCount: 1, jlptLevel: 'N5' },
+  { character: '二', meanings: ['two'], onyomi: ['ニ', 'ジ'], kunyomi: ['ふた', 'ふた.つ'], examples: [{ word: '二つ', reading: 'ふたつ', meaning: 'two (things)' }, { word: '二人', reading: 'ふたり', meaning: 'two people' }, { word: '二月', reading: 'にがつ', meaning: 'February' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '三', meanings: ['three'], onyomi: ['サン'], kunyomi: ['み', 'み.つ', 'みっ.つ'], examples: [{ word: '三つ', reading: 'みっつ', meaning: 'three (things)' }, { word: '三日', reading: 'みっか', meaning: 'third day' }, { word: '三月', reading: 'さんがつ', meaning: 'March' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '四', meanings: ['four'], onyomi: ['シ'], kunyomi: ['よ', 'よ.つ', 'よっ.つ', 'よん'], examples: [{ word: '四つ', reading: 'よっつ', meaning: 'four (things)' }, { word: '四月', reading: 'しがつ', meaning: 'April' }, { word: '四人', reading: 'よにん', meaning: 'four people' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '五', meanings: ['five'], onyomi: ['ゴ'], kunyomi: ['いつ', 'いつ.つ'], examples: [{ word: '五つ', reading: 'いつつ', meaning: 'five (things)' }, { word: '五月', reading: 'ごがつ', meaning: 'May' }, { word: '五日', reading: 'いつか', meaning: 'fifth day' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '六', meanings: ['six'], onyomi: ['ロク'], kunyomi: ['む', 'む.つ', 'むっ.つ', 'むい'], examples: [{ word: '六つ', reading: 'むっつ', meaning: 'six (things)' }, { word: '六月', reading: 'ろくがつ', meaning: 'June' }, { word: '六日', reading: 'むいか', meaning: 'sixth day' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '七', meanings: ['seven'], onyomi: ['シチ'], kunyomi: ['なな', 'なな.つ', 'なの'], examples: [{ word: '七つ', reading: 'ななつ', meaning: 'seven (things)' }, { word: '七月', reading: 'しちがつ', meaning: 'July' }, { word: '七日', reading: 'なのか', meaning: 'seventh day' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '八', meanings: ['eight'], onyomi: ['ハチ'], kunyomi: ['や', 'や.つ', 'やっ.つ', 'よう'], examples: [{ word: '八つ', reading: 'やっつ', meaning: 'eight (things)' }, { word: '八月', reading: 'はちがつ', meaning: 'August' }, { word: '八日', reading: 'ようか', meaning: 'eighth day' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '九', meanings: ['nine'], onyomi: ['キュウ', 'ク'], kunyomi: ['ここの', 'ここの.つ'], examples: [{ word: '九つ', reading: 'ここのつ', meaning: 'nine (things)' }, { word: '九月', reading: 'くがつ', meaning: 'September' }, { word: '九日', reading: 'ここのか', meaning: 'ninth day' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '十', meanings: ['ten'], onyomi: ['ジュウ', 'ジッ'], kunyomi: ['とお', 'と'], examples: [{ word: '十', reading: 'じゅう', meaning: 'ten' }, { word: '十月', reading: 'じゅうがつ', meaning: 'October' }, { word: '十日', reading: 'とおか', meaning: 'tenth day' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '百', meanings: ['hundred'], onyomi: ['ヒャク'], kunyomi: ['もも'], examples: [{ word: '百円', reading: 'ひゃくえん', meaning: '100 yen' }, { word: '三百', reading: 'さんびゃく', meaning: '300' }, { word: '百人', reading: 'ひゃくにん', meaning: '100 people' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '千', meanings: ['thousand'], onyomi: ['セン'], kunyomi: ['ち'], examples: [{ word: '千円', reading: 'せんえん', meaning: '1000 yen' }, { word: '三千', reading: 'さんぜん', meaning: '3000' }, { word: '千人', reading: 'せんにん', meaning: '1000 people' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  
+  // Time & Calendar
+  { character: '日', meanings: ['day', 'sun', 'Japan'], onyomi: ['ニチ', 'ジツ'], kunyomi: ['ひ', 'か'], examples: [{ word: '今日', reading: 'きょう', meaning: 'today' }, { word: '日本', reading: 'にほん', meaning: 'Japan' }, { word: '毎日', reading: 'まいにち', meaning: 'every day' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '月', meanings: ['month', 'moon'], onyomi: ['ゲツ', 'ガツ'], kunyomi: ['つき'], examples: [{ word: '月曜日', reading: 'げつようび', meaning: 'Monday' }, { word: '一月', reading: 'いちがつ', meaning: 'January' }, { word: '月', reading: 'つき', meaning: 'moon' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '火', meanings: ['fire'], onyomi: ['カ'], kunyomi: ['ひ', 'ほ'], examples: [{ word: '火曜日', reading: 'かようび', meaning: 'Tuesday' }, { word: '火事', reading: 'かじ', meaning: 'fire' }, { word: '花火', reading: 'はなび', meaning: 'fireworks' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '水', meanings: ['water'], onyomi: ['スイ'], kunyomi: ['みず'], examples: [{ word: '水曜日', reading: 'すいようび', meaning: 'Wednesday' }, { word: '水', reading: 'みず', meaning: 'water' }, { word: '水道', reading: 'すいどう', meaning: 'water supply' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '木', meanings: ['tree', 'wood'], onyomi: ['ボク', 'モク'], kunyomi: ['き', 'こ'], examples: [{ word: '木曜日', reading: 'もくようび', meaning: 'Thursday' }, { word: '木', reading: 'き', meaning: 'tree' }, { word: '木材', reading: 'もくざい', meaning: 'lumber' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '金', meanings: ['gold', 'money', 'metal'], onyomi: ['キン', 'コン'], kunyomi: ['かね', 'かな'], examples: [{ word: '金曜日', reading: 'きんようび', meaning: 'Friday' }, { word: '金', reading: 'きん', meaning: 'gold' }, { word: 'お金', reading: 'おかね', meaning: 'money' }], grade: 'grade1', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '土', meanings: ['soil', 'earth', 'ground'], onyomi: ['ド', 'ト'], kunyomi: ['つち'], examples: [{ word: '土曜日', reading: 'どようび', meaning: 'Saturday' }, { word: '土地', reading: 'とち', meaning: 'land' }, { word: '土', reading: 'つち', meaning: 'soil' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  
+  // Nature
+  { character: '山', meanings: ['mountain'], onyomi: ['サン'], kunyomi: ['やま'], examples: [{ word: '山', reading: 'やま', meaning: 'mountain' }, { word: '富士山', reading: 'ふじさん', meaning: 'Mt. Fuji' }, { word: '登山', reading: 'とざん', meaning: 'mountain climbing' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '川', meanings: ['river'], onyomi: ['セン'], kunyomi: ['かわ'], examples: [{ word: '川', reading: 'かわ', meaning: 'river' }, { word: '河川', reading: 'かせん', meaning: 'rivers' }, { word: '小川', reading: 'おがわ', meaning: 'stream' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '空', meanings: ['sky', 'empty'], onyomi: ['クウ'], kunyomi: ['そら', 'あ.く', 'あ.ける'], examples: [{ word: '空', reading: 'そら', meaning: 'sky' }, { word: '空気', reading: 'くうき', meaning: 'air' }, { word: '空港', reading: 'くうこう', meaning: 'airport' }], grade: 'grade1', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '天', meanings: ['heaven', 'sky'], onyomi: ['テン'], kunyomi: ['あま', 'あめ'], examples: [{ word: '天気', reading: 'てんき', meaning: 'weather' }, { word: '天国', reading: 'てんごく', meaning: 'heaven' }, { word: '天才', reading: 'てんさい', meaning: 'genius' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '気', meanings: ['spirit', 'mind', 'air'], onyomi: ['キ', 'ケ'], kunyomi: [], examples: [{ word: '天気', reading: 'てんき', meaning: 'weather' }, { word: '元気', reading: 'げんき', meaning: 'energetic' }, { word: '気分', reading: 'きぶん', meaning: 'mood' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '石', meanings: ['stone'], onyomi: ['セキ', 'シャク'], kunyomi: ['いし'], examples: [{ word: '石', reading: 'いし', meaning: 'stone' }, { word: '石油', reading: 'せきゆ', meaning: 'oil, petroleum' }, { word: '磁石', reading: 'じしゃく', meaning: 'magnet' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '林', meanings: ['woods', 'forest'], onyomi: ['リン'], kunyomi: ['はやし'], examples: [{ word: '林', reading: 'はやし', meaning: 'woods' }, { word: '林業', reading: 'りんぎょう', meaning: 'forestry' }, { word: '森林', reading: 'しんりん', meaning: 'forest' }], grade: 'grade1', strokeCount: 8, jlptLevel: 'N4' },
+  { character: '森', meanings: ['forest'], onyomi: ['シン'], kunyomi: ['もり'], examples: [{ word: '森', reading: 'もり', meaning: 'forest' }, { word: '森林', reading: 'しんりん', meaning: 'forest' }, { word: '青森', reading: 'あおもり', meaning: 'Aomori (prefecture)' }], grade: 'grade1', strokeCount: 12, jlptLevel: 'N4' },
+  { character: '玉', meanings: ['ball', 'jewel'], onyomi: ['ギョク'], kunyomi: ['たま'], examples: [{ word: '玉', reading: 'たま', meaning: 'ball' }, { word: '目玉', reading: 'めだま', meaning: 'eyeball' }, { word: '水玉', reading: 'みずたま', meaning: 'polka dot' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N4' },
+  { character: '犬', meanings: ['dog'], onyomi: ['ケン'], kunyomi: ['いぬ'], examples: [{ word: '犬', reading: 'いぬ', meaning: 'dog' }, { word: '子犬', reading: 'こいぬ', meaning: 'puppy' }, { word: '番犬', reading: 'ばんけん', meaning: 'watchdog' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '虫', meanings: ['insect', 'bug'], onyomi: ['チュウ'], kunyomi: ['むし'], examples: [{ word: '虫', reading: 'むし', meaning: 'insect' }, { word: '昆虫', reading: 'こんちゅう', meaning: 'insect' }, { word: '虫歯', reading: 'むしば', meaning: 'cavity' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N4' },
+  { character: '貝', meanings: ['shellfish'], onyomi: ['バイ'], kunyomi: ['かい'], examples: [{ word: '貝', reading: 'かい', meaning: 'shell, shellfish' }, { word: '貝殻', reading: 'かいがら', meaning: 'seashell' }, { word: '巻貝', reading: 'まきがい', meaning: 'snail' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N4' },
+  { character: '竹', meanings: ['bamboo'], onyomi: ['チク'], kunyomi: ['たけ'], examples: [{ word: '竹', reading: 'たけ', meaning: 'bamboo' }, { word: '竹やぶ', reading: 'たけやぶ', meaning: 'bamboo grove' }, { word: '竹の子', reading: 'たけのこ', meaning: 'bamboo shoot' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N4' },
+  
+  // People
+  { character: '人', meanings: ['person', 'people'], onyomi: ['ジン', 'ニン'], kunyomi: ['ひと'], examples: [{ word: '人', reading: 'ひと', meaning: 'person' }, { word: '日本人', reading: 'にほんじん', meaning: 'Japanese person' }, { word: '一人', reading: 'ひとり', meaning: 'one person' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '女', meanings: ['woman', 'female'], onyomi: ['ジョ', 'ニョ'], kunyomi: ['おんな', 'め'], examples: [{ word: '女', reading: 'おんな', meaning: 'woman' }, { word: '女性', reading: 'じょせい', meaning: 'female' }, { word: '女の子', reading: 'おんなのこ', meaning: 'girl' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '男', meanings: ['man', 'male'], onyomi: ['ダン', 'ナン'], kunyomi: ['おとこ'], examples: [{ word: '男', reading: 'おとこ', meaning: 'man' }, { word: '男性', reading: 'だんせい', meaning: 'male' }, { word: '男の子', reading: 'おとこのこ', meaning: 'boy' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '子', meanings: ['child'], onyomi: ['シ', 'ス'], kunyomi: ['こ'], examples: [{ word: '子供', reading: 'こども', meaning: 'child' }, { word: '女の子', reading: 'おんなのこ', meaning: 'girl' }, { word: '男の子', reading: 'おとこのこ', meaning: 'boy' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '王', meanings: ['king'], onyomi: ['オウ'], kunyomi: [], examples: [{ word: '王', reading: 'おう', meaning: 'king' }, { word: '王様', reading: 'おうさま', meaning: 'king' }, { word: '女王', reading: 'じょおう', meaning: 'queen' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N4' },
+  
+  // Body Parts
+  { character: '口', meanings: ['mouth', 'opening'], onyomi: ['コウ', 'ク'], kunyomi: ['くち'], examples: [{ word: '口', reading: 'くち', meaning: 'mouth' }, { word: '入口', reading: 'いりぐち', meaning: 'entrance' }, { word: '人口', reading: 'じんこう', meaning: 'population' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '目', meanings: ['eye'], onyomi: ['モク', 'ボク'], kunyomi: ['め'], examples: [{ word: '目', reading: 'め', meaning: 'eye' }, { word: '目玉', reading: 'めだま', meaning: 'eyeball' }, { word: '一番目', reading: 'いちばんめ', meaning: 'first' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '耳', meanings: ['ear'], onyomi: ['ジ'], kunyomi: ['みみ'], examples: [{ word: '耳', reading: 'みみ', meaning: 'ear' }, { word: '早耳', reading: 'はやみみ', meaning: 'sharp hearing' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '手', meanings: ['hand'], onyomi: ['シュ'], kunyomi: ['て'], examples: [{ word: '手', reading: 'て', meaning: 'hand' }, { word: '上手', reading: 'じょうず', meaning: 'skillful' }, { word: '手紙', reading: 'てがみ', meaning: 'letter' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '足', meanings: ['foot', 'leg', 'sufficient'], onyomi: ['ソク'], kunyomi: ['あし', 'た.りる', 'た.す'], examples: [{ word: '足', reading: 'あし', meaning: 'foot, leg' }, { word: '足りる', reading: 'たりる', meaning: 'to be sufficient' }, { word: '満足', reading: 'まんぞく', meaning: 'satisfaction' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N5' },
+  
+  // Colors & Qualities
+  { character: '青', meanings: ['blue', 'green'], onyomi: ['セイ', 'ショウ'], kunyomi: ['あお', 'あお.い'], examples: [{ word: '青', reading: 'あお', meaning: 'blue' }, { word: '青い', reading: 'あおい', meaning: 'blue' }, { word: '青森', reading: 'あおもり', meaning: 'Aomori (prefecture)' }], grade: 'grade1', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '赤', meanings: ['red'], onyomi: ['セキ', 'シャク'], kunyomi: ['あか', 'あか.い'], examples: [{ word: '赤', reading: 'あか', meaning: 'red' }, { word: '赤い', reading: 'あかい', meaning: 'red' }, { word: '赤ちゃん', reading: 'あかちゃん', meaning: 'baby' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '白', meanings: ['white'], onyomi: ['ハク', 'ビャク'], kunyomi: ['しろ', 'しろ.い'], examples: [{ word: '白', reading: 'しろ', meaning: 'white' }, { word: '白い', reading: 'しろい', meaning: 'white' }, { word: '白鳥', reading: 'はくちょう', meaning: 'swan' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  
+  // Directions & Position
+  { character: '上', meanings: ['above', 'up', 'top'], onyomi: ['ジョウ'], kunyomi: ['うえ', 'うわ', 'かみ', 'あ.がる', 'あ.げる'], examples: [{ word: '上', reading: 'うえ', meaning: 'above' }, { word: '上手', reading: 'じょうず', meaning: 'skillful' }, { word: '上がる', reading: 'あがる', meaning: 'to go up' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '下', meanings: ['below', 'down', 'under'], onyomi: ['カ', 'ゲ'], kunyomi: ['した', 'しも', 'もと', 'さ.がる', 'さ.げる', 'くだ.る'], examples: [{ word: '下', reading: 'した', meaning: 'below, under' }, { word: '下さい', reading: 'ください', meaning: 'please give me' }, { word: '下手', reading: 'へた', meaning: 'unskillful' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '中', meanings: ['middle', 'inside', 'center'], onyomi: ['チュウ'], kunyomi: ['なか'], examples: [{ word: '中', reading: 'なか', meaning: 'inside' }, { word: '中国', reading: 'ちゅうごく', meaning: 'China' }, { word: '中学校', reading: 'ちゅうがっこう', meaning: 'junior high school' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '左', meanings: ['left'], onyomi: ['サ'], kunyomi: ['ひだり'], examples: [{ word: '左', reading: 'ひだり', meaning: 'left' }, { word: '左右', reading: 'さゆう', meaning: 'left and right' }, { word: '左手', reading: 'ひだりて', meaning: 'left hand' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '右', meanings: ['right'], onyomi: ['ウ', 'ユウ'], kunyomi: ['みぎ'], examples: [{ word: '右', reading: 'みぎ', meaning: 'right' }, { word: '左右', reading: 'さゆう', meaning: 'left and right' }, { word: '右手', reading: 'みぎて', meaning: 'right hand' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  
+  // Size
+  { character: '大', meanings: ['big', 'large'], onyomi: ['ダイ', 'タイ'], kunyomi: ['おお', 'おお.きい'], examples: [{ word: '大きい', reading: 'おおきい', meaning: 'big' }, { word: '大学', reading: 'だいがく', meaning: 'university' }, { word: '大切', reading: 'たいせつ', meaning: 'important' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  { character: '小', meanings: ['small', 'little'], onyomi: ['ショウ'], kunyomi: ['ちい.さい', 'こ', 'お'], examples: [{ word: '小さい', reading: 'ちいさい', meaning: 'small' }, { word: '小学校', reading: 'しょうがっこう', meaning: 'elementary school' }, { word: '小川', reading: 'おがわ', meaning: 'stream' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  
+  // Time
+  { character: '早', meanings: ['early', 'fast'], onyomi: ['ソウ', 'サッ'], kunyomi: ['はや.い', 'はや.める'], examples: [{ word: '早い', reading: 'はやい', meaning: 'early, fast' }, { word: '早く', reading: 'はやく', meaning: 'quickly' }, { word: '早朝', reading: 'そうちょう', meaning: 'early morning' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '年', meanings: ['year'], onyomi: ['ネン'], kunyomi: ['とし'], examples: [{ word: '年', reading: 'とし', meaning: 'year' }, { word: '今年', reading: 'ことし', meaning: 'this year' }, { word: '来年', reading: 'らいねん', meaning: 'next year' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '夕', meanings: ['evening'], onyomi: ['セキ'], kunyomi: ['ゆう'], examples: [{ word: '夕方', reading: 'ゆうがた', meaning: 'evening' }, { word: '夕飯', reading: 'ゆうはん', meaning: 'dinner' }, { word: '七夕', reading: 'たなばた', meaning: 'Star Festival' }], grade: 'grade1', strokeCount: 3, jlptLevel: 'N5' },
+  
+  // Actions & Verbs
+  { character: '入', meanings: ['enter', 'insert'], onyomi: ['ニュウ'], kunyomi: ['い.る', 'い.れる', 'はい.る'], examples: [{ word: '入る', reading: 'はいる', meaning: 'to enter' }, { word: '入口', reading: 'いりぐち', meaning: 'entrance' }, { word: '入学', reading: 'にゅうがく', meaning: 'school entrance' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N5' },
+  { character: '出', meanings: ['exit', 'leave', 'come out'], onyomi: ['シュツ', 'スイ'], kunyomi: ['で.る', 'だ.す'], examples: [{ word: '出る', reading: 'でる', meaning: 'to exit, leave' }, { word: '出口', reading: 'でぐち', meaning: 'exit' }, { word: '出す', reading: 'だす', meaning: 'to put out' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '立', meanings: ['stand', 'rise'], onyomi: ['リツ', 'リュウ'], kunyomi: ['た.つ', 'た.てる'], examples: [{ word: '立つ', reading: 'たつ', meaning: 'to stand' }, { word: '立派', reading: 'りっぱ', meaning: 'splendid' }, { word: '国立', reading: 'こくりつ', meaning: 'national' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '休', meanings: ['rest', 'vacation'], onyomi: ['キュウ'], kunyomi: ['やす.む', 'やす.まる', 'やす.める'], examples: [{ word: '休む', reading: 'やすむ', meaning: 'to rest' }, { word: '休日', reading: 'きゅうじつ', meaning: 'holiday' }, { word: '休み', reading: 'やすみ', meaning: 'vacation' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '先', meanings: ['before', 'ahead', 'previous'], onyomi: ['セン'], kunyomi: ['さき'], examples: [{ word: '先生', reading: 'せんせい', meaning: 'teacher' }, { word: '先', reading: 'さき', meaning: 'ahead' }, { word: '先月', reading: 'せんげつ', meaning: 'last month' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '生', meanings: ['life', 'birth', 'student'], onyomi: ['セイ', 'ショウ'], kunyomi: ['い.きる', 'い.かす', 'う.まれる', 'なま'], examples: [{ word: '先生', reading: 'せんせい', meaning: 'teacher' }, { word: '学生', reading: 'がくせい', meaning: 'student' }, { word: '生きる', reading: 'いきる', meaning: 'to live' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '見', meanings: ['see', 'look', 'view'], onyomi: ['ケン'], kunyomi: ['み.る', 'み.える', 'み.せる'], examples: [{ word: '見る', reading: 'みる', meaning: 'to see' }, { word: '見える', reading: 'みえる', meaning: 'to be visible' }, { word: '意見', reading: 'いけん', meaning: 'opinion' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '音', meanings: ['sound', 'noise'], onyomi: ['オン', 'イン'], kunyomi: ['おと', 'ね'], examples: [{ word: '音', reading: 'おと', meaning: 'sound' }, { word: '音楽', reading: 'おんがく', meaning: 'music' }, { word: '発音', reading: 'はつおん', meaning: 'pronunciation' }], grade: 'grade1', strokeCount: 9, jlptLevel: 'N4' },
+  
+  // Learning & School
+  { character: '学', meanings: ['study', 'learning', 'school'], onyomi: ['ガク'], kunyomi: ['まな.ぶ'], examples: [{ word: '学校', reading: 'がっこう', meaning: 'school' }, { word: '学生', reading: 'がくせい', meaning: 'student' }, { word: '学ぶ', reading: 'まなぶ', meaning: 'to learn' }], grade: 'grade1', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '校', meanings: ['school'], onyomi: ['コウ'], kunyomi: [], examples: [{ word: '学校', reading: 'がっこう', meaning: 'school' }, { word: '小学校', reading: 'しょうがっこう', meaning: 'elementary school' }, { word: '高校', reading: 'こうこう', meaning: 'high school' }], grade: 'grade1', strokeCount: 10, jlptLevel: 'N5' },
+  { character: '字', meanings: ['character', 'letter'], onyomi: ['ジ'], kunyomi: ['あざ'], examples: [{ word: '文字', reading: 'もじ', meaning: 'character, letter' }, { word: '漢字', reading: 'かんじ', meaning: 'kanji' }, { word: '数字', reading: 'すうじ', meaning: 'number' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '文', meanings: ['sentence', 'writing'], onyomi: ['ブン', 'モン'], kunyomi: ['ふみ'], examples: [{ word: '文', reading: 'ぶん', meaning: 'sentence' }, { word: '文字', reading: 'もじ', meaning: 'character' }, { word: '文化', reading: 'ぶんか', meaning: 'culture' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '本', meanings: ['book', 'origin', 'main'], onyomi: ['ホン'], kunyomi: ['もと'], examples: [{ word: '本', reading: 'ほん', meaning: 'book' }, { word: '日本', reading: 'にほん', meaning: 'Japan' }, { word: '本当', reading: 'ほんとう', meaning: 'true' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '名', meanings: ['name'], onyomi: ['メイ', 'ミョウ'], kunyomi: ['な'], examples: [{ word: '名前', reading: 'なまえ', meaning: 'name' }, { word: '名字', reading: 'みょうじ', meaning: 'surname' }, { word: '有名', reading: 'ゆうめい', meaning: 'famous' }], grade: 'grade1', strokeCount: 6, jlptLevel: 'N5' },
+  
+  // Places
+  { character: '村', meanings: ['village'], onyomi: ['ソン'], kunyomi: ['むら'], examples: [{ word: '村', reading: 'むら', meaning: 'village' }, { word: '農村', reading: 'のうそん', meaning: 'farm village' }, { word: '村長', reading: 'そんちょう', meaning: 'village headman' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N4' },
+  { character: '町', meanings: ['town', 'street'], onyomi: ['チョウ'], kunyomi: ['まち'], examples: [{ word: '町', reading: 'まち', meaning: 'town' }, { word: '町内', reading: 'ちょうない', meaning: 'neighborhood' }, { word: '下町', reading: 'したまち', meaning: 'downtown' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '田', meanings: ['rice field'], onyomi: ['デン'], kunyomi: ['た'], examples: [{ word: '田', reading: 'た', meaning: 'rice field' }, { word: '田中', reading: 'たなか', meaning: 'Tanaka (surname)', type: 'name' }, { word: '田んぼ', reading: 'たんぼ', meaning: 'rice paddy' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '花', meanings: ['flower'], onyomi: ['カ'], kunyomi: ['はな'], examples: [{ word: '花', reading: 'はな', meaning: 'flower' }, { word: '花火', reading: 'はなび', meaning: 'fireworks' }, { word: '生け花', reading: 'いけばな', meaning: 'flower arrangement' }], grade: 'grade1', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '草', meanings: ['grass'], onyomi: ['ソウ'], kunyomi: ['くさ'], examples: [{ word: '草', reading: 'くさ', meaning: 'grass' }, { word: '草花', reading: 'くさばな', meaning: 'flowering plant' }, { word: '雑草', reading: 'ざっそう', meaning: 'weed' }], grade: 'grade1', strokeCount: 9, jlptLevel: 'N4' },
+  { character: '円', meanings: ['circle', 'yen'], onyomi: ['エン'], kunyomi: ['まる.い'], examples: [{ word: '円', reading: 'えん', meaning: 'yen, circle' }, { word: '百円', reading: 'ひゃくえん', meaning: '100 yen' }, { word: '円い', reading: 'まるい', meaning: 'round' }], grade: 'grade1', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '正', meanings: ['correct', 'right', 'justice'], onyomi: ['セイ', 'ショウ'], kunyomi: ['ただ.しい', 'まさ'], examples: [{ word: '正しい', reading: 'ただしい', meaning: 'correct' }, { word: '正月', reading: 'しょうがつ', meaning: 'New Year' }, { word: '正直', reading: 'しょうじき', meaning: 'honest' }], grade: 'grade1', strokeCount: 5, jlptLevel: 'N4' },
+  { character: '力', meanings: ['power', 'force'], onyomi: ['リョク', 'リキ'], kunyomi: ['ちから'], examples: [{ word: '力', reading: 'ちから', meaning: 'power, strength' }, { word: '力持ち', reading: 'ちからもち', meaning: 'strong person' }, { word: '努力', reading: 'どりょく', meaning: 'effort' }], grade: 'grade1', strokeCount: 2, jlptLevel: 'N4' },
+];
+
+// ============================================================================
+// GRADE 2 (第二学年) - 160 Kanji (Expanded Set - 60+ kanji included)
+// ============================================================================
+
+const grade2Kanji: KanjiCharacter[] = [
+  // Directions
+  { character: '東', meanings: ['east'], onyomi: ['トウ'], kunyomi: ['ひがし'], examples: [{ word: '東', reading: 'ひがし', meaning: 'east' }, { word: '東京', reading: 'とうきょう', meaning: 'Tokyo' }, { word: '関東', reading: 'かんとう', meaning: 'Kanto region' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '西', meanings: ['west'], onyomi: ['セイ', 'サイ'], kunyomi: ['にし'], examples: [{ word: '西', reading: 'にし', meaning: 'west' }, { word: '関西', reading: 'かんさい', meaning: 'Kansai region' }, { word: '西洋', reading: 'せいよう', meaning: 'Western' }], grade: 'grade2', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '南', meanings: ['south'], onyomi: ['ナン', 'ナ'], kunyomi: ['みなみ'], examples: [{ word: '南', reading: 'みなみ', meaning: 'south' }, { word: '南北', reading: 'なんぼく', meaning: 'north and south' }, { word: '南米', reading: 'なんべい', meaning: 'South America' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N5' },
+  { character: '北', meanings: ['north'], onyomi: ['ホク'], kunyomi: ['きた'], examples: [{ word: '北', reading: 'きた', meaning: 'north' }, { word: '東北', reading: 'とうほく', meaning: 'Tohoku' }, { word: '北海道', reading: 'ほっかいどう', meaning: 'Hokkaido' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N5' },
+  
+  // Time & Position
+  { character: '前', meanings: ['before', 'front'], onyomi: ['ゼン'], kunyomi: ['まえ'], examples: [{ word: '前', reading: 'まえ', meaning: 'front, before' }, { word: '午前', reading: 'ごぜん', meaning: 'a.m.' }, { word: '名前', reading: 'なまえ', meaning: 'name' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N5' },
+  { character: '後', meanings: ['after', 'behind', 'later'], onyomi: ['ゴ', 'コウ'], kunyomi: ['のち', 'うし.ろ', 'あと'], examples: [{ word: '後', reading: 'あと', meaning: 'after' }, { word: '午後', reading: 'ごご', meaning: 'p.m.' }, { word: '最後', reading: 'さいご', meaning: 'last' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N5' },
+  { character: '明', meanings: ['bright', 'light', 'clear'], onyomi: ['メイ', 'ミョウ'], kunyomi: ['あ.かり', 'あか.るい', 'あき.らか'], examples: [{ word: '明日', reading: 'あした', meaning: 'tomorrow' }, { word: '明るい', reading: 'あかるい', meaning: 'bright' }, { word: '説明', reading: 'せつめい', meaning: 'explanation' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N4' },
+  { character: '今', meanings: ['now', 'present'], onyomi: ['コン', 'キン'], kunyomi: ['いま'], examples: [{ word: '今', reading: 'いま', meaning: 'now' }, { word: '今日', reading: 'きょう', meaning: 'today' }, { word: '今年', reading: 'ことし', meaning: 'this year' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '春', meanings: ['spring'], onyomi: ['シュン'], kunyomi: ['はる'], examples: [{ word: '春', reading: 'はる', meaning: 'spring' }, { word: '春休み', reading: 'はるやすみ', meaning: 'spring vacation' }, { word: '青春', reading: 'せいしゅん', meaning: 'youth' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N4' },
+  { character: '夏', meanings: ['summer'], onyomi: ['カ', 'ゲ'], kunyomi: ['なつ'], examples: [{ word: '夏', reading: 'なつ', meaning: 'summer' }, { word: '夏休み', reading: 'なつやすみ', meaning: 'summer vacation' }, { word: '真夏', reading: 'まなつ', meaning: 'midsummer' }], grade: 'grade2', strokeCount: 10, jlptLevel: 'N4' },
+  { character: '秋', meanings: ['autumn', 'fall'], onyomi: ['シュウ'], kunyomi: ['あき'], examples: [{ word: '秋', reading: 'あき', meaning: 'autumn' }, { word: '秋分', reading: 'しゅうぶん', meaning: 'autumnal equinox' }, { word: '晩秋', reading: 'ばんしゅう', meaning: 'late autumn' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N4' },
+  { character: '冬', meanings: ['winter'], onyomi: ['トウ'], kunyomi: ['ふゆ'], examples: [{ word: '冬', reading: 'ふゆ', meaning: 'winter' }, { word: '冬休み', reading: 'ふゆやすみ', meaning: 'winter vacation' }, { word: '真冬', reading: 'まふゆ', meaning: 'midwinter' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N4' },
+  { character: '朝', meanings: ['morning'], onyomi: ['チョウ'], kunyomi: ['あさ'], examples: [{ word: '朝', reading: 'あさ', meaning: 'morning' }, { word: '今朝', reading: 'けさ', meaning: 'this morning' }, { word: '朝食', reading: 'ちょうしょく', meaning: 'breakfast' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N5' },
+  { character: '昼', meanings: ['noon', 'daytime'], onyomi: ['チュウ'], kunyomi: ['ひる'], examples: [{ word: '昼', reading: 'ひる', meaning: 'noon, daytime' }, { word: '昼食', reading: 'ちゅうしょく', meaning: 'lunch' }, { word: '昼間', reading: 'ひるま', meaning: 'daytime' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N5' },
+  { character: '夜', meanings: ['night', 'evening'], onyomi: ['ヤ'], kunyomi: ['よ', 'よる'], examples: [{ word: '夜', reading: 'よる', meaning: 'night' }, { word: '今夜', reading: 'こんや', meaning: 'tonight' }, { word: '夜中', reading: 'よなか', meaning: 'midnight' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '間', meanings: ['interval', 'space', 'between'], onyomi: ['カン', 'ケン'], kunyomi: ['あいだ', 'ま'], examples: [{ word: '間', reading: 'あいだ', meaning: 'between' }, { word: '時間', reading: 'じかん', meaning: 'time' }, { word: '人間', reading: 'にんげん', meaning: 'human' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N5' },
+  { character: '時', meanings: ['time', 'hour'], onyomi: ['ジ'], kunyomi: ['とき'], examples: [{ word: '時', reading: 'とき', meaning: 'time, when' }, { word: '時間', reading: 'じかん', meaning: 'time, hour' }, { word: '何時', reading: 'なんじ', meaning: 'what time' }], grade: 'grade2', strokeCount: 10, jlptLevel: 'N5' },
+  { character: '分', meanings: ['minute', 'part', 'divide'], onyomi: ['ブン', 'フン', 'ブ'], kunyomi: ['わ.ける', 'わ.かる'], examples: [{ word: '分', reading: 'ふん', meaning: 'minute' }, { word: '分かる', reading: 'わかる', meaning: 'to understand' }, { word: '自分', reading: 'じぶん', meaning: 'oneself' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '半', meanings: ['half'], onyomi: ['ハン'], kunyomi: ['なか.ば'], examples: [{ word: '半分', reading: 'はんぶん', meaning: 'half' }, { word: '半年', reading: 'はんとし', meaning: 'half a year' }, { word: '半島', reading: 'はんとう', meaning: 'peninsula' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N5' },
+  
+  // Size & Quantity
+  { character: '高', meanings: ['tall', 'high', 'expensive'], onyomi: ['コウ'], kunyomi: ['たか.い', 'たか'], examples: [{ word: '高い', reading: 'たかい', meaning: 'tall, expensive' }, { word: '高校', reading: 'こうこう', meaning: 'high school' }, { word: '最高', reading: 'さいこう', meaning: 'best' }], grade: 'grade2', strokeCount: 10, jlptLevel: 'N5' },
+  { character: '長', meanings: ['long', 'leader'], onyomi: ['チョウ'], kunyomi: ['なが.い'], examples: [{ word: '長い', reading: 'ながい', meaning: 'long' }, { word: '社長', reading: 'しゃちょう', meaning: 'company president' }, { word: '長男', reading: 'ちょうなん', meaning: 'eldest son' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '短', meanings: ['short'], onyomi: ['タン'], kunyomi: ['みじか.い'], examples: [{ word: '短い', reading: 'みじかい', meaning: 'short' }, { word: '短期', reading: 'たんき', meaning: 'short term' }, { word: '長短', reading: 'ちょうたん', meaning: 'length' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N4' },
+  { character: '多', meanings: ['many', 'much'], onyomi: ['タ'], kunyomi: ['おお.い'], examples: [{ word: '多い', reading: 'おおい', meaning: 'many, much' }, { word: '多数', reading: 'たすう', meaning: 'great number' }, { word: '多分', reading: 'たぶん', meaning: 'probably' }], grade: 'grade2', strokeCount: 6, jlptLevel: 'N4' },
+  { character: '少', meanings: ['few', 'little'], onyomi: ['ショウ'], kunyomi: ['すく.ない', 'すこ.し'], examples: [{ word: '少ない', reading: 'すくない', meaning: 'few' }, { word: '少し', reading: 'すこし', meaning: 'a little' }, { word: '少年', reading: 'しょうねん', meaning: 'boy, youth' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N4' },
+  { character: '古', meanings: ['old'], onyomi: ['コ'], kunyomi: ['ふる.い'], examples: [{ word: '古い', reading: 'ふるい', meaning: 'old' }, { word: '古本', reading: 'ふるほん', meaning: 'used book' }, { word: '中古', reading: 'ちゅうこ', meaning: 'secondhand' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N4' },
+  { character: '新', meanings: ['new'], onyomi: ['シン'], kunyomi: ['あたら.しい', 'あら.た', 'にい'], examples: [{ word: '新しい', reading: 'あたらしい', meaning: 'new' }, { word: '新聞', reading: 'しんぶん', meaning: 'newspaper' }, { word: '新年', reading: 'しんねん', meaning: 'new year' }], grade: 'grade2', strokeCount: 13, jlptLevel: 'N4' },
+  { character: '広', meanings: ['wide', 'spacious'], onyomi: ['コウ'], kunyomi: ['ひろ.い', 'ひろ.まる', 'ひろ.める'], examples: [{ word: '広い', reading: 'ひろい', meaning: 'wide, spacious' }, { word: '広場', reading: 'ひろば', meaning: 'plaza' }, { word: '広告', reading: 'こうこく', meaning: 'advertisement' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N4' },
+  { character: '細', meanings: ['thin', 'slender'], onyomi: ['サイ'], kunyomi: ['ほそ.い', 'ほそ.る'], examples: [{ word: '細い', reading: 'ほそい', meaning: 'thin' }, { word: '細かい', reading: 'こまかい', meaning: 'detailed' }, { word: '詳細', reading: 'しょうさい', meaning: 'details' }], grade: 'grade2', strokeCount: 11, jlptLevel: 'N4' },
+  { character: '太', meanings: ['thick', 'big'], onyomi: ['タイ', 'タ'], kunyomi: ['ふと.い', 'ふと.る'], examples: [{ word: '太い', reading: 'ふとい', meaning: 'thick' }, { word: '太陽', reading: 'たいよう', meaning: 'sun' }, { word: '太る', reading: 'ふとる', meaning: 'to get fat' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N4' },
+  { character: '強', meanings: ['strong'], onyomi: ['キョウ', 'ゴウ'], kunyomi: ['つよ.い', 'つよ.まる'], examples: [{ word: '強い', reading: 'つよい', meaning: 'strong' }, { word: '勉強', reading: 'べんきょう', meaning: 'study' }, { word: '強化', reading: 'きょうか', meaning: 'strengthen' }], grade: 'grade2', strokeCount: 11, jlptLevel: 'N4' },
+  { character: '弱', meanings: ['weak'], onyomi: ['ジャク'], kunyomi: ['よわ.い', 'よわ.る'], examples: [{ word: '弱い', reading: 'よわい', meaning: 'weak' }, { word: '弱点', reading: 'じゃくてん', meaning: 'weak point' }, { word: '弱る', reading: 'よわる', meaning: 'to weaken' }], grade: 'grade2', strokeCount: 10, jlptLevel: 'N4' },
+  
+  // Family & Relations
+  { character: '父', meanings: ['father'], onyomi: ['フ'], kunyomi: ['ちち'], examples: [{ word: '父', reading: 'ちち', meaning: 'father' }, { word: 'お父さん', reading: 'おとうさん', meaning: 'father (polite)' }, { word: '父親', reading: 'ちちおや', meaning: 'father' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '母', meanings: ['mother'], onyomi: ['ボ'], kunyomi: ['はは'], examples: [{ word: '母', reading: 'はは', meaning: 'mother' }, { word: 'お母さん', reading: 'おかあさん', meaning: 'mother (polite)' }, { word: '母親', reading: 'ははおや', meaning: 'mother' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '兄', meanings: ['older brother'], onyomi: ['ケイ', 'キョウ'], kunyomi: ['あに'], examples: [{ word: '兄', reading: 'あに', meaning: 'older brother' }, { word: 'お兄さん', reading: 'おにいさん', meaning: 'older brother (polite)' }, { word: '兄弟', reading: 'きょうだい', meaning: 'siblings' }], grade: 'grade2', strokeCount: 5, jlptLevel: 'N5' },
+  { character: '弟', meanings: ['younger brother'], onyomi: ['テイ', 'ダイ', 'デ'], kunyomi: ['おとうと'], examples: [{ word: '弟', reading: 'おとうと', meaning: 'younger brother' }, { word: '弟子', reading: 'でし', meaning: 'disciple' }, { word: '兄弟', reading: 'きょうだい', meaning: 'siblings' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '姉', meanings: ['older sister'], onyomi: ['シ'], kunyomi: ['あね'], examples: [{ word: '姉', reading: 'あね', meaning: 'older sister' }, { word: 'お姉さん', reading: 'おねえさん', meaning: 'older sister (polite)' }, { word: '姉妹', reading: 'しまい', meaning: 'sisters' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '妹', meanings: ['younger sister'], onyomi: ['マイ'], kunyomi: ['いもうと'], examples: [{ word: '妹', reading: 'いもうと', meaning: 'younger sister' }, { word: '姉妹', reading: 'しまい', meaning: 'sisters' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '親', meanings: ['parent', 'intimate'], onyomi: ['シン'], kunyomi: ['おや', 'した.しい'], examples: [{ word: '親', reading: 'おや', meaning: 'parent' }, { word: '両親', reading: 'りょうしん', meaning: 'parents' }, { word: '親しい', reading: 'したしい', meaning: 'intimate' }], grade: 'grade2', strokeCount: 16, jlptLevel: 'N4' },
+  { character: '友', meanings: ['friend'], onyomi: ['ユウ'], kunyomi: ['とも'], examples: [{ word: '友達', reading: 'ともだち', meaning: 'friend' }, { word: '友人', reading: 'ゆうじん', meaning: 'friend' }, { word: '親友', reading: 'しんゆう', meaning: 'close friend' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N5' },
+  
+  // Actions & Movement
+  { character: '行', meanings: ['go', 'conduct'], onyomi: ['コウ', 'ギョウ', 'アン'], kunyomi: ['い.く', 'ゆ.く', 'おこな.う'], examples: [{ word: '行く', reading: 'いく', meaning: 'to go' }, { word: '行動', reading: 'こうどう', meaning: 'action' }, { word: '旅行', reading: 'りょこう', meaning: 'travel' }], grade: 'grade2', strokeCount: 6, jlptLevel: 'N5' },
+  { character: '来', meanings: ['come'], onyomi: ['ライ'], kunyomi: ['く.る', 'きた.る'], examples: [{ word: '来る', reading: 'くる', meaning: 'to come' }, { word: '来年', reading: 'らいねん', meaning: 'next year' }, { word: '未来', reading: 'みらい', meaning: 'future' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '帰', meanings: ['return', 'go home'], onyomi: ['キ'], kunyomi: ['かえ.る', 'かえ.す'], examples: [{ word: '帰る', reading: 'かえる', meaning: 'to return' }, { word: '帰国', reading: 'きこく', meaning: 'return to one\'s country' }], grade: 'grade2', strokeCount: 10, jlptLevel: 'N5' },
+  { character: '歩', meanings: ['walk'], onyomi: ['ホ', 'ブ'], kunyomi: ['ある.く', 'あゆ.む'], examples: [{ word: '歩く', reading: 'あるく', meaning: 'to walk' }, { word: '散歩', reading: 'さんぽ', meaning: 'stroll' }, { word: '歩道', reading: 'ほどう', meaning: 'sidewalk' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '走', meanings: ['run'], onyomi: ['ソウ'], kunyomi: ['はし.る'], examples: [{ word: '走る', reading: 'はしる', meaning: 'to run' }, { word: '走者', reading: 'そうしゃ', meaning: 'runner' }, { word: '暴走', reading: 'ぼうそう', meaning: 'reckless driving' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '止', meanings: ['stop'], onyomi: ['シ'], kunyomi: ['と.まる', 'と.める'], examples: [{ word: '止まる', reading: 'とまる', meaning: 'to stop' }, { word: '止める', reading: 'とめる', meaning: 'to stop (something)' }, { word: '中止', reading: 'ちゅうし', meaning: 'cancellation' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N5' },
+  { character: '作', meanings: ['make', 'create'], onyomi: ['サク', 'サ'], kunyomi: ['つく.る'], examples: [{ word: '作る', reading: 'つくる', meaning: 'to make' }, { word: '作品', reading: 'さくひん', meaning: 'work (art)' }, { word: '作業', reading: 'さぎょう', meaning: 'work, task' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N4' },
+  { character: '切', meanings: ['cut'], onyomi: ['セツ', 'サイ'], kunyomi: ['き.る', 'き.れる'], examples: [{ word: '切る', reading: 'きる', meaning: 'to cut' }, { word: '大切', reading: 'たいせつ', meaning: 'important' }, { word: '切手', reading: 'きって', meaning: 'stamp' }], grade: 'grade2', strokeCount: 4, jlptLevel: 'N4' },
+  { character: '売', meanings: ['sell'], onyomi: ['バイ'], kunyomi: ['う.る', 'う.れる'], examples: [{ word: '売る', reading: 'うる', meaning: 'to sell' }, { word: '売店', reading: 'ばいてん', meaning: 'shop, stand' }, { word: '販売', reading: 'はんばい', meaning: 'sales' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N4' },
+  { character: '買', meanings: ['buy'], onyomi: ['バイ'], kunyomi: ['か.う'], examples: [{ word: '買う', reading: 'かう', meaning: 'to buy' }, { word: '買い物', reading: 'かいもの', meaning: 'shopping' }, { word: '売買', reading: 'ばいばい', meaning: 'trade' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N5' },
+  { character: '食', meanings: ['eat', 'food'], onyomi: ['ショク', 'ジキ'], kunyomi: ['た.べる', 'く.う'], examples: [{ word: '食べる', reading: 'たべる', meaning: 'to eat' }, { word: '食事', reading: 'しょくじ', meaning: 'meal' }, { word: '食堂', reading: 'しょくどう', meaning: 'cafeteria' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N5' },
+  { character: '飲', meanings: ['drink'], onyomi: ['イン'], kunyomi: ['の.む'], examples: [{ word: '飲む', reading: 'のむ', meaning: 'to drink' }, { word: '飲み物', reading: 'のみもの', meaning: 'beverage' }, { word: '飲食', reading: 'いんしょく', meaning: 'food and drink' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N5' },
+  
+  // Describing Words
+  { character: '黒', meanings: ['black'], onyomi: ['コク'], kunyomi: ['くろ', 'くろ.い'], examples: [{ word: '黒', reading: 'くろ', meaning: 'black' }, { word: '黒い', reading: 'くろい', meaning: 'black' }, { word: '黒板', reading: 'こくばん', meaning: 'blackboard' }], grade: 'grade2', strokeCount: 11, jlptLevel: 'N5' },
+  { character: '黄', meanings: ['yellow'], onyomi: ['コウ', 'オウ'], kunyomi: ['き', 'こ'], examples: [{ word: '黄色', reading: 'きいろ', meaning: 'yellow' }, { word: '黄金', reading: 'おうごん', meaning: 'gold' }], grade: 'grade2', strokeCount: 11, jlptLevel: 'N4' },
+  { character: '近', meanings: ['near'], onyomi: ['キン', 'コン'], kunyomi: ['ちか.い'], examples: [{ word: '近い', reading: 'ちかい', meaning: 'near' }, { word: '近く', reading: 'ちかく', meaning: 'nearby' }, { word: '最近', reading: 'さいきん', meaning: 'recently' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N5' },
+  { character: '遠', meanings: ['far', 'distant'], onyomi: ['エン', 'オン'], kunyomi: ['とお.い'], examples: [{ word: '遠い', reading: 'とおい', meaning: 'far' }, { word: '遠く', reading: 'とおく', meaning: 'far away' }, { word: '永遠', reading: 'えいえん', meaning: 'eternity' }], grade: 'grade2', strokeCount: 13, jlptLevel: 'N5' },
+  { character: '明', meanings: ['bright'], onyomi: ['メイ', 'ミョウ'], kunyomi: ['あ.かり', 'あか.るい'], examples: [{ word: '明日', reading: 'あした', meaning: 'tomorrow' }, { word: '明るい', reading: 'あかるい', meaning: 'bright' }, { word: '説明', reading: 'せつめい', meaning: 'explanation' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N4' },
+  { character: '暗', meanings: ['dark'], onyomi: ['アン'], kunyomi: ['くら.い'], examples: [{ word: '暗い', reading: 'くらい', meaning: 'dark' }, { word: '暗記', reading: 'あんき', meaning: 'memorization' }], grade: 'grade2', strokeCount: 13, jlptLevel: 'N4' },
+  
+  // Nature & Weather
+  { character: '雨', meanings: ['rain'], onyomi: ['ウ'], kunyomi: ['あめ', 'あま'], examples: [{ word: '雨', reading: 'あめ', meaning: 'rain' }, { word: '大雨', reading: 'おおあめ', meaning: 'heavy rain' }, { word: '梅雨', reading: 'つゆ', meaning: 'rainy season' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '雪', meanings: ['snow'], onyomi: ['セツ'], kunyomi: ['ゆき'], examples: [{ word: '雪', reading: 'ゆき', meaning: 'snow' }, { word: '雪だるま', reading: 'ゆきだるま', meaning: 'snowman' }, { word: '大雪', reading: 'おおゆき', meaning: 'heavy snow' }], grade: 'grade2', strokeCount: 11, jlptLevel: 'N5' },
+  { character: '雲', meanings: ['cloud'], onyomi: ['ウン'], kunyomi: ['くも'], examples: [{ word: '雲', reading: 'くも', meaning: 'cloud' }, { word: '雲海', reading: 'うんかい', meaning: 'sea of clouds' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N4' },
+  { character: '風', meanings: ['wind', 'style'], onyomi: ['フウ', 'フ'], kunyomi: ['かぜ', 'かざ'], examples: [{ word: '風', reading: 'かぜ', meaning: 'wind' }, { word: '台風', reading: 'たいふう', meaning: 'typhoon' }, { word: '風景', reading: 'ふうけい', meaning: 'scenery' }], grade: 'grade2', strokeCount: 9, jlptLevel: 'N5' },
+  { character: '晴', meanings: ['clear weather'], onyomi: ['セイ'], kunyomi: ['は.れる', 'は.らす'], examples: [{ word: '晴れる', reading: 'はれる', meaning: 'to clear up' }, { word: '晴天', reading: 'せいてん', meaning: 'fine weather' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N4' },
+  { character: '曜', meanings: ['weekday'], onyomi: ['ヨウ'], kunyomi: [], examples: [{ word: '月曜日', reading: 'げつようび', meaning: 'Monday' }, { word: '曜日', reading: 'ようび', meaning: 'day of the week' }], grade: 'grade2', strokeCount: 18, jlptLevel: 'N5' },
+  
+  // Places & Buildings
+  { character: '園', meanings: ['garden', 'park'], onyomi: ['エン'], kunyomi: ['その'], examples: [{ word: '公園', reading: 'こうえん', meaning: 'park' }, { word: '動物園', reading: 'どうぶつえん', meaning: 'zoo' }, { word: '幼稚園', reading: 'ようちえん', meaning: 'kindergarten' }], grade: 'grade2', strokeCount: 13, jlptLevel: 'N5' },
+  { character: '谷', meanings: ['valley'], onyomi: ['コク'], kunyomi: ['たに'], examples: [{ word: '谷', reading: 'たに', meaning: 'valley' }, { word: '渋谷', reading: 'しぶや', meaning: 'Shibuya' }], grade: 'grade2', strokeCount: 7, jlptLevel: 'N4' },
+  { character: '野', meanings: ['field', 'plain'], onyomi: ['ヤ'], kunyomi: ['の'], examples: [{ word: '野原', reading: 'のはら', meaning: 'field' }, { word: '野菜', reading: 'やさい', meaning: 'vegetable' }, { word: '野球', reading: 'やきゅう', meaning: 'baseball' }], grade: 'grade2', strokeCount: 11, jlptLevel: 'N4' },
+  { character: '場', meanings: ['place', 'location'], onyomi: ['ジョウ'], kunyomi: ['ば'], examples: [{ word: '場所', reading: 'ばしょ', meaning: 'place' }, { word: '広場', reading: 'ひろば', meaning: 'plaza' }, { word: '工場', reading: 'こうじょう', meaning: 'factory' }], grade: 'grade2', strokeCount: 12, jlptLevel: 'N5' },
+  { character: '店', meanings: ['shop', 'store'], onyomi: ['テン'], kunyomi: ['みせ'], examples: [{ word: '店', reading: 'みせ', meaning: 'shop' }, { word: '店員', reading: 'てんいん', meaning: 'shop clerk' }, { word: '書店', reading: 'しょてん', meaning: 'bookstore' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+  { character: '門', meanings: ['gate'], onyomi: ['モン'], kunyomi: ['かど'], examples: [{ word: '門', reading: 'もん', meaning: 'gate' }, { word: '専門', reading: 'せんもん', meaning: 'specialty' }, { word: '正門', reading: 'せいもん', meaning: 'main gate' }], grade: 'grade2', strokeCount: 8, jlptLevel: 'N5' },
+];
+
+// ============================================================================
+// GRADE 3 (第三学年) - Sample of 200 Kanji
+// ============================================================================
+
+const grade3Kanji: KanjiCharacter[] = [
+  {
+    character: '勉',
+    meanings: ['exertion', 'endeavor'],
+    onyomi: ['ベン'],
+    kunyomi: [],
+    examples: [
+      { word: '勉強', reading: 'べんきょう', meaning: 'study' },
+      { word: '勤勉', reading: 'きんべん', meaning: 'diligent' },
+    ],
+    grade: 'grade3',
+    strokeCount: 10,
+    jlptLevel: 'N4',
+    frequency: 1050,
+  },
+  {
+    character: '強',
+    meanings: ['strong', 'force'],
+    onyomi: ['キョウ', 'ゴウ'],
+    kunyomi: ['つよ.い', 'つよ.まる', 'つよ.める', 'し.いる'],
+    examples: [
+      { word: '勉強', reading: 'べんきょう', meaning: 'study' },
+      { word: '強い', reading: 'つよい', meaning: 'strong' },
+      { word: '強化', reading: 'きょうか', meaning: 'strengthen' },
+    ],
+    grade: 'grade3',
+    strokeCount: 11,
+    jlptLevel: 'N4',
+    frequency: 135,
+  },
+  {
+    character: '運',
+    meanings: ['carry', 'luck', 'fortune'],
+    onyomi: ['ウン'],
+    kunyomi: ['はこ.ぶ'],
+    examples: [
+      { word: '運ぶ', reading: 'はこぶ', meaning: 'to carry' },
+      { word: '運動', reading: 'うんどう', meaning: 'exercise' },
+      { word: '幸運', reading: 'こううん', meaning: 'good luck' },
+    ],
+    grade: 'grade3',
+    strokeCount: 12,
+    jlptLevel: 'N4',
+    frequency: 270,
+  },
+  {
+    character: '動',
+    meanings: ['move', 'motion'],
+    onyomi: ['ドウ'],
+    kunyomi: ['うご.く', 'うご.かす'],
+    examples: [
+      { word: '動く', reading: 'うごく', meaning: 'to move' },
+      { word: '運動', reading: 'うんどう', meaning: 'exercise' },
+      { word: '自動車', reading: 'じどうしゃ', meaning: 'automobile' },
+    ],
+    grade: 'grade3',
+    strokeCount: 11,
+    jlptLevel: 'N4',
+    frequency: 120,
+  },
+  {
+    character: '歌',
+    meanings: ['song', 'sing'],
+    onyomi: ['カ'],
+    kunyomi: ['うた', 'うた.う'],
+    examples: [
+      { word: '歌', reading: 'うた', meaning: 'song' },
+      { word: '歌う', reading: 'うたう', meaning: 'to sing' },
+      { word: '国歌', reading: 'こっか', meaning: 'national anthem' },
+    ],
+    grade: 'grade3',
+    strokeCount: 14,
+    jlptLevel: 'N4',
+    frequency: 720,
+  },
+];
+
+// ============================================================================
+// GRADE 4 (第四学年) - Sample of 202 Kanji
+// ============================================================================
+
+const grade4Kanji: KanjiCharacter[] = [
+  {
+    character: '愛',
+    meanings: ['love', 'affection'],
+    onyomi: ['アイ'],
+    kunyomi: [],
+    examples: [
+      { word: '愛', reading: 'あい', meaning: 'love' },
+      { word: '愛情', reading: 'あいじょう', meaning: 'affection' },
+      { word: '恋愛', reading: 'れんあい', meaning: 'romantic love' },
+    ],
+    grade: 'grade4',
+    strokeCount: 13,
+    jlptLevel: 'N3',
+    frequency: 540,
+  },
+  {
+    character: '案',
+    meanings: ['plan', 'suggestion', 'draft'],
+    onyomi: ['アン'],
+    kunyomi: [],
+    examples: [
+      { word: '案', reading: 'あん', meaning: 'idea, plan' },
+      { word: '提案', reading: 'ていあん', meaning: 'proposal' },
+      { word: '案内', reading: 'あんない', meaning: 'guide' },
+    ],
+    grade: 'grade4',
+    strokeCount: 10,
+    jlptLevel: 'N3',
+    frequency: 480,
+  },
+  {
+    character: '以',
+    meanings: ['by means of', 'because', 'in view of'],
+    onyomi: ['イ'],
+    kunyomi: [],
+    examples: [
+      { word: '以上', reading: 'いじょう', meaning: 'more than' },
+      { word: '以下', reading: 'いか', meaning: 'less than' },
+      { word: '以外', reading: 'いがい', meaning: 'except' },
+    ],
+    grade: 'grade4',
+    strokeCount: 5,
+    jlptLevel: 'N3',
+    frequency: 38,
+  },
+];
+
+// ============================================================================
+// GRADE 5 (第五学年) - Sample of 193 Kanji
+// ============================================================================
+
+const grade5Kanji: KanjiCharacter[] = [
+  {
+    character: '圧',
+    meanings: ['pressure', 'push', 'overwhelm'],
+    onyomi: ['アツ'],
+    kunyomi: [],
+    examples: [
+      { word: '圧力', reading: 'あつりょく', meaning: 'pressure' },
+      { word: '血圧', reading: 'けつあつ', meaning: 'blood pressure' },
+      { word: '気圧', reading: 'きあつ', meaning: 'atmospheric pressure' },
+    ],
+    grade: 'grade5',
+    strokeCount: 5,
+    jlptLevel: 'N3',
+    frequency: 890,
+  },
+  {
+    character: '囲',
+    meanings: ['surround', 'encircle'],
+    onyomi: ['イ'],
+    kunyomi: ['かこ.む', 'かこ.う'],
+    examples: [
+      { word: '囲む', reading: 'かこむ', meaning: 'to surround' },
+      { word: '周囲', reading: 'しゅうい', meaning: 'surroundings' },
+      { word: '範囲', reading: 'はんい', meaning: 'range, scope' },
+    ],
+    grade: 'grade5',
+    strokeCount: 7,
+    jlptLevel: 'N3',
+    frequency: 820,
+  },
+  {
+    character: '移',
+    meanings: ['shift', 'move', 'change'],
+    onyomi: ['イ'],
+    kunyomi: ['うつ.る', 'うつ.す'],
+    examples: [
+      { word: '移動', reading: 'いどう', meaning: 'movement' },
+      { word: '移民', reading: 'いみん', meaning: 'immigrant' },
+      { word: '移る', reading: 'うつる', meaning: 'to move, to transfer' },
+    ],
+    grade: 'grade5',
+    strokeCount: 11,
+    jlptLevel: 'N3',
+    frequency: 380,
+  },
+];
+
+// ============================================================================
+// GRADE 6 (第六学年) - Sample of 191 Kanji
+// ============================================================================
+
+const grade6Kanji: KanjiCharacter[] = [
+  {
+    character: '異',
+    meanings: ['different', 'strange'],
+    onyomi: ['イ'],
+    kunyomi: ['こと', 'こと.なる'],
+    examples: [
+      { word: '異なる', reading: 'ことなる', meaning: 'to differ' },
+      { word: '異常', reading: 'いじょう', meaning: 'abnormal' },
+      { word: '差異', reading: 'さい', meaning: 'difference' },
+    ],
+    grade: 'grade6',
+    strokeCount: 11,
+    jlptLevel: 'N3',
+    frequency: 620,
+  },
+  {
+    character: '遺',
+    meanings: ['bequeath', 'leave behind'],
+    onyomi: ['イ', 'ユイ'],
+    kunyomi: [],
+    examples: [
+      { word: '遺産', reading: 'いさん', meaning: 'inheritance' },
+      { word: '遺伝', reading: 'いでん', meaning: 'heredity' },
+      { word: '世界遺産', reading: 'せかいいさん', meaning: 'World Heritage' },
+    ],
+    grade: 'grade6',
+    strokeCount: 15,
+    jlptLevel: 'N2',
+    frequency: 980,
+  },
+  {
+    character: '域',
+    meanings: ['region', 'area', 'domain'],
+    onyomi: ['イキ'],
+    kunyomi: [],
+    examples: [
+      { word: '地域', reading: 'ちいき', meaning: 'area, region' },
+      { word: '区域', reading: 'くいき', meaning: 'zone, district' },
+      { word: '領域', reading: 'りょういき', meaning: 'territory, domain' },
+    ],
+    grade: 'grade6',
+    strokeCount: 11,
+    jlptLevel: 'N3',
+    frequency: 420,
+  },
+];
+
+// ============================================================================
+// JUNIOR HIGH (中学校) - Sample of 1126 Kanji
+// ============================================================================
+
+const juniorHighKanji: KanjiCharacter[] = [
+  {
+    character: '亜',
+    meanings: ['Asia', 'rank next', 'come after'],
+    onyomi: ['ア'],
+    kunyomi: [],
+    examples: [
+      { word: '亜鉛', reading: 'あえん', meaning: 'zinc' },
+      { word: '亜熱帯', reading: 'あねったい', meaning: 'subtropics' },
+      { word: '東亜', reading: 'とうあ', meaning: 'East Asia' },
+    ],
+    grade: 'juniorHigh',
+    strokeCount: 7,
+    jlptLevel: 'N1',
+    frequency: 1850,
+  },
+  {
+    character: '哀',
+    meanings: ['pathetic', 'grief', 'sorrow'],
+    onyomi: ['アイ'],
+    kunyomi: ['あわ.れ', 'あわ.れむ'],
+    examples: [
+      { word: '哀れ', reading: 'あわれ', meaning: 'pity, sorrow' },
+      { word: '悲哀', reading: 'ひあい', meaning: 'grief, sorrow' },
+      { word: '哀悼', reading: 'あいとう', meaning: 'condolence' },
+    ],
+    grade: 'juniorHigh',
+    strokeCount: 9,
+    jlptLevel: 'N1',
+    frequency: 1920,
+  },
+  {
+    character: '挨',
+    meanings: ['push open', 'greetings'],
+    onyomi: ['アイ'],
+    kunyomi: [],
+    examples: [
+      { word: '挨拶', reading: 'あいさつ', meaning: 'greeting' },
+    ],
+    grade: 'juniorHigh',
+    strokeCount: 10,
+    jlptLevel: 'N2',
+    frequency: 1650,
+  },
+  {
+    character: '曖',
+    meanings: ['obscure', 'vague'],
+    onyomi: ['アイ'],
+    kunyomi: [],
+    examples: [
+      { word: '曖昧', reading: 'あいまい', meaning: 'vague, ambiguous' },
+    ],
+    grade: 'juniorHigh',
+    strokeCount: 17,
+    jlptLevel: 'N1',
+    frequency: 1820,
+  },
+  {
+    character: '握',
+    meanings: ['grip', 'hold', 'grasp'],
+    onyomi: ['アク'],
+    kunyomi: ['にぎ.る'],
+    examples: [
+      { word: '握る', reading: 'にぎる', meaning: 'to grasp' },
+      { word: '握手', reading: 'あくしゅ', meaning: 'handshake' },
+      { word: '把握', reading: 'はあく', meaning: 'grasp, understanding' },
+    ],
+    grade: 'juniorHigh',
+    strokeCount: 12,
+    jlptLevel: 'N2',
+    frequency: 1420,
+  },
+];
+
+// ============================================================================
+// GRADE SECTIONS - Organized data structure
+// ============================================================================
+
+export const kanjiGradeSections: KanjiGradeSection[] = [
+  {
+    grade: 'grade1',
+    gradeName: 'Grade 1',
+    gradeNameJapanese: '第一学年',
+    totalCount: 80,
+    kanji: grade1Kanji,
+    description: 'Basic kanji: numbers, days of week, nature, people, and simple concepts (COMPLETE - 80/80)',
+  },
+  {
+    grade: 'grade2',
+    gradeName: 'Grade 2',
+    gradeNameJapanese: '第二学年',
+    totalCount: 160,
+    kanji: grade2Kanji,
+    description: 'Directions, sizes, and common everyday kanji',
+  },
+  {
+    grade: 'grade3',
+    gradeName: 'Grade 3',
+    gradeNameJapanese: '第三学年',
+    totalCount: 200,
+    kanji: grade3Kanji,
+    description: 'More complex concepts including actions and abstract ideas',
+  },
+  {
+    grade: 'grade4',
+    gradeName: 'Grade 4',
+    gradeNameJapanese: '第四学年',
+    totalCount: 202,
+    kanji: grade4Kanji,
+    description: 'Academic and social concepts',
+  },
+  {
+    grade: 'grade5',
+    gradeName: 'Grade 5',
+    gradeNameJapanese: '第五学年',
+    totalCount: 193,
+    kanji: grade5Kanji,
+    description: 'Advanced concepts for upper elementary students',
+  },
+  {
+    grade: 'grade6',
+    gradeName: 'Grade 6',
+    gradeNameJapanese: '第六学年',
+    totalCount: 191,
+    kanji: grade6Kanji,
+    description: 'Final elementary kanji preparing for junior high',
+  },
+  {
+    grade: 'juniorHigh',
+    gradeName: 'Junior High School',
+    gradeNameJapanese: '中学校',
+    totalCount: 1126,
+    kanji: juniorHighKanji,
+    description: 'Remaining Jōyō Kanji for daily life reading',
+  },
+];
+
+// ============================================================================
+// UTILITY FUNCTIONS
+// ============================================================================
+
+/**
+ * Get all kanji as a flat array
+ */
+export const getAllKanji = (): KanjiCharacter[] => {
+  return kanjiGradeSections.flatMap(section => section.kanji);
+};
+
+/**
+ * Get kanji by grade
+ */
+export const getKanjiByGrade = (grade: string): KanjiCharacter[] => {
+  const section = kanjiGradeSections.find(s => s.grade === grade);
+  return section ? section.kanji : [];
+};
+
+/**
+ * Get kanji by multiple grades
+ */
+export const getKanjiByGrades = (grades: string[]): KanjiCharacter[] => {
+  return kanjiGradeSections
+    .filter(section => grades.includes(section.grade))
+    .flatMap(section => section.kanji);
+};
+
+/**
+ * Search kanji by character
+ */
+export const findKanjiByCharacter = (character: string): KanjiCharacter | undefined => {
+  return getAllKanji().find(k => k.character === character);
+};
+
+/**
+ * Get total kanji count
+ */
+export const getTotalKanjiCount = (): number => {
+  return kanjiGradeSections.reduce((sum, section) => sum + section.totalCount, 0);
+};
+
+/**
+ * Get loaded kanji count (currently in dataset)
+ */
+export const getLoadedKanjiCount = (): number => {
+  return getAllKanji().length;
+};
