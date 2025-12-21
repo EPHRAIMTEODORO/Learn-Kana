@@ -3,26 +3,40 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
+import { getAllKanji } from '@/data/kanji';
 import { KanaCharacter, LearningMode } from '@/types/kana';
+import { KanjiCharacter } from '@/types/kanji';
 import Flashcard from '@/components/Flashcard';
+import KanjiFlashcard from '@/components/KanjiFlashcard';
 import { updateProgress } from '@/utils/progress';
 
 export default function LearnPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [cards, setCards] = useState<KanaCharacter[]>(hiraganaData);
+  const [cards, setCards] = useState<KanaCharacter[] | KanjiCharacter[]>(hiraganaData);
+  const [isKanjiMode, setIsKanjiMode] = useState(false);
 
   // Update cards when mode changes
   useEffect(() => {
-    const newCards = mode === 'hiragana' 
-      ? hiraganaData 
-      : mode === 'katakana' 
-      ? katakanaData 
-      : allKanaData;
-    
-    // Shuffle cards for varied practice
-    const shuffled = [...newCards].sort(() => Math.random() - 0.5);
-    setCards(shuffled);
+    if (mode === 'kanji') {
+      const kanjiData = getAllKanji();
+      // Use all available kanji
+      const newCards = kanjiData;
+      setIsKanjiMode(true);
+      // Shuffle cards for varied practice
+      const shuffled = [...newCards].sort(() => Math.random() - 0.5);
+      setCards(shuffled as KanjiCharacter[]);
+    } else {
+      const newCards = mode === 'hiragana' 
+        ? hiraganaData 
+        : mode === 'katakana' 
+        ? katakanaData 
+        : allKanaData;
+      setIsKanjiMode(false);
+      // Shuffle cards for varied practice
+      const shuffled = [...newCards].sort(() => Math.random() - 0.5);
+      setCards(shuffled as KanaCharacter[]);
+    }
     setCurrentIndex(0);
   }, [mode]);
 
@@ -45,8 +59,13 @@ export default function LearnPage() {
       setCurrentIndex(currentIndex + 1);
     } else {
       // Reshuffle when reaching the end
-      const shuffled = [...cards].sort(() => Math.random() - 0.5);
-      setCards(shuffled);
+      if (isKanjiMode) {
+        const shuffled = [...(cards as KanjiCharacter[])].sort(() => Math.random() - 0.5);
+        setCards(shuffled as KanjiCharacter[]);
+      } else {
+        const shuffled = [...(cards as KanaCharacter[])].sort(() => Math.random() - 0.5);
+        setCards(shuffled as KanaCharacter[]);
+      }
       setCurrentIndex(0);
     }
   };
@@ -100,6 +119,16 @@ export default function LearnPage() {
           >
             Mixed
           </button>
+          <button
+            onClick={() => setMode('kanji')}
+            className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
+              mode === 'kanji'
+                ? 'bg-indigo-600 text-white'
+                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+            }`}
+          >
+            Kanji
+          </button>
         </div>
 
         {/* Progress Counter */}
@@ -112,7 +141,11 @@ export default function LearnPage() {
         {/* Flashcard */}
         {currentCard && (
           <div className="max-w-md mx-auto">
-            <Flashcard card={currentCard} />
+            {isKanjiMode ? (
+              <KanjiFlashcard card={currentCard as KanjiCharacter} />
+            ) : (
+              <Flashcard card={currentCard as KanaCharacter} />
+            )}
             
             {/* Action Buttons */}
             <div className="flex gap-4 mt-8">

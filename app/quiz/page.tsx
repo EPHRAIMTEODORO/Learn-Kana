@@ -3,13 +3,15 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
+import { getAllKanji } from '@/data/kanji';
 import { QuizQuestion, LearningMode } from '@/types/kana';
-import { generateQuizQuestions } from '@/utils/quiz';
+import { KanjiQuizQuestion } from '@/types/kanji';
+import { generateQuizQuestions, generateKanjiQuizQuestions } from '@/utils/quiz';
 import { updateProgress } from '@/utils/progress';
 
 export default function QuizPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
-  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [questions, setQuestions] = useState<QuizQuestion[] | KanjiQuizQuestion[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [score, setScore] = useState(0);
@@ -17,13 +19,22 @@ export default function QuizPage() {
   const [quizStarted, setQuizStarted] = useState(false);
 
   const startQuiz = () => {
-    const data = mode === 'hiragana' 
-      ? hiraganaData 
-      : mode === 'katakana' 
-      ? katakanaData 
-      : allKanaData;
+    let newQuestions: QuizQuestion[] | KanjiQuizQuestion[];
     
-    const newQuestions = generateQuizQuestions(data, 10);
+    if (mode === 'kanji') {
+      const kanjiData = getAllKanji();
+      // Use all available kanji
+      newQuestions = generateKanjiQuizQuestions(kanjiData, 10);
+    } else {
+      const data = mode === 'hiragana' 
+        ? hiraganaData 
+        : mode === 'katakana' 
+        ? katakanaData 
+        : allKanaData;
+      
+      newQuestions = generateQuizQuestions(data, 10);
+    }
+    
     setQuestions(newQuestions);
     setCurrentQuestion(0);
     setScore(0);
@@ -45,9 +56,17 @@ export default function QuizPage() {
     // Update progress based on answer
     // Extract character from question for progress tracking
     const question = questions[currentQuestion];
-    const character = question.questionType === 'char-to-romaji' 
-      ? question.question 
-      : question.correctAnswer;
+    let character: string;
+    
+    if ('kanji' in question) {
+      // Kanji question
+      character = question.kanji;
+    } else {
+      // Kana question
+      character = question.questionType === 'char-to-romaji' 
+        ? question.question 
+        : question.correctAnswer;
+    }
     
     updateProgress(character, isCorrect);
     
@@ -127,6 +146,16 @@ export default function QuizPage() {
                 >
                   Mixed (Hiragana & Katakana)
                 </button>
+                <button
+                  onClick={() => setMode('kanji')}
+                  className={`px-6 py-4 rounded-lg font-semibold transition-colors ${
+                    mode === 'kanji'
+                      ? 'bg-purple-600 text-white'
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  Kanji (All Grades)
+                </button>
               </div>
 
               <button
@@ -187,9 +216,15 @@ export default function QuizPage() {
               {/* Question */}
               <div className="mb-8 text-center">
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  {questions[currentQuestion].questionType === 'char-to-romaji' 
-                    ? 'What is the romaji for this character?' 
-                    : 'What is the character for this romaji?'}
+                  {'kanji' in questions[currentQuestion]
+                    ? questions[currentQuestion].questionType === 'kanji-to-meaning'
+                      ? 'What is the meaning of this kanji?'
+                      : questions[currentQuestion].questionType === 'meaning-to-kanji'
+                      ? 'Which kanji means this?'
+                      : 'What is the reading of this kanji?'
+                    : questions[currentQuestion].questionType === 'char-to-romaji' 
+                      ? 'What is the romaji for this character?' 
+                      : 'What is the character for this romaji?'}
                 </p>
                 <div className="text-8xl font-bold text-gray-900 dark:text-white mb-2">
                   {questions[currentQuestion].question}

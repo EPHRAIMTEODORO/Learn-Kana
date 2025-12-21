@@ -35,4 +35,4 @@ export interface QuizQuestion {
 /**
  * Learning mode settings for flashcard practice
  */
-export type LearningMode = 'hiragana' | 'katakana' | 'mixed';
+export type LearningMode = 'hiragana' | 'katakana' | 'mixed' | 'kanji';
