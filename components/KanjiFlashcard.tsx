@@ -64,7 +64,7 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
           {/* Onyomi */}
           {card.onyomi.length > 0 && (
             <div className="mb-3 text-center">
-              <p className="text-indigo-200 text-sm mb-1">On'yomi (音読み)</p>
+              <p className="text-indigo-200 text-sm mb-1">On&apos;yomi (音読み)</p>
               <p className="text-white text-md">
                 {card.onyomi.slice(0, 3).join(', ')}
               </p>
@@ -74,7 +74,7 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
           {/* Kunyomi */}
           {card.kunyomi.length > 0 && (
             <div className="mb-3 text-center">
-              <p className="text-indigo-200 text-sm mb-1">Kun'yomi (訓読み)</p>
+              <p className="text-indigo-200 text-sm mb-1">Kun&apos;yomi (訓読み)</p>
               <p className="text-white text-md">
                 {card.kunyomi.slice(0, 3).join(', ')}
               </p>
