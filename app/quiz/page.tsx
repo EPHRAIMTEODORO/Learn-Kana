@@ -1,22 +1,31 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
 import { getAllKanji } from '@/data/kanji';
-import { QuizQuestion, LearningMode } from '@/types/kana';
+import { KanaPracticeMode, QuizAttempt, QuizQuestion, LearningMode } from '@/types/kana';
 import { KanjiQuizQuestion } from '@/types/kanji';
 import { generateQuizQuestions, generateKanjiQuizQuestions } from '@/utils/quiz';
-import { updateProgress } from '@/utils/progress';
+import { clearAllProgress, updateProgress } from '@/utils/progress';
+import { clearAttempts, getAttempts, saveAttempt } from '@/storage/attemptRepository';
+import { getPracticeKana } from '@/services/adaptivePracticeService';
+import { calculateLearnerStats } from '@/services/analyticsService';
+import { detectConfusion } from '@/services/confusionService';
+import { generateFeedback } from '@/services/feedbackService';
 
 export default function QuizPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
+  const [practiceMode, setPracticeMode] = useState<KanaPracticeMode>('random');
   const [questions, setQuestions] = useState<QuizQuestion[] | KanjiQuizQuestion[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [sessionId, setSessionId] = useState('');
+  const [questionStartedAt, setQuestionStartedAt] = useState(Date.now());
+  const [answerFeedback, setAnswerFeedback] = useState<string | null>(null);
 
   const startQuiz = () => {
     let newQuestions: QuizQuestion[] | KanjiQuizQuestion[];
@@ -31,8 +40,12 @@ export default function QuizPage() {
         : mode === 'katakana' 
         ? katakanaData 
         : allKanaData;
-      
-      newQuestions = generateQuizQuestions(data, 10);
+      const practiceData =
+        practiceMode === 'random'
+          ? data
+          : getPracticeKana(practiceMode, 10, mode);
+
+      newQuestions = generateQuizQuestions(practiceData, 10, data);
     }
     
     setQuestions(newQuestions);
@@ -40,6 +53,9 @@ export default function QuizPage() {
     setScore(0);
     setShowResult(false);
     setSelectedAnswer(null);
+    setAnswerFeedback(null);
+    setSessionId(`session-${Date.now()}-${Math.random().toString(36).slice(2)}`);
+    setQuestionStartedAt(Date.now());
     setQuizStarted(true);
   };
 
@@ -69,12 +85,42 @@ export default function QuizPage() {
     }
     
     updateProgress(character, isCorrect);
+
+    if (!('kanji' in question)) {
+      const responseTimeMs = Math.max(0, Date.now() - questionStartedAt);
+      const confusion = !isCorrect
+        ? detectConfusion(question.correctAnswer, answer, question.type)
+        : null;
+      const attempt: QuizAttempt = {
+        id: `attempt-${Date.now()}-${Math.random().toString(36).slice(2)}`,
+        createdAt: new Date().toISOString(),
+        characterShown: question.character,
+        expectedAnswer: question.correctAnswer,
+        userAnswer: answer,
+        isCorrect,
+        responseTimeMs,
+        practiceMode,
+        kanaType: question.type,
+        group: question.group,
+        confusionType: confusion?.confusionType,
+        confusionPair: confusion?.confusionPair,
+        sessionId,
+      };
+
+      saveAttempt(attempt);
+      const learnerStats = calculateLearnerStats([...getAttempts()]);
+      setAnswerFeedback(generateFeedback(attempt, learnerStats));
+    } else {
+      setAnswerFeedback(null);
+    }
     
     // Move to next question after a delay
     setTimeout(() => {
       if (currentQuestion < questions.length - 1) {
         setCurrentQuestion(currentQuestion + 1);
         setSelectedAnswer(null);
+        setAnswerFeedback(null);
+        setQuestionStartedAt(Date.now());
       } else {
         setShowResult(true);
       }
@@ -88,6 +134,14 @@ export default function QuizPage() {
     setScore(0);
     setShowResult(false);
     setSelectedAnswer(null);
+    setAnswerFeedback(null);
+  };
+
+  const resetPrototypeData = () => {
+    if (confirm('Clear all local attempt logs and progress data?')) {
+      clearAttempts();
+      clearAllProgress();
+    }
   };
 
   return (
@@ -158,11 +212,57 @@ export default function QuizPage() {
                 </button>
               </div>
 
+              {mode !== 'kanji' && (
+                <div className="mb-8">
+                  <h3 className="font-semibold text-gray-900 dark:text-white mb-3">
+                    Practice Selection
+                  </h3>
+                  <div className="grid gap-3">
+                    <button
+                      onClick={() => setPracticeMode('random')}
+                      className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
+                        practiceMode === 'random'
+                          ? 'bg-purple-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      Random Practice
+                    </button>
+                    <button
+                      onClick={() => setPracticeMode('review_mistakes')}
+                      className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
+                        practiceMode === 'review_mistakes'
+                          ? 'bg-purple-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      Review Mistakes
+                    </button>
+                    <button
+                      onClick={() => setPracticeMode('recommended')}
+                      className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
+                        practiceMode === 'recommended'
+                          ? 'bg-purple-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      Recommended Practice
+                    </button>
+                  </div>
+                </div>
+              )}
+
               <button
                 onClick={startQuiz}
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-lg transition-colors"
               >
                 Start Quiz (10 Questions)
+              </button>
+              <button
+                onClick={resetPrototypeData}
+                className="w-full mt-3 bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+              >
+                Clear Local Prototype Data
               </button>
             </div>
           ) : showResult ? (
@@ -258,6 +358,12 @@ export default function QuizPage() {
                   );
                 })}
               </div>
+
+              {answerFeedback && (
+                <div className="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg text-gray-900 dark:text-white">
+                  {answerFeedback}
+                </div>
+              )}
             </div>
           )}
         </div>

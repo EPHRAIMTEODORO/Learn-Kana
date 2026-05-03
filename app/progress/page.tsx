@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { CharacterProgress } from '@/types/kana';
 import { getAllProgress, clearAllProgress } from '@/utils/progress';
+import { clearAttempts } from '@/storage/attemptRepository';
 
 export default function ProgressPage() {
   const [progressData, setProgressData] = useState<CharacterProgress[]>([]);
@@ -19,8 +20,9 @@ export default function ProgressPage() {
   };
 
   const handleClearProgress = () => {
-    if (confirm('Are you sure you want to clear all progress? This cannot be undone.')) {
+    if (confirm('Are you sure you want to clear all local progress and attempt logs? This cannot be undone.')) {
       clearAllProgress();
+      clearAttempts();
       loadProgress();
     }
   };

@@ -1,5 +1,6 @@
 import { KanaCharacter, QuizQuestion } from '@/types/kana';
 import { KanjiCharacter, KanjiQuizQuestion } from '@/types/kanji';
+import { getKanaGroup } from '@/services/kanaMetadata';
 
 /**
  * Generate randomized quiz questions from kana data
@@ -11,7 +12,8 @@ import { KanjiCharacter, KanjiQuizQuestion } from '@/types/kanji';
  */
 export function generateQuizQuestions(
   data: KanaCharacter[],
-  count: number
+  count: number,
+  optionSource: KanaCharacter[] = data
 ): QuizQuestion[] {
   const questions: QuizQuestion[] = [];
   const usedIndices = new Set<number>();
@@ -33,13 +35,16 @@ export function generateQuizQuestions(
       options: [],
       type: character.type,
       questionType,
+      character: character.character,
+      romaji: character.romaji,
+      group: getKanaGroup(character),
     };
 
     // Generate wrong answers from same character type
-    const sameTypeChars = data.filter(c => c.type === character.type);
+    const sameTypeChars = optionSource.filter(c => c.type === character.type);
     const wrongAnswers = new Set<string>();
     
-    while (wrongAnswers.size < 3) {
+    while (wrongAnswers.size < 3 && wrongAnswers.size < sameTypeChars.length - 1) {
       const randomChar = sameTypeChars[Math.floor(Math.random() * sameTypeChars.length)];
       const answer = questionType === 'char-to-romaji' 
         ? randomChar.romaji 

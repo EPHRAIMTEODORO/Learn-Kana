@@ -8,6 +8,84 @@ export interface KanaCharacter {
   type: 'hiragana' | 'katakana';
 }
 
+export type KanaType = 'hiragana' | 'katakana';
+
+export type KanaPracticeMode = 'random' | 'review_mistakes' | 'recommended';
+
+export interface ConfusionDetection {
+  confusionType: 'visual_similarity';
+  confusionPair: string;
+}
+
+/**
+ * Prototype event log for educational data mining and later backend storage.
+ */
+export interface QuizAttempt {
+  id: string;
+  createdAt: string;
+  characterShown: string;
+  expectedAnswer: string;
+  userAnswer: string;
+  isCorrect: boolean;
+  responseTimeMs: number;
+  practiceMode: KanaPracticeMode;
+  kanaType: KanaType;
+  group?: string;
+  confusionType?: 'visual_similarity';
+  confusionPair?: string;
+  sessionId: string;
+}
+
+export interface KanaStats {
+  character: string;
+  romaji: string;
+  kanaType: KanaType;
+  group: string;
+  attempts: number;
+  correct: number;
+  incorrect: number;
+  accuracy: number;
+  averageResponseTimeMs: number;
+  lastPracticedAt?: string;
+  recentAccuracy: number;
+  previousAccuracy: number;
+  improvement: number;
+  confusionCount: number;
+}
+
+export interface GroupStats {
+  group: string;
+  attempts: number;
+  correct: number;
+  incorrect: number;
+  accuracy: number;
+}
+
+export interface ConfusionPairStats {
+  pair: string;
+  count: number;
+}
+
+export interface LearnerStats {
+  totalAttempts: number;
+  correctAttempts: number;
+  incorrectAttempts: number;
+  overallAccuracy: number;
+  averageResponseTimeMs: number;
+  accuracyByKana: KanaStats[];
+  accuracyByGroup: GroupStats[];
+  averageResponseTimeByKana: Array<{
+    character: string;
+    averageResponseTimeMs: number;
+  }>;
+  mostMissedKana: KanaStats[];
+  mostConfusedPairs: ConfusionPairStats[];
+  recentlyImprovedKana: KanaStats[];
+  weakestKana: KanaStats[];
+  strongestKana: KanaStats[];
+  recommendedNextPracticeSet: KanaStats[];
+}
+
 /**
  * Progress tracking for individual characters
  * Persisted in localStorage for continuity across sessions
@@ -30,6 +108,9 @@ export interface QuizQuestion {
   options: string[];        // All answer choices (includes correct answer)
   type: 'hiragana' | 'katakana';
   questionType: 'char-to-romaji' | 'romaji-to-char';
+  character: string;
+  romaji: string;
+  group: string;
 }
 
 /**
