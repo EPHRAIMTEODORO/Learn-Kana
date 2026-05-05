@@ -38,37 +38,37 @@ const demoScript = [
 
 export default function ResearchAlignmentPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-100 dark:from-gray-900 dark:to-gray-800">
+    <main className="min-h-screen bg-academic-background">
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-between mb-8">
-          <Link href="/" className="text-blue-700 dark:text-blue-300 hover:underline">
+          <Link href="/" className="text-academic-primary hover:underline">
             ← Back to Home
           </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Research Alignment</h1>
-          <Link href="/dashboard" className="text-blue-700 dark:text-blue-300 hover:underline">
+          <h1 className="text-3xl font-bold text-academic-text">Research Alignment</h1>
+          <Link href="/dashboard" className="text-academic-primary hover:underline">
             Dashboard
           </Link>
         </div>
 
         <div className="mx-auto max-w-5xl space-y-6">
-          <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+          <section className="bg-white rounded-lg shadow p-6">
+            <h2 className="text-2xl font-bold text-academic-text mb-3">
               Alignment with Professor Yutaka Watanobe&apos;s Lab
             </h2>
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-academic-muted">
               This project frames Japanese character learning as a Smart Learning system: it collects learner traces, adapts practice, explains recommendations, and provides Virtual TA-style feedback. The same architecture can be discussed as an early research system for autonomous learning support, educational data mining, and adaptive user interfaces.
             </p>
           </section>
 
-          <section className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
-            <div className="grid grid-cols-3 bg-gray-100 px-6 py-3 text-sm font-semibold text-gray-700 dark:bg-gray-700 dark:text-gray-200">
+          <section className="bg-white rounded-lg shadow overflow-hidden">
+            <div className="grid grid-cols-3 bg-academic-section px-6 py-3 text-sm font-semibold text-academic-muted">
               <span>Lab Theme</span>
               <span>Implemented Feature</span>
               <span>Research Evidence</span>
             </div>
             {alignmentRows.map((row) => (
-              <div key={row.labTheme} className="grid grid-cols-3 gap-4 border-t border-gray-200 px-6 py-4 text-sm text-gray-700 dark:border-gray-700 dark:text-gray-300">
-                <span className="font-semibold text-gray-900 dark:text-white">{row.labTheme}</span>
+              <div key={row.labTheme} className="grid grid-cols-3 gap-4 border-t border-academic-border px-6 py-4 text-sm text-academic-muted">
+                <span className="font-semibold text-academic-text">{row.labTheme}</span>
                 <span>{row.appFeature}</span>
                 <span>{row.evidence}</span>
               </div>
@@ -76,26 +76,26 @@ export default function ResearchAlignmentPage() {
           </section>
 
           <section className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Possible Research Question</h2>
-              <p className="text-gray-700 dark:text-gray-300">
+            <div className="bg-white rounded-lg shadow p-6">
+              <h2 className="text-xl font-bold text-academic-text mb-3">Possible Research Question</h2>
+              <p className="text-academic-muted">
                 Does transparent adaptive practice improve learner self-regulation and retention compared with random quiz selection in Japanese character learning?
               </p>
             </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Evaluation Plan</h2>
-              <p className="text-gray-700 dark:text-gray-300">
+            <div className="bg-white rounded-lg shadow p-6">
+              <h2 className="text-xl font-bold text-academic-text mb-3">Evaluation Plan</h2>
+              <p className="text-academic-muted">
                 Compare random practice, hidden adaptive practice, and transparent adaptive practice using post-quiz accuracy, response time, review completion, and learner trust ratings.
               </p>
             </div>
           </section>
 
-          <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Professor Demo Script</h2>
-            <ol className="space-y-3 text-gray-700 dark:text-gray-300">
+          <section className="bg-white rounded-lg shadow p-6">
+            <h2 className="text-xl font-bold text-academic-text mb-4">Professor Demo Script</h2>
+            <ol className="space-y-3 text-academic-muted">
               {demoScript.map((step) => (
                 <li key={step} className="flex gap-3">
-                  <span className="font-semibold text-blue-700 dark:text-blue-300">{demoScript.indexOf(step) + 1}.</span>
+                  <span className="font-semibold text-academic-primary">{demoScript.indexOf(step) + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

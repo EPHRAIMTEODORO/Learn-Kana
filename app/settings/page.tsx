@@ -15,29 +15,29 @@ export default function SettingsPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-100 dark:from-gray-900 dark:to-gray-800">
+    <main className="min-h-screen bg-academic-background">
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-between mb-8">
-          <Link href="/" className="text-gray-700 dark:text-gray-300 hover:underline">
+          <Link href="/" className="text-academic-muted hover:underline">
             ← Back to Home
           </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Settings</h1>
+          <h1 className="text-3xl font-bold text-academic-text">Settings</h1>
           <div className="w-24" />
         </div>
 
-        <section className="mx-auto max-w-2xl bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-          <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Learning Data</h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-6">
+        <section className="mx-auto max-w-2xl bg-white rounded-lg shadow p-6">
+          <h2 className="text-xl font-bold text-academic-text mb-2">Learning Data</h2>
+          <p className="text-academic-muted mb-6">
             Progress, review schedules, and attempt logs are stored locally in this browser so the system can adapt practice to your performance.
           </p>
           <button
             onClick={handleReset}
-            className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+            className="bg-[#B85C5C] hover:bg-[#8E3F3F] text-white font-bold py-3 px-6 rounded-lg transition-colors"
           >
             Reset Learning Data
           </button>
           {resetComplete && (
-            <p className="mt-4 text-sm text-green-700 dark:text-green-300">
+            <p className="mt-4 text-sm text-green-700">
               Learning data has been reset on this device.
             </p>
           )}

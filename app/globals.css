@@ -3,21 +3,58 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #f7f8fa;
+  --surface: #ffffff;
+  --section: #f1f3f5;
+  --foreground: #1a1a1a;
+  --muted: #555555;
+  --disabled: #999999;
+  --border: #e2e6ea;
+  --primary: #3f51b5;
+  --primary-dark: #303f9f;
+  --primary-soft: #e8eaf6;
+  --success: #4f7d5a;
+  --warning: #b98b2e;
+  --error: #b85c5c;
+  --shadow-soft: 0 8px 24px rgba(26, 26, 26, 0.06);
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+}
+
+a,
+button,
+select {
+  outline-color: var(--primary);
+}
+
+.academic-page {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.academic-container {
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+.academic-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-soft);
+}
+
+.academic-section {
+  background: var(--section);
+  border-radius: 10px;
 }
 
 @layer utilities {

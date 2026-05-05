@@ -25,22 +25,22 @@ export default function Flashcard({ card }: FlashcardProps) {
       >
         {/* Front - Character */}
         <div
-          className={`absolute inset-0 bg-white dark:bg-gray-800 rounded-xl shadow-2xl flex flex-col items-center justify-center backface-hidden ${
+          className={`absolute inset-0 bg-white rounded-xl shadow-2xl flex flex-col items-center justify-center backface-hidden ${
             isFlipped ? 'invisible' : 'visible'
           }`}
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <div className="text-9xl font-bold text-gray-900 dark:text-white mb-4">
+          <div className="text-9xl font-bold text-academic-text mb-4">
             {card.character}
           </div>
-          <p className="text-gray-500 dark:text-gray-400 text-sm">
+          <p className="text-academic-muted text-sm">
             Tap to reveal
           </p>
         </div>
 
         {/* Back - Romaji */}
         <div
-          className={`absolute inset-0 bg-indigo-600 rounded-xl shadow-2xl flex flex-col items-center justify-center backface-hidden ${
+          className={`absolute inset-0 bg-academic-primary rounded-xl shadow-2xl flex flex-col items-center justify-center backface-hidden ${
             isFlipped ? 'visible' : 'invisible'
           }`}
           style={{
@@ -51,7 +51,7 @@ export default function Flashcard({ card }: FlashcardProps) {
           <div className="text-7xl font-bold text-white mb-4">
             {card.romaji}
           </div>
-          <p className="text-indigo-200 text-sm">
+          <p className="text-[#DDE2F5] text-sm">
             {card.type === 'hiragana' ? 'Hiragana' : 'Katakana'}
           </p>
         </div>

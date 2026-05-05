@@ -74,8 +74,8 @@ export default function ChartPage() {
   const columns = ['a', 'i', 'u', 'e', 'o'];
 
   const renderChart = (chart: any, type: 'hiragana' | 'katakana', title: string) => (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-      <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
+    <div className="bg-white rounded-xl shadow-lg p-6">
+      <h2 className="text-2xl font-bold text-academic-text mb-6 text-center">
         {title}
       </h2>
       
@@ -83,11 +83,11 @@ export default function ChartPage() {
         <table className="w-full border-collapse">
           <thead>
             <tr>
-              <th className="p-3 text-sm font-semibold text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700">
+              <th className="p-3 text-sm font-semibold text-academic-muted border border-academic-border bg-academic-section">
                 
               </th>
               {columns.map(col => (
-                <th key={col} className="p-3 text-sm font-semibold text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700">
+                <th key={col} className="p-3 text-sm font-semibold text-academic-muted border border-academic-border bg-academic-section">
                   {col.toUpperCase()}
                 </th>
               ))}
@@ -96,20 +96,20 @@ export default function ChartPage() {
           <tbody>
             {Object.keys(chart).map(row => (
               <tr key={row}>
-                <td className="p-3 text-sm font-semibold text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-center">
+                <td className="p-3 text-sm font-semibold text-academic-muted border border-academic-border bg-academic-section text-center">
                   {rowLabels[row]}
                 </td>
                 {columns.map(col => (
                   <td 
                     key={col} 
-                    className="p-4 border border-gray-300 dark:border-gray-600 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
+                    className="p-4 border border-academic-border text-center hover:bg-[#F0F2FC] transition-colors"
                   >
                     {chart[row][col] && (
                       <div className="flex flex-col items-center">
-                        <span className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                        <span className="text-3xl md:text-4xl font-bold text-academic-text">
                           {chart[row][col]}
                         </span>
-                        <span className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                        <span className="text-xs text-academic-muted mt-1">
                           {row === '' ? col : row + col === 'si' ? 'shi' : row + col === 'ti' ? 'chi' : row + col === 'tu' ? 'tsu' : row + col === 'hu' ? 'fu' : row + col}
                         </span>
                       </div>
@@ -120,18 +120,18 @@ export default function ChartPage() {
             ))}
             {/* Special row for n/ん/ン */}
             <tr>
-              <td className="p-3 text-sm font-semibold text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-center">
+              <td className="p-3 text-sm font-semibold text-academic-muted border border-academic-border bg-academic-section text-center">
                 N
               </td>
               <td 
                 colSpan={5} 
-                className="p-4 border border-gray-300 dark:border-gray-600 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
+                className="p-4 border border-academic-border text-center hover:bg-[#F0F2FC] transition-colors"
               >
                 <div className="flex flex-col items-center">
-                  <span className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                  <span className="text-3xl md:text-4xl font-bold text-academic-text">
                     {type === 'hiragana' ? 'ん' : 'ン'}
                   </span>
-                  <span className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                  <span className="text-xs text-academic-muted mt-1">
                     n
                   </span>
                 </div>
@@ -144,17 +144,17 @@ export default function ChartPage() {
   );
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-pink-50 to-orange-100 dark:from-gray-900 dark:to-gray-800">
+    <main className="min-h-screen bg-academic-background">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <Link 
             href="/" 
-            className="text-pink-600 dark:text-pink-400 hover:underline"
+            className="text-academic-primary hover:underline"
           >
             ← Back to Home
           </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-3xl font-bold text-academic-text">
             Kana Chart
           </h1>
           <div className="w-24"></div>
@@ -166,8 +166,8 @@ export default function ChartPage() {
             onClick={() => setMode('hiragana')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'hiragana'
-                ? 'bg-pink-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Hiragana
@@ -176,8 +176,8 @@ export default function ChartPage() {
             onClick={() => setMode('katakana')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'katakana'
-                ? 'bg-pink-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Katakana
@@ -186,8 +186,8 @@ export default function ChartPage() {
             onClick={() => setMode('both')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'both'
-                ? 'bg-pink-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Both
@@ -205,11 +205,11 @@ export default function ChartPage() {
         </div>
 
         {/* Legend */}
-        <div className="max-w-4xl mx-auto mt-8 bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-          <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
+        <div className="max-w-4xl mx-auto mt-8 bg-white rounded-lg shadow p-6">
+          <h3 className="text-lg font-bold text-academic-text mb-3">
             About the Kana Chart
           </h3>
-          <div className="text-gray-600 dark:text-gray-300 space-y-2 text-sm">
+          <div className="text-academic-muted space-y-2 text-sm">
             <p>
               <strong>Hiragana (ひらがな)</strong> is used for native Japanese words, grammatical elements, and when kanji is too difficult.
             </p>

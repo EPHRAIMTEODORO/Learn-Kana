@@ -26,22 +26,22 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
       >
         {/* Front - Kanji Character */}
         <div
-          className={`absolute inset-0 bg-white dark:bg-gray-800 rounded-xl shadow-2xl flex flex-col items-center justify-center backface-hidden ${
+          className={`absolute inset-0 bg-white rounded-xl shadow-2xl flex flex-col items-center justify-center backface-hidden ${
             isFlipped ? 'invisible' : 'visible'
           }`}
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <div className="text-9xl font-bold text-gray-900 dark:text-white mb-4">
+          <div className="text-9xl font-bold text-academic-text mb-4">
             {card.character}
           </div>
-          <p className="text-gray-500 dark:text-gray-400 text-sm">
+          <p className="text-academic-muted text-sm">
             Tap to reveal
           </p>
         </div>
 
         {/* Back - Meanings and Readings */}
         <div
-          className={`absolute inset-0 bg-indigo-600 rounded-xl shadow-2xl flex flex-col items-center justify-center p-6 backface-hidden overflow-y-auto ${
+          className={`absolute inset-0 bg-academic-primary rounded-xl shadow-2xl flex flex-col items-center justify-center p-6 backface-hidden overflow-y-auto ${
             isFlipped ? 'visible' : 'invisible'
           }`}
           style={{
@@ -55,7 +55,7 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
           
           {/* Meanings */}
           <div className="mb-4 text-center">
-            <p className="text-indigo-200 text-sm mb-1">Meanings</p>
+            <p className="text-[#DDE2F5] text-sm mb-1">Meanings</p>
             <p className="text-white text-lg font-semibold">
               {card.meanings.slice(0, 3).join(', ')}
             </p>
@@ -64,7 +64,7 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
           {/* Onyomi */}
           {card.onyomi.length > 0 && (
             <div className="mb-3 text-center">
-              <p className="text-indigo-200 text-sm mb-1">On&apos;yomi (音読み)</p>
+              <p className="text-[#DDE2F5] text-sm mb-1">On&apos;yomi (音読み)</p>
               <p className="text-white text-md">
                 {card.onyomi.slice(0, 3).join(', ')}
               </p>
@@ -74,7 +74,7 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
           {/* Kunyomi */}
           {card.kunyomi.length > 0 && (
             <div className="mb-3 text-center">
-              <p className="text-indigo-200 text-sm mb-1">Kun&apos;yomi (訓読み)</p>
+              <p className="text-[#DDE2F5] text-sm mb-1">Kun&apos;yomi (訓読み)</p>
               <p className="text-white text-md">
                 {card.kunyomi.slice(0, 3).join(', ')}
               </p>
@@ -83,7 +83,7 @@ export default function KanjiFlashcard({ card }: KanjiFlashcardProps) {
 
           {/* Grade Level */}
           <div className="mt-2 text-center">
-            <p className="text-indigo-200 text-xs">
+            <p className="text-[#DDE2F5] text-xs">
               {card.grade.replace('grade', 'Grade ')} • {card.strokeCount} strokes
               {card.jlptLevel && ` • JLPT ${card.jlptLevel}`}
             </p>

@@ -3,25 +3,25 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
-import { getAllKanji } from '@/data/kanji';
+import { getKanjiByGrade, kanjiGradeSections } from '@/data/kanji';
 import { KanaCharacter, LearningMode } from '@/types/kana';
-import { KanjiCharacter } from '@/types/kanji';
+import { KanjiCharacter, KanjiGrade } from '@/types/kanji';
 import Flashcard from '@/components/Flashcard';
 import KanjiFlashcard from '@/components/KanjiFlashcard';
 import { updateProgress } from '@/utils/progress';
+import AppNav from '@/components/AppNav';
 
 export default function LearnPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cards, setCards] = useState<KanaCharacter[] | KanjiCharacter[]>(hiraganaData);
   const [isKanjiMode, setIsKanjiMode] = useState(false);
+  const [kanjiGrade, setKanjiGrade] = useState<KanjiGrade>('grade1');
 
   // Update cards when mode changes
   useEffect(() => {
     if (mode === 'kanji') {
-      const kanjiData = getAllKanji();
-      // Use all available kanji
-      const newCards = kanjiData;
+      const newCards = getKanjiByGrade(kanjiGrade);
       setIsKanjiMode(true);
       // Shuffle cards for varied practice
       const shuffled = [...newCards].sort(() => Math.random() - 0.5);
@@ -38,7 +38,7 @@ export default function LearnPage() {
       setCards(shuffled as KanaCharacter[]);
     }
     setCurrentIndex(0);
-  }, [mode]);
+  }, [mode, kanjiGrade]);
 
   const currentCard = cards[currentIndex];
 
@@ -71,30 +71,29 @@ export default function LearnPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto px-4 py-8">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-8">
-          <Link 
-            href="/" 
-            className="text-indigo-600 dark:text-indigo-400 hover:underline"
-          >
-            ← Back to Home
-          </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+    <main className="min-h-screen bg-academic-background">
+      <AppNav />
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <div className="mb-8">
+          <p className="text-sm font-semibold uppercase tracking-wide text-academic-primary">
+            Learn
+          </p>
+          <h1 className="mt-2 text-4xl font-bold text-academic-text">
             Flashcards
           </h1>
-          <div className="w-24"></div> {/* Spacer for centering */}
+          <p className="mt-3 max-w-2xl text-academic-muted">
+            Study kana or grade-organized kanji, then mark each card so the learner model can update.
+          </p>
         </div>
 
         {/* Mode Selector */}
-        <div className="flex justify-center gap-4 mb-8">
+        <div className="mb-6 flex flex-wrap justify-center gap-3">
           <button
             onClick={() => setMode('hiragana')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'hiragana'
-                ? 'bg-indigo-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Hiragana
@@ -103,8 +102,8 @@ export default function LearnPage() {
             onClick={() => setMode('katakana')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'katakana'
-                ? 'bg-indigo-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Katakana
@@ -113,8 +112,8 @@ export default function LearnPage() {
             onClick={() => setMode('mixed')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'mixed'
-                ? 'bg-indigo-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Mixed
@@ -123,17 +122,44 @@ export default function LearnPage() {
             onClick={() => setMode('kanji')}
             className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
               mode === 'kanji'
-                ? 'bg-indigo-600 text-white'
-                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                ? 'bg-academic-primary text-white'
+                : 'bg-white text-academic-muted hover:bg-academic-section'
             }`}
           >
             Kanji
           </button>
         </div>
 
+        {mode === 'kanji' && (
+          <section className="mx-auto mb-8 max-w-2xl rounded-lg border border-academic-border bg-white p-5 shadow-sm">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <h2 className="text-lg font-bold text-academic-text">Kanji flashcards by grade</h2>
+                <p className="mt-1 text-sm text-academic-muted">
+                  Choose a grade group before studying kanji cards.
+                </p>
+              </div>
+              <label className="flex flex-col gap-2 text-sm font-medium text-academic-muted">
+                Grade
+                <select
+                  value={kanjiGrade}
+                  onChange={(event) => setKanjiGrade(event.target.value as KanjiGrade)}
+                  className="min-w-52 rounded-md border border-academic-border bg-white px-3 py-2 text-academic-text outline-none focus-visible:ring-2 focus-visible:ring-academic-primary"
+                >
+                  {kanjiGradeSections.map((section) => (
+                    <option key={section.grade} value={section.grade}>
+                      {section.gradeName} · {section.kanji.length} kanji
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+          </section>
+        )}
+
         {/* Progress Counter */}
         <div className="text-center mb-8">
-          <p className="text-gray-600 dark:text-gray-300">
+          <p className="text-academic-muted">
             Card {currentIndex + 1} of {cards.length}
           </p>
         </div>
@@ -151,13 +177,13 @@ export default function LearnPage() {
             <div className="flex gap-4 mt-8">
               <button
                 onClick={handleStillLearning}
-                className="flex-1 bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-6 rounded-lg transition-colors"
+                className="flex-1 bg-[#B98B2E] hover:bg-[#9A7426] text-white font-bold py-4 px-6 rounded-lg transition-colors"
               >
                 Still Learning
               </button>
               <button
                 onClick={handleKnow}
-                className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-lg transition-colors"
+                className="flex-1 bg-[#4F7D5A] hover:bg-[#355C3F] text-white font-bold py-4 px-6 rounded-lg transition-colors"
               >
                 I Know This
               </button>

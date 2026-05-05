@@ -102,6 +102,7 @@ export function getRecommendedCharacters(
 
   return getAllLearningItems()
     .filter((item) => !options.category || item.category === options.category)
+    .filter((item) => !options.grade || item.grade === options.grade)
     .slice(0, options.limit ?? 10)
     .map((item) => item.character);
 }
