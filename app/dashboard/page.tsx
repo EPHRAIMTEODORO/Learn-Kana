@@ -7,6 +7,8 @@ import { getLearnerStats } from '@/services/analyticsService';
 import { getRecommendationTrace, getRecommendedNext } from '@/lib/recommendations';
 import { getUserData } from '@/lib/storage';
 import { generateVirtualTAFeedback } from '@/lib/virtualTA';
+import AppNav from '@/components/AppNav';
+import RecommendedSection from '@/components/RecommendedSection';
 
 function formatMs(value: number): string {
   if (!value) return '0 ms';
@@ -37,47 +39,54 @@ export default function DashboardPage() {
   if (!stats || !trace || !virtualTA) return null;
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-green-50 to-teal-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex items-center justify-between mb-8">
-          <Link
-            href="/"
-            className="text-green-600 dark:text-green-400 hover:underline"
-          >
-            ← Back to Home
-          </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Learner Dashboard
-          </h1>
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      <AppNav />
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+              Dashboard
+            </p>
+            <h1 className="mt-2 text-4xl font-bold text-slate-950 dark:text-white">
+              What should the learner do next?
+            </h1>
+            <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
+              Recommendations, Virtual TA feedback, and analytics explain the next best practice step.
+            </p>
+          </div>
           <Link
             href="/quiz"
-            className="text-green-600 dark:text-green-400 hover:underline"
+            className="rounded-md bg-indigo-700 px-4 py-3 text-center font-semibold text-white outline-none hover:bg-indigo-800 focus-visible:ring-2 focus-visible:ring-indigo-500"
           >
             Practice
           </Link>
         </div>
 
+        <div className="mb-8">
+          <RecommendedSection />
+        </div>
+
         <div className="grid md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Total Attempts</p>
             <p className="text-3xl font-bold text-gray-900 dark:text-white">{stats.totalAttempts}</p>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Overall Accuracy</p>
             <p className="text-3xl font-bold text-green-600">{stats.overallAccuracy}%</p>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Average Response</p>
             <p className="text-3xl font-bold text-blue-600">{formatMs(stats.averageResponseTimeMs)}</p>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Incorrect Attempts</p>
             <p className="text-3xl font-bold text-orange-600">{stats.incorrectAttempts}</p>
           </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-6 mb-8">
-          <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <div className="flex items-center justify-between mb-3">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white">Virtual TA Feedback</h2>
               <Link href="/research-alignment" className="text-sm text-green-600 dark:text-green-400 hover:underline">
@@ -97,7 +106,7 @@ export default function DashboardPage() {
             </div>
           </section>
 
-          <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Adaptive UI Policy</h2>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">{trace.policy}</p>
             <div className="grid grid-cols-4 gap-3 mb-4 text-center">
@@ -130,7 +139,7 @@ export default function DashboardPage() {
         </div>
 
         {stats.totalAttempts === 0 ? (
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-8 text-center">
+          <div className="rounded-lg border border-slate-200 bg-white p-8 text-center shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               No attempt logs yet. Take a kana quiz to populate learner analytics.
             </p>
@@ -156,7 +165,7 @@ export default function DashboardPage() {
           </div>
         ) : (
           <div className="grid lg:grid-cols-2 gap-6">
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Weakest Kana</h2>
               <div className="space-y-2">
                 {stats.weakestKana.map((kana) => (
@@ -168,7 +177,7 @@ export default function DashboardPage() {
               </div>
             </section>
 
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Most Confused Pairs</h2>
               {stats.mostConfusedPairs.length === 0 ? (
                 <p className="text-gray-700 dark:text-gray-300">No confusion pairs detected yet.</p>
@@ -184,7 +193,7 @@ export default function DashboardPage() {
               )}
             </section>
 
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Accuracy by Group</h2>
               <div className="space-y-2">
                 {stats.accuracyByGroup.map((group) => (
@@ -196,7 +205,7 @@ export default function DashboardPage() {
               </div>
             </section>
 
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Recent Progress</h2>
               {stats.recentlyImprovedKana.length === 0 ? (
                 <p className="text-gray-700 dark:text-gray-300">More attempts are needed to compare recent improvement.</p>
@@ -210,40 +219,6 @@ export default function DashboardPage() {
                   ))}
                 </div>
               )}
-            </section>
-
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 lg:col-span-2">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Recommended for you</h2>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                Prioritized from due reviews, low accuracy items, and recently missed characters.
-              </p>
-              <div className="flex flex-wrap gap-3 mb-6">
-                {recommended.map((item) => (
-                  <div
-                    key={item.itemId}
-                    className="min-w-24 rounded bg-gray-100 dark:bg-gray-700 px-3 py-2"
-                  >
-                    <div className="text-2xl text-gray-900 dark:text-white">{item.character}</div>
-                    <div className="text-xs text-gray-600 dark:text-gray-300">
-                      {item.reasons[0] ?? `${item.accuracy}% accuracy`}
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="flex gap-3">
-                <Link
-                  href="/quiz"
-                  className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-                >
-                  Practice Recommendations
-                </Link>
-                <Link
-                  href="/settings"
-                  className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-                >
-                  Settings
-                </Link>
-              </div>
             </section>
           </div>
         )}

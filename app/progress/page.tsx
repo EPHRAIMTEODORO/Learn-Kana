@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { kanjiGradeSections } from '@/data/kanji';
 import { CharacterProgress, LearningItemCategory } from '@/types/kana';
 import { getAllProgress } from '@/utils/progress';
+import AppNav from '@/components/AppNav';
+import ProgressSummary from '@/components/ProgressSummary';
 
 function calculateAccuracy(progress: CharacterProgress) {
   const attempts = progress.attempts ?? progress.correct + progress.incorrect;
@@ -106,75 +108,71 @@ export default function ProgressPage() {
   });
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-green-50 to-teal-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex items-center justify-between mb-8">
-          <Link href="/" className="text-green-600 dark:text-green-400 hover:underline">
-            ← Back to Home
-          </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Learning Analytics
-          </h1>
-          <Link href="/settings" className="text-green-600 dark:text-green-400 hover:underline">
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      <AppNav />
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+              Learning dashboard
+            </p>
+            <h1 className="mt-2 text-4xl font-bold text-slate-950 dark:text-white">
+              Progress and weak areas
+            </h1>
+            <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
+              Use these signals to decide whether to learn new items or review mistakes next.
+            </p>
+          </div>
+          <Link href="/settings" className="rounded-md px-3 py-2 text-sm font-semibold text-indigo-700 outline-none hover:bg-white focus-visible:ring-2 focus-visible:ring-indigo-500 dark:text-indigo-300 dark:hover:bg-slate-900">
             Settings
           </Link>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Characters Studied</p>
-            <p className="text-3xl font-bold text-gray-900 dark:text-white">{totalCharactersStudied}</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Overall Accuracy</p>
-            <p className="text-3xl font-bold text-green-600">{overallAccuracy}%</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Total Attempts</p>
-            <p className="text-3xl font-bold text-blue-600">{totalAttempts}</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Study Streak</p>
-            <p className="text-3xl font-bold text-orange-600">{streak} days</p>
-          </div>
+        <div className="mb-8">
+          <ProgressSummary
+            totalLearned={totalCharactersStudied}
+            accuracy={overallAccuracy}
+            streak={streak}
+            attempts={totalAttempts}
+          />
         </div>
 
         {progressData.length === 0 ? (
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-12 text-center">
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">
+          <div className="rounded-lg border border-slate-200 bg-white p-12 text-center shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            <p className="mb-4 text-xl text-slate-600 dark:text-slate-300">
               No learning data yet. Start a quiz or flashcard session to build your learner model.
             </p>
             <Link
               href="/quiz"
-              className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+              className="inline-block rounded-md bg-indigo-700 px-5 py-3 font-semibold text-white outline-none hover:bg-indigo-800 focus-visible:ring-2 focus-visible:ring-indigo-500"
             >
-              Start Quiz
+              Start Practice
             </Link>
           </div>
         ) : (
           <div className="grid lg:grid-cols-2 gap-6">
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Accuracy by Category</h2>
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+              <h2 className="mb-4 text-xl font-bold text-slate-950 dark:text-white">Progress by Category</h2>
               <div className="space-y-4">
                 {categoryStats.map((stat) => (
                   <div key={stat.category}>
-                    <div className="flex justify-between text-sm text-gray-700 dark:text-gray-300 mb-1">
+                    <div className="mb-1 flex justify-between text-sm text-slate-700 dark:text-slate-300">
                       <span>{stat.label}</span>
                       <span>{stat.accuracy}% ({stat.attempts} attempts)</span>
                     </div>
-                    <div className="h-3 rounded-full bg-gray-200 dark:bg-gray-700">
-                      <div className="h-3 rounded-full bg-green-500" style={{ width: `${stat.accuracy}%` }} />
+                    <div className="h-3 rounded-full bg-slate-200 dark:bg-slate-800">
+                      <div className="h-3 rounded-full bg-indigo-700" style={{ width: `${stat.accuracy}%` }} />
                     </div>
                   </div>
                 ))}
               </div>
             </section>
 
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Weakest 10 Characters</h2>
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+              <h2 className="mb-4 text-xl font-bold text-slate-950 dark:text-white">Weak Areas</h2>
               <div className="space-y-3">
                 {weakestCharacters.map((item) => (
-                  <div key={item.character} className="flex items-center justify-between text-gray-800 dark:text-gray-200">
+                  <div key={item.character} className="flex items-center justify-between text-slate-800 dark:text-slate-200">
                     <span className="text-2xl">{item.character}</span>
                     <span>{calculateAccuracy(item)}% accuracy, {item.incorrect} missed</span>
                   </div>
@@ -182,14 +180,14 @@ export default function ProgressPage() {
               </div>
             </section>
 
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Recent Mistakes</h2>
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+              <h2 className="mb-4 text-xl font-bold text-slate-950 dark:text-white">Recent Mistakes</h2>
               {recentMistakes.length === 0 ? (
-                <p className="text-gray-700 dark:text-gray-300">No recent mistakes recorded.</p>
+                <p className="text-slate-700 dark:text-slate-300">No recent mistakes recorded.</p>
               ) : (
                 <div className="space-y-3">
                   {recentMistakes.map((mistake) => (
-                    <div key={`${mistake.character}-${mistake.timestamp}`} className="flex items-center justify-between text-gray-800 dark:text-gray-200">
+                    <div key={`${mistake.character}-${mistake.timestamp}`} className="flex items-center justify-between text-slate-800 dark:text-slate-200">
                       <span className="text-2xl">{mistake.character}</span>
                       <span>{getCategoryLabel(mistake.category)} · {formatDate(mistake.timestamp)}</span>
                     </div>
@@ -198,16 +196,16 @@ export default function ProgressPage() {
               )}
             </section>
 
-            <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Kanji Completion by Grade</h2>
+            <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+              <h2 className="mb-4 text-xl font-bold text-slate-950 dark:text-white">Kanji Completion by Grade</h2>
               <div className="space-y-4">
                 {gradeCompletion.map((grade) => (
                   <div key={grade.grade}>
-                    <div className="flex justify-between text-sm text-gray-700 dark:text-gray-300 mb-1">
+                    <div className="mb-1 flex justify-between text-sm text-slate-700 dark:text-slate-300">
                       <span>{grade.grade}</span>
                       <span>{grade.learned}/{grade.total}</span>
                     </div>
-                    <div className="h-3 rounded-full bg-gray-200 dark:bg-gray-700">
+                    <div className="h-3 rounded-full bg-slate-200 dark:bg-slate-800">
                       <div className="h-3 rounded-full bg-blue-500" style={{ width: `${grade.percent}%` }} />
                     </div>
                   </div>

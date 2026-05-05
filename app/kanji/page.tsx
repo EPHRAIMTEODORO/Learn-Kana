@@ -1,37 +1,73 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { kanjiGradeSections, getKanjiByGrade } from '@/data/kanji';
 import type { KanjiGrade, KanjiCharacter } from '@/types/kanji';
+import { CharacterProgress } from '@/types/kana';
+import { getAllProgress } from '@/utils/progress';
+import AppNav from '@/components/AppNav';
 
 export default function KanjiPage() {
   const [selectedGrade, setSelectedGrade] = useState<KanjiGrade>('grade1');
   const [selectedKanji, setSelectedKanji] = useState<KanjiCharacter | null>(null);
+  const [progressData, setProgressData] = useState<CharacterProgress[]>([]);
+
+  useEffect(() => {
+    setProgressData(getAllProgress());
+  }, []);
 
   const currentSection = kanjiGradeSections.find(s => s.grade === selectedGrade);
   const kanji = getKanjiByGrade(selectedGrade);
+  const totalLoadedKanji = kanjiGradeSections.reduce((sum, section) => sum + section.kanji.length, 0);
+  const progressByCharacter = new Map(progressData.map((item) => [item.character, item]));
+
+  const gradeProgress = kanjiGradeSections.map((section) => {
+    const learned = section.kanji.filter((item) => {
+      const progress = progressByCharacter.get(item.character);
+      return progress && (progress.attempts ?? progress.correct + progress.incorrect) > 0;
+    }).length;
+    const percent = section.kanji.length > 0 ? Math.round((learned / section.kanji.length) * 100) : 0;
+
+    return {
+      grade: section.grade,
+      learned,
+      percent,
+    };
+  });
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto px-4 py-8">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-8">
-          <Link 
-            href="/" 
-            className="text-purple-600 dark:text-purple-400 hover:underline"
-          >
-            ← Back to Home
-          </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Jōyō Kanji
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      <AppNav />
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <section className="mb-8 rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+          <p className="text-sm font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+            Kanji by Grade
+          </p>
+          <h1 className="mt-2 text-4xl font-bold text-slate-950 dark:text-white">
+            Kanji Learning Structure
           </h1>
-          <div className="w-24"></div>
-        </div>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-700 dark:text-slate-300">
+            Kanji are grouped by Japanese school grade so learners can move from foundational characters to more advanced Jōyō kanji. The local dataset includes meanings, readings, examples, stroke counts, and grade labels.
+          </p>
+          <div className="mt-5 grid gap-4 sm:grid-cols-3">
+            <div className="rounded-md bg-slate-50 p-4 dark:bg-slate-800">
+              <p className="text-sm text-slate-600 dark:text-slate-300">Loaded kanji</p>
+              <p className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">{totalLoadedKanji}</p>
+            </div>
+            <div className="rounded-md bg-slate-50 p-4 dark:bg-slate-800">
+              <p className="text-sm text-slate-600 dark:text-slate-300">Groups</p>
+              <p className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">{kanjiGradeSections.length}</p>
+            </div>
+            <div className="rounded-md bg-slate-50 p-4 dark:bg-slate-800">
+              <p className="text-sm text-slate-600 dark:text-slate-300">Dataset note</p>
+              <p className="mt-1 text-sm font-medium text-slate-800 dark:text-slate-100">Generated from kanjiapi.dev and normalized locally.</p>
+            </div>
+          </div>
+        </section>
 
         {/* Grade Selector */}
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
-          <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Select Grade Level</h2>
+        <div className="mb-8 rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+          <h2 className="text-xl font-semibold text-slate-950 dark:text-white mb-4">Choose a grade group</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
             {kanjiGradeSections.map((section) => (
               <button
@@ -40,25 +76,26 @@ export default function KanjiPage() {
                   setSelectedGrade(section.grade);
                   setSelectedKanji(null);
                 }}
-                className={`p-4 rounded-lg border-2 transition-all ${
+                className={`p-4 rounded-lg border-2 text-left outline-none transition-all focus-visible:ring-2 focus-visible:ring-indigo-500 ${
                   selectedGrade === section.grade
-                    ? 'border-purple-500 bg-purple-50 dark:bg-purple-900 shadow-md'
-                    : 'border-gray-200 dark:border-gray-600 hover:border-purple-300 hover:bg-gray-50 dark:hover:bg-gray-700'
+                    ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-950 shadow-md'
+                    : 'border-slate-200 dark:border-slate-700 hover:border-indigo-300 hover:bg-slate-50 dark:hover:bg-slate-800'
                 }`}
               >
-                <div className="text-sm font-medium text-gray-900 dark:text-white">
+                <div className="text-sm font-medium text-slate-950 dark:text-white">
                   {section.gradeName}
                 </div>
-                <div className="text-xs text-gray-600 dark:text-gray-300 mt-1">
+                <div className="text-xs text-slate-600 dark:text-slate-300 mt-1">
                   {section.gradeNameJapanese}
                 </div>
-                <div className="text-lg font-bold text-purple-600 dark:text-purple-400 mt-2">
-                  {section.kanji.length}
-                  {section.kanji.length < section.totalCount && (
-                    <span className="text-xs font-normal text-black">
-                      /{section.totalCount}
-                    </span>
-                  )}
+                <div className="mt-3 h-2 rounded-full bg-slate-200 dark:bg-slate-800">
+                  <div
+                    className="h-2 rounded-full bg-indigo-700"
+                    style={{ width: `${gradeProgress.find((item) => item.grade === section.grade)?.percent ?? 0}%` }}
+                  />
+                </div>
+                <div className="mt-2 text-xs text-slate-600 dark:text-slate-300">
+                  {gradeProgress.find((item) => item.grade === section.grade)?.percent ?? 0}% completed
                 </div>
               </button>
             ))}
@@ -67,15 +104,15 @@ export default function KanjiPage() {
 
         {/* Current Section Info */}
         {currentSection && (
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
+          <div className="bg-white dark:bg-gray-800 rounded-lg border border-slate-200 shadow-sm p-6 mb-8 dark:border-slate-800">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
               {currentSection.gradeName} ({currentSection.gradeNameJapanese})
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">{currentSection.description}</p>
             <div className="flex gap-4 text-sm">
-              <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">
+              <span className="px-3 py-1 bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 rounded-full">
                 {currentSection.kanji.length === currentSection.totalCount 
-                  ? `Complete: ${currentSection.kanji.length} kanji ✓`
+                  ? `Available: ${currentSection.kanji.length} kanji`
                   : `Available: ${currentSection.kanji.length} of ${currentSection.totalCount} kanji`
                 }
               </span>
@@ -87,7 +124,7 @@ export default function KanjiPage() {
         <div className="hidden lg:grid lg:grid-cols-2 gap-8">
           {/* Left: Kanji Grid */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Kanji Characters</h3>
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Select a character</h3>
             <div className="grid grid-cols-6 xl:grid-cols-8 gap-2 max-h-[600px] overflow-y-auto">
               {kanji.map((k) => (
                 <button
@@ -224,7 +261,7 @@ export default function KanjiPage() {
 
         {/* Kanji Grid (Mobile) */}
         <div className="lg:hidden bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Kanji Characters</h3>
+          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Select a character</h3>
           <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2">
             {kanji.map((k) => (
               <button

@@ -1,161 +1,125 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import AppNav from '@/components/AppNav';
+import LearningFlow from '@/components/LearningFlow';
+import RecommendedSection from '@/components/RecommendedSection';
 
 export const metadata: Metadata = {
   title: 'Learn Kana | Adaptive Japanese Practice',
   description: 'Practice Japanese kana and kanji with spaced repetition, recommendations, and learner analytics.',
 };
 
+const actionCards = [
+  {
+    title: 'Start New Practice',
+    description: 'Begin with new kana and kanji items from the curriculum.',
+    href: '/learn',
+    cta: 'Start learning',
+  },
+  {
+    title: 'Review Mistakes',
+    description: 'Focus on characters that were recently missed or answered slowly.',
+    href: '/quiz',
+    cta: 'Review mistakes',
+  },
+  {
+    title: 'Recommended for You',
+    description: 'Let the adaptive model choose what should come next.',
+    href: '/quiz',
+    cta: 'Practice recommendations',
+    highlighted: true,
+  },
+];
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto px-4 py-16">
-        {/* Hero Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            Learn Kana
-          </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Adaptive practice for kana and kanji
-          </p>
-          <div className="flex justify-center gap-4 text-6xl mb-8">
-            <span className="animate-pulse">あ</span>
-            <span className="animate-pulse delay-100">ア</span>
-            <span className="animate-pulse delay-200">か</span>
-            <span className="animate-pulse delay-300">カ</span>
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      <AppNav />
+
+      <section className="mx-auto max-w-6xl px-4 pb-12 pt-16 md:pb-16 md:pt-24">
+        <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div>
+            <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+              Adaptive Japanese learning
+            </p>
+            <h1 className="max-w-3xl text-4xl font-bold leading-tight text-slate-950 dark:text-white md:text-6xl">
+              Learn Japanese with Adaptive Practice
+            </h1>
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700 dark:text-slate-300">
+              Practice kana and kanji with personalized recommendations based on your progress.
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link
+                href="/learn"
+                className="rounded-md bg-indigo-700 px-5 py-3 text-center font-semibold text-white outline-none transition-colors hover:bg-indigo-800 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
+              >
+                Start Learning
+              </Link>
+              <Link
+                href="/curriculum"
+                className="rounded-md border border-slate-300 bg-white px-5 py-3 text-center font-semibold text-slate-900 outline-none transition-colors hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
+              >
+                View Curriculum
+              </Link>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            <p className="text-sm font-semibold text-slate-600 dark:text-slate-300">
+              Current learner model
+            </p>
+            <div className="mt-6 grid grid-cols-2 gap-4">
+              {['Accuracy', 'Review timing', 'Weak areas', 'New items'].map((signal) => (
+                <div key={signal} className="rounded-md bg-slate-50 p-4 dark:bg-slate-800">
+                  <div className="mb-3 h-2 rounded-full bg-indigo-200 dark:bg-indigo-900" />
+                  <p className="text-sm font-medium text-slate-800 dark:text-slate-100">{signal}</p>
+                </div>
+              ))}
+            </div>
+            <p className="mt-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              The interface changes practice suggestions as it observes correct answers, mistakes, and spaced-repetition due dates.
+            </p>
           </div>
         </div>
+      </section>
 
-        {/* Feature Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {/* Kana Chart */}
-          <Link href="/chart" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">📋</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Kana Chart
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                View all Hiragana and Katakana characters in a traditional chart layout.
-              </p>
-            </div>
-          </Link>
+      <LearningFlow />
 
-          {/* Kanji Learning */}
-          <Link href="/kanji" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">漢</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Kanji
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Learn 2,140 Jōyō Kanji organized by Japanese school grades.
-              </p>
-            </div>
-          </Link>
+      <section className="mx-auto max-w-6xl px-4 py-8">
+        <RecommendedSection />
+      </section>
 
-          {/* Flashcards */}
-          <Link href="/learn" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">📚</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Flashcards
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Practice new characters with interactive flashcards and local progress tracking.
-              </p>
-            </div>
-          </Link>
-
-          {/* Quiz */}
-          <Link href="/quiz" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">✍️</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Quiz Mode
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Adaptive quiz based on your performance, review schedule, and recent mistakes.
-              </p>
-            </div>
-          </Link>
-
-          {/* Progress */}
-          <Link href="/progress" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">📊</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Progress
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Track accuracy, weak characters, recent mistakes, grade completion, and study streaks.
-              </p>
-            </div>
-          </Link>
-
-          {/* Dashboard */}
-          <Link href="/dashboard" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">📈</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Learner Dashboard
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Review adaptive analytics, weak kana, confusion pairs, and recommended practice.
-              </p>
-            </div>
-          </Link>
-
-          {/* Curriculum */}
-          <Link href="/curriculum" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">文</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Curriculum
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                See what is taught, how kanji are grouped, and what assumptions shape the dataset.
-              </p>
-            </div>
-          </Link>
-
-          {/* Settings */}
-          <Link href="/settings" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">⚙️</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Settings
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Manage local learning data used by the adaptive model.
-              </p>
-            </div>
-          </Link>
-
-          {/* Research Alignment */}
-          <Link href="/research-alignment" className="block">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
-              <div className="text-5xl mb-4">AI</div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                Research Alignment
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Map the system to Smart Learning, Virtual TA feedback, adaptive UI, and educational data mining.
-              </p>
-            </div>
-          </Link>
+      <section className="mx-auto max-w-6xl px-4 py-12">
+        <div className="mb-6">
+          <p className="text-sm font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+            What should I do next?
+          </p>
+          <h2 className="mt-2 text-3xl font-bold text-slate-950 dark:text-white">
+            Choose a guided practice path
+          </h2>
         </div>
-
-        {/* Getting Started */}
-        <div className="mt-16 text-center max-w-2xl mx-auto">
-          <Link
-            href="/learn"
-            className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg"
-          >
-            Start Learning
-          </Link>
+        <div className="grid gap-5 md:grid-cols-3">
+          {actionCards.map((card) => (
+            <Link
+              key={card.title}
+              href={card.href}
+              className={`rounded-lg border p-6 shadow-sm outline-none transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500 ${
+                card.highlighted
+                  ? 'border-indigo-300 bg-indigo-50 hover:bg-indigo-100 dark:border-indigo-800 dark:bg-indigo-950/50 dark:hover:bg-indigo-950'
+                  : 'border-slate-200 bg-white hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:hover:bg-slate-800'
+              }`}
+            >
+              <h3 className="text-xl font-bold text-slate-950 dark:text-white">{card.title}</h3>
+              <p className="mt-3 min-h-16 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                {card.description}
+              </p>
+              <span className="mt-5 inline-flex font-semibold text-indigo-700 dark:text-indigo-300">
+                {card.cta}
+              </span>
+            </Link>
+          ))}
         </div>
-      </div>
+      </section>
     </main>
   );
 }

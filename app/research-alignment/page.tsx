@@ -56,7 +56,7 @@ export default function ResearchAlignmentPage() {
               Alignment with Professor Yutaka Watanobe&apos;s Lab
             </h2>
             <p className="text-gray-700 dark:text-gray-300">
-              This project frames Japanese character learning as a Smart Learning system: it collects learner traces, adapts practice, explains recommendations, and provides Virtual TA-style feedback. The same architecture can be discussed as a small research prototype for autonomous learning support, educational data mining, and adaptive user interfaces.
+              This project frames Japanese character learning as a Smart Learning system: it collects learner traces, adapts practice, explains recommendations, and provides Virtual TA-style feedback. The same architecture can be discussed as an early research system for autonomous learning support, educational data mining, and adaptive user interfaces.
             </p>
           </section>
 

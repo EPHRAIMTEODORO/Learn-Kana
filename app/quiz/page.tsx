@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
 import { getAllKanji } from '@/data/kanji';
-import { KanaPracticeMode, QuizAttempt, QuizQuestion, LearningMode, RecommendedLearningItem } from '@/types/kana';
+import { KanaPracticeMode, LearningMode, QuizAttempt, QuizQuestion, RecommendedLearningItem } from '@/types/kana';
 import { KanjiQuizQuestion } from '@/types/kanji';
-import { generateQuizQuestions, generateKanjiQuizQuestions } from '@/utils/quiz';
+import { generateKanjiQuizQuestions, generateQuizQuestions } from '@/utils/quiz';
 import { updateProgress } from '@/utils/progress';
 import { getAttempts, saveAttempt } from '@/storage/attemptRepository';
 import { getPracticeKana } from '@/services/adaptivePracticeService';
@@ -15,10 +15,12 @@ import { detectConfusion } from '@/services/confusionService';
 import { generateFeedback } from '@/services/feedbackService';
 import { getRecommendedNext } from '@/lib/recommendations';
 import { getUserData } from '@/lib/storage';
+import AppNav from '@/components/AppNav';
+import RecommendedSection from '@/components/RecommendedSection';
 
 export default function QuizPage() {
-  const [mode, setMode] = useState<LearningMode>('hiragana');
-  const [practiceMode, setPracticeMode] = useState<KanaPracticeMode>('random');
+  const [mode, setMode] = useState<LearningMode>('mixed');
+  const [practiceMode, setPracticeMode] = useState<KanaPracticeMode>('recommended');
   const [questions, setQuestions] = useState<QuizQuestion[] | KanjiQuizQuestion[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -38,33 +40,41 @@ export default function QuizPage() {
     loadRecommendations();
   }, []);
 
-  const startQuiz = () => {
+  const startQuiz = (
+    selectedMode: LearningMode,
+    selectedPracticeMode: KanaPracticeMode
+  ) => {
     let newQuestions: QuizQuestion[] | KanjiQuizQuestion[];
-    
-    if (mode === 'kanji') {
+
+    setMode(selectedMode);
+    setPracticeMode(selectedPracticeMode);
+
+    if (selectedMode === 'kanji') {
       const kanjiData = getAllKanji();
       const recommendedKanji = recommended
         .filter((item) => item.category === 'kanji')
         .map((item) => item.character);
-      const practiceData = recommendedKanji.length > 0
-        ? kanjiData.filter((kanji) => recommendedKanji.includes(kanji.character))
-        : kanjiData;
+      const practiceData =
+        selectedPracticeMode === 'recommended' && recommendedKanji.length > 0
+          ? kanjiData.filter((kanji) => recommendedKanji.includes(kanji.character))
+          : kanjiData;
 
       newQuestions = generateKanjiQuizQuestions(practiceData, 10);
     } else {
-      const data = mode === 'hiragana' 
-        ? hiraganaData 
-        : mode === 'katakana' 
-        ? katakanaData 
-        : allKanaData;
+      const data =
+        selectedMode === 'hiragana'
+          ? hiraganaData
+          : selectedMode === 'katakana'
+            ? katakanaData
+            : allKanaData;
       const practiceData =
-        practiceMode === 'random'
+        selectedPracticeMode === 'random'
           ? data
-          : getPracticeKana(practiceMode, 10, mode);
+          : getPracticeKana(selectedPracticeMode, 10, selectedMode);
 
       newQuestions = generateQuizQuestions(practiceData, 10, data);
     }
-    
+
     setQuestions(newQuestions);
     setCurrentQuestion(0);
     setScore(0);
@@ -77,30 +87,22 @@ export default function QuizPage() {
   };
 
   const handleAnswer = (answer: string) => {
-    if (selectedAnswer) return; // Already answered
-    
+    if (selectedAnswer) return;
+
     setSelectedAnswer(answer);
-    const isCorrect = answer === questions[currentQuestion].correctAnswer;
-    
+    const question = questions[currentQuestion];
+    const isCorrect = answer === question.correctAnswer;
+
     if (isCorrect) {
       setScore(score + 1);
     }
-    
-    // Update progress based on answer
-    // Extract character from question for progress tracking
-    const question = questions[currentQuestion];
-    let character: string;
-    
-    if ('kanji' in question) {
-      // Kanji question
-      character = question.kanji;
-    } else {
-      // Kana question
-      character = question.questionType === 'char-to-romaji' 
-        ? question.question 
+
+    const character = 'kanji' in question
+      ? question.kanji
+      : question.questionType === 'char-to-romaji'
+        ? question.question
         : question.correctAnswer;
-    }
-    
+
     updateProgress(character, isCorrect);
 
     if (!('kanji' in question)) {
@@ -130,8 +132,7 @@ export default function QuizPage() {
     } else {
       setAnswerFeedback(null);
     }
-    
-    // Move to next question after a delay
+
     setTimeout(() => {
       if (currentQuestion < questions.length - 1) {
         setCurrentQuestion(currentQuestion + 1);
@@ -142,7 +143,7 @@ export default function QuizPage() {
         setShowResult(true);
         loadRecommendations();
       }
-    }, 1500);
+    }, 1200);
   };
 
   const resetQuiz = () => {
@@ -156,258 +157,171 @@ export default function QuizPage() {
     loadRecommendations();
   };
 
+  const recommendedMode: LearningMode = recommended[0]?.category === 'kanji' ? 'kanji' : 'mixed';
+
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100 dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto px-4 py-8">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-8">
-          <Link 
-            href="/" 
-            className="text-purple-600 dark:text-purple-400 hover:underline"
-          >
-            ← Back to Home
-          </Link>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Quiz Mode
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      <AppNav />
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <div className="mb-8">
+          <p className="text-sm font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+            Practice
+          </p>
+          <h1 className="mt-2 text-4xl font-bold text-slate-950 dark:text-white">
+            Choose what to practice next
           </h1>
-          <div className="w-24"></div>
+          <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
+            Start new material, repair mistakes, or let the adaptive model select a focused session.
+          </p>
         </div>
 
-        <div className="max-w-2xl mx-auto">
-          {!quizStarted ? (
-            /* Quiz Setup */
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-                Choose Your Quiz Mode
-              </h2>
-              
-              <div className="flex flex-col gap-4 mb-8">
-                <button
-                  onClick={() => setMode('hiragana')}
-                  className={`px-6 py-4 rounded-lg font-semibold transition-colors ${
-                    mode === 'hiragana'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <span className="block">Hiragana Only</span>
-                  <span className="block text-sm font-normal opacity-80">Practice new characters</span>
-                </button>
-                <button
-                  onClick={() => setMode('katakana')}
-                  className={`px-6 py-4 rounded-lg font-semibold transition-colors ${
-                    mode === 'katakana'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <span className="block">Katakana Only</span>
-                  <span className="block text-sm font-normal opacity-80">Practice new characters</span>
-                </button>
-                <button
-                  onClick={() => setMode('mixed')}
-                  className={`px-6 py-4 rounded-lg font-semibold transition-colors ${
-                    mode === 'mixed'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <span className="block">Mixed Kana</span>
-                  <span className="block text-sm font-normal opacity-80">Review mistakes across both scripts</span>
-                </button>
-                <button
-                  onClick={() => setMode('kanji')}
-                  className={`px-6 py-4 rounded-lg font-semibold transition-colors ${
-                    mode === 'kanji'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <span className="block">Kanji by Grade</span>
-                  <span className="block text-sm font-normal opacity-80">Adaptive quiz based on your performance</span>
-                </button>
-              </div>
+        {!quizStarted ? (
+          <div className="space-y-6">
+            <RecommendedSection compact />
 
-              {mode !== 'kanji' && (
-                <div className="mb-8">
-                  <h3 className="font-semibold text-gray-900 dark:text-white mb-3">
-                    Practice Selection
-                  </h3>
-                  <div className="grid gap-3">
-                    <button
-                      onClick={() => setPracticeMode('random')}
-                      className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
-                        practiceMode === 'random'
-                          ? 'bg-purple-600 text-white'
-                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                      }`}
-                    >
-                      <span className="block">Random Practice</span>
-                      <span className="block text-sm font-normal opacity-80">Practice new characters</span>
-                    </button>
-                    <button
-                      onClick={() => setPracticeMode('review_mistakes')}
-                      className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
-                        practiceMode === 'review_mistakes'
-                          ? 'bg-purple-600 text-white'
-                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                      }`}
-                    >
-                      <span className="block">Review Mistakes</span>
-                      <span className="block text-sm font-normal opacity-80">Review mistakes</span>
-                    </button>
-                    <button
-                      onClick={() => setPracticeMode('recommended')}
-                      className={`px-4 py-3 rounded-lg font-semibold transition-colors ${
-                        practiceMode === 'recommended'
-                          ? 'bg-purple-600 text-white'
-                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                      }`}
-                    >
-                      <span className="block">Recommended Practice</span>
-                      <span className="block text-sm font-normal opacity-80">Adaptive quiz based on your performance</span>
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              <section className="mb-8 rounded-lg border border-purple-100 dark:border-gray-700 p-4">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="font-semibold text-gray-900 dark:text-white">
-                    Recommended for you
-                  </h3>
-                  <Link href="/dashboard" className="text-sm text-purple-600 dark:text-purple-400 hover:underline">
-                    View analytics
-                  </Link>
-                </div>
-                {recommended.length === 0 ? (
-                  <p className="text-sm text-gray-600 dark:text-gray-300">
-                    Start a quiz to generate personalized review targets.
-                  </p>
-                ) : (
-                  <div className="flex flex-wrap gap-2">
-                    {recommended.slice(0, 10).map((item) => (
-                      <span
-                        key={item.itemId}
-                        title={item.reasons.join(', ')}
-                        className="inline-flex min-w-10 items-center justify-center rounded bg-purple-50 px-3 py-2 text-2xl text-gray-900 dark:bg-gray-700 dark:text-white"
-                      >
-                        {item.character}
-                      </span>
-                    ))}
-                  </div>
-                )}
+            <div className="grid gap-4 md:grid-cols-3">
+              <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+                <h2 className="text-xl font-bold text-slate-950 dark:text-white">New Practice</h2>
+                <p className="mt-3 min-h-24 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                  Practice new kana prompts and add fresh evidence to your learner model.
+                </p>
+                <button
+                  onClick={() => startQuiz('mixed', 'random')}
+                  className="mt-4 w-full rounded-md bg-slate-900 px-4 py-3 font-semibold text-white outline-none hover:bg-slate-800 focus-visible:ring-2 focus-visible:ring-indigo-500 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200"
+                >
+                  Start New Practice
+                </button>
               </section>
 
+              <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+                <h2 className="text-xl font-bold text-slate-950 dark:text-white">Review Mistakes</h2>
+                <p className="mt-3 min-h-24 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                  Focus on characters you missed before so the system can check recovery.
+                </p>
+                <button
+                  onClick={() => startQuiz('mixed', 'review_mistakes')}
+                  className="mt-4 w-full rounded-md border border-slate-300 bg-white px-4 py-3 font-semibold text-slate-900 outline-none hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-indigo-500 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
+                >
+                  Review Mistakes
+                </button>
+              </section>
+
+              <section className="rounded-lg border-2 border-indigo-300 bg-indigo-50 p-6 shadow-sm dark:border-indigo-800 dark:bg-indigo-950/40">
+                <h2 className="text-xl font-bold text-slate-950 dark:text-white">Recommended Practice</h2>
+                <p className="mt-3 min-h-24 text-sm leading-6 text-slate-700 dark:text-slate-300">
+                  Use due reviews, low accuracy, and recent failures to select the next quiz.
+                </p>
+                <button
+                  onClick={() => startQuiz(recommendedMode, 'recommended')}
+                  className="mt-4 w-full rounded-md bg-indigo-700 px-4 py-3 font-semibold text-white outline-none hover:bg-indigo-800 focus-visible:ring-2 focus-visible:ring-indigo-500"
+                >
+                  Practice Recommendations
+                </button>
+              </section>
+            </div>
+
+            <div className="rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
+              For structured kanji browsing, use{' '}
+              <Link href="/kanji" className="font-semibold text-indigo-700 hover:underline dark:text-indigo-300">
+                Kanji by Grade
+              </Link>
+              .
+            </div>
+          </div>
+        ) : showResult ? (
+          <section className="mx-auto max-w-2xl rounded-lg border border-slate-200 bg-white p-8 text-center shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            <h2 className="text-3xl font-bold text-slate-950 dark:text-white">Quiz Complete</h2>
+            <div className="my-6 text-6xl font-bold text-indigo-700 dark:text-indigo-300">
+              {score} / {questions.length}
+            </div>
+            <p className="text-lg text-slate-600 dark:text-slate-300">
+              {score === questions.length
+                ? 'Strong recall. The next session can introduce or space out items.'
+                : score >= questions.length * 0.7
+                  ? 'Good progress. Review the missed items before adding too much new material.'
+                  : 'The learner model found weak spots. A recommended review is the best next step.'}
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <button
-                onClick={startQuiz}
-                className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-lg transition-colors"
+                onClick={() => startQuiz(mode, practiceMode)}
+                className="flex-1 rounded-md bg-indigo-700 px-4 py-3 font-semibold text-white outline-none hover:bg-indigo-800 focus-visible:ring-2 focus-visible:ring-indigo-500"
               >
-                Start Quiz (10 Questions)
+                Practice Again
+              </button>
+              <button
+                onClick={resetQuiz}
+                className="flex-1 rounded-md border border-slate-300 bg-white px-4 py-3 font-semibold text-slate-900 outline-none hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-indigo-500 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
+              >
+                Choose Practice Type
               </button>
             </div>
-          ) : showResult ? (
-            /* Results Screen */
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 text-center">
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                Quiz Complete!
-              </h2>
-              <div className="text-6xl font-bold text-purple-600 mb-6">
-                {score} / {questions.length}
+          </section>
+        ) : (
+          <section className="mx-auto max-w-2xl rounded-lg border border-slate-200 bg-white p-8 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            <div className="mb-6">
+              <div className="mb-2 flex justify-between text-sm text-slate-600 dark:text-slate-300">
+                <span>Question {currentQuestion + 1} of {questions.length}</span>
+                <span>Score: {score}</span>
               </div>
-              <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                {score === questions.length 
-                  ? 'Perfect score! 🎉' 
-                  : score >= questions.length * 0.7 
-                  ? 'Great job! 👏' 
-                  : 'Keep practicing! 💪'}
-              </p>
-              <div className="flex gap-4">
-                <button
-                  onClick={startQuiz}
-                  className="flex-1 bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-                >
-                  Try Again
-                </button>
-                <button
-                  onClick={resetQuiz}
-                  className="flex-1 bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-                >
-                  Change Mode
-                </button>
+              <div className="h-2 w-full rounded-full bg-slate-200 dark:bg-slate-800">
+                <div
+                  className="h-2 rounded-full bg-indigo-700 transition-all"
+                  style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
+                />
               </div>
             </div>
-          ) : (
-            /* Quiz Question */
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-              {/* Progress */}
-              <div className="mb-6">
-                <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-2">
-                  <span>Question {currentQuestion + 1} of {questions.length}</span>
-                  <span>Score: {score}</span>
-                </div>
-                <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                  <div 
-                    className="bg-purple-600 h-2 rounded-full transition-all duration-300"
-                    style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
-                  ></div>
-                </div>
-              </div>
 
-              {/* Question */}
-              <div className="mb-8 text-center">
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  {'kanji' in questions[currentQuestion]
-                    ? questions[currentQuestion].questionType === 'kanji-to-meaning'
-                      ? 'What is the meaning of this kanji?'
-                      : questions[currentQuestion].questionType === 'meaning-to-kanji'
-                      ? 'Which kanji means this?'
+            <div className="mb-8 text-center">
+              <p className="mb-4 text-slate-600 dark:text-slate-300">
+                {'kanji' in questions[currentQuestion]
+                  ? questions[currentQuestion].questionType === 'kanji-to-meaning'
+                    ? 'What is the meaning of this kanji?'
+                    : questions[currentQuestion].questionType === 'meaning-to-kanji'
+                      ? 'Which kanji matches this meaning?'
                       : 'What is the reading of this kanji?'
-                    : questions[currentQuestion].questionType === 'char-to-romaji' 
-                      ? 'What is the romaji for this character?' 
-                      : 'What is the character for this romaji?'}
-                </p>
-                <div className="text-8xl font-bold text-gray-900 dark:text-white mb-2">
-                  {questions[currentQuestion].question}
-                </div>
+                  : questions[currentQuestion].questionType === 'char-to-romaji'
+                    ? 'What is the romaji for this character?'
+                    : 'Which character matches this romaji?'}
+              </p>
+              <div className="text-7xl font-bold text-slate-950 dark:text-white">
+                {questions[currentQuestion].question}
               </div>
-
-              {/* Answer Options */}
-              <div className="grid grid-cols-2 gap-4">
-                {questions[currentQuestion].options.map((option, index) => {
-                  const isSelected = selectedAnswer === option;
-                  const isCorrect = option === questions[currentQuestion].correctAnswer;
-                  const showFeedback = selectedAnswer !== null;
-
-                  return (
-                    <button
-                      key={index}
-                      onClick={() => handleAnswer(option)}
-                      disabled={selectedAnswer !== null}
-                      className={`p-6 rounded-lg font-semibold text-xl transition-colors ${
-                        showFeedback
-                          ? isCorrect
-                            ? 'bg-green-500 text-white'
-                            : isSelected
-                            ? 'bg-red-500 text-white'
-                            : 'bg-gray-200 dark:bg-gray-700 text-gray-400'
-                          : 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white hover:bg-purple-100 dark:hover:bg-gray-600'
-                      }`}
-                    >
-                      {option}
-                    </button>
-                  );
-                })}
-              </div>
-
-              {answerFeedback && (
-                <div className="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg text-gray-900 dark:text-white">
-                  {answerFeedback}
-                </div>
-              )}
             </div>
-          )}
-        </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              {questions[currentQuestion].options.map((option, index) => {
+                const isSelected = selectedAnswer === option;
+                const isCorrect = option === questions[currentQuestion].correctAnswer;
+                const showFeedback = selectedAnswer !== null;
+
+                return (
+                  <button
+                    key={index}
+                    onClick={() => handleAnswer(option)}
+                    disabled={selectedAnswer !== null}
+                    className={`rounded-md p-5 text-lg font-semibold outline-none transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500 ${
+                      showFeedback
+                        ? isCorrect
+                          ? 'bg-green-600 text-white'
+                          : isSelected
+                            ? 'bg-red-600 text-white'
+                            : 'bg-slate-100 text-slate-400 dark:bg-slate-800'
+                        : 'bg-slate-100 text-slate-950 hover:bg-indigo-50 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700'
+                    }`}
+                  >
+                    {option}
+                  </button>
+                );
+              })}
+            </div>
+
+            {answerFeedback && (
+              <div className="mt-6 rounded-md bg-slate-100 p-4 text-slate-900 dark:bg-slate-800 dark:text-white">
+                {answerFeedback}
+              </div>
+            )}
+          </section>
+        )}
       </div>
     </main>
   );
