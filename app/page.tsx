@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Learn Kana | Adaptive Japanese Practice',
+  description: 'Practice Japanese kana and kanji with spaced repetition, recommendations, and learner analytics.',
+};
 
 export default function Home() {
   return (
@@ -10,7 +16,7 @@ export default function Home() {
             Learn Kana
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Master Japanese Hiragana and Katakana
+            Adaptive practice for kana and kanji
           </p>
           <div className="flex justify-center gap-4 text-6xl mb-8">
             <span className="animate-pulse">あ</span>
@@ -56,7 +62,7 @@ export default function Home() {
                 Flashcards
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Practice with interactive flashcards. Toggle between Hiragana, Katakana, or mixed mode.
+                Practice new characters with interactive flashcards and local progress tracking.
               </p>
             </div>
           </Link>
@@ -69,7 +75,7 @@ export default function Home() {
                 Quiz Mode
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Test your knowledge with multiple-choice quizzes. 10 questions per session.
+                Adaptive quiz based on your performance, review schedule, and recent mistakes.
               </p>
             </div>
           </Link>
@@ -82,7 +88,7 @@ export default function Home() {
                 Progress
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                Track your learning journey with detailed statistics for each character.
+                Track accuracy, weak characters, recent mistakes, grade completion, and study streaks.
               </p>
             </div>
           </Link>
@@ -96,6 +102,45 @@ export default function Home() {
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
                 Review adaptive analytics, weak kana, confusion pairs, and recommended practice.
+              </p>
+            </div>
+          </Link>
+
+          {/* Curriculum */}
+          <Link href="/curriculum" className="block">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
+              <div className="text-5xl mb-4">文</div>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+                Curriculum
+              </h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                See what is taught, how kanji are grouped, and what assumptions shape the dataset.
+              </p>
+            </div>
+          </Link>
+
+          {/* Settings */}
+          <Link href="/settings" className="block">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
+              <div className="text-5xl mb-4">⚙️</div>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+                Settings
+              </h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                Manage local learning data used by the adaptive model.
+              </p>
+            </div>
+          </Link>
+
+          {/* Research Alignment */}
+          <Link href="/research-alignment" className="block">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer h-full">
+              <div className="text-5xl mb-4">AI</div>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+                Research Alignment
+              </h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                Map the system to Smart Learning, Virtual TA feedback, adaptive UI, and educational data mining.
               </p>
             </div>
           </Link>

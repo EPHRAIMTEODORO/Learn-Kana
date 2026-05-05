@@ -1,18 +1,20 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
 import { getAllKanji } from '@/data/kanji';
-import { KanaPracticeMode, QuizAttempt, QuizQuestion, LearningMode } from '@/types/kana';
+import { KanaPracticeMode, QuizAttempt, QuizQuestion, LearningMode, RecommendedLearningItem } from '@/types/kana';
 import { KanjiQuizQuestion } from '@/types/kanji';
 import { generateQuizQuestions, generateKanjiQuizQuestions } from '@/utils/quiz';
-import { clearAllProgress, updateProgress } from '@/utils/progress';
-import { clearAttempts, getAttempts, saveAttempt } from '@/storage/attemptRepository';
+import { updateProgress } from '@/utils/progress';
+import { getAttempts, saveAttempt } from '@/storage/attemptRepository';
 import { getPracticeKana } from '@/services/adaptivePracticeService';
 import { calculateLearnerStats } from '@/services/analyticsService';
 import { detectConfusion } from '@/services/confusionService';
 import { generateFeedback } from '@/services/feedbackService';
+import { getRecommendedNext } from '@/lib/recommendations';
+import { getUserData } from '@/lib/storage';
 
 export default function QuizPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
@@ -26,14 +28,29 @@ export default function QuizPage() {
   const [sessionId, setSessionId] = useState('');
   const [questionStartedAt, setQuestionStartedAt] = useState(Date.now());
   const [answerFeedback, setAnswerFeedback] = useState<string | null>(null);
+  const [recommended, setRecommended] = useState<RecommendedLearningItem[]>([]);
+
+  const loadRecommendations = () => {
+    setRecommended(getRecommendedNext(getUserData(), { limit: 10 }));
+  };
+
+  useEffect(() => {
+    loadRecommendations();
+  }, []);
 
   const startQuiz = () => {
     let newQuestions: QuizQuestion[] | KanjiQuizQuestion[];
     
     if (mode === 'kanji') {
       const kanjiData = getAllKanji();
-      // Use all available kanji
-      newQuestions = generateKanjiQuizQuestions(kanjiData, 10);
+      const recommendedKanji = recommended
+        .filter((item) => item.category === 'kanji')
+        .map((item) => item.character);
+      const practiceData = recommendedKanji.length > 0
+        ? kanjiData.filter((kanji) => recommendedKanji.includes(kanji.character))
+        : kanjiData;
+
+      newQuestions = generateKanjiQuizQuestions(practiceData, 10);
     } else {
       const data = mode === 'hiragana' 
         ? hiraganaData 
@@ -123,6 +140,7 @@ export default function QuizPage() {
         setQuestionStartedAt(Date.now());
       } else {
         setShowResult(true);
+        loadRecommendations();
       }
     }, 1500);
   };
@@ -135,13 +153,7 @@ export default function QuizPage() {
     setShowResult(false);
     setSelectedAnswer(null);
     setAnswerFeedback(null);
-  };
-
-  const resetPrototypeData = () => {
-    if (confirm('Clear all local attempt logs and progress data?')) {
-      clearAttempts();
-      clearAllProgress();
-    }
+    loadRecommendations();
   };
 
   return (
@@ -178,7 +190,8 @@ export default function QuizPage() {
                       : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                   }`}
                 >
-                  Hiragana Only
+                  <span className="block">Hiragana Only</span>
+                  <span className="block text-sm font-normal opacity-80">Practice new characters</span>
                 </button>
                 <button
                   onClick={() => setMode('katakana')}
@@ -188,7 +201,8 @@ export default function QuizPage() {
                       : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                   }`}
                 >
-                  Katakana Only
+                  <span className="block">Katakana Only</span>
+                  <span className="block text-sm font-normal opacity-80">Practice new characters</span>
                 </button>
                 <button
                   onClick={() => setMode('mixed')}
@@ -198,7 +212,8 @@ export default function QuizPage() {
                       : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                   }`}
                 >
-                  Mixed (Hiragana & Katakana)
+                  <span className="block">Mixed Kana</span>
+                  <span className="block text-sm font-normal opacity-80">Review mistakes across both scripts</span>
                 </button>
                 <button
                   onClick={() => setMode('kanji')}
@@ -208,7 +223,8 @@ export default function QuizPage() {
                       : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                   }`}
                 >
-                  Kanji (All Grades)
+                  <span className="block">Kanji by Grade</span>
+                  <span className="block text-sm font-normal opacity-80">Adaptive quiz based on your performance</span>
                 </button>
               </div>
 
@@ -226,7 +242,8 @@ export default function QuizPage() {
                           : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                       }`}
                     >
-                      Random Practice
+                      <span className="block">Random Practice</span>
+                      <span className="block text-sm font-normal opacity-80">Practice new characters</span>
                     </button>
                     <button
                       onClick={() => setPracticeMode('review_mistakes')}
@@ -236,7 +253,8 @@ export default function QuizPage() {
                           : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                       }`}
                     >
-                      Review Mistakes
+                      <span className="block">Review Mistakes</span>
+                      <span className="block text-sm font-normal opacity-80">Review mistakes</span>
                     </button>
                     <button
                       onClick={() => setPracticeMode('recommended')}
@@ -246,23 +264,46 @@ export default function QuizPage() {
                           : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                       }`}
                     >
-                      Recommended Practice
+                      <span className="block">Recommended Practice</span>
+                      <span className="block text-sm font-normal opacity-80">Adaptive quiz based on your performance</span>
                     </button>
                   </div>
                 </div>
               )}
+
+              <section className="mb-8 rounded-lg border border-purple-100 dark:border-gray-700 p-4">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-semibold text-gray-900 dark:text-white">
+                    Recommended for you
+                  </h3>
+                  <Link href="/dashboard" className="text-sm text-purple-600 dark:text-purple-400 hover:underline">
+                    View analytics
+                  </Link>
+                </div>
+                {recommended.length === 0 ? (
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                    Start a quiz to generate personalized review targets.
+                  </p>
+                ) : (
+                  <div className="flex flex-wrap gap-2">
+                    {recommended.slice(0, 10).map((item) => (
+                      <span
+                        key={item.itemId}
+                        title={item.reasons.join(', ')}
+                        className="inline-flex min-w-10 items-center justify-center rounded bg-purple-50 px-3 py-2 text-2xl text-gray-900 dark:bg-gray-700 dark:text-white"
+                      >
+                        {item.character}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </section>
 
               <button
                 onClick={startQuiz}
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-lg transition-colors"
               >
                 Start Quiz (10 Questions)
-              </button>
-              <button
-                onClick={resetPrototypeData}
-                className="w-full mt-3 bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-              >
-                Clear Local Prototype Data
               </button>
             </div>
           ) : showResult ? (

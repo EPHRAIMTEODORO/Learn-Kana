@@ -2,6 +2,8 @@ import { allKanaData } from '@/data/kana';
 import { KanaCharacter, KanaPracticeMode, KanaStats, KanaType, QuizAttempt } from '@/types/kana';
 import { getAttempts } from '@/storage/attemptRepository';
 import { calculateLearnerStats } from '@/services/analyticsService';
+import { getRecommendedNext } from '@/lib/recommendations';
+import { getUserData } from '@/lib/storage';
 
 export interface AdaptiveCandidate {
   kana: KanaCharacter;
@@ -103,6 +105,19 @@ export function getRecommendedPracticeKana(
   kanaType?: KanaType | 'mixed',
   attempts: QuizAttempt[] = getAttempts()
 ): KanaCharacter[] {
+  const category = kanaType && kanaType !== 'mixed' ? kanaType : undefined;
+  const recommendedCharacters = getRecommendedNext(getUserData(), {
+    category,
+    limit: count,
+  }).map((item) => item.character);
+  const recommendedKana = allKanaData.filter((kana) =>
+    recommendedCharacters.includes(kana.character)
+  );
+
+  if (recommendedKana.length >= count) {
+    return recommendedKana.slice(0, count);
+  }
+
   const candidates = getAdaptiveCandidates(kanaType, attempts);
   const topPool = candidates.slice(0, Math.max(count * 2, count));
   const explorationPool = candidates.slice(Math.max(count * 2, count));

@@ -12,13 +12,72 @@ export type KanaType = 'hiragana' | 'katakana';
 
 export type KanaPracticeMode = 'random' | 'review_mistakes' | 'recommended';
 
+export type LearningItemCategory = 'hiragana' | 'katakana' | 'kanji';
+
+export interface LearningItemProgress {
+  itemId: string;
+  character: string;
+  category: LearningItemCategory;
+  grade?: string;
+  correct: number;
+  incorrect: number;
+  attempts: number;
+  lastSeen: number | null;
+  lastReviewed: number;
+  easeFactor: number;
+  interval: number;
+  nextReviewAt: number;
+  consecutiveCorrect: number;
+  recentFailures: number[];
+  firstSeen: number;
+}
+
+export interface UserData {
+  version: 1;
+  progress: Record<string, LearningItemProgress>;
+  attempts: QuizAttempt[];
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface RecommendedLearningItem {
+  itemId: string;
+  character: string;
+  category: LearningItemCategory;
+  grade?: string;
+  accuracy: number;
+  priorityScore: number;
+  reasons: string[];
+  nextReviewAt?: number;
+}
+
+export interface RecommendationTrace {
+  policy: string;
+  dueCount: number;
+  weakCount: number;
+  newCount: number;
+  selectedCount: number;
+  signals: Array<{
+    name: string;
+    description: string;
+    weight: string;
+  }>;
+}
+
+export interface VirtualTAFeedback {
+  summary: string;
+  nextAction: string;
+  evidence: string[];
+  researchSignals: string[];
+}
+
 export interface ConfusionDetection {
   confusionType: 'visual_similarity';
   confusionPair: string;
 }
 
 /**
- * Prototype event log for educational data mining and later backend storage.
+ * Event log for educational data mining and later backend storage.
  */
 export interface QuizAttempt {
   id: string;
@@ -91,10 +150,19 @@ export interface LearnerStats {
  * Persisted in localStorage for continuity across sessions
  */
 export interface CharacterProgress {
+  itemId?: string;
   character: string;
+  category?: LearningItemCategory;
+  grade?: string;
   correct: number;      // Count of correct answers
   incorrect: number;    // Count of incorrect answers
   lastReviewed: number; // Timestamp of last review
+  attempts?: number;
+  lastSeen?: number | null;
+  easeFactor?: number;
+  interval?: number;
+  nextReviewAt?: number;
+  recentFailures?: number[];
 }
 
 /**

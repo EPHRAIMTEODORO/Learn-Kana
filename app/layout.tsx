@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Learn Kana",
-  description: "Master Japanese Hiragana and Katakana through flashcards and quizzes",
+  description: "Adaptive Japanese kana and kanji practice with spaced repetition and learner analytics",
 };
 
 export default function RootLayout({

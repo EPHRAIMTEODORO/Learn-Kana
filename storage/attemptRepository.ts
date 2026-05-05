@@ -1,6 +1,5 @@
 import { QuizAttempt } from '@/types/kana';
-
-const STORAGE_KEY = 'kana-attempts';
+import { addAttempt, getUserData, resetData } from '@/lib/storage';
 
 export interface AttemptRepository {
   saveAttempt(attempt: QuizAttempt): void;
@@ -8,39 +7,21 @@ export interface AttemptRepository {
   clearAttempts(): void;
 }
 
-function isBrowser() {
-  return typeof window !== 'undefined';
-}
-
 /**
- * Browser prototype repository. Keeping localStorage here makes it replaceable
+ * Browser learning-data repository. Keeping localStorage here makes it replaceable
  * with an API/database repository when real learner accounts are introduced.
  */
 export const localAttemptRepository: AttemptRepository = {
   saveAttempt(attempt: QuizAttempt) {
-    if (!isBrowser()) return;
-
-    const attempts = this.getAttempts();
-    attempts.push(attempt);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(attempts));
+    addAttempt(attempt);
   },
 
   getAttempts() {
-    if (!isBrowser()) return [];
-
-    try {
-      const value = localStorage.getItem(STORAGE_KEY);
-      if (!value) return [];
-      return JSON.parse(value) as QuizAttempt[];
-    } catch (error) {
-      console.error('Error loading attempt history:', error);
-      return [];
-    }
+    return getUserData().attempts;
   },
 
   clearAttempts() {
-    if (!isBrowser()) return;
-    localStorage.removeItem(STORAGE_KEY);
+    resetData();
   },
 };
 
