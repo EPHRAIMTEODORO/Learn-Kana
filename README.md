@@ -29,7 +29,14 @@ A modern, interactive web application for learning Japanese Hiragana and Katakan
 - Last reviewed timestamp for each character
 - Filter by learning status (All, Learning <80%, Mastered ≥80%)
 - Overall statistics dashboard
-- Progress persisted in localStorage (no authentication required)
+- Progress persisted in MongoDB with a browser cache for responsive practice
+
+### 🔐 Accounts
+- Email/password signup and login
+- Google federated login
+- HTTP-only session cookies
+- User progress stored under the signed-in account
+- Anonymous learner data can be merged into an account after login/signup
 
 ## Tech Stack
 
@@ -37,7 +44,8 @@ A modern, interactive web application for learning Japanese Hiragana and Katakan
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **State Management**: React Hooks
-- **Storage**: localStorage API
+- **Storage**: MongoDB via Next.js route handlers, plus browser cache fallback
+- **Auth**: MongoDB-backed users and sessions with Node crypto password hashing
 
 ## Getting Started
 
@@ -53,12 +61,32 @@ A modern, interactive web application for learning Japanese Hiragana and Katakan
 npm install
 ```
 
-2. Run the development server:
+2. Configure MongoDB:
+```bash
+cp .env.example .env.local
+```
+
+Set `MONGODB_URI` to your MongoDB connection string. `MONGODB_DB` defaults to `learn-kana` if omitted.
+
+For Google login, create a Google OAuth Web application client and add this authorized redirect URI:
+
+```text
+http://localhost:3000/api/auth/google/callback
+```
+
+Then set:
+
+```bash
+GOOGLE_CLIENT_ID=your-google-oauth-client-id
+GOOGLE_CLIENT_SECRET=your-google-oauth-client-secret
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ### Build for Production
 
@@ -86,7 +114,7 @@ Learn-Kana/
 ├── types/                   # TypeScript type definitions
 │   └── kana.ts              # Core data types
 ├── utils/                   # Utility functions
-│   ├── progress.ts          # localStorage progress tracking
+│   ├── progress.ts          # Learner progress utilities
 │   └── quiz.ts              # Quiz question generation
 └── package.json
 ```
@@ -101,22 +129,21 @@ Learn-Kana/
 ### User Experience
 - **Mobile-First**: Responsive design optimized for touch devices
 - **Immediate Feedback**: Visual feedback for correct/incorrect answers in quiz mode
-- **Persistent Progress**: localStorage ensures progress survives page refreshes
-- **No Authentication**: Simple, frictionless learning experience
+- **Persistent Progress**: MongoDB stores progress, review schedules, and attempt logs
+- **User Accounts**: Signed-in users keep their learner data under an account
+- **Anonymous Learner Profile**: Visitors can still practice before creating an account
 
 ### Performance
 - **Client-Side Rendering**: Interactive features use 'use client' directive
 - **Shuffled Practice**: Characters randomized to prevent memorization of order
-- **Efficient Storage**: Minimal localStorage usage with JSON serialization
+- **Responsive Storage**: Browser cache keeps the UI fast while MongoDB syncs in the background
 
 ## Future Enhancements
 
-- Add dakuten/handakuten characters (が, ぱ, etc.)
-- Include combination characters (きゃ, しゅ, etc.)
 - Spaced repetition algorithm for smarter review scheduling
 - Sound pronunciation for each character
 - Writing practice with stroke order
-- User accounts with cloud sync
+- User accounts across devices
 - Leaderboards and achievements
 
 ## License

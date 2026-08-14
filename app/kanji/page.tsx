@@ -6,6 +6,7 @@ import type { KanjiGrade, KanjiCharacter } from '@/types/kanji';
 import { CharacterProgress } from '@/types/kana';
 import { getAllProgress } from '@/utils/progress';
 import AppNav from '@/components/AppNav';
+import { hydrateUserDataFromMongo } from '@/lib/storage';
 
 export default function KanjiPage() {
   const [selectedGrade, setSelectedGrade] = useState<KanjiGrade>('grade1');
@@ -14,6 +15,9 @@ export default function KanjiPage() {
 
   useEffect(() => {
     setProgressData(getAllProgress());
+    hydrateUserDataFromMongo().then(() => {
+      setProgressData(getAllProgress());
+    });
   }, []);
 
   const currentSection = kanjiGradeSections.find(s => s.grade === selectedGrade);

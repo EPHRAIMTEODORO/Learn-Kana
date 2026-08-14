@@ -2,12 +2,12 @@ import { CharacterProgress } from '@/types/kana';
 import { getUserData, recordItemResult, resetData } from '@/lib/storage';
 
 /**
- * Progress tracking utilities using localStorage
- * Tracks correct/incorrect attempts and last review time for each character
+ * Progress tracking utilities.
+ * Tracks correct/incorrect attempts and last review time for each character.
  */
 
 /**
- * Load all progress data from localStorage
+ * Load all cached progress data.
  */
 export function getAllProgress(): CharacterProgress[] {
   return Object.values(getUserData().progress);
@@ -29,7 +29,7 @@ export function updateProgress(character: string, isCorrect: boolean): void {
 }
 
 /**
- * Reset the local learner model.
+ * Reset the learner model in MongoDB and the browser cache.
  */
 export function clearAllProgress(): void {
   resetData();

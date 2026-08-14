@@ -9,6 +9,7 @@ import Flashcard from '@/components/Flashcard';
 import KanjiFlashcard from '@/components/KanjiFlashcard';
 import { updateProgress } from '@/utils/progress';
 import AppNav from '@/components/AppNav';
+import { hydrateUserDataFromMongo } from '@/lib/storage';
 
 export default function LearnPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
@@ -17,6 +18,10 @@ export default function LearnPage() {
   const [cards, setCards] = useState<KanaCharacter[] | KanjiCharacter[]>(hiraganaData);
   const [isKanjiMode, setIsKanjiMode] = useState(false);
   const [kanjiGrade, setKanjiGrade] = useState<KanjiGrade>('grade1');
+
+  useEffect(() => {
+    hydrateUserDataFromMongo();
+  }, []);
 
   // Update cards when mode changes
   useEffect(() => {

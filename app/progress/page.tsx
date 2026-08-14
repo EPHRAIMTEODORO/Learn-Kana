@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { kanjiGradeSections } from '@/data/kanji';
 import { CharacterProgress, LearningItemCategory } from '@/types/kana';
 import { getAllProgress } from '@/utils/progress';
+import { hydrateUserDataFromMongo } from '@/lib/storage';
 import AppNav from '@/components/AppNav';
 import ProgressSummary from '@/components/ProgressSummary';
 
@@ -48,6 +49,9 @@ export default function ProgressPage() {
 
   useEffect(() => {
     setProgressData(getAllProgress());
+    hydrateUserDataFromMongo().then(() => {
+      setProgressData(getAllProgress());
+    });
   }, []);
 
   const totalCharactersStudied = progressData.length;

@@ -12,6 +12,10 @@ import {
 const USER_DATA_KEY = 'learn-kana-user-data';
 const LEGACY_PROGRESS_KEY = 'kana-progress';
 const LEGACY_ATTEMPTS_KEY = 'kana-attempts';
+const USER_DATA_API_PATH = '/api/user-data';
+
+let cachedUserData: UserData | null = null;
+let pendingRemoteSync: Promise<void> | null = null;
 
 function isBrowser() {
   return typeof window !== 'undefined';
@@ -26,6 +30,10 @@ function createEmptyUserData(): UserData {
     createdAt: now,
     updatedAt: now,
   };
+}
+
+function hasLearningData(userData: UserData): boolean {
+  return Object.keys(userData.progress).length > 0 || userData.attempts.length > 0;
 }
 
 function normalizeProgress(value: Partial<LearningItemProgress>): LearningItemProgress {
@@ -90,12 +98,74 @@ function persistUserData(userData: UserData): UserData {
     ...userData,
     updatedAt: new Date().toISOString(),
   };
+  cachedUserData = updated;
   localStorage.setItem(USER_DATA_KEY, JSON.stringify(updated));
   return updated;
 }
 
+function mergeUserData(localData: UserData, remoteData: UserData): UserData {
+  const attemptsById = new Map<string, QuizAttempt>();
+
+  [...remoteData.attempts, ...localData.attempts].forEach((attempt) => {
+    attemptsById.set(attempt.id, attempt);
+  });
+
+  return {
+    ...remoteData,
+    progress: {
+      ...remoteData.progress,
+      ...localData.progress,
+    },
+    attempts: Array.from(attemptsById.values()).sort((a, b) =>
+      a.createdAt.localeCompare(b.createdAt)
+    ),
+    createdAt:
+      remoteData.createdAt < localData.createdAt ? remoteData.createdAt : localData.createdAt,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+async function putRemoteUserData(userData: UserData): Promise<UserData | null> {
+  if (!isBrowser()) return null;
+
+  try {
+    const response = await fetch(USER_DATA_API_PATH, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userData }),
+    });
+
+    if (!response.ok) return null;
+
+    const payload = (await response.json()) as { userData?: UserData };
+    return payload.userData ?? null;
+  } catch (error) {
+    console.error('Error syncing learner data to MongoDB:', error);
+    return null;
+  }
+}
+
+function syncUserDataToMongo(userData: UserData): void {
+  if (!isBrowser()) return;
+
+  pendingRemoteSync = (pendingRemoteSync ?? Promise.resolve())
+    .then(async () => {
+      const remoteData = await putRemoteUserData(userData);
+      if (remoteData) {
+        persistUserData(remoteData);
+      }
+    })
+    .catch((error) => {
+      console.error('Error queueing learner data sync:', error);
+    })
+    .finally(() => {
+      pendingRemoteSync = null;
+    });
+}
+
 export function getUserData(): UserData {
   if (!isBrowser()) return createEmptyUserData();
+  if (cachedUserData) return cachedUserData;
 
   try {
     const value = localStorage.getItem(USER_DATA_KEY);
@@ -107,12 +177,13 @@ export function getUserData(): UserData {
           normalizeProgress(item),
         ])
       );
-      return {
+      cachedUserData = {
         ...createEmptyUserData(),
         ...parsed,
         progress,
         attempts: parsed.attempts ?? [],
       };
+      return cachedUserData;
     }
 
     const migrated = migrateLegacyData();
@@ -131,7 +202,39 @@ export function updateUserData(
 
   const current = getUserData();
   const next = typeof updater === 'function' ? updater(current) : updater;
-  return persistUserData(next);
+  const persisted = persistUserData(next);
+  syncUserDataToMongo(persisted);
+  return persisted;
+}
+
+export async function hydrateUserDataFromMongo(): Promise<UserData> {
+  if (!isBrowser()) return createEmptyUserData();
+
+  const localData = getUserData();
+
+  try {
+    const response = await fetch(USER_DATA_API_PATH);
+    if (!response.ok) return localData;
+
+    const payload = (await response.json()) as { userData?: UserData };
+    const remoteData = payload.userData;
+    if (!remoteData) return localData;
+
+    const nextData = hasLearningData(localData)
+      ? mergeUserData(localData, remoteData)
+      : remoteData;
+
+    const persisted = persistUserData(nextData);
+
+    if (hasLearningData(localData)) {
+      syncUserDataToMongo(persisted);
+    }
+
+    return persisted;
+  } catch (error) {
+    console.error('Error loading learner data from MongoDB:', error);
+    return localData;
+  }
 }
 
 export function recordItemResult(character: string, isCorrect: boolean): LearningItemProgress {
@@ -166,7 +269,17 @@ export function addAttempt(attempt: QuizAttempt): void {
 
 export function resetData(): void {
   if (!isBrowser()) return;
+  cachedUserData = createEmptyUserData();
   localStorage.removeItem(USER_DATA_KEY);
   localStorage.removeItem(LEGACY_PROGRESS_KEY);
   localStorage.removeItem(LEGACY_ATTEMPTS_KEY);
+  fetch(USER_DATA_API_PATH, { method: 'DELETE' }).catch((error) => {
+    console.error('Error clearing learner data from MongoDB:', error);
+  });
+}
+
+export function forgetCachedUserData(): void {
+  if (!isBrowser()) return;
+  cachedUserData = null;
+  localStorage.removeItem(USER_DATA_KEY);
 }

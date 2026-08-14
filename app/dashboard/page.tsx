@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { LearnerStats, RecommendationTrace, RecommendedLearningItem, UserData, VirtualTAFeedback } from '@/types/kana';
 import { getLearnerStats } from '@/services/analyticsService';
 import { getRecommendationTrace, getRecommendedNext } from '@/lib/recommendations';
-import { getUserData } from '@/lib/storage';
+import { getUserData, hydrateUserDataFromMongo } from '@/lib/storage';
 import { generateVirtualTAFeedback } from '@/lib/virtualTA';
 import AppNav from '@/components/AppNav';
 import RecommendedSection from '@/components/RecommendedSection';
@@ -21,8 +21,7 @@ export default function DashboardPage() {
   const [trace, setTrace] = useState<RecommendationTrace | null>(null);
   const [virtualTA, setVirtualTA] = useState<VirtualTAFeedback | null>(null);
 
-  const loadStats = () => {
-    const userData: UserData = getUserData();
+  const loadStats = (userData: UserData = getUserData()) => {
     const nextStats = getLearnerStats();
     const nextRecommended = getRecommendedNext(userData, { limit: 12 });
 
@@ -34,6 +33,9 @@ export default function DashboardPage() {
 
   useEffect(() => {
     loadStats();
+    hydrateUserDataFromMongo().then((userData) => {
+      loadStats(userData);
+    });
   }, []);
 
   if (!stats || !trace || !virtualTA) return null;

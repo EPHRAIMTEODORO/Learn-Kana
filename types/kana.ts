@@ -149,7 +149,7 @@ export interface LearnerStats {
 
 /**
  * Progress tracking for individual characters
- * Persisted in localStorage for continuity across sessions
+ * Persisted in MongoDB with a browser cache for responsive sessions.
  */
 export interface CharacterProgress {
   itemId?: string;

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import AuthStatus from '@/components/AuthStatus';
 
 const navItems = [
   { href: '/learn', label: 'Learn' },
@@ -18,17 +19,20 @@ export default function AppNav() {
         >
           Learn Kana
         </Link>
-        <nav aria-label="Primary navigation" className="flex flex-wrap gap-2">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-academic-muted outline-none transition-colors hover:bg-academic-section focus-visible:ring-2 focus-visible:ring-academic-primary"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="flex flex-wrap items-center gap-2">
+          <nav aria-label="Primary navigation" className="flex flex-wrap gap-2">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-md px-3 py-2 text-sm font-medium text-academic-muted outline-none transition-colors hover:bg-academic-section focus-visible:ring-2 focus-visible:ring-academic-primary"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+          <AuthStatus />
+        </div>
       </div>
     </header>
   );

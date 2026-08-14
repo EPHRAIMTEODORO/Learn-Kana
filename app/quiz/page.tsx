@@ -14,7 +14,7 @@ import { calculateLearnerStats } from '@/services/analyticsService';
 import { detectConfusion } from '@/services/confusionService';
 import { generateFeedback } from '@/services/feedbackService';
 import { getRecommendedNext } from '@/lib/recommendations';
-import { getUserData } from '@/lib/storage';
+import { getUserData, hydrateUserDataFromMongo } from '@/lib/storage';
 import AppNav from '@/components/AppNav';
 import RecommendedSection from '@/components/RecommendedSection';
 
@@ -34,12 +34,15 @@ export default function QuizPage() {
   const [recommended, setRecommended] = useState<RecommendedLearningItem[]>([]);
   const [kanjiGrade, setKanjiGrade] = useState<KanjiGrade>('grade1');
 
-  const loadRecommendations = () => {
-    setRecommended(getRecommendedNext(getUserData(), { limit: 10 }));
+  const loadRecommendations = (userData = getUserData()) => {
+    setRecommended(getRecommendedNext(userData, { limit: 10 }));
   };
 
   useEffect(() => {
     loadRecommendations();
+    hydrateUserDataFromMongo().then((userData) => {
+      loadRecommendations(userData);
+    });
   }, []);
 
   const startQuiz = (

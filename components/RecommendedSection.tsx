@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { LearningItemCategory, RecommendedLearningItem } from '@/types/kana';
 import { getRecommendedNext } from '@/lib/recommendations';
-import { getUserData } from '@/lib/storage';
+import { getUserData, hydrateUserDataFromMongo } from '@/lib/storage';
 
 function readableReason(item: RecommendedLearningItem) {
   if (item.reasons.some((reason) => reason.includes('due'))) return 'Needs review';
@@ -32,7 +32,18 @@ export default function RecommendedSection({
   const [items, setItems] = useState<RecommendedLearningItem[]>([]);
 
   useEffect(() => {
+    let isMounted = true;
+
+    hydrateUserDataFromMongo().then((userData) => {
+      if (!isMounted) return;
+      setItems(getRecommendedNext(userData, { category, grade, limit }));
+    });
+
     setItems(getRecommendedNext(getUserData(), { category, grade, limit }));
+
+    return () => {
+      isMounted = false;
+    };
   }, [category, grade, limit]);
 
   return (

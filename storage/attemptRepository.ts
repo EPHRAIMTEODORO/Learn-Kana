@@ -8,8 +8,8 @@ export interface AttemptRepository {
 }
 
 /**
- * Browser learning-data repository. Keeping localStorage here makes it replaceable
- * with an API/database repository when real learner accounts are introduced.
+ * Browser-facing learning-data repository. The storage module keeps a local
+ * cache and syncs learner data to MongoDB through the app route handler.
  */
 export const localAttemptRepository: AttemptRepository = {
   saveAttempt(attempt: QuizAttempt) {
