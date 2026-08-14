@@ -25,9 +25,15 @@ export function generateQuizQuestions(
     usedIndices.add(randomIndex);
 
     const character = data[randomIndex];
+    const sameTypeChars = optionSource.filter(c => c.type === character.type);
+    const hasAmbiguousRomaji = sameTypeChars.filter(
+      (kana) => kana.romaji === character.romaji
+    ).length > 1;
     
     // Randomly choose question direction
-    const questionType = Math.random() > 0.5 ? 'char-to-romaji' : 'romaji-to-char';
+    const questionType = hasAmbiguousRomaji
+      ? 'char-to-romaji'
+      : Math.random() > 0.5 ? 'char-to-romaji' : 'romaji-to-char';
     
     const question: QuizQuestion = {
       question: questionType === 'char-to-romaji' ? character.character : character.romaji,
@@ -41,7 +47,6 @@ export function generateQuizQuestions(
     };
 
     // Generate wrong answers from same character type
-    const sameTypeChars = optionSource.filter(c => c.type === character.type);
     const wrongAnswers = new Set<string>();
     
     while (wrongAnswers.size < 3 && wrongAnswers.size < sameTypeChars.length - 1) {

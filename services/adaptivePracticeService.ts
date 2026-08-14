@@ -1,5 +1,5 @@
-import { allKanaData } from '@/data/kana';
-import { KanaCharacter, KanaPracticeMode, KanaStats, KanaType, QuizAttempt } from '@/types/kana';
+import { allKanaData, getKanaForStudySet } from '@/data/kana';
+import { KanaCharacter, KanaPracticeMode, KanaStats, KanaStudySet, KanaType, QuizAttempt } from '@/types/kana';
 import { getAttempts } from '@/storage/attemptRepository';
 import { calculateLearnerStats } from '@/services/analyticsService';
 import { getRecommendedNext } from '@/lib/recommendations';
@@ -86,16 +86,28 @@ function filterByKanaType(data: KanaCharacter[], kanaType?: KanaType | 'mixed') 
   return data.filter((kana) => kana.type === kanaType);
 }
 
+function filterByStudySet(
+  data: KanaCharacter[],
+  kanaType: KanaType | 'mixed' | undefined,
+  studySet: KanaStudySet
+) {
+  const allowedCharacters = new Set(
+    getKanaForStudySet(kanaType ?? 'mixed', studySet).map((kana) => kana.character)
+  );
+  return data.filter((kana) => allowedCharacters.has(kana.character));
+}
+
 /**
  * Adaptive selection supports personalized learning with transparent scoring:
  * mistakes, low accuracy, slow answers, recency, and confusion pairs all matter.
  */
 export function getAdaptiveCandidates(
   kanaType?: KanaType | 'mixed',
+  studySet: KanaStudySet = 'all',
   attempts: QuizAttempt[] = getAttempts()
 ): AdaptiveCandidate[] {
   const learnerStats = calculateLearnerStats(attempts);
-  return filterByKanaType(allKanaData, kanaType)
+  return filterByStudySet(filterByKanaType(allKanaData, kanaType), kanaType, studySet)
     .map((kana) => scoreKana(kana, attempts, learnerStats.accuracyByKana))
     .sort((a, b) => b.priorityScore - a.priorityScore);
 }
@@ -103,6 +115,7 @@ export function getAdaptiveCandidates(
 export function getRecommendedPracticeKana(
   count: number,
   kanaType?: KanaType | 'mixed',
+  studySet: KanaStudySet = 'all',
   attempts: QuizAttempt[] = getAttempts()
 ): KanaCharacter[] {
   const category = kanaType && kanaType !== 'mixed' ? kanaType : undefined;
@@ -110,7 +123,8 @@ export function getRecommendedPracticeKana(
     category,
     limit: count,
   }).map((item) => item.character);
-  const recommendedKana = allKanaData.filter((kana) =>
+  const scopedKana = getKanaForStudySet(kanaType ?? 'mixed', studySet);
+  const recommendedKana = scopedKana.filter((kana) =>
     recommendedCharacters.includes(kana.character)
   );
 
@@ -118,7 +132,7 @@ export function getRecommendedPracticeKana(
     return recommendedKana.slice(0, count);
   }
 
-  const candidates = getAdaptiveCandidates(kanaType, attempts);
+  const candidates = getAdaptiveCandidates(kanaType, studySet, attempts);
   const topPool = candidates.slice(0, Math.max(count * 2, count));
   const explorationPool = candidates.slice(Math.max(count * 2, count));
   const selected = shuffle(topPool).slice(0, Math.ceil(count * 0.8));
@@ -133,17 +147,21 @@ export function getRecommendedPracticeKana(
 export function getReviewMistakeKana(
   count: number,
   kanaType?: KanaType | 'mixed',
+  studySet: KanaStudySet = 'all',
   attempts: QuizAttempt[] = getAttempts()
 ): KanaCharacter[] {
   const learnerStats = calculateLearnerStats(attempts);
+  const scopedKana = getKanaForStudySet(kanaType ?? 'mixed', studySet);
+  const scopedCharacters = new Set(scopedKana.map((kana) => kana.character));
   const missedCharacters = learnerStats.mostMissedKana
     .filter((kana) => !kanaType || kanaType === 'mixed' || kana.kanaType === kanaType)
+    .filter((kana) => scopedCharacters.has(kana.character))
     .map((kana) => kana.character);
-  const missedKana = allKanaData.filter((kana) => missedCharacters.includes(kana.character));
+  const missedKana = scopedKana.filter((kana) => missedCharacters.includes(kana.character));
 
   if (missedKana.length >= count) return shuffle(missedKana).slice(0, count);
 
-  const fallback = getRecommendedPracticeKana(count, kanaType, attempts).filter(
+  const fallback = getRecommendedPracticeKana(count, kanaType, studySet, attempts).filter(
     (kana) => !missedCharacters.includes(kana.character)
   );
 
@@ -153,15 +171,16 @@ export function getReviewMistakeKana(
 export function getPracticeKana(
   practiceMode: KanaPracticeMode,
   count: number,
-  kanaType?: KanaType | 'mixed'
+  kanaType?: KanaType | 'mixed',
+  studySet: KanaStudySet = 'all'
 ): KanaCharacter[] {
   if (practiceMode === 'recommended') {
-    return getRecommendedPracticeKana(count, kanaType);
+    return getRecommendedPracticeKana(count, kanaType, studySet);
   }
 
   if (practiceMode === 'review_mistakes') {
-    return getReviewMistakeKana(count, kanaType);
+    return getReviewMistakeKana(count, kanaType, studySet);
   }
 
-  return shuffle(filterByKanaType(allKanaData, kanaType)).slice(0, count);
+  return shuffle(getKanaForStudySet(kanaType ?? 'mixed', studySet)).slice(0, count);
 }

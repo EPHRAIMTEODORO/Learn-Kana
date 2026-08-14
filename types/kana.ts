@@ -12,6 +12,8 @@ export type KanaType = 'hiragana' | 'katakana';
 
 export type KanaPracticeMode = 'random' | 'review_mistakes' | 'recommended';
 
+export type KanaStudySet = 'basic' | 'voiced' | 'combinations' | 'all';
+
 export type LearningItemCategory = 'hiragana' | 'katakana' | 'kanji';
 
 export interface LearningItemProgress {

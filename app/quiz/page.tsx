@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
+import { getKanaForStudySet } from '@/data/kana';
 import { getKanjiByGrade, kanjiGradeSections } from '@/data/kanji';
-import { KanaPracticeMode, LearningMode, QuizAttempt, QuizQuestion, RecommendedLearningItem } from '@/types/kana';
+import { KanaPracticeMode, KanaStudySet, LearningMode, QuizAttempt, QuizQuestion, RecommendedLearningItem } from '@/types/kana';
 import { KanjiGrade, KanjiQuizQuestion } from '@/types/kanji';
 import { generateKanjiQuizQuestions, generateQuizQuestions } from '@/utils/quiz';
 import { updateProgress } from '@/utils/progress';
@@ -21,6 +21,7 @@ import RecommendedSection from '@/components/RecommendedSection';
 export default function QuizPage() {
   const [mode, setMode] = useState<LearningMode>('mixed');
   const [practiceMode, setPracticeMode] = useState<KanaPracticeMode>('recommended');
+  const [kanaStudySet, setKanaStudySet] = useState<KanaStudySet>('basic');
   const [questions, setQuestions] = useState<QuizQuestion[] | KanjiQuizQuestion[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -44,13 +45,15 @@ export default function QuizPage() {
   const startQuiz = (
     selectedMode: LearningMode,
     selectedPracticeMode: KanaPracticeMode,
-    selectedKanjiGrade: KanjiGrade = kanjiGrade
+    selectedKanjiGrade: KanjiGrade = kanjiGrade,
+    selectedKanaStudySet: KanaStudySet = kanaStudySet
   ) => {
     let newQuestions: QuizQuestion[] | KanjiQuizQuestion[];
 
     setMode(selectedMode);
     setPracticeMode(selectedPracticeMode);
     setKanjiGrade(selectedKanjiGrade);
+    setKanaStudySet(selectedKanaStudySet);
 
     if (selectedMode === 'kanji') {
       const kanjiData = getKanjiByGrade(selectedKanjiGrade);
@@ -67,16 +70,11 @@ export default function QuizPage() {
 
       newQuestions = generateKanjiQuizQuestions(practiceData, 10);
     } else {
-      const data =
-        selectedMode === 'hiragana'
-          ? hiraganaData
-          : selectedMode === 'katakana'
-            ? katakanaData
-            : allKanaData;
+      const data = getKanaForStudySet(selectedMode, selectedKanaStudySet);
       const practiceData =
         selectedPracticeMode === 'random'
           ? data
-          : getPracticeKana(selectedPracticeMode, 10, selectedMode);
+          : getPracticeKana(selectedPracticeMode, 10, selectedMode, selectedKanaStudySet);
 
       newQuestions = generateQuizQuestions(practiceData, 10, data);
     }
@@ -166,6 +164,12 @@ export default function QuizPage() {
   const recommendedMode: LearningMode = recommended[0]?.category === 'kanji' ? 'kanji' : 'mixed';
   const selectedGradeLabel =
     kanjiGradeSections.find((section) => section.grade === kanjiGrade)?.gradeName ?? 'Grade 1';
+  const selectedKanaSetLabel = {
+    basic: 'Basic kana',
+    voiced: 'Voiced kana',
+    combinations: 'Combination kana',
+    all: 'All kana',
+  }[kanaStudySet];
 
   return (
     <main className="min-h-screen bg-academic-background">
@@ -186,6 +190,37 @@ export default function QuizPage() {
         {!quizStarted ? (
           <div className="space-y-6">
             <RecommendedSection compact />
+
+            <section className="rounded-lg border border-academic-border bg-white p-5 shadow-sm">
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                <div>
+                  <h2 className="text-xl font-bold text-academic-text">Kana practice set</h2>
+                  <p className="mt-2 text-sm text-academic-muted">
+                    Choose whether kana quizzes focus on the core chart, voiced marks, combinations, or everything together.
+                  </p>
+                </div>
+                <div className="grid gap-3 sm:grid-cols-4" role="group" aria-label="Kana practice set">
+                  {[
+                    { value: 'basic', label: 'Basic' },
+                    { value: 'voiced', label: 'Voiced' },
+                    { value: 'combinations', label: 'Combos' },
+                    { value: 'all', label: 'All Kana' },
+                  ].map((option) => (
+                    <button
+                      key={option.value}
+                      onClick={() => setKanaStudySet(option.value as KanaStudySet)}
+                      className={`rounded-md px-3 py-2 text-sm font-semibold transition-colors ${
+                        kanaStudySet === option.value
+                          ? 'bg-academic-primary text-white'
+                          : 'bg-academic-section text-academic-muted hover:bg-[#E8EAF6]'
+                      }`}
+                    >
+                      {option.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </section>
 
             <section className="rounded-lg border border-academic-border bg-white p-5 shadow-sm">
               <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
@@ -226,13 +261,13 @@ export default function QuizPage() {
               <section className="rounded-lg border border-academic-border bg-white p-6 shadow-sm">
                 <h2 className="text-xl font-bold text-academic-text">New Practice</h2>
                 <p className="mt-3 min-h-24 text-sm leading-6 text-academic-muted">
-                  Practice new kana or kanji prompts and add fresh evidence to your learner model.
+                  Practice {selectedKanaSetLabel.toLowerCase()} or kanji prompts and add fresh evidence to your learner model.
                 </p>
                 <button
-                  onClick={() => startQuiz('mixed', 'random')}
+                  onClick={() => startQuiz('mixed', 'random', kanjiGrade, kanaStudySet)}
                   className="mt-4 w-full rounded-md bg-academic-primary px-4 py-3 font-semibold text-white outline-none hover:bg-academic-primaryDark focus-visible:ring-2 focus-visible:ring-academic-primary"
                 >
-                  Practice Kana
+                  Practice {selectedKanaSetLabel}
                 </button>
                 <button
                   onClick={() => startQuiz('kanji', 'random', kanjiGrade)}
@@ -248,10 +283,10 @@ export default function QuizPage() {
                   Focus on characters you missed before so the system can check recovery.
                 </p>
                 <button
-                  onClick={() => startQuiz('mixed', 'review_mistakes')}
+                  onClick={() => startQuiz('mixed', 'review_mistakes', kanjiGrade, kanaStudySet)}
                   className="mt-4 w-full rounded-md border border-academic-border bg-white px-4 py-3 font-semibold text-academic-text outline-none hover:bg-academic-section focus-visible:ring-2 focus-visible:ring-academic-primary"
                 >
-                  Review Kana Mistakes
+                  Review {selectedKanaSetLabel} Mistakes
                 </button>
                 <button
                   onClick={() => startQuiz('kanji', 'recommended', kanjiGrade)}
@@ -270,7 +305,7 @@ export default function QuizPage() {
                   onClick={() =>
                     recommendedMode === 'kanji'
                       ? startQuiz('kanji', 'recommended', kanjiGrade)
-                      : startQuiz('mixed', 'recommended')
+                      : startQuiz('mixed', 'recommended', kanjiGrade, kanaStudySet)
                   }
                   className="mt-4 w-full rounded-md bg-academic-primary px-4 py-3 font-semibold text-white outline-none hover:bg-academic-primaryDark focus-visible:ring-2 focus-visible:ring-academic-primary"
                 >
@@ -308,7 +343,7 @@ export default function QuizPage() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <button
-                onClick={() => startQuiz(mode, practiceMode)}
+                onClick={() => startQuiz(mode, practiceMode, kanjiGrade, kanaStudySet)}
                 className="flex-1 rounded-md bg-academic-primary px-4 py-3 font-semibold text-white outline-none hover:bg-academic-primaryDark focus-visible:ring-2 focus-visible:ring-academic-primary"
               >
                 Practice Again

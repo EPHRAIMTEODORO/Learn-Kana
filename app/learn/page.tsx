@@ -1,10 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { hiraganaData, katakanaData, allKanaData } from '@/data/kana';
+import { getKanaForStudySet, hiraganaData } from '@/data/kana';
 import { getKanjiByGrade, kanjiGradeSections } from '@/data/kanji';
-import { KanaCharacter, LearningMode } from '@/types/kana';
+import { KanaCharacter, KanaStudySet, LearningMode } from '@/types/kana';
 import { KanjiCharacter, KanjiGrade } from '@/types/kanji';
 import Flashcard from '@/components/Flashcard';
 import KanjiFlashcard from '@/components/KanjiFlashcard';
@@ -13,6 +12,7 @@ import AppNav from '@/components/AppNav';
 
 export default function LearnPage() {
   const [mode, setMode] = useState<LearningMode>('hiragana');
+  const [kanaStudySet, setKanaStudySet] = useState<KanaStudySet>('basic');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cards, setCards] = useState<KanaCharacter[] | KanjiCharacter[]>(hiraganaData);
   const [isKanjiMode, setIsKanjiMode] = useState(false);
@@ -27,18 +27,14 @@ export default function LearnPage() {
       const shuffled = [...newCards].sort(() => Math.random() - 0.5);
       setCards(shuffled as KanjiCharacter[]);
     } else {
-      const newCards = mode === 'hiragana' 
-        ? hiraganaData 
-        : mode === 'katakana' 
-        ? katakanaData 
-        : allKanaData;
+      const newCards = getKanaForStudySet(mode, kanaStudySet);
       setIsKanjiMode(false);
       // Shuffle cards for varied practice
       const shuffled = [...newCards].sort(() => Math.random() - 0.5);
       setCards(shuffled as KanaCharacter[]);
     }
     setCurrentIndex(0);
-  }, [mode, kanjiGrade]);
+  }, [mode, kanjiGrade, kanaStudySet]);
 
   const currentCard = cards[currentIndex];
 
@@ -82,7 +78,7 @@ export default function LearnPage() {
             Flashcards
           </h1>
           <p className="mt-3 max-w-2xl text-academic-muted">
-            Study kana or grade-organized kanji, then mark each card so the learner model can update.
+            Study basic kana, voiced sounds, combinations, or grade-organized kanji, then mark each card so the learner model can update.
           </p>
         </div>
 
@@ -129,6 +125,37 @@ export default function LearnPage() {
             Kanji
           </button>
         </div>
+
+        {mode !== 'kanji' && (
+          <section className="mx-auto mb-8 max-w-3xl rounded-lg border border-academic-border bg-white p-5 shadow-sm">
+            <div className="mb-4">
+              <h2 className="text-lg font-bold text-academic-text">Kana set</h2>
+              <p className="mt-1 text-sm text-academic-muted">
+                Start with the core chart or include the kana patterns from the reference page.
+              </p>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-4" role="group" aria-label="Kana study set">
+              {[
+                { value: 'basic', label: 'Basic' },
+                { value: 'voiced', label: 'Voiced' },
+                { value: 'combinations', label: 'Combos' },
+                { value: 'all', label: 'All Kana' },
+              ].map((option) => (
+                <button
+                  key={option.value}
+                  onClick={() => setKanaStudySet(option.value as KanaStudySet)}
+                  className={`rounded-md px-3 py-2 text-sm font-semibold transition-colors ${
+                    kanaStudySet === option.value
+                      ? 'bg-academic-primary text-white'
+                      : 'bg-academic-section text-academic-muted hover:bg-[#E8EAF6]'
+                  }`}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
 
         {mode === 'kanji' && (
           <section className="mx-auto mb-8 max-w-2xl rounded-lg border border-academic-border bg-white p-5 shadow-sm">
